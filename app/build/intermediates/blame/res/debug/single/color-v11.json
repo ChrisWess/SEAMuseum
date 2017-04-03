@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_light.xml",
+        "source": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/color-v11/abc_background_cache_hint_selector_material_light.xml"
+    },
+    {
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/color-v11/abc_background_cache_hint_selector_material_dark.xml",
+        "source": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/color-v11/abc_background_cache_hint_selector_material_dark.xml"
+    }
+]

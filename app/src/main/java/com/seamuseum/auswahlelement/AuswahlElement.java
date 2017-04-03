@@ -1,0 +1,51 @@
+package com.seamuseum.auswahlelement;
+
+import android.content.Context;
+
+public final class AuswahlElement
+{
+
+    private final int auswahlelement;
+
+    public AuswahlElement(int auswahlelement)
+    {
+        this.auswahlelement = auswahlelement;
+    }
+
+    // Java-typische Getter und Setter
+
+    public int getAuswahlElement()
+    {
+        return auswahlelement;
+    }
+
+    public String getName(Context context)
+    {
+        return context.getString(getAuswahlElement());
+    }
+
+    /**
+     * Liefert einen Wert aus {@code R.drawable}, der für das Zeichnen des
+     * Sternzeichens verwendet werden kann.
+     *
+     * @return Wert aus {@code R.drawable}
+     */
+    public int getIdForDrawable()
+    {
+        switch (getAuswahlElement())
+        {
+            case R.string.auswahl1:
+                return R.drawable.aquarius;
+            case R.string.auswahl2:
+                return R.drawable.aries;
+            case R.string.auswahl3:
+                return R.drawable.cancer;
+            case R.string.auswahl4:
+                return R.drawable.gemini;
+            case R.string.auswahl5:
+                return R.drawable.leo;
+            default:
+                return R.drawable.icon;
+        }
+    }
+}

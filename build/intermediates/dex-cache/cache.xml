@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="be55b96cb3bf25e6a058fc175c5c96b3140b5469">
+        <dex dex="/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_7b17c88c5f7287de834f35ddf927830586aac763/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
+        <dex dex="/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_7d8c3b6c34481262f4dd82840be598c9c40cbc65/classes.dex" />
+    </item>
+
+</items>

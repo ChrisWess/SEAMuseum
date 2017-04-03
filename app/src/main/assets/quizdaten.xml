@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<quizdaten>
+    <frage>
+        <fragesatz>Zählen Folterinstrumente auch zu Musikinstrumenten?</fragesatz>
+        <antwort1>Nur an Weihnachten.</antwort1>
+        <antwort2>Im Mittelalter schon.</antwort2>
+        <antwort3>Nein...</antwort3>
+        <antwort4>Das ist eine gute Frage.</antwort4>
+        <richtigeantwort>3</richtigeantwort>
+        <loesungssatz>Einfach Nein.</loesungssatz>
+    </frage>
+    <frage>
+        <fragesatz>Ist Mayonnaise auch ein Instrument?</fragesatz>
+        <antwort1>Ja!</antwort1>
+        <antwort2>Nein!</antwort2>
+        <antwort3>Manchmal.</antwort3>
+        <antwort4>Ich bin weg.</antwort4>
+        <richtigeantwort>2</richtigeantwort>
+        <loesungssatz>Patrick. Mayonnaise ist kein Instrument.</loesungssatz>
+    </frage>
+</quizdaten>

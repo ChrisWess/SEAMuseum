@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Museumsapp</string>
+    <string name="auswahl1">Werke</string>
+    <string name="auswahl2">Spiele</string>
+    <string name="auswahl3">Angebote</string>
+    <string name="auswahl4">Karte</string>
+    <string name="auswahl5">Gästebuch</string>
+    <string name="menu1">Anmelden</string>
+    <string name="menu2">Über uns</string>
+    <string name="menu3">Rechtliches</string>
+    <string name="werk1">A</string>
+    <string name="werk2">B</string>
+    <string name="werk3">C</string>
+    <string name="werk4">D</string>
+    <string name="werk5">E</string>
+
+    <!-- Für das Quiz -->
+    <string name="quiz_beschreibung">Stellen sie ihr Wissen über Kunst, Küntler und Kunstgeschichte auf die Probe!
+    \nDie Fragen beziehen sich auf Informationen und Werke unserer aktullen Ausstellungen.
+    \nViel Spaß...</string>
+
+</resources>

@@ -1,0 +1,97 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/AndroidManifest.xml:2:1-27:12
+	package
+		ADDED from /Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/AndroidManifest.xml:3:5-43
+		INJECTED from /Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/AndroidManifest.xml
+application
+ADDED from /Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/AndroidManifest.xml:5:5-25:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] /Users/christophwessarges/.android/build-cache/5426da05c9da86fb851fa16850cdcd06dc25f7c8/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/christophwessarges/.android/build-cache/3a3322767df5dd996e1b69decc9c04c37ca9fae1/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/christophwessarges/.android/build-cache/fb0be6adee758c19ad3b9d3e11d8da721cefe496/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/christophwessarges/.android/build-cache/5a804db2628a47e9a8599f5f1056735678e094c8/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/christophwessarges/.android/build-cache/d6ce2e7a89b6cf44de865ff80d4e47108dabe701/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/christophwessarges/.android/build-cache/8f2410055cc187a34851ecf836bf072da9e6a004/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/christophwessarges/.android/build-cache/fbb7d5d04fc46f94612c72767f5052f5d50e25af/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /Users/christophwessarges/.android/build-cache/2dbd94a2f032dccff8a0c3356fbfe5a80f44bdef/output/AndroidManifest.xml:29:5-20
+	android:label
+		ADDED from /Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/AndroidManifest.xml:8:9-41
+	android:allowBackup
+		ADDED from /Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/AndroidManifest.xml:6:9-35
+	android:icon
+		ADDED from /Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/AndroidManifest.xml:7:9-38
+activity#com.seamuseum.auswahlelement.AuswahlElementActivity
+ADDED from /Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/AndroidManifest.xml:9:9-17:20
+	android:label
+		ADDED from /Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/AndroidManifest.xml:11:13-45
+	android:name
+		ADDED from /Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/AndroidManifest.xml:10:13-51
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/AndroidManifest.xml:12:13-16:29
+action#android.intent.action.MAIN
+ADDED from /Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/AndroidManifest.xml:13:17-69
+	android:name
+		ADDED from /Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/AndroidManifest.xml:13:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/AndroidManifest.xml:15:17-77
+	android:name
+		ADDED from /Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/AndroidManifest.xml:15:27-74
+activity#com.seamuseum.auswahlelement.werke.FragmentDemo3Activity
+ADDED from /Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/AndroidManifest.xml:18:9-20:57
+	android:label
+		ADDED from /Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/AndroidManifest.xml:20:13-45
+	android:name
+		ADDED from /Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/AndroidManifest.xml:19:13-56
+activity#com.seamuseum.auswahlelement.werke.FragmentDemo3Activity$DetailsActivity
+ADDED from /Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/AndroidManifest.xml:21:9-81
+	android:name
+		ADDED from /Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/AndroidManifest.xml:21:19-78
+activity#com.seamuseum.auswahlelement.spiele.QuizActivity
+ADDED from /Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/AndroidManifest.xml:22:9-24:57
+	android:label
+		ADDED from /Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/AndroidManifest.xml:24:13-45
+	android:name
+		ADDED from /Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/AndroidManifest.xml:23:13-48
+uses-sdk
+INJECTED from /Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.3.1] /Users/christophwessarges/.android/build-cache/5426da05c9da86fb851fa16850cdcd06dc25f7c8/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/christophwessarges/.android/build-cache/3a3322767df5dd996e1b69decc9c04c37ca9fae1/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/christophwessarges/.android/build-cache/fb0be6adee758c19ad3b9d3e11d8da721cefe496/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/christophwessarges/.android/build-cache/5a804db2628a47e9a8599f5f1056735678e094c8/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/christophwessarges/.android/build-cache/d6ce2e7a89b6cf44de865ff80d4e47108dabe701/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/christophwessarges/.android/build-cache/8f2410055cc187a34851ecf836bf072da9e6a004/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/christophwessarges/.android/build-cache/fbb7d5d04fc46f94612c72767f5052f5d50e25af/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-compat:25.3.1] /Users/christophwessarges/.android/build-cache/2dbd94a2f032dccff8a0c3356fbfe5a80f44bdef/output/AndroidManifest.xml:21:5-23:58
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] /Users/christophwessarges/.android/build-cache/5426da05c9da86fb851fa16850cdcd06dc25f7c8/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/christophwessarges/.android/build-cache/3a3322767df5dd996e1b69decc9c04c37ca9fae1/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/christophwessarges/.android/build-cache/fb0be6adee758c19ad3b9d3e11d8da721cefe496/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/christophwessarges/.android/build-cache/5a804db2628a47e9a8599f5f1056735678e094c8/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/christophwessarges/.android/build-cache/d6ce2e7a89b6cf44de865ff80d4e47108dabe701/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/christophwessarges/.android/build-cache/8f2410055cc187a34851ecf836bf072da9e6a004/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/christophwessarges/.android/build-cache/fbb7d5d04fc46f94612c72767f5052f5d50e25af/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-compat:25.3.1] /Users/christophwessarges/.android/build-cache/2dbd94a2f032dccff8a0c3356fbfe5a80f44bdef/output/AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/AndroidManifest.xml:26:9-47
