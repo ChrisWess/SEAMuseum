@@ -114,7 +114,7 @@ public class QuizActivity extends Activity {
     private void leseAusDatenbestand() {
         String[] datenSatz = _xmlDaten.getDatensatz();
 
-        _frage_loesung.setText(datenSatz[0]);
+        _frage_loesung.setText("Frage " + _xmlDaten.getNaechsteDatensatzNummer() + ": " + datenSatz[0]);
 
         String[] antworten = Arrays.copyOfRange(datenSatz, 1, 5);
         for (int i = 0; i < _buttonArray.length; ++i) {
@@ -129,17 +129,17 @@ public class QuizActivity extends Activity {
     private class XMLReader {
         private final int _datenProSatz;
         private int _aktuelleStelle;
+        private int _anzahlSaetze;
+        private int _aktDatensatzNummer;
         private ArrayList<String> _daten;
 
         public XMLReader() {
             _datenProSatz = 7;
-            _aktuelleStelle = 0;
             _daten = new ArrayList<>();
+            _anzahlSaetze = 0;
             parseDaten();
-        }
-
-        public ArrayList<String> getDaten() {
-            return _daten;
+            _aktDatensatzNummer = 0;
+            _aktuelleStelle = 0;
         }
 
         public String[] getDatensatz() {
@@ -151,9 +151,23 @@ public class QuizActivity extends Activity {
             for (int i = 0; i < _datenProSatz; ++i) {
                 satz[i] = _daten.get(_aktuelleStelle + i);
             }
-            _aktuelleStelle += 7;
+            _aktuelleStelle += _datenProSatz;
 
             return satz;
+        }
+
+        public int getNaechsteDatensatzNummer()
+        {
+            if(_aktDatensatzNummer >= _anzahlSaetze)
+            {
+                _aktDatensatzNummer = 1;
+            }
+            else
+            {
+                ++_aktDatensatzNummer;
+            }
+
+            return _aktDatensatzNummer;
         }
 
         private void parseDaten() {
@@ -207,6 +221,8 @@ public class QuizActivity extends Activity {
                             for (String s : datenSatz) {
                                 _daten.add(s);
                             }
+
+                            ++_anzahlSaetze;
                         }
                     }
 

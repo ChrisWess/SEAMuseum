@@ -6,7 +6,7 @@
     density="xxhdpi"
     format="10"
     plugin-version="2.3.0"
-    timestamp="1491165727453"
+    timestamp="1491320071089"
     token="-6150027237022384799"
     verifier="COLD_SWAP_REQUESTED" >
 
@@ -29,20 +29,8 @@
 
     <build
         build-mode="FULL"
-        timestamp="1491160056875"
+        timestamp="1491313757773"
         verifier="FULL_BUILD_REQUESTED" >
-        <artifact
-            location="/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/outputs/apk/app-debug.apk"
-            type="SPLIT_MAIN" />
         <artifact
             location="/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
             type="SPLIT" />
@@ -50,13 +38,22 @@
             location="/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
         <artifact
+            location="/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
+            type="SPLIT" />
+        <artifact
             location="/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
         <artifact
             location="/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
         <artifact
             location="/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
         <artifact
             location="/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
@@ -67,29 +64,13 @@
         <artifact
             location="/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
+        <artifact
+            location="/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/outputs/apk/app-debug.apk"
+            type="SPLIT_MAIN" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1491163752525"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
-            type="SPLIT" />
-        <artifact
-            location="/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1491164359854"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
-            type="SPLIT" />
-    </build>
-    <build
-        build-mode="COLD"
-        timestamp="1491165663452"
+        timestamp="1491319434968"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
@@ -97,7 +78,7 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1491165727453"
+        timestamp="1491320071089"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/outputs/apk/app-debug.apk"
