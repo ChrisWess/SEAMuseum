@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/AndroidManifest.xml:2:1-27:12
+ADDED from /Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/AndroidManifest.xml:2:1-30:12
 	package
 		ADDED from /Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/AndroidManifest.xml:3:5-43
 		INJECTED from /Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/AndroidManifest.xml
@@ -14,7 +14,7 @@ ADDED from /Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/mai
 		INJECTED from /Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/AndroidManifest.xml
 application
-ADDED from /Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/AndroidManifest.xml:5:5-25:19
+ADDED from /Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/AndroidManifest.xml:5:5-28:19
 MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-v4:25.3.1] /Users/christophwessarges/.android/build-cache/5426da05c9da86fb851fa16850cdcd06dc25f7c8/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-fragment:25.3.1] /Users/christophwessarges/.android/build-cache/3a3322767df5dd996e1b69decc9c04c37ca9fae1/output/AndroidManifest.xml:29:5-20
@@ -47,21 +47,23 @@ ADDED from /Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/mai
 	android:name
 		ADDED from /Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/AndroidManifest.xml:15:27-74
 activity#com.seamuseum.auswahlelement.werke.FragmentDemo3Activity
-ADDED from /Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/AndroidManifest.xml:18:9-20:57
+ADDED from /Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/AndroidManifest.xml:18:9-21:20
 	android:label
 		ADDED from /Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/AndroidManifest.xml:20:13-45
 	android:name
 		ADDED from /Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/AndroidManifest.xml:19:13-56
 activity#com.seamuseum.auswahlelement.werke.FragmentDemo3Activity$DetailsActivity
-ADDED from /Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/AndroidManifest.xml:21:9-81
+ADDED from /Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/AndroidManifest.xml:22:9-81
 	android:name
-		ADDED from /Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/AndroidManifest.xml:21:19-78
+		ADDED from /Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/AndroidManifest.xml:22:19-78
 activity#com.seamuseum.auswahlelement.spiele.QuizActivity
-ADDED from /Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/AndroidManifest.xml:22:9-24:57
+ADDED from /Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/AndroidManifest.xml:23:9-27:20
 	android:label
-		ADDED from /Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/AndroidManifest.xml:24:13-45
+		ADDED from /Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/AndroidManifest.xml:25:13-45
+	android:configChanges
+		ADDED from /Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/AndroidManifest.xml:26:13-59
 	android:name
-		ADDED from /Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/AndroidManifest.xml:23:13-48
+		ADDED from /Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/AndroidManifest.xml:24:13-48
 uses-sdk
 INJECTED from /Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/AndroidManifest.xml:21:5-23:78
