@@ -19,6 +19,8 @@ import org.xml.sax.helpers.DefaultHandler;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.IllegalFormatConversionException;
+import java.util.IllegalFormatException;
 
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
@@ -73,6 +75,9 @@ public class QuizActivity extends Activity {
         }
     }
 
+    /**
+     * Färbt die Buttons, zeigt die Lösung und liest den nächsten Datensatz ein.
+     */
     private View.OnClickListener initButton(final Button buttonClicked) {
         return new View.OnClickListener() {
             @Override
@@ -111,6 +116,9 @@ public class QuizActivity extends Activity {
         };
     }
 
+    /**
+     * Liest den nächsten Datensatz des Readers aus und aktualisiert die Komponenten des Quizes mit ihnen.
+     */
     private void leseAusDatenbestand() {
         String[] datenSatz = _xmlDaten.getDatensatz();
 
@@ -126,6 +134,10 @@ public class QuizActivity extends Activity {
         _loesungsSatz = datenSatz[6];
     }
 
+    /**
+     * Der Reader liest quizdaten.xml aus. Bei strukturellen Änderungen der Datei, muss diese Klasse wahrscheinlich
+     * auch geändert werden.
+     */
     private class XMLReader {
         private final int _datenProSatz;
         private int _aktuelleStelle;
@@ -134,7 +146,7 @@ public class QuizActivity extends Activity {
         private ArrayList<String> _daten;
 
         public XMLReader() {
-            _datenProSatz = 7;
+            _datenProSatz = 7; //Eine Frage enthält 7 Daten in quizdaten.xml
             _daten = new ArrayList<>();
             _anzahlSaetze = 0;
             parseDaten();
@@ -142,6 +154,9 @@ public class QuizActivity extends Activity {
             _aktuelleStelle = 0;
         }
 
+        /**
+         * Gibt ein String Array, dass die Daten des nächten Datensatzes enthält.
+         */
         public String[] getDatensatz() {
             if (_daten.size() == _aktuelleStelle) {
                 _aktuelleStelle = 0;
@@ -156,6 +171,9 @@ public class QuizActivity extends Activity {
             return satz;
         }
 
+        /**
+         * Gibt die Nummer der nächsten Frage aus.
+         */
         public int getNaechsteDatensatzNummer()
         {
             if(_aktDatensatzNummer >= _anzahlSaetze)
@@ -177,6 +195,7 @@ public class QuizActivity extends Activity {
                 SAXParserFactory factory = SAXParserFactory.newInstance();
                 SAXParser saxParser = factory.newSAXParser();
 
+                //handler spezifisch für quizdaten.xml ausgelegt.
                 DefaultHandler handler = new DefaultHandler() {
 
                     String[] datenSatz = new String[_datenProSatz];
@@ -217,9 +236,14 @@ public class QuizActivity extends Activity {
                     public void endElement(String uri, String localName,
                                            String qName) throws SAXException {
 
-                        if (qName.equals("frage")) {
+                        if (qName.equals("frage")) { //Am Ende einer Frage werden die Daten in die Liste eingefügt.
                             for (String s : datenSatz) {
-                                _daten.add(s);
+                                if(s != null) {
+                                    _daten.add(s);
+                                }
+                                else {
+                                    throw new NullPointerException("Quizdaten nicht vollständig in Frage " + _anzahlSaetze);
+                                }
                             }
 
                             ++_anzahlSaetze;
