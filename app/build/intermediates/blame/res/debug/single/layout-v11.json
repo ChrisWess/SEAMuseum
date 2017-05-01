@@ -1,26 +1,26 @@
 [
     {
-        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_custom.xml",
-        "source": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/layout-v11/notification_template_big_media_custom.xml"
+        "merged": "C:\\Users\\Elham\\Desktop\\SEA2_Museumsapp\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_action.xml",
+        "source": "C:\\Users\\Elham\\.android\\build-cache\\ce6858950a69d2fd44b25664033067254b1b8dc7\\output\\res\\layout-v11\\notification_media_action.xml"
     },
     {
-        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media.xml",
-        "source": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/layout-v11/notification_template_big_media.xml"
+        "merged": "C:\\Users\\Elham\\Desktop\\SEA2_Museumsapp\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_custom.xml",
+        "source": "C:\\Users\\Elham\\.android\\build-cache\\ce6858950a69d2fd44b25664033067254b1b8dc7\\output\\res\\layout-v11\\notification_template_big_media_custom.xml"
     },
     {
-        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_narrow.xml",
-        "source": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/layout-v11/notification_template_big_media_narrow.xml"
+        "merged": "C:\\Users\\Elham\\Desktop\\SEA2_Museumsapp\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow.xml",
+        "source": "C:\\Users\\Elham\\.android\\build-cache\\ce6858950a69d2fd44b25664033067254b1b8dc7\\output\\res\\layout-v11\\notification_template_big_media_narrow.xml"
     },
     {
-        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/layout-v11/notification_media_action.xml",
-        "source": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/layout-v11/notification_media_action.xml"
+        "merged": "C:\\Users\\Elham\\Desktop\\SEA2_Museumsapp\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_media_cancel_action.xml",
+        "source": "C:\\Users\\Elham\\.android\\build-cache\\ce6858950a69d2fd44b25664033067254b1b8dc7\\output\\res\\layout-v11\\notification_media_cancel_action.xml"
     },
     {
-        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/layout-v11/notification_template_big_media_narrow_custom.xml",
-        "source": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/layout-v11/notification_template_big_media_narrow_custom.xml"
+        "merged": "C:\\Users\\Elham\\Desktop\\SEA2_Museumsapp\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media_narrow_custom.xml",
+        "source": "C:\\Users\\Elham\\.android\\build-cache\\ce6858950a69d2fd44b25664033067254b1b8dc7\\output\\res\\layout-v11\\notification_template_big_media_narrow_custom.xml"
     },
     {
-        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/layout-v11/notification_media_cancel_action.xml",
-        "source": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/layout-v11/notification_media_cancel_action.xml"
+        "merged": "C:\\Users\\Elham\\Desktop\\SEA2_Museumsapp\\app\\build\\intermediates\\res\\merged\\debug\\layout-v11\\notification_template_big_media.xml",
+        "source": "C:\\Users\\Elham\\.android\\build-cache\\ce6858950a69d2fd44b25664033067254b1b8dc7\\output\\res\\layout-v11\\notification_template_big_media.xml"
     }
 ]

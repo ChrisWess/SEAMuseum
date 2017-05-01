@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-hdpi-v4/values-hdpi-v4.xml",
+        "outputFile": "C:\\Users\\Elham\\Desktop\\SEA2_Museumsapp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-hdpi-v4\\values-hdpi-v4.xml",
         "map": [
             {
                 "to": {
@@ -12,7 +12,7 @@
                     "endOffset": 327
                 },
                 "from": {
-                    "file": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/values-hdpi-v4/values-hdpi-v4.xml",
+                    "file": "C:\\Users\\Elham\\.android\\build-cache\\ce6858950a69d2fd44b25664033067254b1b8dc7\\output\\res\\values-hdpi-v4\\values-hdpi-v4.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

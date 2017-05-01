@@ -11,6 +11,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 
+import com.seamuseum.auswahlelement.angebote.AngeboteActivity;
 import com.seamuseum.auswahlelement.spiele.QuizActivity;
 import com.seamuseum.auswahlelement.werke.FragmentDemo3Activity;
 
@@ -60,6 +61,9 @@ public class AuswahlElementActivity extends ListActivity implements OnItemClickL
                 startActivity(i);
                 break;
             case R.string.auswahl3:
+                i = new Intent();
+                i.setClass(getApplicationContext(), AngeboteActivity.class);
+                startActivity(i);
                 break;
             case R.string.auswahl4:
                 i = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=restaurants"));
