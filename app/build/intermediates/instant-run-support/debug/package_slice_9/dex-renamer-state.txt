@@ -1,4 +1,4 @@
-#Mon May 01 18:50:10 CEST 2017
-base.0=C\:\\Users\\Elham\\Desktop\\SEA2_Museumsapp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_9
+#Fri May 26 10:33:31 CEST 2017
+base.0=C\:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_9
 renamed.0=classes.dex
-file.0=C\:\\Users\\Elham\\Desktop\\SEA2_Museumsapp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_9\\classes.dex
+file.0=C\:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\5\\slice_9\\classes.dex

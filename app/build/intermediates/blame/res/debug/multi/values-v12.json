@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\Elham\\Desktop\\SEA2_Museumsapp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v12\\values-v12.xml",
+        "outputFile": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v12\\values-v12.xml",
         "map": [
             {
                 "to": {
@@ -12,7 +12,7 @@
                     "endOffset": 274
                 },
                 "from": {
-                    "file": "C:\\Users\\Elham\\.android\\build-cache\\ce6858950a69d2fd44b25664033067254b1b8dc7\\output\\res\\values-v12\\values-v12.xml",
+                    "file": "C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\values-v12\\values-v12.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -33,7 +33,7 @@
                     "endOffset": 474
                 },
                 "from": {
-                    "file": "C:\\Users\\Elham\\.android\\build-cache\\ce6858950a69d2fd44b25664033067254b1b8dc7\\output\\res\\values-v12\\values-v12.xml",
+                    "file": "C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\values-v12\\values-v12.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -53,7 +53,7 @@
                     "endOffset": 593
                 },
                 "from": {
-                    "file": "C:\\Users\\Elham\\.android\\build-cache\\ce6858950a69d2fd44b25664033067254b1b8dc7\\output\\res\\values-v12\\values-v12.xml",
+                    "file": "C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\values-v12\\values-v12.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -72,7 +72,7 @@
                     "endOffset": 688
                 },
                 "from": {
-                    "file": "C:\\Users\\Elham\\.android\\build-cache\\ce6858950a69d2fd44b25664033067254b1b8dc7\\output\\res\\values-v12\\values-v12.xml",
+                    "file": "C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\values-v12\\values-v12.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,

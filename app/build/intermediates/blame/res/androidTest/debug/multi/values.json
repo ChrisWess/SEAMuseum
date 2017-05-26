@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\Elham\\Desktop\\SEA2_Museumsapp\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "outputFile": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 96
                 },
                 "from": {
-                    "file": "C:\\Users\\Elham\\.android\\build-cache\\826e0a14266910a48bb711127615d153709168a2\\output\\res\\values\\values.xml",
+                    "file": "C:\\Users\\MP\\.android\\build-cache\\a79eb863ef13d9930b47f5a63e4f499c3168c752\\output\\res\\values\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,

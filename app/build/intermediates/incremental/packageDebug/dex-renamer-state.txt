@@ -1,7 +1,7 @@
-#Mon May 01 19:14:30 CEST 2017
-base.0=C\:\\Users\\Elham\\Desktop\\SEA2_Museumsapp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_d55246b4313ae0449ada38305ae8e2bd1b923acf
+#Fri May 26 11:33:07 CEST 2017
+base.0=C\:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_0d3304ac00e816f48e021c6ce69e182af75f7b6f
 renamed.1=classes2.dex
 renamed.0=classes.dex
-file.1=C\:\\Users\\Elham\\Desktop\\SEA2_Museumsapp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_a7451bffb4a16a0ae36b4e2eecbc765366ee61c2\\classes.dex
-base.1=C\:\\Users\\Elham\\Desktop\\SEA2_Museumsapp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_a7451bffb4a16a0ae36b4e2eecbc765366ee61c2
-file.0=C\:\\Users\\Elham\\Desktop\\SEA2_Museumsapp\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_d55246b4313ae0449ada38305ae8e2bd1b923acf\\classes.dex
+file.1=C\:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_9ebb694799b57fb24aaca7cd46fc9062dd5d5f48\\classes.dex
+base.1=C\:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_9ebb694799b57fb24aaca7cd46fc9062dd5d5f48
+file.0=C\:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_0d3304ac00e816f48e021c6ce69e182af75f7b6f\\classes.dex

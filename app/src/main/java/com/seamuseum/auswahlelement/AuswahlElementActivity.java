@@ -12,6 +12,7 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 
 import com.seamuseum.auswahlelement.angebote.AngeboteActivity;
+import com.seamuseum.auswahlelement.kontakt.KontaktActivity;
 import com.seamuseum.auswahlelement.spiele.QuizActivity;
 import com.seamuseum.auswahlelement.werke.FragmentDemo3Activity;
 
@@ -92,6 +93,8 @@ public class AuswahlElementActivity extends ListActivity implements OnItemClickL
             case R.id.menu_anmelden:
                 return true;
             case R.id.menu_ueber_uns:
+                Intent infoIntent = new Intent(this, KontaktActivity.class);
+                startActivity(infoIntent);
                 return true;
             case R.id.menu_rechtliches:
                 return true;
