@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/SEA2_Museumsapp.iml" filepath="$PROJECT_DIR$/SEA2_Museumsapp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SEAMuseum.iml" filepath="$PROJECT_DIR$/SEAMuseum.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>

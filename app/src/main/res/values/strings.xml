@@ -20,4 +20,8 @@
     \nDie Fragen beziehen sich auf Informationen und Werke unserer aktullen Ausstellungen.
     \nViel Spaß...</string>
 
+    <!-- Für KontaktActivity -->
+    <string name="kontakt_infos">Museum 42 \n \nKontakt: \nFrau Wess \nMuseum 42 \nMuseumstraße 42
+    \n42424 Ort \n040 42 42 42 \ncontact@museum42.com \n\nÖffnungszeiten: \nMo - So: immer</string>
+
 </resources>
