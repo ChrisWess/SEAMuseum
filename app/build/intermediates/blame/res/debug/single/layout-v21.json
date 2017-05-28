@@ -1,18 +1,34 @@
 [
     {
-        "merged": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
-        "source": "C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\layout-v21\\notification_template_custom_big.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/layout-v21/notification_template_icon_group.xml",
+        "source": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/layout-v21/notification_template_icon_group.xml"
     },
     {
-        "merged": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
-        "source": "C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/layout-v21/notification_action.xml",
+        "source": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/layout-v21/notification_action.xml"
     },
     {
-        "merged": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
-        "source": "C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_custom_big.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\layout-v21\\notification_template_custom_big.xml"
     },
     {
-        "merged": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
-        "source": "C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\layout-v21\\notification_action.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/layout-v21/notification_template_custom_big.xml",
+        "source": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/layout-v21/notification_template_custom_big.xml"
+    },
+    {
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action_tombstone.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\layout-v21\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_template_icon_group.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\layout-v21\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/layout-v21/notification_action_tombstone.xml",
+        "source": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/layout-v21/notification_action_tombstone.xml"
+    },
+    {
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout-v21\\notification_action.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\layout-v21\\notification_action.xml"
     }
 ]

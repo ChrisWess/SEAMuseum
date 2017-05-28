@@ -2,256 +2,58 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="C:\Users\MP\AppData\Local\Android\sdk\extras\m2repository\com\android\support\constraint\constraint-layout-solver\1.0.2\constraint-layout-solver-1.0.2.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
-        <dex dex="C:\Users\MP\StudioProjects\SEAMuseum\app\build\intermediates\transforms\dex\debug\folders\1000\10\constraint-layout-solver-1.0.2_17253b2159e6cdbab9a0f0e58386633e1278e041\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\MP\.android\build-cache\b9b12684e8b1b6b6e7fc699aa479f618889d0afc\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
-        <dex dex="C:\Users\MP\StudioProjects\SEAMuseum\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_791fb6a0b3f99a8298f2120d4f7e3d46cf19267c\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\MP\.android\build-cache\0dae8cb0d25e6b1a4f0349f5b5550f0a99d0c0c0\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="9ed08fab37c3a572da1d9ed2bf2e36c8d3e2bc48">
-        <dex dex="C:\Users\MP\StudioProjects\SEAMuseum\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_fd58759bf2fb45a0e72a4d9f38e594ab5a324171\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\MP\StudioProjects\SEAMuseum\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
-        <dex dex="C:\Users\MP\StudioProjects\SEAMuseum\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_9ebb694799b57fb24aaca7cd46fc9062dd5d5f48\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\MP\.android\build-cache\4a00da20a49054e9ed5d119398193c7d129e4e89\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="45f697922e6f072daa12f8a2995dc77ab03c11da">
-        <dex dex="C:\Users\MP\StudioProjects\SEAMuseum\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_37d23fbba5aa627242740425b6b9cf11ffe51639\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\MP\.android\build-cache\a12aac11a810db59bb779e119316c67d38b2fa91\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="4eeba61bbc47e49a5fbdfd9aa21af5d10bf4df7c">
-        <dex dex="C:\Users\MP\StudioProjects\SEAMuseum\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_a74138fb61b494172ac85f330982f3922b7c2988\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\MP\.android\build-cache\46502f728432910d0439a355e3daeda0d40af69c\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6b8ad09b76c4ffaedf443ca54bc2418760870689">
-        <dex dex="C:\Users\MP\StudioProjects\SEAMuseum\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e13900d28030b0259386efb2d4e341e15e8f0d37\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\MP\.android\build-cache\adf4175c0ca0e46dc7ee07cad1dc528fd38ed7ab\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
-        <dex dex="C:\Users\MP\StudioProjects\SEAMuseum\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4fc43418bfc4a15a7fc4b24ba1dbb6762695a116\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\MP\.android\build-cache\22e4e20f676a3b48ea2baa7bf1c1faedd567637a\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
-        <dex dex="C:\Users\MP\StudioProjects\SEAMuseum\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_632a92f66dd28ea314f062e563992bab064a9a0a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\MP\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\25.3.1\support-annotations-25.3.1.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="bf8841d29fa39e077730e7a91222c2ce269fa7c9">
-        <dex dex="C:\Users\MP\StudioProjects\SEAMuseum\app\build\intermediates\transforms\dex\debug\folders\1000\10\support-annotations-25.3.1_a8d3f0107fb9d4afa45a581602f21c9544ac5b2f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\MP\.android\build-cache\3d633a2e4d202b58f1ec7e6bac148f822b5b1f15\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="29e4e634375ab2ed25f8db5387b564c78980422a">
-        <dex dex="C:\Users\MP\StudioProjects\SEAMuseum\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_58080c5ede64e7a9d7de6db65b1ef65dd05793d6\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\MP\.android\build-cache\2193904729f7b1182dfa875f534a8514613a571b\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="efb8cb62d47d157c29d1521daac7eefd4cb881ee">
-        <dex dex="C:\Users\MP\StudioProjects\SEAMuseum\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_22691355d10fa1a2d5b7eff15385698d5b18dde1\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\MP\.android\build-cache\4aefcdee3b1c1f4c5f674533fbe065cdcd1c53e3\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="da27a32db6af8954ee8061537c7d476fcb1df46f">
-        <dex dex="C:\Users\MP\StudioProjects\SEAMuseum\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_0ef11d92cd4f60c5bc0886664ca1e224d9dd884e\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\MP\.android\build-cache\a48a713d0b566ce2a2ffca922c37520205a35bf4\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="b50fe5288bba9d1635ba619bd3c308319205543e">
-        <dex dex="C:\Users\MP\StudioProjects\SEAMuseum\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_e9da2f318302cfeef4f71a3f96527693810cafff\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\MP\StudioProjects\SEAMuseum\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="f6fb35a89087b1f0a5da74340aedf0eab8a08b4b">
-        <dex dex="C:\Users\MP\StudioProjects\SEAMuseum\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_0d3304ac00e816f48e021c6ce69e182af75f7b6f\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\MP\.android\build-cache\570143b529483450820b0c75a1ea880157564238\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="54933c89f90a872aa342004e82b23e776fe12736">
-        <dex dex="C:\Users\MP\StudioProjects\SEAMuseum\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_fdcbbcdcd0dc564e4304d4464c9ee84b88abcfd0\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\MP\.gradle\caches\modules-2\files-2.1\com.github.bumptech.glide\glide\3.8.0\9bada650e1afe9c6174ddc0d113c1fce4dc26fe0\glide-3.8.0.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/christophwessarges/.gradle/caches/modules-2/files-2.1/com.github.bumptech.glide/glide/3.8.0/9bada650e1afe9c6174ddc0d113c1fce4dc26fe0/glide-3.8.0.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="9bada650e1afe9c6174ddc0d113c1fce4dc26fe0">
-        <dex dex="C:\Users\MP\StudioProjects\SEAMuseum\app\build\intermediates\transforms\dex\debug\folders\1000\10\glide-3.8.0_24d485953be2e2e47bae69ec9e6367e15b3b8448\classes.dex" />
+        <dex dex="/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/pre-dexed/debug/glide-3.8.0_2b3b6312abd3618d394ed00a822227dcdfd873b5.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\MP\.android\build-cache\0cd23635246820e02bdfdd14846c3401ab22b412\output\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/christophwessarges/Library/Android/sdk/extras/m2repository/com/android/support/constraint/constraint-layout-solver/1.0.2/constraint-layout-solver-1.0.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b9cd8fc6bd15cb915735d34535db30ece0c44603">
+        <dex dex="/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/pre-dexed/debug/constraint-layout-solver-1.0.2_0215104c9ea0be7d3760c4f8fa78e55878360fc0.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/christophwessarges/.android/build-cache/ffcfb8cb360ffac9ae17d7a68ef792ea25442e6b/output/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="38789e20ace9ab7dbd00554bd2673ab424478d3b">
-        <dex dex="C:\Users\MP\StudioProjects\SEAMuseum\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_fa1f08248554e13f0071fbc5a455ea0c30a707e0\classes.dex" />
+        <dex dex="/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/pre-dexed/debug/classes_1410b6f0ef8da43ba81d6dad40bc9466f70625b1.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\MP\.android\build-cache\1a6da14f2ab64bba3ddc08a59cec41f585b153d0\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="5803db663655ef5cb38c6bcb17ba326fdb9edfbd">
-        <dex dex="C:\Users\MP\StudioProjects\SEAMuseum\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_11a39cc57c1d05b3a9fe21f32c28aedde58f612a\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\MP\.android\build-cache\d4077a6693d829d81210b18fd3d679c4dbeaf960\output\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/christophwessarges/.android/build-cache/b70ab92d08dde216f46be143e98368c05a4ede58/output/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
         sha1="95519720620b553f63afc789beba9ad582807f7c">
-        <dex dex="C:\Users\MP\StudioProjects\SEAMuseum\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_bd83d632d997dc3ce0c17cba51d6bcca8da409a1\classes.dex" />
+        <dex dex="/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/pre-dexed/debug/classes_c4ec6c02c1ca8f8bfb09994b1e362d401374b56d.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\MP\.android\build-cache\85546150534f2ce53a16e449c5ea8ea4ec513bf5\output\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/christophwessarges/.android/build-cache/6b1204ff0386407596348a86f312f0068c63956b/output/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="8748e15968514ff1708deb3bb7f0c17623e50bbb">
-        <dex dex="C:\Users\MP\StudioProjects\SEAMuseum\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5b47b00492b426bc6e06589936c4712572e0f4d6\classes.dex" />
+        sha1="d4cf6227dd6a2ceff0f7dcf0c324380b7abf2c28">
+        <dex dex="/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/pre-dexed/debug/classes_6452a7c354adaed84edf151c4c96b756afec6538.jar" />
     </item>
     <item
-        is-multidex="true"
-        jar="C:\Users\MP\.android\build-cache\2f3a42199961902702df418bd74f1e3c7a183825\output\jars\classes.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/christophwessarges/.android/build-cache/be8e7f1807b731e25935f9e2643f790b6a9f000b/output/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="43df709c95f6b0501b3adbc7da992b6a69a03214">
-        <dex dex="C:\Users\MP\StudioProjects\SEAMuseum\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_4db53b90cc51e99972a16fa118aa616980e43498\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\MP\.android\build-cache\a2f99f439a1e13932fdc8eade1aec598b1938d43\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="052f5f840f21174a3ecf6544130194e2652cbb73">
-        <dex dex="C:\Users\MP\StudioProjects\SEAMuseum\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_37ba616ea0b7165f341e65649eb08cf00007461b\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\MP\.android\build-cache\66b9dd7407cd009260cb7b756e2bdd2bbba0364a\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="143e5647b772c08c9f0d807b24bbc0b05ff6c7d2">
-        <dex dex="C:\Users\MP\StudioProjects\SEAMuseum\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_23390ee236194ab93d55d03ab274ef307fb54246\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\MP\.android\build-cache\7373d01aff5fd869546d392372979473e9a38e41\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="4a26a1154d053ab11aaf4c3967c42a4d66390991">
-        <dex dex="C:\Users\MP\StudioProjects\SEAMuseum\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_67d297ce172a764f5a5e46aa8710d605014eed52\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\MP\.android\build-cache\ba8f91206e868de5691991af6ebcd1e35e5f040a\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="47635644d0d5c103c1dd8360549eb9ba3225c7d3">
-        <dex dex="C:\Users\MP\StudioProjects\SEAMuseum\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_27e90224a74090317eab25840e7efa226c2b8df7\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\MP\.android\build-cache\99661d2a21f91b220d0f89dae7e95b593b03565b\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="150252b33b00274cc868578ade018fda0d43a3eb">
-        <dex dex="C:\Users\MP\StudioProjects\SEAMuseum\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_f9af0b8967653d235a4f13872de4bc4d61cc2539\classes.dex" />
-    </item>
-    <item
-        is-multidex="true"
-        jar="C:\Users\MP\.android\build-cache\893cc9983c08c67c592c21ecffeca99b7b6793c3\output\jars\classes.jar"
-        jumboMode="true"
-        optimize="true"
-        revision="25.0.2"
-        sha1="6ef31f1555bb4cc513ec8d52711365a8b89f3600">
-        <dex dex="C:\Users\MP\StudioProjects\SEAMuseum\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_49c61b4a1fbcb083ef267a8af212e7c4a953ccd8\classes.dex" />
+        sha1="44ee06abb66da30f5855e6bf54574e64cdcd982a">
+        <dex dex="/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/pre-dexed/debug/classes_1d6de0a6fc8ace3cf3ad34081ef47849f03e078f.jar" />
     </item>
 
 </items>
