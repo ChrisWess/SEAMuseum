@@ -691,7 +691,7 @@
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="auswahl1">Werke</string>
     <string name="auswahl2">Spiele</string>
-    <string name="auswahl3">Angebote</string>
+    <string name="auswahl3">Service und Preise</string>
     <string name="auswahl4">Karte</string>
     <string name="auswahl5">Gästebuch</string>
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
@@ -714,10 +714,12 @@
     <string name="path_password_eye_mask_strike_through" translatable="false">M2,4.27 L19.73,22 L22.27,19.46 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_eye_mask_visible" translatable="false">M2,4.27 L2,4.27 L4.54,1.73 L4.54,1.73 L4.54,1 L23,1 L23,23 L1,23 L1,4.27 Z</string>
     <string name="path_password_strike_through" translatable="false">M3.27,4.27 L19.74,20.74</string>
-    <string name="quiz_beschreibung">Stellen sie ihr Wissen über Kunst, Küntler und Kunstgeschichte auf die Probe!
+    <string name="preis">Hier stehen Preise. Viele Preise.</string>
+    <string name="quiz_beschreibung">Stellen sie ihr Wissen über Kunst, Künstler und Kunstgeschichte auf die Probe!
     \nDie Fragen beziehen sich auf Informationen und Werke unserer aktullen Ausstellungen.
     \nViel Spaß...</string>
     <string name="search_menu_title">Search</string>
+    <string name="service">Hier finden sie unsere aktuellen Preise und Angebote.</string>
     <string name="status_bar_notification_info_overflow">999+</string>
     <string name="werk1">A</string>
     <string name="werk2">B</string>

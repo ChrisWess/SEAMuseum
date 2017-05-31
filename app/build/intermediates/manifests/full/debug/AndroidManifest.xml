@@ -49,6 +49,8 @@
             android:name="com.seamuseum.auswahlelement.angebote.AngeboteActivity"
             android:label="@string/app_name" />
         <activity android:name="com.seamuseum.auswahlelement.kontakt.KontaktActivity" />
+        <activity android:name="com.seamuseum.auswahlelement.service.ServiceActivity" />
+        <activity android:name="com.seamuseum.auswahlelement.preis.PreisActivity" />
 
         <receiver
             android:name="com.google.android.gms.measurement.AppMeasurementReceiver"

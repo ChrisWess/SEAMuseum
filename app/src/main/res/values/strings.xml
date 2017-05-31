@@ -3,7 +3,7 @@
     <string name="app_name">Museumsapp</string>
     <string name="auswahl1">Werke</string>
     <string name="auswahl2">Spiele</string>
-    <string name="auswahl3">Angebote</string>
+    <string name="auswahl3">Service und Preise</string>
     <string name="auswahl4">Karte</string>
     <string name="auswahl5">Gästebuch</string>
     <string name="menu1">Anmelden</string>
@@ -16,12 +16,19 @@
     <string name="werk5">E</string>
 
     <!-- Für das Quiz -->
-    <string name="quiz_beschreibung">Stellen sie ihr Wissen über Kunst, Küntler und Kunstgeschichte auf die Probe!
+    <string name="quiz_beschreibung">Stellen sie ihr Wissen über Kunst, Künstler und Kunstgeschichte auf die Probe!
     \nDie Fragen beziehen sich auf Informationen und Werke unserer aktullen Ausstellungen.
     \nViel Spaß...</string>
 
     <!-- Für KontaktActivity -->
     <string name="kontakt_infos">Museum 42 \n \nKontakt: \nFrau Wess \nMuseum 42 \nMuseumstraße 42
     \n42424 Ort \n040 42 42 42 \ncontact@museum42.com \n\nÖffnungszeiten: \nMo - So: immer</string>
+
+    <!-- Für ServiceActivity -->
+    <string name="service">Hier finden sie unsere aktuellen Preise und Angebote.</string>
+
+    <!-- Für PreisActivity -->
+    <string name="preis">Hier stehen Preise. Viele Preise.</string>
+
 
 </resources>
