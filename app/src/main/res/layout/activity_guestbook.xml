@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+android:orientation="vertical"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+    android:weightSum="1">
+
+
+    <EditText
+        android:id="@+id/namefeld"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="none"
+        android:hint="@string/textfeld1"
+        tools:layout_editor_absoluteY="20dp"
+        tools:layout_centerHorizontal="true"
+        tools:layout_editor_absoluteX="20dp"
+        android:layout_weight="0.02" />
+
+    <EditText
+        android:id="@+id/textfeld"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.45"
+        android:ems="10"
+        android:hint="@string/textfeld2"
+        android:inputType="none"
+        tools:layout_centerHorizontal="true"
+        tools:layout_editor_absoluteX="46dp"
+        tools:layout_editor_absoluteY="216dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="344dp"
+        android:layout_height="wrap_content"
+        android:text="Abschicken"
+        tools:layout_centerHorizontal="true"
+        tools:layout_centerVertical="true"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="352dp" />
+</LinearLayout>
