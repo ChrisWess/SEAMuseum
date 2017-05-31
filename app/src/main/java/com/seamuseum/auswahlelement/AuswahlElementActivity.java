@@ -11,11 +11,11 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 
+import com.seamuseum.auswahlelement.guestbook.GuestbookActivity;
 import com.seamuseum.auswahlelement.kontakt.KontaktActivity;
 import com.seamuseum.auswahlelement.service.ServiceActivity;
 import com.seamuseum.auswahlelement.spiele.QuizActivity;
 import com.seamuseum.auswahlelement.werke.FragmentDemo3Activity;
-import com.seamuseum.auswahlelement.guestbook.GuestbookActivity;
 
 /**
  * Dies ist die Listenansicht der App.

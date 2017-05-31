@@ -1,44 +1,43 @@
 package com.seamuseum.auswahlelement.guestbook;
 
-import android.app.Activity;
-import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
-import android.widget.EditText;
-import android.widget.Toast;
 
 import com.seamuseum.auswahlelement.R;
 
-public class GuestbookActivity extends Activity {
+public class GuestbookActivity extends AppCompatActivity {
 
-    public Button bttn;
-    public EditText textfeld;
-    public EditText namefeld;
-
+    public Button lesen;
+    public Button verfassen;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_guestbook);
-        bttn = (Button) findViewById(R.id.button4);
-        bttn.setOnClickListener(new View.OnClickListener()
+        setContentView(R.layout.activity_guestbook_options);
+        lesen = (Button) findViewById(R.id.guestbookRead);
+        lesen.setOnClickListener(new View.OnClickListener()
         {
             @Override
             public void onClick(View v)
             {
-                Context context = getApplicationContext();
-                CharSequence text = "Sie glauben ihre Nachricht wurde abgeschickt?! Da muss ich sie leider enttäuschen!";
-                int duration = Toast.LENGTH_LONG;
-
-                Toast toast = Toast.makeText(context, text, duration);
-                toast.show();
+                Intent i = new Intent();
+                i.setClass(getApplicationContext(), EntriesActivity.class);
+                startActivity(i);
             }
         });
-        textfeld = (EditText) findViewById(R.id.textfeld);
-        namefeld = (EditText) findViewById(R.id.namefeld);
-        //  Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
-        // setSupportActionBar(toolbar);
+        verfassen = (Button) findViewById(R.id.guestbookWrite);
+        verfassen.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                Intent i = new Intent();
+                i.setClass(getApplicationContext(), WriteEntryActivity.class);
+                startActivity(i);
+            }
+        });
     }
 
 }

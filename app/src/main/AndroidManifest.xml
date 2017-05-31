@@ -28,8 +28,16 @@
             android:label="@string/app_name" />
         <activity android:name=".kontakt.KontaktActivity" />
         <activity android:name=".service.ServiceActivity" />
-        <activity android:name=".guestbook.GuestbookActivity" />
-        <activity android:name=".preis.PreisActivity"></activity>
+        <activity android:name=".guestbook.WriteEntryActivity" />
+        <activity android:name=".preis.PreisActivity" />
+        <activity
+            android:name=".guestbook.EntriesActivity"
+            android:label="@string/title_activity_entries"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".guestbook.GuestbookActivity"
+            android:label="@string/title_activity_guestbook_options"
+            android:theme="@style/AppTheme"></activity>
     </application>
 
 </manifest>
