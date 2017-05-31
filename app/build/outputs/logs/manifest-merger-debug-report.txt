@@ -1,6 +1,10 @@
 -- Merging decision tree log ---
 manifest
+<<<<<<< HEAD
 ADDED from /Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/AndroidManifest.xml:2:1-32:12
+=======
+ADDED from C:\Users\MP\StudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:2:1-34:12
+>>>>>>> e2bb28d2384a0b10d530c6a0b0241ba5af494589
 	package
 		ADDED from /Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/AndroidManifest.xml:3:5-43
 		INJECTED from /Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/AndroidManifest.xml
@@ -14,6 +18,7 @@ ADDED from /Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/mai
 		INJECTED from /Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/AndroidManifest.xml
 application
+<<<<<<< HEAD
 ADDED from /Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/AndroidManifest.xml:5:5-30:19
 MERGED from [com.google.firebase:firebase-core:10.2.4] /Users/christophwessarges/.android/build-cache/3fba132020915b0241089d70ff083d1c5574191d/output/AndroidManifest.xml:5:5-20
 MERGED from [com.google.firebase:firebase-analytics:10.2.4] /Users/christophwessarges/.android/build-cache/a93b2bc8696127d81f066d8731f211789be604ea/output/AndroidManifest.xml:24:5-33:19
@@ -34,6 +39,28 @@ MERGED from [com.android.support:support-media-compat:25.3.1] /Users/christophwe
 MERGED from [com.android.support:support-core-ui:25.3.1] /Users/christophwessarges/.android/build-cache/5a804db2628a47e9a8599f5f1056735678e094c8/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-core-utils:25.3.1] /Users/christophwessarges/.android/build-cache/d6ce2e7a89b6cf44de865ff80d4e47108dabe701/output/AndroidManifest.xml:29:5-20
 MERGED from [com.android.support:support-compat:25.3.1] /Users/christophwessarges/.android/build-cache/2dbd94a2f032dccff8a0c3356fbfe5a80f44bdef/output/AndroidManifest.xml:29:5-20
+=======
+ADDED from C:\Users\MP\StudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:5:5-32:19
+MERGED from [com.google.firebase:firebase-core:10.2.4] C:\Users\MP\.android\build-cache\fb5aa944c193a5a5f2bf7f3b180ffef5a41e0cf3\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\MP\.android\build-cache\66b9dd7407cd009260cb7b756e2bdd2bbba0364a\output\AndroidManifest.xml:24:5-33:19
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] C:\Users\MP\.android\build-cache\2f3a42199961902702df418bd74f1e3c7a183825\output\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\MP\.android\build-cache\570143b529483450820b0c75a1ea880157564238\output\AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-common:10.2.4] C:\Users\MP\.android\build-cache\3d633a2e4d202b58f1ec7e6bac148f822b5b1f15\output\AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tasks:10.2.4] C:\Users\MP\.android\build-cache\1a6da14f2ab64bba3ddc08a59cec41f585b153d0\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.2.4] C:\Users\MP\.android\build-cache\0dae8cb0d25e6b1a4f0349f5b5550f0a99d0c0c0\output\AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\MP\.android\build-cache\22e4e20f676a3b48ea2baa7bf1c1faedd567637a\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:25.3.1] C:\Users\MP\.android\build-cache\0cd23635246820e02bdfdd14846c3401ab22b412\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\MP\.android\build-cache\99661d2a21f91b220d0f89dae7e95b593b03565b\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\MP\.android\build-cache\ba8f91206e868de5691991af6ebcd1e35e5f040a\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\MP\.android\build-cache\2193904729f7b1182dfa875f534a8514613a571b\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\MP\.android\build-cache\adf4175c0ca0e46dc7ee07cad1dc528fd38ed7ab\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\MP\.android\build-cache\b9b12684e8b1b6b6e7fc699aa479f618889d0afc\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\MP\.android\build-cache\7373d01aff5fd869546d392372979473e9a38e41\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\MP\.android\build-cache\4a00da20a49054e9ed5d119398193c7d129e4e89\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\MP\.android\build-cache\a2f99f439a1e13932fdc8eade1aec598b1938d43\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\MP\.android\build-cache\893cc9983c08c67c592c21ecffeca99b7b6793c3\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\MP\.android\build-cache\4aefcdee3b1c1f4c5f674533fbe065cdcd1c53e3\output\AndroidManifest.xml:29:5-20
+>>>>>>> e2bb28d2384a0b10d530c6a0b0241ba5af494589
 	android:label
 		ADDED from /Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/AndroidManifest.xml:8:9-41
 	android:allowBackup
@@ -81,9 +108,23 @@ ADDED from /Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/mai
 	android:name
 		ADDED from /Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/AndroidManifest.xml:27:13-54
 activity#com.seamuseum.auswahlelement.kontakt.KontaktActivity
+<<<<<<< HEAD
 ADDED from /Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/AndroidManifest.xml:29:9-70
 	android:name
 		ADDED from /Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/AndroidManifest.xml:29:19-58
+=======
+ADDED from C:\Users\MP\StudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:29:9-61
+	android:name
+		ADDED from C:\Users\MP\StudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:29:19-58
+activity#com.seamuseum.auswahlelement.service.ServiceActivity
+ADDED from C:\Users\MP\StudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:30:9-61
+	android:name
+		ADDED from C:\Users\MP\StudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:30:19-58
+activity#com.seamuseum.auswahlelement.preis.PreisActivity
+ADDED from C:\Users\MP\StudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:31:9-66
+	android:name
+		ADDED from C:\Users\MP\StudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:31:19-54
+>>>>>>> e2bb28d2384a0b10d530c6a0b0241ba5af494589
 uses-sdk
 INJECTED from /Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.google.firebase:firebase-core:10.2.4] /Users/christophwessarges/.android/build-cache/3fba132020915b0241089d70ff083d1c5574191d/output/AndroidManifest.xml:4:5-43

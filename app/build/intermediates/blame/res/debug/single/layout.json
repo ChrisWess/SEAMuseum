@@ -40,8 +40,17 @@
         "source": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/layout/abc_activity_chooser_view_list_item.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/layout/support_simple_spinner_dropdown_item.xml",
         "source": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/layout/support_simple_spinner_dropdown_item.xml"
+=======
+        "merged": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_preis.xml",
+        "source": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\src\\main\\res\\layout\\activity_preis.xml"
+    },
+    {
+        "merged": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
+        "source": "C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\layout\\notification_action.xml"
+>>>>>>> e2bb28d2384a0b10d530c6a0b0241ba5af494589
     },
     {
         "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_text_input_password_icon.xml",
@@ -64,8 +73,17 @@
         "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/res/layout/activity_quiz.xml"
     },
     {
+<<<<<<< HEAD
         "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
         "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\layout\\notification_template_part_time.xml"
+=======
+        "merged": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_service.xml",
+        "source": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\src\\main\\res\\layout\\activity_service.xml"
+    },
+    {
+        "merged": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_kontakt.xml",
+        "source": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\src\\main\\res\\layout\\activity_kontakt.xml"
+>>>>>>> e2bb28d2384a0b10d530c6a0b0241ba5af494589
     },
     {
         "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
