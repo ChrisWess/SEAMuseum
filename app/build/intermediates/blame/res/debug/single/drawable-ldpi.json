@@ -1,6 +1,10 @@
 [
     {
-        "merged": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\icon.png",
-        "source": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\src\\main\\res\\drawable-ldpi\\icon.png"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/drawable-ldpi/icon.png",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/res/drawable-ldpi/icon.png"
+    },
+    {
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\icon.png",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\src\\main\\res\\drawable-ldpi\\icon.png"
     }
 ]

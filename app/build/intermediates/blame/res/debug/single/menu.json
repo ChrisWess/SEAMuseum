@@ -1,6 +1,10 @@
 [
     {
-        "merged": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu.xml",
-        "source": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\src\\main\\res\\menu\\menu.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/menu/menu.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/res/menu/menu.xml"
+    },
+    {
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\src\\main\\res\\menu\\menu.xml"
     }
 ]

@@ -25,7 +25,6 @@ public class KontaktActivity extends Activity
     @Override
     protected void onStart()
     {
-
         super.onStart();
         getActionBar().setHomeButtonEnabled(true);
         getActionBar().setDisplayHomeAsUpEnabled(true);

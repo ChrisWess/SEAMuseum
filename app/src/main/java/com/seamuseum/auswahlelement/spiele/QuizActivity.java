@@ -1,15 +1,25 @@
 package com.seamuseum.auswahlelement.spiele;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.graphics.drawable.Drawable;
 import android.os.Bundle;
+import android.os.Environment;
 import android.os.Handler;
+import android.support.annotation.NonNull;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
 
+import com.google.android.gms.tasks.OnFailureListener;
+import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.firebase.storage.FileDownloadTask;
+import com.google.firebase.storage.FirebaseStorage;
+import com.google.firebase.storage.StorageMetadata;
+import com.google.firebase.storage.StorageReference;
 import com.seamuseum.auswahlelement.AuswahlElementActivity;
 import com.seamuseum.auswahlelement.R;
 
@@ -17,11 +27,20 @@ import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
 
+import java.io.ByteArrayInputStream;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.PrintWriter;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.IllegalFormatConversionException;
 import java.util.IllegalFormatException;
 
+import javax.xml.parsers.ParserConfigurationException;
 import javax.xml.parsers.SAXParser;
 import javax.xml.parsers.SAXParserFactory;
 
@@ -35,18 +54,15 @@ public class QuizActivity extends Activity {
     private String _loesungsSatz;
 
     @Override
-    protected void onStart()
-    {
+    protected void onStart() {
         super.onStart();
         getActionBar().setHomeButtonEnabled(true);
         getActionBar().setDisplayHomeAsUpEnabled(true);
     }
 
     @Override
-    public boolean onOptionsItemSelected(MenuItem menuItem)
-    {
-        switch (menuItem.getItemId())
-        {
+    public boolean onOptionsItemSelected(MenuItem menuItem) {
+        switch (menuItem.getItemId()) {
             case android.R.id.home:
                 Intent homeIntent = new Intent(this, AuswahlElementActivity.class);
                 homeIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
@@ -58,6 +74,9 @@ public class QuizActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setUpQuizdaten();
+        //quizdatenZuruecksetzen();
+
         setContentView(R.layout.activity_quiz);
 
         _frage_loesung = (TextView) findViewById(R.id.frage_loesung);
@@ -67,12 +86,100 @@ public class QuizActivity extends Activity {
         _buttonArray[2] = (Button) findViewById(R.id.antwort3button);
         _buttonArray[3] = (Button) findViewById(R.id.antwort4button);
 
-        _xmlDaten = new XMLReader();
-        leseAusDatenbestand();
-
         for (int i = 0; i < _buttonArray.length; ++i) {
             _buttonArray[i].setOnClickListener(initButton(_buttonArray[i]));
         }
+
+        erzeugeXMLReader();
+    }
+
+    private synchronized void erzeugeXMLReader()
+    {
+        _xmlDaten = new XMLReader();
+        leseAusDatenbestand();
+        if(_xmlDaten.getAnzahlSaetze() == 0)
+        {
+            _frage_loesung.setText("Es wird kurzzeitig eine Internetverbindung benötigt, um die Daten aus dem Internet zu laden!");
+            for (Button b : _buttonArray)
+            {
+                b.setClickable(false);
+            }
+        }
+        else
+        {
+            for (Button b : _buttonArray)
+            {
+                b.setClickable(true);
+            }
+        }
+    }
+
+    private void quizdatenZuruecksetzen()
+    {
+        //Temporäre Methode nur zum Testen.
+        SharedPreferences sharedPref = getSharedPreferences("LastQuizUpdate", Context.MODE_PRIVATE);
+        SharedPreferences.Editor editor = sharedPref.edit();
+        editor.putLong("LastQuizUpdate", 0);
+        editor.commit();
+        try {
+            FileOutputStream fos = openFileOutput("quizdaten.xml", Context.MODE_PRIVATE);
+            fos.close();
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
+
+    private void setUpQuizdaten()
+    {
+        FirebaseStorage storage = FirebaseStorage.getInstance();
+        final StorageReference storageRef = storage.getReference().child("quizdaten.xml");
+        storageRef.getMetadata().addOnSuccessListener(new OnSuccessListener<StorageMetadata>() {
+        @Override
+        public void onSuccess(StorageMetadata storageMetadata) {
+            SharedPreferences sharedPref = getSharedPreferences("LastQuizUpdate", Context.MODE_PRIVATE);
+            long value = sharedPref.getLong("LastQuizUpdate", 0);
+
+            long updateTime = storageMetadata.getUpdatedTimeMillis();
+            if(value != updateTime)
+            {
+                SharedPreferences.Editor editor = sharedPref.edit();
+                editor.putLong("LastQuizUpdate", updateTime);
+                editor.commit();
+                updateQuizdatei(storageRef);
+            }
+        }
+        }).addOnFailureListener(new OnFailureListener() {
+            @Override
+            public void onFailure(@NonNull Exception exception) {
+                // TODO: Uh-oh, an error occurred!
+            }
+        });
+    }
+
+    private void updateQuizdatei(StorageReference storageRef)
+    {
+        storageRef.getBytes(1024*1024).addOnSuccessListener(new OnSuccessListener<byte[]>() {
+            @Override
+            public void onSuccess(byte[] bytes) {
+
+                try {
+                    FileOutputStream fos = openFileOutput("quizdaten.xml", Context.MODE_PRIVATE);
+                    fos.write(bytes);
+                    fos.close();
+                }
+                catch (IOException e)
+                {
+                    e.printStackTrace();
+                }
+
+                erzeugeXMLReader();
+            }
+        }).addOnFailureListener(new OnFailureListener() {
+            @Override
+            public void onFailure(@NonNull Exception exception) {
+                // Handle any errors
+            }
+        });
     }
 
     /**
@@ -129,7 +236,13 @@ public class QuizActivity extends Activity {
             _buttonArray[i].setText(antworten[i]);
         }
 
-        int loesung = Integer.parseInt(datenSatz[5]);
+        int loesung;
+        try{
+            loesung = Integer.parseInt(datenSatz[5]);
+        } catch (NumberFormatException e)
+        {
+            loesung = 1;
+        }
         _loesungsButton = _buttonArray[loesung - 1];
         _loesungsSatz = datenSatz[6];
     }
@@ -154,10 +267,24 @@ public class QuizActivity extends Activity {
             _aktuelleStelle = 0;
         }
 
+        public int getAnzahlSaetze()
+        {
+            return _anzahlSaetze;
+        }
+
         /**
          * Gibt ein String Array, dass die Daten des nächten Datensatzes enthält.
          */
         public String[] getDatensatz() {
+            if(_anzahlSaetze == 0)
+            {
+                String[] arr = new String[_datenProSatz];
+                for(int i = 0; i < arr.length; ++i)
+                {
+                    arr[i] = "";
+                }
+                return arr;
+            }
             if (_daten.size() == _aktuelleStelle) {
                 _aktuelleStelle = 0;
             }
@@ -189,14 +316,12 @@ public class QuizActivity extends Activity {
         }
 
         private void parseDaten() {
-
             try {
-
                 SAXParserFactory factory = SAXParserFactory.newInstance();
-                SAXParser saxParser = factory.newSAXParser();
+                final SAXParser saxParser = factory.newSAXParser();
 
                 //handler spezifisch für quizdaten.xml ausgelegt.
-                DefaultHandler handler = new DefaultHandler() {
+                final DefaultHandler handler = new DefaultHandler() {
 
                     String[] datenSatz = new String[_datenProSatz];
                     boolean bfsatz = false;
@@ -238,10 +363,9 @@ public class QuizActivity extends Activity {
 
                         if (qName.equals("frage")) { //Am Ende einer Frage werden die Daten in die Liste eingefügt.
                             for (String s : datenSatz) {
-                                if(s != null) {
+                                if (s != null) {
                                     _daten.add(s);
-                                }
-                                else {
+                                } else {
                                     throw new NullPointerException("Quizdaten nicht vollständig in Frage " + _anzahlSaetze);
                                 }
                             }
@@ -290,12 +414,18 @@ public class QuizActivity extends Activity {
 
                 };
 
-                saxParser.parse(getResources().getAssets().open("quizdaten.xml"), handler);
-
-            } catch (Exception e) {
-                System.out.println("Error loading assets!");
+                try {
+                    FileInputStream fis = openFileInput("quizdaten.xml");
+                    saxParser.parse(fis, handler);
+                    fis.close();
+                } catch (IOException e) {
+                    System.err.println("Can not open file Quizdaten!");
+                }
             }
-
+            catch (SAXException|ParserConfigurationException e)
+            {
+                System.err.println("Error while parsing!");
+            }
         }
     }
 }

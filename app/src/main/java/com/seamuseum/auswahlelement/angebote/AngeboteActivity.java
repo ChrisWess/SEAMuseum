@@ -13,6 +13,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import com.seamuseum.auswahlelement.R;
 
+
 /**
  * Created by Elham on 01.05.2017.
  */
@@ -62,7 +63,7 @@ public class AngeboteActivity extends Activity
             @Override
             public void onClick(View v)
             {
-                _childRef.setValue("Bla");
+                _childRef.setValue("Hallo Welt!");
             }
         });
     }
