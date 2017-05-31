@@ -691,7 +691,7 @@
     <string name="appbar_scrolling_view_behavior" translatable="false">android.support.design.widget.AppBarLayout$ScrollingViewBehavior</string>
     <string name="auswahl1">Werke</string>
     <string name="auswahl2">Spiele</string>
-    <string name="auswahl3">Service und Preise</string>
+    <string name="auswahl3">Service</string>
     <string name="auswahl4">Karte</string>
     <string name="auswahl5">Gästebuch</string>
     <string name="bottom_sheet_behavior" translatable="false">android.support.design.widget.BottomSheetBehavior</string>
