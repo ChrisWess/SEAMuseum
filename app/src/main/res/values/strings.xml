@@ -29,6 +29,9 @@
 
     <!-- Für PreisActivity -->
     <string name="preis">Hier stehen Preise. Viele Preise.</string>
+    <!-- Gästebuch -->
+    <string name="textfeld1">Dein Name</string>
+    <string name="textfeld2">Deine Nachricht</string>
 
 
 </resources>
