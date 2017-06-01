@@ -16,6 +16,7 @@ import com.seamuseum.auswahlelement.kontakt.KontaktActivity;
 import com.seamuseum.auswahlelement.service.ServiceActivity;
 import com.seamuseum.auswahlelement.spiele.QuizActivity;
 import com.seamuseum.auswahlelement.werke.FragmentDemo3Activity;
+import com.seamuseum.auswahlelement.werke.WerkeMainActivity;
 
 /**
  * Dies ist die Listenansicht der App.
@@ -54,7 +55,7 @@ public class AuswahlElementActivity extends ListActivity implements OnItemClickL
         {
             case R.string.auswahl1:
                 i = new Intent();
-                i.setClass(getApplicationContext(), FragmentDemo3Activity.class);
+                i.setClass(getApplicationContext(), WerkeMainActivity.class);
                 startActivity(i);
                 break;
             case R.string.auswahl2:
