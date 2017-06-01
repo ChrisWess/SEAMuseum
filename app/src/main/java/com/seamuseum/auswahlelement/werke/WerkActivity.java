@@ -87,9 +87,9 @@ public class WerkActivity extends Activity {
                     newWerk.child("beschreibung").setValue(_werkDesc);
                     newWerk.child("bildUrl").setValue(downloadUrl.toString());
 
-                    Intent homeIntent = new Intent(getApplicationContext(), WerkeMainActivity.class);
-                    homeIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                    startActivity(homeIntent);
+//                    Intent homeIntent = new Intent(getApplicationContext(), WerkeMainActivity.class);
+//                    homeIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+//                    startActivity(homeIntent);
                     _progress.dismiss();
                 }
             });

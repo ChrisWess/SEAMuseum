@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:2:1-44:12
+ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:2:1-45:12
 	package
 		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:3:5-43
 		INJECTED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml
@@ -30,7 +30,7 @@ MERGED from [com.firebaseui:firebase-ui-database:1.2.0] C:\Users\Elham\.android\
 	android:name
 		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:6:22-64
 application
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:7:5-42:19
+ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:7:5-43:19
 MERGED from [com.google.firebase:firebase-core:10.2.4] C:\Users\Elham\.android\build-cache\2af22cfa26bd80b4f0251a88a3d214b39624f2e2\output\AndroidManifest.xml:5:5-20
 MERGED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\Elham\.android\build-cache\660ac9a44c801e852991be8e092bd2d67ff0b1aa\output\AndroidManifest.xml:24:5-33:19
 MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] C:\Users\Elham\.android\build-cache\b8a25c70f404bfb51680523b3e7f194b6f96d120\output\AndroidManifest.xml:24:5-28:19
@@ -111,30 +111,34 @@ ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:33:
 		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:35:13-45
 	android:name
 		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:34:13-52
-activity#com.seamuseum.auswahlelement.kontakt.KontaktActivity
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:36:9-61
+activity#com.seamuseum.auswahlelement.werke.WerkActivity
+ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:36:9-55
 	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:36:19-58
-activity#com.seamuseum.auswahlelement.service.ServiceActivity
+		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:36:19-53
+activity#com.seamuseum.auswahlelement.kontakt.KontaktActivity
 ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:37:9-61
 	android:name
 		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:37:19-58
+activity#com.seamuseum.auswahlelement.service.ServiceActivity
+ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:38:9-61
+	android:name
+		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:38:19-58
 activity#com.seamuseum.auswahlelement.preis.PreisActivity
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:38:9-57
+ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:39:9-57
 	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:38:19-54
+		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:39:19-54
 activity#com.seamuseum.auswahlelement.guestbook.EntriesActivity
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:39:9-63
+ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:40:9-63
 	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:39:19-60
+		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:40:19-60
 activity#com.seamuseum.auswahlelement.guestbook.GuestbookActivity
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:40:9-65
+ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:41:9-65
 	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:40:19-62
+		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:41:19-62
 activity#com.seamuseum.auswahlelement.guestbook.WriteEntryActivity
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:41:9-66
+ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:42:9-66
 	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:41:19-63
+		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:42:19-63
 uses-sdk
 INJECTED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.google.firebase:firebase-core:10.2.4] C:\Users\Elham\.android\build-cache\2af22cfa26bd80b4f0251a88a3d214b39624f2e2\output\AndroidManifest.xml:4:5-43
