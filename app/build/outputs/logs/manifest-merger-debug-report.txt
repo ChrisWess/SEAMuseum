@@ -1,311 +1,311 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:2:1-45:12
+ADDED from /home/bashimon/StudioProjects/MuseumsApp/app/src/main/AndroidManifest.xml:2:1-45:12
 	package
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:3:5-43
-		INJECTED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml
+		ADDED from /home/bashimon/StudioProjects/MuseumsApp/app/src/main/AndroidManifest.xml:3:5-43
+		INJECTED from /home/bashimon/StudioProjects/MuseumsApp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/bashimon/StudioProjects/MuseumsApp/app/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml
+		INJECTED from /home/bashimon/StudioProjects/MuseumsApp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/bashimon/StudioProjects/MuseumsApp/app/src/main/AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from /home/bashimon/StudioProjects/MuseumsApp/app/src/main/AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml
+		INJECTED from /home/bashimon/StudioProjects/MuseumsApp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/bashimon/StudioProjects/MuseumsApp/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:4:5-79
+ADDED from /home/bashimon/StudioProjects/MuseumsApp/app/src/main/AndroidManifest.xml:4:5-79
 	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:4:22-77
+		ADDED from /home/bashimon/StudioProjects/MuseumsApp/app/src/main/AndroidManifest.xml:4:22-77
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:5:5-80
+ADDED from /home/bashimon/StudioProjects/MuseumsApp/app/src/main/AndroidManifest.xml:5:5-80
 	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:5:22-78
+		ADDED from /home/bashimon/StudioProjects/MuseumsApp/app/src/main/AndroidManifest.xml:5:22-78
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:6:5-66
-MERGED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\Elham\.android\build-cache\660ac9a44c801e852991be8e092bd2d67ff0b1aa\output\AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] C:\Users\Elham\.android\build-cache\b8a25c70f404bfb51680523b3e7f194b6f96d120\output\AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Elham\.android\build-cache\99bb4da0ecc62f9642e8149b699b4fcec69eb53d\output\AndroidManifest.xml:20:5-66
-MERGED from [com.firebaseui:firebase-ui-database:1.2.0] C:\Users\Elham\.android\build-cache\7a1cf1c3da561d3e97f201985fc7f62427542a53\output\AndroidManifest.xml:11:5-67
+ADDED from /home/bashimon/StudioProjects/MuseumsApp/app/src/main/AndroidManifest.xml:6:5-66
+MERGED from [com.google.firebase:firebase-analytics:10.2.4] /home/bashimon/.android/build-cache/305ddffc9b95bbfb6ebb723e9d59623a377bd542/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] /home/bashimon/.android/build-cache/0ce7e7c4935e00969a2ada6e892972cf02603429/output/AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:10.2.4] /home/bashimon/.android/build-cache/b49361261481496dbe728a219ede4dd8ccdf3b86/output/AndroidManifest.xml:20:5-66
+MERGED from [com.firebaseui:firebase-ui-database:1.2.0] /home/bashimon/.android/build-cache/90fa762d47d4d10c54a5a8de540de9f6738771ba/output/AndroidManifest.xml:11:5-67
 	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:6:22-64
+		ADDED from /home/bashimon/StudioProjects/MuseumsApp/app/src/main/AndroidManifest.xml:6:22-64
 application
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:7:5-43:19
-MERGED from [com.google.firebase:firebase-core:10.2.4] C:\Users\Elham\.android\build-cache\2af22cfa26bd80b4f0251a88a3d214b39624f2e2\output\AndroidManifest.xml:5:5-20
-MERGED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\Elham\.android\build-cache\660ac9a44c801e852991be8e092bd2d67ff0b1aa\output\AndroidManifest.xml:24:5-33:19
-MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] C:\Users\Elham\.android\build-cache\b8a25c70f404bfb51680523b3e7f194b6f96d120\output\AndroidManifest.xml:24:5-28:19
-MERGED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Elham\.android\build-cache\99bb4da0ecc62f9642e8149b699b4fcec69eb53d\output\AndroidManifest.xml:28:5-49:19
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Elham\.android\build-cache\30e638553bf11a3f9bb2197affcc3fb7126ca711\output\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:design:25.3.1] C:\Users\Elham\.android\build-cache\0d1c76aae798439ef7a05af0991728931543dd8b\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:transition:25.3.1] C:\Users\Elham\.android\build-cache\47784c916cf115c2a90163c9d265533c33f0d9e1\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Elham\.android\build-cache\75096ec17403138e4f46625586c212244f459092\output\AndroidManifest.xml:26:5-20
-MERGED from [com.firebaseui:firebase-ui-database:1.2.0] C:\Users\Elham\.android\build-cache\7a1cf1c3da561d3e97f201985fc7f62427542a53\output\AndroidManifest.xml:13:5-17:19
-MERGED from [com.google.firebase:firebase-common:10.2.4] C:\Users\Elham\.android\build-cache\bd3d10dc648b72e42b485d14f814f738b37bb711\output\AndroidManifest.xml:4:5-7:19
-MERGED from [com.google.android.gms:play-services-tasks:10.2.4] C:\Users\Elham\.android\build-cache\ca11633b8831d56a27dd01ecb4b516df4e7713da\output\AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-basement:10.2.4] C:\Users\Elham\.android\build-cache\462a329b8539f9dd97e5bf64f95380c017273abe\output\AndroidManifest.xml:19:5-21:19
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Elham\.android\build-cache\e722e25262974ac06465605f724f76b2202684fd\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Elham\.android\build-cache\88794ee0f62838b2141ed5145b8a5cf12bffc54e\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Elham\.android\build-cache\45d32a4116091286619e36c75bf7c6e85ae9f3f8\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Elham\.android\build-cache\17002630299761f66fa4a0496033a3aaccd5be4f\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Elham\.android\build-cache\d412fbc26c8d88e714ddba00ec96ee2a2b602425\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Elham\.android\build-cache\bd74ac2e5fc978124a50781d83973447a8f4777f\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Elham\.android\build-cache\52d25f17b8963b1a53738455af5256908213fe7a\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Elham\.android\build-cache\d21a5af8e805c52d6cdbba2ffe3a433d72d67241\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Elham\.android\build-cache\4fda6f0c09fd6e127745ba01e7e960baefa54c4f\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:exifinterface:25.3.1] C:\Users\Elham\.android\build-cache\3ce6fd761fa36dc1adb880e19a63bdbee743cad0\output\AndroidManifest.xml:26:5-20
+ADDED from /home/bashimon/StudioProjects/MuseumsApp/app/src/main/AndroidManifest.xml:7:5-43:19
+MERGED from [com.google.firebase:firebase-core:10.2.4] /home/bashimon/.android/build-cache/8817a178430b258c08d83e52ab1a150c1a8858ef/output/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:10.2.4] /home/bashimon/.android/build-cache/305ddffc9b95bbfb6ebb723e9d59623a377bd542/output/AndroidManifest.xml:24:5-33:19
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] /home/bashimon/.android/build-cache/0ce7e7c4935e00969a2ada6e892972cf02603429/output/AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:10.2.4] /home/bashimon/.android/build-cache/b49361261481496dbe728a219ede4dd8ccdf3b86/output/AndroidManifest.xml:28:5-49:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/bashimon/.android/build-cache/bf51e85044e7e5330feb06decca21fb054ee440b/output/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:25.3.1] /home/bashimon/.android/build-cache/69c37760c35ca213de8d96fd570a0b26b1c368f7/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:transition:25.3.1] /home/bashimon/.android/build-cache/d3e1dd260dcd7c7c68a52b687984a732fb521a0e/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:cardview-v7:25.3.1] /home/bashimon/.android/build-cache/752cab7c32ed45c10a8c16841f579a85a88212b5/output/AndroidManifest.xml:26:5-20
+MERGED from [com.firebaseui:firebase-ui-database:1.2.0] /home/bashimon/.android/build-cache/90fa762d47d4d10c54a5a8de540de9f6738771ba/output/AndroidManifest.xml:13:5-17:19
+MERGED from [com.google.firebase:firebase-common:10.2.4] /home/bashimon/.android/build-cache/8aebd002a1e1092e9586686dfef51d9196c605a5/output/AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tasks:10.2.4] /home/bashimon/.android/build-cache/4fbeb4ada63c42eb593748345e696cab7b5c9a9a/output/AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.2.4] /home/bashimon/.android/build-cache/2b099a493e8ef6f9f4bc2e4b3397f87e9b44654f/output/AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/bashimon/.android/build-cache/2932ef3193f5fca86bb1ef34fc4ad2b8b1c91ba6/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] /home/bashimon/.android/build-cache/0015e81cf6fa8f30b144de2376b4013b478f8e56/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /home/bashimon/.android/build-cache/e0c1286d22612832c923f7f4b5d72a62a8caf89b/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/bashimon/.android/build-cache/821c188c768bb025d0964e92d8c91aac728f2304/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/bashimon/.android/build-cache/56341321a4203d57cc6ab6bfc631b12dd8d5bb92/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/bashimon/.android/build-cache/821ca273b730438ccd9086e9ad28f3a8b5a25199/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/bashimon/.android/build-cache/b632e9b9ea3c8c97bcf89873abd332e58a580c1a/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/bashimon/.android/build-cache/cdc00d95c2dc96b448a9af21bc71c04e5ec4901c/output/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /home/bashimon/.android/build-cache/39b3a541c52dd37c4f70c5cca9c7b44b2d6e77c6/output/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:exifinterface:25.3.1] /home/bashimon/.android/build-cache/6f4341e2a993aa3dd5fb8dadccce48e5c9d099d9/output/AndroidManifest.xml:26:5-20
 	android:label
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:10:9-41
+		ADDED from /home/bashimon/StudioProjects/MuseumsApp/app/src/main/AndroidManifest.xml:10:9-41
 	android:allowBackup
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:8:9-35
+		ADDED from /home/bashimon/StudioProjects/MuseumsApp/app/src/main/AndroidManifest.xml:8:9-35
 	android:icon
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:9:9-38
+		ADDED from /home/bashimon/StudioProjects/MuseumsApp/app/src/main/AndroidManifest.xml:9:9-38
 activity#com.seamuseum.auswahlelement.AuswahlElementActivity
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:11:9-19:20
+ADDED from /home/bashimon/StudioProjects/MuseumsApp/app/src/main/AndroidManifest.xml:11:9-19:20
 	android:label
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:13:13-45
+		ADDED from /home/bashimon/StudioProjects/MuseumsApp/app/src/main/AndroidManifest.xml:13:13-45
 	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:12:13-51
+		ADDED from /home/bashimon/StudioProjects/MuseumsApp/app/src/main/AndroidManifest.xml:12:13-51
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:14:13-18:29
+ADDED from /home/bashimon/StudioProjects/MuseumsApp/app/src/main/AndroidManifest.xml:14:13-18:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:15:17-69
+ADDED from /home/bashimon/StudioProjects/MuseumsApp/app/src/main/AndroidManifest.xml:15:17-69
 	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:15:25-66
+		ADDED from /home/bashimon/StudioProjects/MuseumsApp/app/src/main/AndroidManifest.xml:15:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:17:17-77
+ADDED from /home/bashimon/StudioProjects/MuseumsApp/app/src/main/AndroidManifest.xml:17:17-77
 	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:17:27-74
+		ADDED from /home/bashimon/StudioProjects/MuseumsApp/app/src/main/AndroidManifest.xml:17:27-74
 activity#com.seamuseum.auswahlelement.werke.FragmentDemo3Activity
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:20:9-22:48
+ADDED from /home/bashimon/StudioProjects/MuseumsApp/app/src/main/AndroidManifest.xml:20:9-22:48
 	android:label
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:22:13-45
+		ADDED from /home/bashimon/StudioProjects/MuseumsApp/app/src/main/AndroidManifest.xml:22:13-45
 	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:21:13-56
+		ADDED from /home/bashimon/StudioProjects/MuseumsApp/app/src/main/AndroidManifest.xml:21:13-56
 activity#com.seamuseum.auswahlelement.werke.FragmentDemo3Activity$DetailsActivity
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:23:9-81
+ADDED from /home/bashimon/StudioProjects/MuseumsApp/app/src/main/AndroidManifest.xml:23:9-81
 	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:23:19-78
+		ADDED from /home/bashimon/StudioProjects/MuseumsApp/app/src/main/AndroidManifest.xml:23:19-78
 activity#com.theartofdev.edmodo.cropper.CropImageActivity
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:24:9-25:58
+ADDED from /home/bashimon/StudioProjects/MuseumsApp/app/src/main/AndroidManifest.xml:24:9-25:58
 	android:theme
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:25:13-56
+		ADDED from /home/bashimon/StudioProjects/MuseumsApp/app/src/main/AndroidManifest.xml:25:13-56
 	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:24:19-82
+		ADDED from /home/bashimon/StudioProjects/MuseumsApp/app/src/main/AndroidManifest.xml:24:19-82
 activity#com.seamuseum.auswahlelement.spiele.QuizActivity
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:26:9-29:48
+ADDED from /home/bashimon/StudioProjects/MuseumsApp/app/src/main/AndroidManifest.xml:26:9-29:48
 	android:label
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:29:13-45
+		ADDED from /home/bashimon/StudioProjects/MuseumsApp/app/src/main/AndroidManifest.xml:29:13-45
 	android:configChanges
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:28:13-59
+		ADDED from /home/bashimon/StudioProjects/MuseumsApp/app/src/main/AndroidManifest.xml:28:13-59
 	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:27:13-48
+		ADDED from /home/bashimon/StudioProjects/MuseumsApp/app/src/main/AndroidManifest.xml:27:13-48
 activity#com.seamuseum.auswahlelement.angebote.AngeboteActivity
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:30:9-32:48
+ADDED from /home/bashimon/StudioProjects/MuseumsApp/app/src/main/AndroidManifest.xml:30:9-32:48
 	android:label
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:32:13-45
+		ADDED from /home/bashimon/StudioProjects/MuseumsApp/app/src/main/AndroidManifest.xml:32:13-45
 	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:31:13-54
+		ADDED from /home/bashimon/StudioProjects/MuseumsApp/app/src/main/AndroidManifest.xml:31:13-54
 activity#com.seamuseum.auswahlelement.werke.WerkeMainActivity
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:33:9-35:48
+ADDED from /home/bashimon/StudioProjects/MuseumsApp/app/src/main/AndroidManifest.xml:33:9-35:48
 	android:label
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:35:13-45
+		ADDED from /home/bashimon/StudioProjects/MuseumsApp/app/src/main/AndroidManifest.xml:35:13-45
 	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:34:13-52
+		ADDED from /home/bashimon/StudioProjects/MuseumsApp/app/src/main/AndroidManifest.xml:34:13-52
 activity#com.seamuseum.auswahlelement.werke.WerkActivity
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:36:9-55
+ADDED from /home/bashimon/StudioProjects/MuseumsApp/app/src/main/AndroidManifest.xml:36:9-55
 	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:36:19-53
+		ADDED from /home/bashimon/StudioProjects/MuseumsApp/app/src/main/AndroidManifest.xml:36:19-53
 activity#com.seamuseum.auswahlelement.kontakt.KontaktActivity
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:37:9-61
+ADDED from /home/bashimon/StudioProjects/MuseumsApp/app/src/main/AndroidManifest.xml:37:9-61
 	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:37:19-58
+		ADDED from /home/bashimon/StudioProjects/MuseumsApp/app/src/main/AndroidManifest.xml:37:19-58
 activity#com.seamuseum.auswahlelement.service.ServiceActivity
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:38:9-61
+ADDED from /home/bashimon/StudioProjects/MuseumsApp/app/src/main/AndroidManifest.xml:38:9-61
 	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:38:19-58
+		ADDED from /home/bashimon/StudioProjects/MuseumsApp/app/src/main/AndroidManifest.xml:38:19-58
 activity#com.seamuseum.auswahlelement.preis.PreisActivity
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:39:9-57
+ADDED from /home/bashimon/StudioProjects/MuseumsApp/app/src/main/AndroidManifest.xml:39:9-57
 	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:39:19-54
+		ADDED from /home/bashimon/StudioProjects/MuseumsApp/app/src/main/AndroidManifest.xml:39:19-54
 activity#com.seamuseum.auswahlelement.guestbook.EntriesActivity
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:40:9-63
+ADDED from /home/bashimon/StudioProjects/MuseumsApp/app/src/main/AndroidManifest.xml:40:9-63
 	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:40:19-60
+		ADDED from /home/bashimon/StudioProjects/MuseumsApp/app/src/main/AndroidManifest.xml:40:19-60
 activity#com.seamuseum.auswahlelement.guestbook.GuestbookActivity
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:41:9-65
+ADDED from /home/bashimon/StudioProjects/MuseumsApp/app/src/main/AndroidManifest.xml:41:9-65
 	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:41:19-62
+		ADDED from /home/bashimon/StudioProjects/MuseumsApp/app/src/main/AndroidManifest.xml:41:19-62
 activity#com.seamuseum.auswahlelement.guestbook.WriteEntryActivity
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:42:9-66
+ADDED from /home/bashimon/StudioProjects/MuseumsApp/app/src/main/AndroidManifest.xml:42:9-66
 	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:42:19-63
+		ADDED from /home/bashimon/StudioProjects/MuseumsApp/app/src/main/AndroidManifest.xml:42:19-63
 uses-sdk
-INJECTED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.google.firebase:firebase-core:10.2.4] C:\Users\Elham\.android\build-cache\2af22cfa26bd80b4f0251a88a3d214b39624f2e2\output\AndroidManifest.xml:4:5-43
-MERGED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\Elham\.android\build-cache\660ac9a44c801e852991be8e092bd2d67ff0b1aa\output\AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] C:\Users\Elham\.android\build-cache\b8a25c70f404bfb51680523b3e7f194b6f96d120\output\AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Elham\.android\build-cache\99bb4da0ecc62f9642e8149b699b4fcec69eb53d\output\AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-storage:10.2.4] C:\Users\Elham\.android\build-cache\16f739847153fa226e456f754a806b76ad4f4919\output\AndroidManifest.xml:3:5-43
-MERGED from [com.google.firebase:firebase-storage-common:10.2.4] C:\Users\Elham\.android\build-cache\a466dcde42157b54be344027436f3607efb2c639\output\AndroidManifest.xml:3:5-43
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Elham\.android\build-cache\30e638553bf11a3f9bb2197affcc3fb7126ca711\output\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:design:25.3.1] C:\Users\Elham\.android\build-cache\0d1c76aae798439ef7a05af0991728931543dd8b\output\AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:transition:25.3.1] C:\Users\Elham\.android\build-cache\47784c916cf115c2a90163c9d265533c33f0d9e1\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Elham\.android\build-cache\75096ec17403138e4f46625586c212244f459092\output\AndroidManifest.xml:20:5-43
-MERGED from [com.firebaseui:firebase-ui-database:1.2.0] C:\Users\Elham\.android\build-cache\7a1cf1c3da561d3e97f201985fc7f62427542a53\output\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Elham\.android\build-cache\ba570a11ce7275b0642baa4e2dff9d92bd6300c7\output\AndroidManifest.xml:20:5-43
-MERGED from [com.google.firebase:firebase-database:10.2.4] C:\Users\Elham\.android\build-cache\66c5cef559f1e59856bac92a1b7b7cbf35ec17c1\output\AndroidManifest.xml:3:5-43
-MERGED from [com.google.firebase:firebase-database-connection:10.2.4] C:\Users\Elham\.android\build-cache\5a4eb5f32095d61e802a84fe7625f87875eaeac9\output\AndroidManifest.xml:3:5-43
-MERGED from [com.google.firebase:firebase-common:10.2.4] C:\Users\Elham\.android\build-cache\bd3d10dc648b72e42b485d14f814f738b37bb711\output\AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-tasks:10.2.4] C:\Users\Elham\.android\build-cache\ca11633b8831d56a27dd01ecb4b516df4e7713da\output\AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-basement:10.2.4] C:\Users\Elham\.android\build-cache\462a329b8539f9dd97e5bf64f95380c017273abe\output\AndroidManifest.xml:17:5-43
-MERGED from [com.theartofdev.edmodo:android-image-cropper:2.4.6] C:\Users\Elham\.android\build-cache\29bf2146ddf158baef2ee7de8f1296cb21fefc34\output\AndroidManifest.xml:8:5-10:41
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Elham\.android\build-cache\e722e25262974ac06465605f724f76b2202684fd\output\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Elham\.android\build-cache\88794ee0f62838b2141ed5145b8a5cf12bffc54e\output\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Elham\.android\build-cache\45d32a4116091286619e36c75bf7c6e85ae9f3f8\output\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Elham\.android\build-cache\17002630299761f66fa4a0496033a3aaccd5be4f\output\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Elham\.android\build-cache\d412fbc26c8d88e714ddba00ec96ee2a2b602425\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Elham\.android\build-cache\bd74ac2e5fc978124a50781d83973447a8f4777f\output\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Elham\.android\build-cache\52d25f17b8963b1a53738455af5256908213fe7a\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Elham\.android\build-cache\d21a5af8e805c52d6cdbba2ffe3a433d72d67241\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Elham\.android\build-cache\4fda6f0c09fd6e127745ba01e7e960baefa54c4f\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.android.support:exifinterface:25.3.1] C:\Users\Elham\.android\build-cache\3ce6fd761fa36dc1adb880e19a63bdbee743cad0\output\AndroidManifest.xml:20:5-43
+INJECTED from /home/bashimon/StudioProjects/MuseumsApp/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.google.firebase:firebase-core:10.2.4] /home/bashimon/.android/build-cache/8817a178430b258c08d83e52ab1a150c1a8858ef/output/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics:10.2.4] /home/bashimon/.android/build-cache/305ddffc9b95bbfb6ebb723e9d59623a377bd542/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] /home/bashimon/.android/build-cache/0ce7e7c4935e00969a2ada6e892972cf02603429/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:10.2.4] /home/bashimon/.android/build-cache/b49361261481496dbe728a219ede4dd8ccdf3b86/output/AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-storage:10.2.4] /home/bashimon/.android/build-cache/3689ed8ea3fd2cac7f59060e7bb01541f857047a/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-storage-common:10.2.4] /home/bashimon/.android/build-cache/17ac3584e98602e822600522cbda7b636c090be0/output/AndroidManifest.xml:3:5-43
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /home/bashimon/.android/build-cache/bf51e85044e7e5330feb06decca21fb054ee440b/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:25.3.1] /home/bashimon/.android/build-cache/69c37760c35ca213de8d96fd570a0b26b1c368f7/output/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:transition:25.3.1] /home/bashimon/.android/build-cache/d3e1dd260dcd7c7c68a52b687984a732fb521a0e/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:25.3.1] /home/bashimon/.android/build-cache/752cab7c32ed45c10a8c16841f579a85a88212b5/output/AndroidManifest.xml:20:5-43
+MERGED from [com.firebaseui:firebase-ui-database:1.2.0] /home/bashimon/.android/build-cache/90fa762d47d4d10c54a5a8de540de9f6738771ba/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /home/bashimon/.android/build-cache/8671ab7d21b02835a64250c12a901f896e54bcfd/output/AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-database:10.2.4] /home/bashimon/.android/build-cache/6c58097d5a724ae13eefb4ae40ec3d12a48215dc/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-database-connection:10.2.4] /home/bashimon/.android/build-cache/beef78cc70941bf7142747b18d663f6bc607dfa0/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-common:10.2.4] /home/bashimon/.android/build-cache/8aebd002a1e1092e9586686dfef51d9196c605a5/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:10.2.4] /home/bashimon/.android/build-cache/4fbeb4ada63c42eb593748345e696cab7b5c9a9a/output/AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:10.2.4] /home/bashimon/.android/build-cache/2b099a493e8ef6f9f4bc2e4b3397f87e9b44654f/output/AndroidManifest.xml:17:5-43
+MERGED from [com.theartofdev.edmodo:android-image-cropper:2.4.6] /home/bashimon/.android/build-cache/5782aa0fd564dd8936d72c7d94bbea7f8e32d424/output/AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/bashimon/.android/build-cache/2932ef3193f5fca86bb1ef34fc4ad2b8b1c91ba6/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:support-v4:25.3.1] /home/bashimon/.android/build-cache/0015e81cf6fa8f30b144de2376b4013b478f8e56/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] /home/bashimon/.android/build-cache/e0c1286d22612832c923f7f4b5d72a62a8caf89b/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/bashimon/.android/build-cache/821c188c768bb025d0964e92d8c91aac728f2304/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/bashimon/.android/build-cache/56341321a4203d57cc6ab6bfc631b12dd8d5bb92/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/bashimon/.android/build-cache/821ca273b730438ccd9086e9ad28f3a8b5a25199/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/bashimon/.android/build-cache/b632e9b9ea3c8c97bcf89873abd332e58a580c1a/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/bashimon/.android/build-cache/cdc00d95c2dc96b448a9af21bc71c04e5ec4901c/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-compat:25.3.1] /home/bashimon/.android/build-cache/39b3a541c52dd37c4f70c5cca9c7b44b2d6e77c6/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:exifinterface:25.3.1] /home/bashimon/.android/build-cache/6f4341e2a993aa3dd5fb8dadccce48e5c9d099d9/output/AndroidManifest.xml:20:5-43
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:25.3.1] C:\Users\Elham\.android\build-cache\0d1c76aae798439ef7a05af0991728931543dd8b\output\AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:design:25.3.1] /home/bashimon/.android/build-cache/69c37760c35ca213de8d96fd570a0b26b1c368f7/output/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		INJECTED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml
+		INJECTED from /home/bashimon/StudioProjects/MuseumsApp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/bashimon/StudioProjects/MuseumsApp/app/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml
+		INJECTED from /home/bashimon/StudioProjects/MuseumsApp/app/src/main/AndroidManifest.xml
+		INJECTED from /home/bashimon/StudioProjects/MuseumsApp/app/src/main/AndroidManifest.xml
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\Elham\.android\build-cache\660ac9a44c801e852991be8e092bd2d67ff0b1aa\output\AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] C:\Users\Elham\.android\build-cache\b8a25c70f404bfb51680523b3e7f194b6f96d120\output\AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Elham\.android\build-cache\99bb4da0ecc62f9642e8149b699b4fcec69eb53d\output\AndroidManifest.xml:19:5-78
+ADDED from [com.google.firebase:firebase-analytics:10.2.4] /home/bashimon/.android/build-cache/305ddffc9b95bbfb6ebb723e9d59623a377bd542/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] /home/bashimon/.android/build-cache/0ce7e7c4935e00969a2ada6e892972cf02603429/output/AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:10.2.4] /home/bashimon/.android/build-cache/b49361261481496dbe728a219ede4dd8ccdf3b86/output/AndroidManifest.xml:19:5-78
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\Elham\.android\build-cache\660ac9a44c801e852991be8e092bd2d67ff0b1aa\output\AndroidManifest.xml:21:22-76
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] /home/bashimon/.android/build-cache/305ddffc9b95bbfb6ebb723e9d59623a377bd542/output/AndroidManifest.xml:21:22-76
 uses-permission#android.permission.WAKE_LOCK
-ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\Elham\.android\build-cache\660ac9a44c801e852991be8e092bd2d67ff0b1aa\output\AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] C:\Users\Elham\.android\build-cache\b8a25c70f404bfb51680523b3e7f194b6f96d120\output\AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Elham\.android\build-cache\99bb4da0ecc62f9642e8149b699b4fcec69eb53d\output\AndroidManifest.xml:21:5-67
+ADDED from [com.google.firebase:firebase-analytics:10.2.4] /home/bashimon/.android/build-cache/305ddffc9b95bbfb6ebb723e9d59623a377bd542/output/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] /home/bashimon/.android/build-cache/0ce7e7c4935e00969a2ada6e892972cf02603429/output/AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:10.2.4] /home/bashimon/.android/build-cache/b49361261481496dbe728a219ede4dd8ccdf3b86/output/AndroidManifest.xml:21:5-67
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\Elham\.android\build-cache\660ac9a44c801e852991be8e092bd2d67ff0b1aa\output\AndroidManifest.xml:22:22-65
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] /home/bashimon/.android/build-cache/305ddffc9b95bbfb6ebb723e9d59623a377bd542/output/AndroidManifest.xml:22:22-65
 receiver#com.google.android.gms.measurement.AppMeasurementReceiver
-ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\Elham\.android\build-cache\660ac9a44c801e852991be8e092bd2d67ff0b1aa\output\AndroidManifest.xml:25:7-26:18
-MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] C:\Users\Elham\.android\build-cache\b8a25c70f404bfb51680523b3e7f194b6f96d120\output\AndroidManifest.xml:25:7-26:18
+ADDED from [com.google.firebase:firebase-analytics:10.2.4] /home/bashimon/.android/build-cache/305ddffc9b95bbfb6ebb723e9d59623a377bd542/output/AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] /home/bashimon/.android/build-cache/0ce7e7c4935e00969a2ada6e892972cf02603429/output/AndroidManifest.xml:25:7-26:18
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\Elham\.android\build-cache\660ac9a44c801e852991be8e092bd2d67ff0b1aa\output\AndroidManifest.xml:25:90-112
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] /home/bashimon/.android/build-cache/305ddffc9b95bbfb6ebb723e9d59623a377bd542/output/AndroidManifest.xml:25:90-112
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\Elham\.android\build-cache\660ac9a44c801e852991be8e092bd2d67ff0b1aa\output\AndroidManifest.xml:25:113-137
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] /home/bashimon/.android/build-cache/305ddffc9b95bbfb6ebb723e9d59623a377bd542/output/AndroidManifest.xml:25:113-137
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\Elham\.android\build-cache\660ac9a44c801e852991be8e092bd2d67ff0b1aa\output\AndroidManifest.xml:25:17-89
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] /home/bashimon/.android/build-cache/305ddffc9b95bbfb6ebb723e9d59623a377bd542/output/AndroidManifest.xml:25:17-89
 receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
-ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\Elham\.android\build-cache\660ac9a44c801e852991be8e092bd2d67ff0b1aa\output\AndroidManifest.xml:27:7-31:18
+ADDED from [com.google.firebase:firebase-analytics:10.2.4] /home/bashimon/.android/build-cache/305ddffc9b95bbfb6ebb723e9d59623a377bd542/output/AndroidManifest.xml:27:7-31:18
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\Elham\.android\build-cache\660ac9a44c801e852991be8e092bd2d67ff0b1aa\output\AndroidManifest.xml:27:162-184
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] /home/bashimon/.android/build-cache/305ddffc9b95bbfb6ebb723e9d59623a377bd542/output/AndroidManifest.xml:27:162-184
 	android:permission
-		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\Elham\.android\build-cache\660ac9a44c801e852991be8e092bd2d67ff0b1aa\output\AndroidManifest.xml:27:105-161
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] /home/bashimon/.android/build-cache/305ddffc9b95bbfb6ebb723e9d59623a377bd542/output/AndroidManifest.xml:27:105-161
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\Elham\.android\build-cache\660ac9a44c801e852991be8e092bd2d67ff0b1aa\output\AndroidManifest.xml:27:17-104
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] /home/bashimon/.android/build-cache/305ddffc9b95bbfb6ebb723e9d59623a377bd542/output/AndroidManifest.xml:27:17-104
 intent-filter#com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\Elham\.android\build-cache\660ac9a44c801e852991be8e092bd2d67ff0b1aa\output\AndroidManifest.xml:28:11-30:27
+ADDED from [com.google.firebase:firebase-analytics:10.2.4] /home/bashimon/.android/build-cache/305ddffc9b95bbfb6ebb723e9d59623a377bd542/output/AndroidManifest.xml:28:11-30:27
 action#com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\Elham\.android\build-cache\660ac9a44c801e852991be8e092bd2d67ff0b1aa\output\AndroidManifest.xml:29:15-76
+ADDED from [com.google.firebase:firebase-analytics:10.2.4] /home/bashimon/.android/build-cache/305ddffc9b95bbfb6ebb723e9d59623a377bd542/output/AndroidManifest.xml:29:15-76
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\Elham\.android\build-cache\660ac9a44c801e852991be8e092bd2d67ff0b1aa\output\AndroidManifest.xml:29:23-74
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] /home/bashimon/.android/build-cache/305ddffc9b95bbfb6ebb723e9d59623a377bd542/output/AndroidManifest.xml:29:23-74
 service#com.google.android.gms.measurement.AppMeasurementService
-ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\Elham\.android\build-cache\660ac9a44c801e852991be8e092bd2d67ff0b1aa\output\AndroidManifest.xml:32:7-137
-MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] C:\Users\Elham\.android\build-cache\b8a25c70f404bfb51680523b3e7f194b6f96d120\output\AndroidManifest.xml:27:7-137
+ADDED from [com.google.firebase:firebase-analytics:10.2.4] /home/bashimon/.android/build-cache/305ddffc9b95bbfb6ebb723e9d59623a377bd542/output/AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] /home/bashimon/.android/build-cache/0ce7e7c4935e00969a2ada6e892972cf02603429/output/AndroidManifest.xml:27:7-137
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\Elham\.android\build-cache\660ac9a44c801e852991be8e092bd2d67ff0b1aa\output\AndroidManifest.xml:32:88-110
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] /home/bashimon/.android/build-cache/305ddffc9b95bbfb6ebb723e9d59623a377bd542/output/AndroidManifest.xml:32:88-110
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\Elham\.android\build-cache\660ac9a44c801e852991be8e092bd2d67ff0b1aa\output\AndroidManifest.xml:32:111-135
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] /home/bashimon/.android/build-cache/305ddffc9b95bbfb6ebb723e9d59623a377bd542/output/AndroidManifest.xml:32:111-135
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\Elham\.android\build-cache\660ac9a44c801e852991be8e092bd2d67ff0b1aa\output\AndroidManifest.xml:32:16-87
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] /home/bashimon/.android/build-cache/305ddffc9b95bbfb6ebb723e9d59623a377bd542/output/AndroidManifest.xml:32:16-87
 uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Elham\.android\build-cache\99bb4da0ecc62f9642e8149b699b4fcec69eb53d\output\AndroidManifest.xml:22:5-81
+ADDED from [com.google.firebase:firebase-iid:10.2.4] /home/bashimon/.android/build-cache/b49361261481496dbe728a219ede4dd8ccdf3b86/output/AndroidManifest.xml:22:5-81
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Elham\.android\build-cache\99bb4da0ecc62f9642e8149b699b4fcec69eb53d\output\AndroidManifest.xml:22:22-79
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] /home/bashimon/.android/build-cache/b49361261481496dbe728a219ede4dd8ccdf3b86/output/AndroidManifest.xml:22:22-79
 permission#${applicationId}.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Elham\.android\build-cache\99bb4da0ecc62f9642e8149b699b4fcec69eb53d\output\AndroidManifest.xml:24:5-109
+ADDED from [com.google.firebase:firebase-iid:10.2.4] /home/bashimon/.android/build-cache/b49361261481496dbe728a219ede4dd8ccdf3b86/output/AndroidManifest.xml:24:5-109
 	android:protectionLevel
-		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Elham\.android\build-cache\99bb4da0ecc62f9642e8149b699b4fcec69eb53d\output\AndroidManifest.xml:24:72-107
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] /home/bashimon/.android/build-cache/b49361261481496dbe728a219ede4dd8ccdf3b86/output/AndroidManifest.xml:24:72-107
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Elham\.android\build-cache\99bb4da0ecc62f9642e8149b699b4fcec69eb53d\output\AndroidManifest.xml:24:17-71
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] /home/bashimon/.android/build-cache/b49361261481496dbe728a219ede4dd8ccdf3b86/output/AndroidManifest.xml:24:17-71
 uses-permission#${applicationId}.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Elham\.android\build-cache\99bb4da0ecc62f9642e8149b699b4fcec69eb53d\output\AndroidManifest.xml:26:5-78
+ADDED from [com.google.firebase:firebase-iid:10.2.4] /home/bashimon/.android/build-cache/b49361261481496dbe728a219ede4dd8ccdf3b86/output/AndroidManifest.xml:26:5-78
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Elham\.android\build-cache\99bb4da0ecc62f9642e8149b699b4fcec69eb53d\output\AndroidManifest.xml:26:22-76
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] /home/bashimon/.android/build-cache/b49361261481496dbe728a219ede4dd8ccdf3b86/output/AndroidManifest.xml:26:22-76
 receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
-ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Elham\.android\build-cache\99bb4da0ecc62f9642e8149b699b4fcec69eb53d\output\AndroidManifest.xml:30:9-35:20
+ADDED from [com.google.firebase:firebase-iid:10.2.4] /home/bashimon/.android/build-cache/b49361261481496dbe728a219ede4dd8ccdf3b86/output/AndroidManifest.xml:30:9-35:20
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Elham\.android\build-cache\99bb4da0ecc62f9642e8149b699b4fcec69eb53d\output\AndroidManifest.xml:30:85-108
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] /home/bashimon/.android/build-cache/b49361261481496dbe728a219ede4dd8ccdf3b86/output/AndroidManifest.xml:30:85-108
 	android:permission
-		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Elham\.android\build-cache\99bb4da0ecc62f9642e8149b699b4fcec69eb53d\output\AndroidManifest.xml:30:109-169
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] /home/bashimon/.android/build-cache/b49361261481496dbe728a219ede4dd8ccdf3b86/output/AndroidManifest.xml:30:109-169
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Elham\.android\build-cache\99bb4da0ecc62f9642e8149b699b4fcec69eb53d\output\AndroidManifest.xml:30:19-84
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] /home/bashimon/.android/build-cache/b49361261481496dbe728a219ede4dd8ccdf3b86/output/AndroidManifest.xml:30:19-84
 intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Elham\.android\build-cache\99bb4da0ecc62f9642e8149b699b4fcec69eb53d\output\AndroidManifest.xml:31:13-34:29
+ADDED from [com.google.firebase:firebase-iid:10.2.4] /home/bashimon/.android/build-cache/b49361261481496dbe728a219ede4dd8ccdf3b86/output/AndroidManifest.xml:31:13-34:29
 action#com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Elham\.android\build-cache\99bb4da0ecc62f9642e8149b699b4fcec69eb53d\output\AndroidManifest.xml:32:17-80
+ADDED from [com.google.firebase:firebase-iid:10.2.4] /home/bashimon/.android/build-cache/b49361261481496dbe728a219ede4dd8ccdf3b86/output/AndroidManifest.xml:32:17-80
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Elham\.android\build-cache\99bb4da0ecc62f9642e8149b699b4fcec69eb53d\output\AndroidManifest.xml:32:25-78
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] /home/bashimon/.android/build-cache/b49361261481496dbe728a219ede4dd8ccdf3b86/output/AndroidManifest.xml:32:25-78
 category#${applicationId}
-ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Elham\.android\build-cache\99bb4da0ecc62f9642e8149b699b4fcec69eb53d\output\AndroidManifest.xml:33:17-60
+ADDED from [com.google.firebase:firebase-iid:10.2.4] /home/bashimon/.android/build-cache/b49361261481496dbe728a219ede4dd8ccdf3b86/output/AndroidManifest.xml:33:17-60
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Elham\.android\build-cache\99bb4da0ecc62f9642e8149b699b4fcec69eb53d\output\AndroidManifest.xml:33:27-58
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] /home/bashimon/.android/build-cache/b49361261481496dbe728a219ede4dd8ccdf3b86/output/AndroidManifest.xml:33:27-58
 receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
-ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Elham\.android\build-cache\99bb4da0ecc62f9642e8149b699b4fcec69eb53d\output\AndroidManifest.xml:39:9-119
+ADDED from [com.google.firebase:firebase-iid:10.2.4] /home/bashimon/.android/build-cache/b49361261481496dbe728a219ede4dd8ccdf3b86/output/AndroidManifest.xml:39:9-119
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Elham\.android\build-cache\99bb4da0ecc62f9642e8149b699b4fcec69eb53d\output\AndroidManifest.xml:39:93-117
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] /home/bashimon/.android/build-cache/b49361261481496dbe728a219ede4dd8ccdf3b86/output/AndroidManifest.xml:39:93-117
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Elham\.android\build-cache\99bb4da0ecc62f9642e8149b699b4fcec69eb53d\output\AndroidManifest.xml:39:19-92
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] /home/bashimon/.android/build-cache/b49361261481496dbe728a219ede4dd8ccdf3b86/output/AndroidManifest.xml:39:19-92
 service#com.google.firebase.iid.FirebaseInstanceIdService
-ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Elham\.android\build-cache\99bb4da0ecc62f9642e8149b699b4fcec69eb53d\output\AndroidManifest.xml:43:9-47:19
+ADDED from [com.google.firebase:firebase-iid:10.2.4] /home/bashimon/.android/build-cache/b49361261481496dbe728a219ede4dd8ccdf3b86/output/AndroidManifest.xml:43:9-47:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Elham\.android\build-cache\99bb4da0ecc62f9642e8149b699b4fcec69eb53d\output\AndroidManifest.xml:43:83-106
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] /home/bashimon/.android/build-cache/b49361261481496dbe728a219ede4dd8ccdf3b86/output/AndroidManifest.xml:43:83-106
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Elham\.android\build-cache\99bb4da0ecc62f9642e8149b699b4fcec69eb53d\output\AndroidManifest.xml:43:18-82
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] /home/bashimon/.android/build-cache/b49361261481496dbe728a219ede4dd8ccdf3b86/output/AndroidManifest.xml:43:18-82
 intent-filter#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Elham\.android\build-cache\99bb4da0ecc62f9642e8149b699b4fcec69eb53d\output\AndroidManifest.xml:44:13-46:29
+ADDED from [com.google.firebase:firebase-iid:10.2.4] /home/bashimon/.android/build-cache/b49361261481496dbe728a219ede4dd8ccdf3b86/output/AndroidManifest.xml:44:13-46:29
 	android:priority
-		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Elham\.android\build-cache\99bb4da0ecc62f9642e8149b699b4fcec69eb53d\output\AndroidManifest.xml:44:28-51
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] /home/bashimon/.android/build-cache/b49361261481496dbe728a219ede4dd8ccdf3b86/output/AndroidManifest.xml:44:28-51
 action#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Elham\.android\build-cache\99bb4da0ecc62f9642e8149b699b4fcec69eb53d\output\AndroidManifest.xml:45:17-79
+ADDED from [com.google.firebase:firebase-iid:10.2.4] /home/bashimon/.android/build-cache/b49361261481496dbe728a219ede4dd8ccdf3b86/output/AndroidManifest.xml:45:17-79
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Elham\.android\build-cache\99bb4da0ecc62f9642e8149b699b4fcec69eb53d\output\AndroidManifest.xml:45:25-77
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] /home/bashimon/.android/build-cache/b49361261481496dbe728a219ede4dd8ccdf3b86/output/AndroidManifest.xml:45:25-77
 meta-data#android.support.VERSION
-ADDED from [com.android.support:design:25.3.1] C:\Users\Elham\.android\build-cache\0d1c76aae798439ef7a05af0991728931543dd8b\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:transition:25.3.1] C:\Users\Elham\.android\build-cache\47784c916cf115c2a90163c9d265533c33f0d9e1\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Elham\.android\build-cache\75096ec17403138e4f46625586c212244f459092\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Elham\.android\build-cache\ba570a11ce7275b0642baa4e2dff9d92bd6300c7\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Elham\.android\build-cache\e722e25262974ac06465605f724f76b2202684fd\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Elham\.android\build-cache\88794ee0f62838b2141ed5145b8a5cf12bffc54e\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Elham\.android\build-cache\45d32a4116091286619e36c75bf7c6e85ae9f3f8\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Elham\.android\build-cache\17002630299761f66fa4a0496033a3aaccd5be4f\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Elham\.android\build-cache\d412fbc26c8d88e714ddba00ec96ee2a2b602425\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Elham\.android\build-cache\bd74ac2e5fc978124a50781d83973447a8f4777f\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Elham\.android\build-cache\52d25f17b8963b1a53738455af5256908213fe7a\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Elham\.android\build-cache\d21a5af8e805c52d6cdbba2ffe3a433d72d67241\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Elham\.android\build-cache\4fda6f0c09fd6e127745ba01e7e960baefa54c4f\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:exifinterface:25.3.1] C:\Users\Elham\.android\build-cache\3ce6fd761fa36dc1adb880e19a63bdbee743cad0\output\AndroidManifest.xml:22:5-24:34
+ADDED from [com.android.support:design:25.3.1] /home/bashimon/.android/build-cache/69c37760c35ca213de8d96fd570a0b26b1c368f7/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:transition:25.3.1] /home/bashimon/.android/build-cache/d3e1dd260dcd7c7c68a52b687984a732fb521a0e/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:cardview-v7:25.3.1] /home/bashimon/.android/build-cache/752cab7c32ed45c10a8c16841f579a85a88212b5/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] /home/bashimon/.android/build-cache/8671ab7d21b02835a64250c12a901f896e54bcfd/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] /home/bashimon/.android/build-cache/2932ef3193f5fca86bb1ef34fc4ad2b8b1c91ba6/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] /home/bashimon/.android/build-cache/0015e81cf6fa8f30b144de2376b4013b478f8e56/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] /home/bashimon/.android/build-cache/e0c1286d22612832c923f7f4b5d72a62a8caf89b/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /home/bashimon/.android/build-cache/821c188c768bb025d0964e92d8c91aac728f2304/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /home/bashimon/.android/build-cache/56341321a4203d57cc6ab6bfc631b12dd8d5bb92/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /home/bashimon/.android/build-cache/821ca273b730438ccd9086e9ad28f3a8b5a25199/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /home/bashimon/.android/build-cache/b632e9b9ea3c8c97bcf89873abd332e58a580c1a/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /home/bashimon/.android/build-cache/cdc00d95c2dc96b448a9af21bc71c04e5ec4901c/output/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-compat:25.3.1] /home/bashimon/.android/build-cache/39b3a541c52dd37c4f70c5cca9c7b44b2d6e77c6/output/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:exifinterface:25.3.1] /home/bashimon/.android/build-cache/6f4341e2a993aa3dd5fb8dadccce48e5c9d099d9/output/AndroidManifest.xml:22:5-24:34
 	android:value
-		ADDED from [com.android.support:design:25.3.1] C:\Users\Elham\.android\build-cache\0d1c76aae798439ef7a05af0991728931543dd8b\output\AndroidManifest.xml:27:9-31
+		ADDED from [com.android.support:design:25.3.1] /home/bashimon/.android/build-cache/69c37760c35ca213de8d96fd570a0b26b1c368f7/output/AndroidManifest.xml:27:9-31
 	android:name
-		ADDED from [com.android.support:design:25.3.1] C:\Users\Elham\.android\build-cache\0d1c76aae798439ef7a05af0991728931543dd8b\output\AndroidManifest.xml:26:9-47
+		ADDED from [com.android.support:design:25.3.1] /home/bashimon/.android/build-cache/69c37760c35ca213de8d96fd570a0b26b1c368f7/output/AndroidManifest.xml:26:9-47
 meta-data#com.google.android.gms.version
-ADDED from [com.firebaseui:firebase-ui-database:1.2.0] C:\Users\Elham\.android\build-cache\7a1cf1c3da561d3e97f201985fc7f62427542a53\output\AndroidManifest.xml:14:9-16:69
-MERGED from [com.google.android.gms:play-services-basement:10.2.4] C:\Users\Elham\.android\build-cache\462a329b8539f9dd97e5bf64f95380c017273abe\output\AndroidManifest.xml:20:9-121
+ADDED from [com.firebaseui:firebase-ui-database:1.2.0] /home/bashimon/.android/build-cache/90fa762d47d4d10c54a5a8de540de9f6738771ba/output/AndroidManifest.xml:14:9-16:69
+MERGED from [com.google.android.gms:play-services-basement:10.2.4] /home/bashimon/.android/build-cache/2b099a493e8ef6f9f4bc2e4b3397f87e9b44654f/output/AndroidManifest.xml:20:9-121
 	android:value
-		ADDED from [com.firebaseui:firebase-ui-database:1.2.0] C:\Users\Elham\.android\build-cache\7a1cf1c3da561d3e97f201985fc7f62427542a53\output\AndroidManifest.xml:16:13-66
+		ADDED from [com.firebaseui:firebase-ui-database:1.2.0] /home/bashimon/.android/build-cache/90fa762d47d4d10c54a5a8de540de9f6738771ba/output/AndroidManifest.xml:16:13-66
 	android:name
-		ADDED from [com.firebaseui:firebase-ui-database:1.2.0] C:\Users\Elham\.android\build-cache\7a1cf1c3da561d3e97f201985fc7f62427542a53\output\AndroidManifest.xml:15:13-58
+		ADDED from [com.firebaseui:firebase-ui-database:1.2.0] /home/bashimon/.android/build-cache/90fa762d47d4d10c54a5a8de540de9f6738771ba/output/AndroidManifest.xml:15:13-58
 provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:10.2.4] C:\Users\Elham\.android\build-cache\bd3d10dc648b72e42b485d14f814f738b37bb711\output\AndroidManifest.xml:6:9-194
+ADDED from [com.google.firebase:firebase-common:10.2.4] /home/bashimon/.android/build-cache/8aebd002a1e1092e9586686dfef51d9196c605a5/output/AndroidManifest.xml:6:9-194
 	android:authorities
-		ADDED from [com.google.firebase:firebase-common:10.2.4] C:\Users\Elham\.android\build-cache\bd3d10dc648b72e42b485d14f814f738b37bb711\output\AndroidManifest.xml:6:19-78
+		ADDED from [com.google.firebase:firebase-common:10.2.4] /home/bashimon/.android/build-cache/8aebd002a1e1092e9586686dfef51d9196c605a5/output/AndroidManifest.xml:6:19-78
 	android:exported
-		ADDED from [com.google.firebase:firebase-common:10.2.4] C:\Users\Elham\.android\build-cache\bd3d10dc648b72e42b485d14f814f738b37bb711\output\AndroidManifest.xml:6:144-168
+		ADDED from [com.google.firebase:firebase-common:10.2.4] /home/bashimon/.android/build-cache/8aebd002a1e1092e9586686dfef51d9196c605a5/output/AndroidManifest.xml:6:144-168
 	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:10.2.4] C:\Users\Elham\.android\build-cache\bd3d10dc648b72e42b485d14f814f738b37bb711\output\AndroidManifest.xml:6:169-192
+		ADDED from [com.google.firebase:firebase-common:10.2.4] /home/bashimon/.android/build-cache/8aebd002a1e1092e9586686dfef51d9196c605a5/output/AndroidManifest.xml:6:169-192
 	android:name
-		ADDED from [com.google.firebase:firebase-common:10.2.4] C:\Users\Elham\.android\build-cache\bd3d10dc648b72e42b485d14f814f738b37bb711\output\AndroidManifest.xml:6:79-143
+		ADDED from [com.google.firebase:firebase-common:10.2.4] /home/bashimon/.android/build-cache/8aebd002a1e1092e9586686dfef51d9196c605a5/output/AndroidManifest.xml:6:79-143

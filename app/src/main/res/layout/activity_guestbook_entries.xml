@@ -6,10 +6,15 @@
     android:layout_height="match_parent"
     android:weightSum="1">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
     <TextView
         android:id="@+id/textView3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:textSize="20sp"
         android:text="@string/textview"
         android:layout_weight="1" />
+    </ScrollView>
 </LinearLayout>

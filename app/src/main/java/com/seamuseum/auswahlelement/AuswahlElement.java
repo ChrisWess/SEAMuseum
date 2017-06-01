@@ -43,7 +43,7 @@ public final class AuswahlElement
             case R.string.auswahl4:
                 return R.drawable.gemini;
             case R.string.auswahl5:
-                return R.drawable.leo;
+                return R.drawable.scorpius;
             default:
                 return R.drawable.icon;
         }
