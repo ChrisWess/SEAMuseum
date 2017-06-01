@@ -58,7 +58,9 @@
         <activity android:name="com.seamuseum.auswahlelement.kontakt.KontaktActivity" />
         <activity android:name="com.seamuseum.auswahlelement.service.ServiceActivity" />
         <activity android:name="com.seamuseum.auswahlelement.preis.PreisActivity" />
-        <activity android:name="com.seamuseum.auswahlelement.werke.WerkActivity" />
+        <activity android:name="com.seamuseum.auswahlelement.guestbook.EntriesActivity" />
+        <activity android:name="com.seamuseum.auswahlelement.guestbook.GuestbookActivity" />
+        <activity android:name="com.seamuseum.auswahlelement.guestbook.WriteEntryActivity" />
 
         <receiver
             android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
