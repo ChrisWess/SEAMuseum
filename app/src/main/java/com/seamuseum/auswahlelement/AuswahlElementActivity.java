@@ -11,7 +11,7 @@ import android.view.View;
 import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 
-import com.seamuseum.auswahlelement.angebote.AngeboteActivity;
+import com.seamuseum.auswahlelement.guestbook.GuestbookActivity;
 import com.seamuseum.auswahlelement.kontakt.KontaktActivity;
 import com.seamuseum.auswahlelement.service.ServiceActivity;
 import com.seamuseum.auswahlelement.spiele.QuizActivity;
@@ -74,6 +74,9 @@ public class AuswahlElementActivity extends ListActivity implements OnItemClickL
                 startActivity(i);
                 break;
             case R.string.auswahl5:
+                i = new Intent();
+                i.setClass(getApplicationContext(), GuestbookActivity.class);
+                startActivity(i);
                 break;
             default:
         }
