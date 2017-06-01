@@ -124,7 +124,7 @@ ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:38:
 	android:name
 		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:38:19-54
 activity#com.seamuseum.auswahlelement.werke.WerkActivity
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:39:9-65
+ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:39:9-56
 	android:name
 		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:39:19-53
 uses-sdk
