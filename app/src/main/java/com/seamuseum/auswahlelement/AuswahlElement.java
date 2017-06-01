@@ -35,15 +35,15 @@ public final class AuswahlElement
         switch (getAuswahlElement())
         {
             case R.string.auswahl1:
-                return R.drawable.aquarius;
+                return R.drawable.icon_werke;
             case R.string.auswahl2:
-                return R.drawable.aries;
+                return R.drawable.icon_games;
             case R.string.auswahl3:
-                return R.drawable.cancer;
+                return R.drawable.icon_service;
             case R.string.auswahl4:
-                return R.drawable.gemini;
+                return R.drawable.icon_maps;
             case R.string.auswahl5:
-                return R.drawable.scorpius;
+                return R.drawable.icon_guestbook;
             default:
                 return R.drawable.icon;
         }
