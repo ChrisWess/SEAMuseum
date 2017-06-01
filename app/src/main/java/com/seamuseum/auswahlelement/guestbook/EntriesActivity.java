@@ -24,6 +24,10 @@ import com.seamuseum.auswahlelement.R;
 
 import org.w3c.dom.Text;
 
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+
 public class EntriesActivity extends Activity {
 
     public TextView text;
@@ -47,16 +51,30 @@ public class EntriesActivity extends Activity {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot) {
                 SpannableStringBuilder sb = new SpannableStringBuilder();
+                List<User> users = new ArrayList<User>();
+
                 for (DataSnapshot postSnapshot: dataSnapshot.getChildren()) {
+                    if(postSnapshot != null)
+                    {
+                        String nameOhneDatum= postSnapshot.child("Name").getValue().toString();
+                        String nachricht = postSnapshot.child("Nachricht").getValue().toString();
+                        long zeitpunkt = Long.parseLong(postSnapshot.child("Datum").getValue().toString());
+                        User user = new User(nameOhneDatum, nachricht, zeitpunkt);
+                        users.add(user);
+                    }
+
+                }
+                Collections.sort(users);
+                for(User user : users)
+                {
                     int start = sb.length();
-                    String key= nameWithoutDate(postSnapshot.getKey().toString());
-                    sb.append(key);
+                    sb.append(user.get_name());
                     sb.setSpan(new RelativeSizeSpan(1.5f), start, sb.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
                     sb.setSpan(new ForegroundColorSpan(Color.BLACK), start, sb.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
-                    String value= postSnapshot.getValue().toString();
+                    //String value= postSnapshot.getValue().toString();
                     sb.append("\n");
-                    sb.append(value);
-                    sb.setSpan(new ForegroundColorSpan(Color.GRAY), sb.length() - value.length(), sb.length(), 0);
+                    sb.append(user.get_message());
+                    sb.setSpan(new ForegroundColorSpan(Color.GRAY), sb.length() - user.get_message().length(), sb.length(), 0);
                     sb.append("\n \n");
                 }
                 text.setText(sb);
@@ -68,18 +86,5 @@ public class EntriesActivity extends Activity {
                 // ...
             }
         });
-    }
-
-    private String nameWithoutDate(String nameWithDate)
-    {
-        char c = nameWithDate.charAt(0);
-        String result = "";
-        int i = 0;
-        while(c != '@')
-        {
-            result+=c;
-            c=nameWithDate.charAt(++i);
-        }
-        return result;
     }
 }

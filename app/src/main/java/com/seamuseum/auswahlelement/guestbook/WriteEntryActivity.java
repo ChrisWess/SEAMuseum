@@ -40,14 +40,23 @@ public class WriteEntryActivity extends Activity {
             public void onClick(View v)
             {
                 Context context = getApplicationContext();
-                int duration = Toast.LENGTH_LONG;
-                long msTime = System.currentTimeMillis();
-                //Android Studio supportet alles über Java 7 nicht vollumfänglich, u.a. LocalDate.
-                Date curDateTime = new Date(msTime);
-                _childRef = _rootRef.child("guestbookentries").child(namefeld.getText().toString() + " @ " + curDateTime);
-                _childRef.setValue(textfeld.getText().toString());
-                Toast toast = Toast.makeText(context, "Abgesendet", duration);
+                int duration = Toast.LENGTH_SHORT;
+                Toast toast;
+                if(!textfeld.getText().toString().equals("") && !namefeld.getText().toString().equals(""))
+                {
+                    User user = new User(namefeld.getText().toString(), textfeld.getText().toString());
+                    _childRef = _rootRef.child("guestbookentries").child(user.toString());
+                    _childRef.child("Nachricht").setValue(user.get_message());
+                    _childRef.child("Name").setValue(user.get_name());
+                    _childRef.child("Datum").setValue(user.get_time());
+                    toast = Toast.makeText(context, "Abgesendet", duration);
+                }
+                else
+                {
+                    toast = Toast.makeText(context, "Sie müssen einen Namen und eine Nachricht eingeben!", duration);
+                }
                 toast.show();
+
             }
         });
         //  Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
