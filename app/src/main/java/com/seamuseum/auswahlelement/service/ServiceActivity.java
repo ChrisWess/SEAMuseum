@@ -9,8 +9,6 @@ import android.widget.Button;
 
 import com.seamuseum.auswahlelement.AuswahlElementActivity;
 import com.seamuseum.auswahlelement.R;
-import com.seamuseum.auswahlelement.kontakt.KontaktActivity;
-import com.seamuseum.auswahlelement.preis.PreisActivity;
 
 public class ServiceActivity extends Activity
 {

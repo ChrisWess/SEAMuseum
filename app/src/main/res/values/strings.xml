@@ -15,10 +15,23 @@
     <string name="werk4">D</string>
     <string name="werk5">E</string>
     <string name="action_settings">Einstellungen</string>
-    <!-- Für das Quiz -->
+
+    <!-- Für die Spiele -->
+    <string name="spielelabel">Spiele</string>
     <string name="quiz_beschreibung">Stellen sie ihr Wissen über Kunst, Künstler und Kunstgeschichte auf die Probe!
-    \nDie Fragen beziehen sich auf Informationen und Werke unserer aktullen Ausstellungen.
-    \nViel Spaß...</string>
+    \nDie Fragen beziehen sich auf Informationen und Werke unserer aktuellen Ausstellungen.
+    \nViel Spaß!</string>
+    <string name="spiel1">Quiz</string>
+    <string name="spiel2">Memory</string>
+    <string name="spiel3">Artsweeper</string>
+    <string name="over_flag_limit_error">Flaggenlimit erreicht. Entfernen sie bitte zuerst eine Flagge.</string>
+    <string name="uncover_tile_error">Sie müssen eine Flagge entfernen.</string>
+    <string name="board_initialization_error">Es trat ein Fehler beim Starten des Spiels auf.</string>
+    <string name="finish_button">auflösen</string>
+    <string name="reset_button">erneut</string>
+    <string name="game_reset_error">Fehler beim Zurücksetzen des Spiels.</string>
+    <string name="win_message">Sie haben gewonnen!</string>
+    <string name="loss_message">Verloren!</string>
 
     <!-- Für KontaktActivity -->
     <string name="kontakt_infos">Museum 42 \n \nKontakt: \nFrau Wess \nMuseum 42 \nMuseumstraße 42
@@ -36,6 +49,7 @@
     <string name="title_activity_guestbook_options">Gästebuch</string>
     <string name="title_activity_guestbook_write">Nachricht verfassen</string>
     <string name="abschicken">Abschicken</string>
+    <string name="textview">TODO</string>
 
 
 </resources>
