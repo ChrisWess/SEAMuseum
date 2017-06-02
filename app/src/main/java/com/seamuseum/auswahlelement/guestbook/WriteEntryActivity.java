@@ -43,7 +43,7 @@ public class WriteEntryActivity extends Activity {
                 Context context = getApplicationContext();
                 int duration = Toast.LENGTH_SHORT;
                 Toast toast;
-                if(!textfeld.getText().toString().equals("") && namefeld.getText().toString().matches("[A-Za-z]+") && !namefeld.getText().toString().equals(""))
+                if(!textfeld.getText().toString().equals("") && namefeld.getText().toString().matches("[A-Za-z ]+") && !namefeld.getText().toString().equals(""))
                 {
                     User user = new User(namefeld.getText().toString(), textfeld.getText().toString());
                     _childRef = _rootRef.child("guestbookentries").child(user.toString());
@@ -52,7 +52,7 @@ public class WriteEntryActivity extends Activity {
                     _childRef.child("Datum").setValue(user.get_time());
                     toast = Toast.makeText(context, "Abgesendet", duration);
                 }
-                else if(!namefeld.getText().toString().matches("[A-Za-z]+"))
+                else if(!namefeld.getText().toString().matches("[A-Za-z ]*"))
                 {
                     toast = Toast.makeText(context, "Sonderzeichen sind im Namen nicht erlaubt!", duration);
                 }

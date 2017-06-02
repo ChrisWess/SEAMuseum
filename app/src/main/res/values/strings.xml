@@ -3,7 +3,7 @@
     <string name="app_name">Museumsapp</string>
     <string name="auswahl1">Werke</string>
     <string name="auswahl2">Spiele</string>
-    <string name="auswahl3">Service </string>
+    <string name="auswahl3">Kontakt und Leistungen </string>
     <string name="auswahl4">Karte</string>
     <string name="auswahl5">Gästebuch</string>
     <string name="menu1">Anmelden</string>
@@ -49,7 +49,7 @@
     <string name="title_activity_guestbook_options">Gästebuch</string>
     <string name="title_activity_guestbook_write">Nachricht verfassen</string>
     <string name="abschicken">Abschicken</string>
-    <string name="textview">TODO</string>
+    <string name="textview">Wird geladen...</string>
 
 
 </resources>

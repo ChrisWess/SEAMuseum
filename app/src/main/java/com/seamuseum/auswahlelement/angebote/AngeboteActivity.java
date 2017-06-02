@@ -18,7 +18,9 @@ import com.seamuseum.auswahlelement.R;
  * Created by Elham on 01.05.2017.
  */
 
-public class AngeboteActivity extends Activity
+public class
+
+AngeboteActivity extends Activity
 {
     private TextView _textView;
     private Button _blaButton;
