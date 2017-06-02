@@ -54,7 +54,7 @@ public class EntriesActivity extends Activity {
                 List<User> users = new ArrayList<User>();
 
                 for (DataSnapshot postSnapshot: dataSnapshot.getChildren()) {
-                    if(postSnapshot != null)
+                    if(postSnapshot != null && postSnapshot.child("Name") != null)
                     {
                         String nameOhneDatum= postSnapshot.child("Name").getValue().toString();
                         String nachricht = postSnapshot.child("Nachricht").getValue().toString();
@@ -69,12 +69,17 @@ public class EntriesActivity extends Activity {
                 {
                     int start = sb.length();
                     sb.append(user.get_name());
-                    sb.setSpan(new RelativeSizeSpan(1.5f), start, sb.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+                    sb.setSpan(new RelativeSizeSpan(1.75f), start, sb.length(), 0);
                     sb.setSpan(new ForegroundColorSpan(Color.BLACK), start, sb.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
                     //String value= postSnapshot.getValue().toString();
                     sb.append("\n");
+                    sb.append(user.get_date().toString());
+                    sb.setSpan(new RelativeSizeSpan(0.8f), sb.length() - user.get_date().toString().length(), sb.length(), 0);
+                    sb.setSpan(new ForegroundColorSpan(Color.GRAY), sb.length() - user.get_date().toString().length(), sb.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+                    sb.append("\n");
                     sb.append(user.get_message());
-                    sb.setSpan(new ForegroundColorSpan(Color.GRAY), sb.length() - user.get_message().length(), sb.length(), 0);
+                    sb.setSpan(new RelativeSizeSpan(1.25f), sb.length() - user.get_message().length(), sb.length(), 0);
+                    sb.setSpan(new ForegroundColorSpan(Color.BLACK), sb.length() - user.get_message().length(), sb.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
                     sb.append("\n \n");
                 }
                 text.setText(sb);
