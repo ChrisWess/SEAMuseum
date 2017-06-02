@@ -1,6 +1,7 @@
 package com.seamuseum.auswahlelement.guestbook;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
 import android.text.Layout;
@@ -10,6 +11,8 @@ import android.text.Spanned;
 import android.text.style.AlignmentSpan;
 import android.text.style.ForegroundColorSpan;
 import android.text.style.RelativeSizeSpan;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -27,6 +30,7 @@ public class
 EntriesActivity extends Activity {
 
     public TextView text;
+    public Button bttn;
     private static int i;
     private DatabaseReference _rootRef;
 
@@ -35,6 +39,18 @@ EntriesActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_guestbook_entries);
         text = (TextView) findViewById(R.id.textView3);
+        bttn = (Button) findViewById(R.id.button3);
+        bttn.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent();
+                i.setClass(getApplicationContext(), WriteEntryActivity.class);
+                startActivity(i);
+            }
+
+            });
+
         refreshEntries();
     }
 
