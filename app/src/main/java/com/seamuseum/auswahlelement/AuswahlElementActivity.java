@@ -12,10 +12,9 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 
 import com.seamuseum.auswahlelement.guestbook.GuestbookActivity;
-import com.seamuseum.auswahlelement.kontakt.KontaktActivity;
+import com.seamuseum.auswahlelement.service.KontaktActivity;
 import com.seamuseum.auswahlelement.service.ServiceActivity;
-import com.seamuseum.auswahlelement.spiele.QuizActivity;
-import com.seamuseum.auswahlelement.werke.FragmentDemo3Activity;
+import com.seamuseum.auswahlelement.spiele.UebersichtMenu;
 import com.seamuseum.auswahlelement.werke.WerkeMainActivity;
 
 /**
@@ -60,7 +59,7 @@ public class AuswahlElementActivity extends ListActivity implements OnItemClickL
                 break;
             case R.string.auswahl2:
                 i = new Intent();
-                i.setClass(getApplicationContext(), QuizActivity.class);
+                i.setClass(getApplicationContext(), UebersichtMenu.class);
                 startActivity(i);
                 break;
             case R.string.auswahl3:
