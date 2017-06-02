@@ -1,6 +1,7 @@
 package com.seamuseum.auswahlelement.comments;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
@@ -11,9 +12,13 @@ import android.text.Spanned;
 import android.text.style.AlignmentSpan;
 import android.text.style.ForegroundColorSpan;
 import android.text.style.RelativeSizeSpan;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
+import android.widget.Toast;
+
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
@@ -21,6 +26,7 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
 import com.seamuseum.auswahlelement.R;
+import com.seamuseum.auswahlelement.werke.WerkActivity;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -29,7 +35,6 @@ import java.util.List;
 public class EntriesActivity extends Activity {
 
     public TextView text;
-    public Button bttn;
     public static String key;
     private static int i;
     private DatabaseReference _rootRef;
@@ -39,19 +44,29 @@ public class EntriesActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_guestbook_entries);
         text = (TextView) findViewById(R.id.textView3);
-        bttn = (Button) findViewById(R.id.button3);
-        bttn.setOnClickListener(new View.OnClickListener()
-        {
-            @Override
-            public void onClick(View v) {
-                Intent i = new Intent();
-                i.setClass(getApplicationContext(), WriteEntryActivity.class);
-                startActivity(i);
-            }
-
-            });
-
         refreshEntries();
+    }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.werke_main_menu, menu);
+        return super.onCreateOptionsMenu(menu);
+
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if (item.getItemId() == R.id.action_add)
+        {
+            startActivity(new Intent(getApplicationContext(), WriteEntryActivity.class));
+        }
+        if(item.getItemId() == R.id.action_settings)
+        {
+            Context context = getApplicationContext();
+            Toast toast = Toast.makeText(context, "Beleidigungen verboten!", Toast.LENGTH_SHORT);
+            toast.show();
+        }
+        return super.onOptionsItemSelected(item);
     }
 
     private void refreshEntries()
@@ -69,7 +84,8 @@ public class EntriesActivity extends Activity {
                     List<User> users = new ArrayList<User>();
 
                     for (DataSnapshot postSnapshot: dataSnapshot.getChildren()) {
-                        if(postSnapshot != null && postSnapshot.child("Name") != null)
+                        if(postSnapshot != null && postSnapshot.child("Name") != null && postSnapshot.child("Name").getValue() != null
+                                && postSnapshot.child("Nachricht").getValue() != null && postSnapshot.child("Datum").getValue() != null)
                         {
                             String nameOhneDatum= postSnapshot.child("Name").getValue().toString();
                             String nachricht = postSnapshot.child("Nachricht").getValue().toString();

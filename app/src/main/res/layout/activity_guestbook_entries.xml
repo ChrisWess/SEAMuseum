@@ -8,20 +8,14 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="338dp"
-        android:layout_weight="0.96">
+        android:layout_height="wrap_content"
+        android:layout_weight="1">
 
         <TextView
             android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_weight="0.9"
+            android:layout_weight="1"
             android:text="@string/textview" />
     </ScrollView>
-
-    <Button
-        android:id="@+id/button3"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Eigenen Kommentar verfassen" />
 </LinearLayout>
