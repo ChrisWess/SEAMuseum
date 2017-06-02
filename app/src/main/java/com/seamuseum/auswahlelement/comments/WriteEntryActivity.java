@@ -1,4 +1,4 @@
-package com.seamuseum.auswahlelement.guestbook;
+package com.seamuseum.auswahlelement.comments;
 
 import android.app.Activity;
 import android.content.Context;
@@ -9,15 +9,9 @@ import android.widget.EditText;
 import android.widget.Toast;
 
 
-import com.google.firebase.database.DataSnapshot;
-import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
-import com.google.firebase.database.ValueEventListener;
 import com.seamuseum.auswahlelement.R;
-
-import java.util.Date;
-import java.util.regex.Pattern;
 
 public class WriteEntryActivity extends Activity {
 

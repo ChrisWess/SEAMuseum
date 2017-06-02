@@ -45,8 +45,8 @@
         <activity android:name=".service.KontaktActivity" />
         <activity android:name=".service.ServiceActivity" />
         <activity android:name=".service.PreisActivity" />
-        <activity android:name=".guestbook.EntriesActivity" />
-        <activity android:name=".guestbook.WriteEntryActivity" />
+        <activity android:name=".comments.EntriesActivity" />
+        <activity android:name=".comments.WriteEntryActivity" />
     </application>
 
 </manifest>

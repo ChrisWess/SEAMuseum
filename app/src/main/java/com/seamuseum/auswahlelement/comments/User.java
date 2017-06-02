@@ -1,4 +1,4 @@
-package com.seamuseum.auswahlelement.guestbook;
+package com.seamuseum.auswahlelement.comments;
 
 import java.util.Date;
 
