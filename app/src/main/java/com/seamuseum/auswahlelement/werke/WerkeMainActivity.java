@@ -34,6 +34,9 @@ public class WerkeMainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_werke_main);
 
+        //IMON
+        context=this.getApplicationContext();
+        activity=this;
 
         _werkeList = (RecyclerView) findViewById(R.id.werke_list);
         _werkeList.setHasFixedSize(true);
@@ -57,6 +60,8 @@ public class WerkeMainActivity extends Activity {
                 viewHolder.setTitle(model.getTitel());
                 viewHolder.setDesc(model.getBeschreibung());
                 viewHolder.setImage(getApplicationContext(), model.getBildUrl());
+                //IMON
+                viewHolder.setButton(model.getTitel());
             }
         };
         _werkeList.setAdapter(firebaseRecyclerAdapter);
@@ -91,7 +96,29 @@ public class WerkeMainActivity extends Activity {
                     .centerCrop()
                     .into(werkImage);
         }
+
+        /** IMON*/
+        public void setButton(final String button) {
+            ImageButton imagebutton = (ImageButton) _view.findViewById(R.id.addCommentWerk);
+            EntriesActivity.key = button;
+            imagebutton.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v)
+                {
+                     activity.startActivity(new Intent(context, EntriesActivity.class));
+                }
+
+            });
+
+         /** IMON ENDE */
+
+        }
     }
+/** IMON */
+    private static Context context;
+
+    private static Activity activity;
+/** IMON ENDE*/
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.werke_main_menu, menu);
