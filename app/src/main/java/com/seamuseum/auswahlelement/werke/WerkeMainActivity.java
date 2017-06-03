@@ -98,7 +98,7 @@ public class WerkeMainActivity extends Activity {
         }
 
         /** IMON*/
-        public void setButton(String button) {
+        public void setButton(final String button) {
             ImageButton imagebutton = (ImageButton) _view.findViewById(R.id.addCommentWerk);
             EntriesActivity.key = button;
             imagebutton.setOnClickListener(new View.OnClickListener() {
