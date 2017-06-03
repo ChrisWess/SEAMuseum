@@ -19,6 +19,7 @@
 
     <!-- Für die Spiele -->
     <string name="spielelabel">Spiele</string>
+    <string name="quizlabel">Minigame: Quiz</string>
     <string name="quiz_beschreibung">Stellen sie ihr Wissen über Kunst, Künstler und Kunstgeschichte auf die Probe!
     \nDie Fragen beziehen sich auf Informationen und Werke unserer aktuellen Ausstellungen.
     \nViel Spaß!</string>
