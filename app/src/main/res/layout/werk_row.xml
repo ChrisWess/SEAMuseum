@@ -13,7 +13,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:adjustViewBounds="true"
-            android:cropToPadding="false"
             android:scaleType="fitXY"
             android:src="@mipmap/add_btn" />
 
@@ -22,7 +21,6 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:padding="15dp"
-            android:text="Titel des Werks"
             android:textSize="16sp"
             android:textStyle="bold" />
 
@@ -30,8 +28,7 @@
             android:id="@+id/werk_desc"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="15dp"
-            android:text="Beschreibung" />
+            android:padding="15dp" />
 
         <ImageButton
             android:id="@+id/addCommentWerk"

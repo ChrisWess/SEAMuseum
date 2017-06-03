@@ -42,7 +42,8 @@ public class WerkeMainActivity extends Activity {
         _werkeList.setHasFixedSize(true);
         _werkeList.setLayoutManager(new LinearLayoutManager(this));
 
-        _database = FirebaseDatabase.getInstance().getReference().child("Werke");
+        _database = FirebaseDatabase.getInstance().getReference().child(
+                getApplicationContext().getString(R.string.werkeDbRef));
     }
 
     @Override

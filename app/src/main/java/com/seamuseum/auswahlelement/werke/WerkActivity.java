@@ -10,6 +10,7 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
+import android.widget.Toast;
 
 import com.google.android.gms.tasks.OnSuccessListener;
 import com.google.firebase.database.DatabaseReference;
@@ -46,7 +47,8 @@ public class WerkActivity extends Activity {
         _submitBtn = (Button) findViewById(R.id.submitBtn);
 
         _storage = FirebaseStorage.getInstance().getReference();
-        _database = FirebaseDatabase.getInstance().getReference().child("Werke");
+        _database = FirebaseDatabase.getInstance().getReference().child(
+                getApplicationContext().getString(R.string.werkeDbRef));
 
         _progress = new ProgressDialog(this);
 
@@ -69,23 +71,24 @@ public class WerkActivity extends Activity {
     }
 
     private void startPosting() {
-        _progress.setMessage("Werk wird hochgeladen");
-        _progress.show();
+        _progress.setMessage(getApplicationContext().getString(R.string.uploadWerk));
 
         final String titleValue = _werkTitle.getText().toString().trim();
         final String descValue = _werkDesc.getText().toString().trim();
 
         if (!TextUtils.isEmpty(titleValue) && !TextUtils.isEmpty(descValue) && _imageUri != null) {
-            StorageReference filepath = _storage.child("Werke_Bilder").child(_imageUri.getLastPathSegment());
+            _progress.show();
+            StorageReference filepath = _storage.child(getApplicationContext().getString(R.string.werkeStorage))
+                    .child(_imageUri.getLastPathSegment());
             filepath.putFile(_imageUri).addOnSuccessListener(new OnSuccessListener<UploadTask.TaskSnapshot>() {
                 @Override
                 public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
                     Uri downloadUrl = taskSnapshot.getDownloadUrl();
 
                     DatabaseReference newWerk = _database.push();
-                    newWerk.child("titel").setValue(titleValue);
-                    newWerk.child("beschreibung").setValue(descValue);
-                    newWerk.child("bildUrl").setValue(downloadUrl.toString());
+                    newWerk.child(getApplicationContext().getString(R.string.titelDb)).setValue(titleValue);
+                    newWerk.child(getApplicationContext().getString(R.string.beschreibungDb)).setValue(descValue);
+                    newWerk.child(getApplicationContext().getString(R.string.bildDb)).setValue(downloadUrl.toString());
 
                     Intent homeIntent = new Intent(getApplicationContext(), WerkeMainActivity.class);
                     homeIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
@@ -93,6 +96,10 @@ public class WerkActivity extends Activity {
                     _progress.dismiss();
                 }
             });
+        }
+        else
+        {
+            Toast.makeText(getApplicationContext(), R.string.uploadNotPossible, Toast.LENGTH_LONG).show();
         }
     }
 
@@ -102,7 +109,6 @@ public class WerkActivity extends Activity {
         if (requestCode == GALLERY_REQUEST && resultCode == RESULT_OK) {
             _imageUri = data.getData();
             CropImage.activity(_imageUri)
-                    .setMaxCropResultSize(100, 100)
                     .setAspectRatio(3, 2)
                     .start(this);
         }

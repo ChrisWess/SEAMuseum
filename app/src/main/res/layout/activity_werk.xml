@@ -25,7 +25,7 @@
         android:layout_marginTop="25dp"
         android:ems="15"
         android:background="@drawable/input_outline"
-        android:hint="Titel"
+        android:hint="@string/werkTitel"
         android:inputType="textPersonName"
         android:padding="15dp" />
 
@@ -38,7 +38,7 @@
         android:layout_marginTop="15dp"
         android:background="@drawable/input_outline"
         android:ems="15"
-        android:hint="Beschreibung"
+        android:hint="@string/werkBeschreibung"
         android:inputType="textMultiLine"
         android:padding="15dp" />
 
@@ -48,6 +48,6 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:text="Werk erstellen" /> />
+        android:text="@string/createWerk" />
 
 </RelativeLayout>

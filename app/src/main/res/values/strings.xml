@@ -15,7 +15,10 @@
     <string name="werk3">C</string>
     <string name="werk4">D</string>
     <string name="werk5">E</string>
+
+    <!-- Für das Gästebuch -->
     <string name="action_settings">Einstellungen</string>
+
 
     <!-- Für die Spiele -->
     <string name="spielelabel">Spiele</string>
@@ -51,6 +54,20 @@
     <string name="title_activity_guestbook_write">Nachricht verfassen</string>
     <string name="abschicken">Abschicken</string>
     <string name="textview">Wird geladen...</string>
+
+    <!-- Für die Werke -->
+    <string name="uploadNotPossible">Wählen Sie bitte ein Bild und füllen Sie alle Felder aus!</string>
+    <string name="werkTitel">Titel des Werks</string>
+    <string name="werkBeschreibung">Beschreibung</string>
+    <string name="addWerk">Füge Werk hinzu</string>
+    <string name="infoWerk">Weitere Informationen</string>
+    <string name="createWerk">Werk erstellen</string>
+    <string name="uploadWerk">Werk wird hochgeladen</string>
+    <string name="werkeDbRef">Werke</string>
+    <string name="werkeStorage">Werke_Bilder</string>
+    <string name="titelDb">titel</string>
+    <string name="beschreibungDb">beschreibung</string>
+    <string name="bildDb">bildUrl</string>
 
 
 </resources>
