@@ -16,8 +16,11 @@ import android.widget.TextView;
 
 import com.bumptech.glide.Glide;
 import com.firebase.ui.database.FirebaseRecyclerAdapter;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 import com.seamuseum.auswahlelement.R;
 import com.seamuseum.auswahlelement.comments.EntriesActivity;
 import com.seamuseum.auswahlelement.comments.WriteEntryActivity;
@@ -60,6 +63,7 @@ public class WerkeMainActivity extends Activity {
             }
         };
         _werkeList.setAdapter(firebaseRecyclerAdapter);
+
     }
 
     public static class WerkViewHolder extends RecyclerView.ViewHolder{
@@ -88,7 +92,6 @@ public class WerkeMainActivity extends Activity {
             ImageView werkImage  = (ImageView) _view.findViewById(R.id.werk_image);
             Glide.with(ctx)
                     .load(image)
-                    .centerCrop()
                     .into(werkImage);
         }
 

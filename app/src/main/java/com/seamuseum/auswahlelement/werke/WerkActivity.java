@@ -72,8 +72,8 @@ public class WerkActivity extends Activity {
         _progress.setMessage("Werk wird hochgeladen");
         _progress.show();
 
-        String titleValue = _werkTitle.getText().toString().trim();
-        String descValue = _werkDesc.getText().toString().trim();
+        final String titleValue = _werkTitle.getText().toString().trim();
+        final String descValue = _werkDesc.getText().toString().trim();
 
         if (!TextUtils.isEmpty(titleValue) && !TextUtils.isEmpty(descValue) && _imageUri != null) {
             StorageReference filepath = _storage.child("Werke_Bilder").child(_imageUri.getLastPathSegment());
@@ -83,13 +83,13 @@ public class WerkActivity extends Activity {
                     Uri downloadUrl = taskSnapshot.getDownloadUrl();
 
                     DatabaseReference newWerk = _database.push();
-                    newWerk.child("titel").setValue(_werkTitle);
-                    newWerk.child("beschreibung").setValue(_werkDesc);
+                    newWerk.child("titel").setValue(titleValue);
+                    newWerk.child("beschreibung").setValue(descValue);
                     newWerk.child("bildUrl").setValue(downloadUrl.toString());
 
-//                    Intent homeIntent = new Intent(getApplicationContext(), WerkeMainActivity.class);
-//                    homeIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-//                    startActivity(homeIntent);
+                    Intent homeIntent = new Intent(getApplicationContext(), WerkeMainActivity.class);
+                    homeIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                    startActivity(homeIntent);
                     _progress.dismiss();
                 }
             });
@@ -102,6 +102,7 @@ public class WerkActivity extends Activity {
         if (requestCode == GALLERY_REQUEST && resultCode == RESULT_OK) {
             _imageUri = data.getData();
             CropImage.activity(_imageUri)
+                    .setMaxCropResultSize(100, 100)
                     .setAspectRatio(3, 2)
                     .start(this);
         }
