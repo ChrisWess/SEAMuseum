@@ -40,6 +40,8 @@ public final class AuswahlElement
                 return R.drawable.icon_games;
             case R.string.auswahl3:
                 return R.drawable.icon_service;
+            case R.string.auswahl6:
+                return R.drawable.icon_place;
             case R.string.auswahl4:
                 return R.drawable.icon_maps;
             case R.string.auswahl5:

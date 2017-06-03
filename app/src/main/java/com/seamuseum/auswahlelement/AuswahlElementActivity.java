@@ -67,8 +67,8 @@ public class AuswahlElementActivity extends ListActivity implements OnItemClickL
                 i.setClass(getApplicationContext(), ServiceActivity.class);
                 startActivity(i);
                 break;
-            case R.string.auswahl4:
-                i = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=restaurants"));
+            case R.string.auswahl6:
+                i = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=Museum für Kunst und Gewerbe Hamburg"));
                 i.setPackage("com.google.android.apps.maps");
                 startActivity(i);
                 break;

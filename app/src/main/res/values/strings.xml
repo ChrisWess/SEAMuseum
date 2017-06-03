@@ -4,8 +4,9 @@
     <string name="auswahl1">Werke</string>
     <string name="auswahl2">Spiele</string>
     <string name="auswahl3">Kontakt und Leistungen </string>
-    <string name="auswahl4">Karte</string>
+    <string name="auswahl4">Museumskarte</string>
     <string name="auswahl5">Gästebuch</string>
+    <string name="auswahl6">Anfahrt</string>
     <string name="menu1">Anmelden</string>
     <string name="menu2">Über uns</string>
     <string name="menu3">Rechtliches</string>
