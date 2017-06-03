@@ -8,15 +8,22 @@ import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ArrayAdapter;
+import android.widget.ImageButton;
 import android.widget.ListView;
+import android.widget.Toast;
 
 import com.seamuseum.auswahlelement.AuswahlElementActivity;
 import com.seamuseum.auswahlelement.R;
+import com.seamuseum.auswahlelement.comments.User;
 import com.seamuseum.auswahlelement.spiele.artsweeper.game.ArtSweeperActivity;
 import com.seamuseum.auswahlelement.spiele.quiz.QuizActivity;
 
 public class UebersichtMenu extends Activity {
     private static Context _context;
+    public ImageButton artsweeper;
+    public ImageButton memory;
+    public ImageButton quiz;
+    public ImageButton unknown;
 
     @Override
     protected void onStart() {
@@ -40,7 +47,51 @@ public class UebersichtMenu extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_uebersicht_menu);
+
+        //MUSS NUR GEÄNDERT WERDEN, DAMIT DIE ALTE VERSION WIEDER LÄUFT!
+        setContentView(R.layout.new_spieleuebersicht);
+
+        /** AB HIER NEUE VERSION */
+        artsweeper = (ImageButton) findViewById(R.id.buttonArtsweeper);
+        artsweeper.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                Intent i = new Intent();
+                i.setClass(_context, ArtSweeperActivity.class);
+                startActivity(i);
+            }
+        });
+        memory = (ImageButton) findViewById(R.id.buttonMemory);
+        memory.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+            }
+        });
+        quiz = (ImageButton) findViewById(R.id.buttonQuiz);
+        quiz.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                Intent i = new Intent();
+                i.setClass(_context, QuizActivity.class);
+                startActivity(i);
+            }
+        });
+        unknown = (ImageButton) findViewById(R.id.buttonUnbenannt);
+        unknown.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+            }
+        });
+
+        /** HIER ENDEN DIE ÄNDERUNGEN DER NEUEN VERSIONEN FÜR DIESE METHODE*/
     }
 
     /**
