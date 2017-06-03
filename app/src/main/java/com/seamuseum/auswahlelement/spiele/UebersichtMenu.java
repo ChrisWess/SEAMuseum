@@ -10,11 +10,9 @@ import android.view.View;
 import android.widget.ArrayAdapter;
 import android.widget.ImageButton;
 import android.widget.ListView;
-import android.widget.Toast;
 
 import com.seamuseum.auswahlelement.AuswahlElementActivity;
 import com.seamuseum.auswahlelement.R;
-import com.seamuseum.auswahlelement.comments.User;
 import com.seamuseum.auswahlelement.spiele.artsweeper.game.ArtSweeperActivity;
 import com.seamuseum.auswahlelement.spiele.quiz.QuizActivity;
 

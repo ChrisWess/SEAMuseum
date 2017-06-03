@@ -29,8 +29,7 @@
         <activity
             android:name=".spiele.quiz.QuizActivity"
             android:configChanges="orientation|screenSize"
-            android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar"/>
+            android:label="@string/quizlabel" />
         <activity
             android:name=".spiele.artsweeper.game.ArtSweeperActivity"
             android:screenOrientation="portrait"

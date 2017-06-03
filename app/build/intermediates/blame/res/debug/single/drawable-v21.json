@@ -1,34 +1,66 @@
 [
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_password_eye.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\0d1c76aae798439ef7a05af0991728931543dd8b\\output\\res\\drawable-v21\\design_password_eye.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_password_eye.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\0d1c76aae798439ef7a05af0991728931543dd8b\\output\\res\\drawable-v21\\design_password_eye.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable-v21\\abc_btn_colored_material.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable-v21\\abc_btn_colored_material.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_hide_password.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\0d1c76aae798439ef7a05af0991728931543dd8b\\output\\res\\drawable-v21\\avd_hide_password.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_hide_password.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\0d1c76aae798439ef7a05af0991728931543dd8b\\output\\res\\drawable-v21\\avd_hide_password.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_bottom_navigation_item_background.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\0d1c76aae798439ef7a05af0991728931543dd8b\\output\\res\\drawable-v21\\design_bottom_navigation_item_background.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_bottom_navigation_item_background.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\0d1c76aae798439ef7a05af0991728931543dd8b\\output\\res\\drawable-v21\\design_bottom_navigation_item_background.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\notification_action_background.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable-v21\\notification_action_background.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/drawable-v21/design_password_eye.xml",
+        "source": "/Users/christophwessarges/.android/build-cache/ffcfb8cb360ffac9ae17d7a68ef792ea25442e6b/output/res/drawable-v21/design_password_eye.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable-v21\\abc_edit_text_material.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/drawable-v21/abc_edit_text_material.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_show_password.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\0d1c76aae798439ef7a05af0991728931543dd8b\\output\\res\\drawable-v21\\avd_show_password.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/drawable-v21/notification_action_background.xml",
+        "source": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/drawable-v21/notification_action_background.xml"
+    },
+    {
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/drawable-v21/design_bottom_navigation_item_background.xml",
+        "source": "/Users/christophwessarges/.android/build-cache/ffcfb8cb360ffac9ae17d7a68ef792ea25442e6b/output/res/drawable-v21/design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\notification_action_background.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable-v21\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_show_password.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\0d1c76aae798439ef7a05af0991728931543dd8b\\output\\res\\drawable-v21\\avd_show_password.xml"
+    },
+    {
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/drawable-v21/avd_hide_password.xml",
+        "source": "/Users/christophwessarges/.android/build-cache/ffcfb8cb360ffac9ae17d7a68ef792ea25442e6b/output/res/drawable-v21/avd_hide_password.xml"
+    },
+    {
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/drawable-v21/avd_show_password.xml",
+        "source": "/Users/christophwessarges/.android/build-cache/ffcfb8cb360ffac9ae17d7a68ef792ea25442e6b/output/res/drawable-v21/avd_show_password.xml"
     }
 ]
