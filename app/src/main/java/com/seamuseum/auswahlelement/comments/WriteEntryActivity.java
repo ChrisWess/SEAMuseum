@@ -2,6 +2,7 @@ package com.seamuseum.auswahlelement.comments;
 
 import android.app.Activity;
 import android.content.Context;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -52,6 +53,9 @@ public class WriteEntryActivity extends Activity {
                     _childRef.child("Name").setValue(user.get_name());
                     _childRef.child("Datum").setValue(user.get_time());
                     toast = Toast.makeText(context, "Abgesendet", duration);
+                    Intent backIntent = new Intent(getApplicationContext(), EntriesActivity.class);
+                    backIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                    startActivity(backIntent);
                 }
                 else if(!namefeld.getText().toString().matches("[A-Za-z ]*"))
                 {
@@ -65,6 +69,7 @@ public class WriteEntryActivity extends Activity {
                     toast.show();
 
             }
+
         });
         //  Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         // setSupportActionBar(toolbar);
