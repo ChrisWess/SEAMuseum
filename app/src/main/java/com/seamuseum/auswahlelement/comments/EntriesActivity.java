@@ -12,6 +12,7 @@ import android.text.Spanned;
 import android.text.style.AlignmentSpan;
 import android.text.style.ForegroundColorSpan;
 import android.text.style.RelativeSizeSpan;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.TextView;
@@ -32,15 +33,17 @@ import java.util.List;
 public class EntriesActivity extends Activity {
 
     public TextView text;
-    public static String key;
+    public static String key ="guestbookentries";
     private static int i;
     private DatabaseReference _rootRef;
 
+    Query myTopPostsQuery;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_guestbook_entries);
         text = (TextView) findViewById(R.id.textView3);
+        _rootRef = FirebaseDatabase.getInstance().getReference();
         refreshEntries();
     }
 
@@ -66,7 +69,7 @@ public class EntriesActivity extends Activity {
         if(item.getItemId() == R.id.action_settings)
         {
             Context context = getApplicationContext();
-            Toast toast = Toast.makeText(context, "Beleidigungen verboten!", Toast.LENGTH_SHORT);
+            Toast toast = Toast.makeText(context, "Beleidigungen verboten!", Toast.LENGTH_SHORT); //TODO: ordentlich machen
             toast.show();
         }
         return super.onOptionsItemSelected(item);
@@ -74,15 +77,14 @@ public class EntriesActivity extends Activity {
 
     protected void refreshEntries()
     {
-        _rootRef = FirebaseDatabase.getInstance().getReference();
-        Query myTopPostsQuery;
+        Log.d("STATE", "HEY");
 
         if(key.equals("guestbookentries")) {
             myTopPostsQuery = _rootRef.child(key);// My top posts by number of stars
         }
         else
         {
-            myTopPostsQuery = _rootRef.child("Werke").child(key);// My top posts by number of stars
+            myTopPostsQuery = _rootRef.child("Werke").child(key).child("Kommentare");// My top posts by number of stars
         }
         myTopPostsQuery.addValueEventListener(new ValueEventListener()
         {
@@ -90,16 +92,21 @@ public class EntriesActivity extends Activity {
             public void onDataChange(DataSnapshot dataSnapshot)
             {
 
+                Log.i("STATE", "BIN DA");
                 SpannableStringBuilder sb = new SpannableStringBuilder();
                 List<User> users = new ArrayList<User>();
 
                 for (DataSnapshot postSnapshot: dataSnapshot.getChildren()) {
+                    Log.d("STATE", "BIN DRIN");
+                    Log.d("STATE", postSnapshot.toString());
                     if(postSnapshot != null && postSnapshot.child("Name") != null && postSnapshot.child("Name").getValue() != null
-                            && postSnapshot.child("Nachricht").getValue() != null && postSnapshot.child("Datum").getValue() != null)
+                            && postSnapshot.child("Datum") != null && postSnapshot.child("Datum").getValue() != null
+                            && postSnapshot.child("Nachricht") != null && postSnapshot.child("Nachricht").getValue() != null)
                     {
                         String nameOhneDatum= postSnapshot.child("Name").getValue().toString();
                         String nachricht = postSnapshot.child("Nachricht").getValue().toString();
                         long zeitpunkt = Long.parseLong(postSnapshot.child("Datum").getValue().toString());
+                        Log.d("INHALT",nameOhneDatum + " " + nachricht + " " + zeitpunkt);
                         User user = new User(nameOhneDatum, nachricht, zeitpunkt);
                         users.add(user);
                     }
@@ -133,6 +140,11 @@ public class EntriesActivity extends Activity {
                     //            }
                     //            ++i;
                 }
+                if(sb.toString().equals(""))
+                {
+                    Log.e("STATE", "LEERER STRING");
+                }
+                Log.i("STATE", sb.toString());
                 text.setText(sb);
             }
 

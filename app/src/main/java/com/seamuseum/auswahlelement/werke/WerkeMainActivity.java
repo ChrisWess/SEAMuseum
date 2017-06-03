@@ -7,6 +7,7 @@ import android.media.Image;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
@@ -37,6 +38,7 @@ public class WerkeMainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_werke_main);
 
+        activity = this;
 
         _werkeList = (RecyclerView) findViewById(R.id.werke_list);
         _werkeList.setHasFixedSize(true);
@@ -60,7 +62,7 @@ public class WerkeMainActivity extends Activity {
             protected void populateViewHolder(WerkViewHolder viewHolder, Werk model, int position) {
                 viewHolder.setTitle(model.getTitel());
                 viewHolder.setDesc(model.getBeschreibung());
-                viewHolder.setImage(getApplicationContext(), model.getBildUrl());
+                viewHolder.setImage(getApplicationContext(), model.getBildUrl(), model.getTitel());
             }
         };
         _werkeList.setAdapter(firebaseRecyclerAdapter);
@@ -88,15 +90,26 @@ public class WerkeMainActivity extends Activity {
             werkDesc.setText(desc);
         }
 
-        public void setImage(Context ctx, String image)
-        {
-            ImageView werkImage  = (ImageView) _view.findViewById(R.id.werk_image);
+        public void setImage(final Context ctx, String image, final String key) {
+            ImageView werkImage = (ImageView) _view.findViewById(R.id.werk_image);
             Glide.with(ctx)
                     .load(image)
                     .into(werkImage);
-        }
 
+            //imon
+            ImageButton button = (ImageButton) _view.findViewById(R.id.addCommentWerk);
+            button.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    EntriesActivity.key=key;
+                    activity.startActivity(new Intent(ctx, EntriesActivity.class));
+                }
+            });
+        }
     }
+
+    private static Activity activity;
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.werke_main_menu, menu);
