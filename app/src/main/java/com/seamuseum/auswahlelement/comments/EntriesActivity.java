@@ -48,6 +48,12 @@ public class EntriesActivity extends Activity {
     }
 
     @Override
+    public void onStart()
+    {
+        super.onStart();
+        refreshEntries();
+    }
+    @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.werke_main_menu, menu);
         return super.onCreateOptionsMenu(menu);
@@ -72,84 +78,76 @@ public class EntriesActivity extends Activity {
     private void refreshEntries()
     {
         _rootRef = FirebaseDatabase.getInstance().getReference();
-        //Zieh alle Daten aus dem Gästebuch, falls es darum geht.
-        if(key.equals("guestbookentries"))
+        Query myTopPostsQuery;
+
+        if(key.equals("guestbookentries")) {
+            myTopPostsQuery = _rootRef.child(key);// My top posts by number of stars
+        }
+        else
         {
-            Query myTopPostsQuery = _rootRef.child(key);// My top posts by number of stars
-            myTopPostsQuery.addValueEventListener(new ValueEventListener() {
-                @Override
-                public void onDataChange(DataSnapshot dataSnapshot) {
+            myTopPostsQuery = _rootRef.child("Werke").child(key);// My top posts by number of stars
+        }
+        myTopPostsQuery.addValueEventListener(new ValueEventListener()
+        {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot)
+            {
 
-                    SpannableStringBuilder sb = new SpannableStringBuilder();
-                    List<User> users = new ArrayList<User>();
+                SpannableStringBuilder sb = new SpannableStringBuilder();
+                List<User> users = new ArrayList<User>();
 
-                    for (DataSnapshot postSnapshot: dataSnapshot.getChildren()) {
-                        if(postSnapshot != null && postSnapshot.child("Name") != null && postSnapshot.child("Name").getValue() != null
-                                && postSnapshot.child("Nachricht").getValue() != null && postSnapshot.child("Datum").getValue() != null)
-                        {
-                            String nameOhneDatum= postSnapshot.child("Name").getValue().toString();
-                            String nachricht = postSnapshot.child("Nachricht").getValue().toString();
-                            long zeitpunkt = Long.parseLong(postSnapshot.child("Datum").getValue().toString());
-                            User user = new User(nameOhneDatum, nachricht, zeitpunkt);
-                            users.add(user);
-                        }
-
-                    }
-                    Collections.sort(users);
-                    int i = 0;
-                    for(User user : users)
+                for (DataSnapshot postSnapshot: dataSnapshot.getChildren()) {
+                    if(postSnapshot != null && postSnapshot.child("Name") != null && postSnapshot.child("Name").getValue() != null
+                            && postSnapshot.child("Nachricht").getValue() != null && postSnapshot.child("Datum").getValue() != null)
                     {
-                        int start = sb.length();
-                        sb.append(user.get_name());
-                        sb.setSpan(new RelativeSizeSpan(1.75f), start, sb.length(), 0);
-                        sb.setSpan(new ForegroundColorSpan(Color.BLACK), start, sb.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
-
-                        //String value= postSnapshot.getValue().toString();
-                        sb.append("\n");
-                        sb.append(user.get_date().toString());
-                        sb.setSpan(new RelativeSizeSpan(0.8f), sb.length() - user.get_date().toString().length(), sb.length(), 0);
-                        sb.setSpan(new ForegroundColorSpan(Color.GRAY), sb.length() - user.get_date().toString().length(), sb.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
-                        sb.setSpan(new AlignmentSpan.Standard(Layout.Alignment.ALIGN_CENTER),
-                                start, sb.length(),
-                                Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
-                        sb.append("\n");
-                        sb.append(user.get_message());
-                        sb.setSpan(new RelativeSizeSpan(1.25f), sb.length() - user.get_message().length(), sb.length(), 0);
-                        sb.setSpan(new ForegroundColorSpan(Color.BLACK), sb.length() - user.get_message().length(), sb.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
-                        sb.append("\n \n");
-                        //            if(i % 2 == 0)
-                        //            {
-                        //                //sb.setSpan(new BackgroundColorSpan(0xFFCCCCCC),start,sb.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
-                        //            }
-                        //            ++i;
+                        String nameOhneDatum= postSnapshot.child("Name").getValue().toString();
+                        String nachricht = postSnapshot.child("Nachricht").getValue().toString();
+                        long zeitpunkt = Long.parseLong(postSnapshot.child("Datum").getValue().toString());
+                        User user = new User(nameOhneDatum, nachricht, zeitpunkt);
+                        users.add(user);
                     }
-                    text.setText(sb);
+
                 }
+                Collections.sort(users);
+                int i = 0;
+                for(User user : users)
+                {
+                    int start = sb.length();
+                    sb.append(user.get_name());
+                    sb.setSpan(new RelativeSizeSpan(1.75f), start, sb.length(), 0);
+                    sb.setSpan(new ForegroundColorSpan(Color.BLACK), start, sb.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+
+                    //String value= postSnapshot.getValue().toString();
+                    sb.append("\n");
+                    sb.append(user.get_date().toString());
+                    sb.setSpan(new RelativeSizeSpan(0.8f), sb.length() - user.get_date().toString().length(), sb.length(), 0);
+                    sb.setSpan(new ForegroundColorSpan(Color.GRAY), sb.length() - user.get_date().toString().length(), sb.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+                    sb.setSpan(new AlignmentSpan.Standard(Layout.Alignment.ALIGN_CENTER),
+                            start, sb.length(),
+                            Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+                    sb.append("\n");
+                    sb.append(user.get_message());
+                    sb.setSpan(new RelativeSizeSpan(1.25f), sb.length() - user.get_message().length(), sb.length(), 0);
+                    sb.setSpan(new ForegroundColorSpan(Color.BLACK), sb.length() - user.get_message().length(), sb.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+                    sb.append("\n \n");
+                    //            if(i % 2 == 0)
+                    //            {
+                    //                //sb.setSpan(new BackgroundColorSpan(0xFFCCCCCC),start,sb.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+                    //            }
+                    //            ++i;
+                }
+                text.setText(sb);
+            }
 
                 @Override
-                public void onCancelled(DatabaseError databaseError) {
+                public void onCancelled(DatabaseError databaseError)
+                {
                     // Getting Post failed, log a me
                     // ...
                 }
-            });
-        }
-        //Ziehe alle Kommentare zu diesem Werk
-        else
-        {
-            Query myTopPostsQuery = _rootRef.child("Werke").child(key);// My top posts by number of stars
-            myTopPostsQuery.addValueEventListener(new ValueEventListener() {
-                @Override
-                public void onDataChange(DataSnapshot dataSnapshot) {
-                    //Zeig alle Kommentare zu diesem Werk....
-                }
-
-                @Override
-                public void onCancelled(DatabaseError databaseError) {
-                    // Getting Post failed, log a message
-                    // ...
-                }
-            });
-        }
+        });
 
     }
+
+
 }

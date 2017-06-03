@@ -37,10 +37,17 @@ public class WriteEntryActivity extends Activity {
                 Context context = getApplicationContext();
                 int duration = Toast.LENGTH_SHORT;
                 Toast toast;
+                User user = new User(namefeld.getText().toString(), textfeld.getText().toString());
+                if(EntriesActivity.key.equals("guestbookentries"))
+                {
+                    _childRef = _rootRef.child("guestbookentries").child(user.toString());
+                }
+                else
+                {
+                    _childRef = _rootRef.child("Werke").child(EntriesActivity.key).child("Kommentare").child(user.toString());
+                }
                 if(!textfeld.getText().toString().equals("") && namefeld.getText().toString().matches("[A-Za-z ]+") && !namefeld.getText().toString().equals(""))
                 {
-                    User user = new User(namefeld.getText().toString(), textfeld.getText().toString());
-                    _childRef = _rootRef.child("guestbookentries").child(user.toString());
                     _childRef.child("Nachricht").setValue(user.get_message());
                     _childRef.child("Name").setValue(user.get_name());
                     _childRef.child("Datum").setValue(user.get_time());

@@ -31,5 +31,15 @@
             android:layout_height="wrap_content"
             android:padding="15dp"
             android:text="Beschreibung" />
+
+        <ImageButton
+            android:id="@+id/addCommentWerk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/submitBtn"
+            android:layout_alignEnd="@+id/descField"
+            android:layout_alignRight="@+id/descField"
+            android:layout_marginBottom="18dp"
+            android:src="@android:drawable/ic_input_add" />
     </LinearLayout>
 </android.support.v7.widget.CardView>

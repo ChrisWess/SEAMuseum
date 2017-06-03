@@ -3,12 +3,14 @@ package com.seamuseum.auswahlelement.werke;
 import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
+import android.media.Image;
 import android.os.Bundle;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
+import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -17,7 +19,8 @@ import com.firebase.ui.database.FirebaseRecyclerAdapter;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.seamuseum.auswahlelement.R;
-
+import com.seamuseum.auswahlelement.comments.EntriesActivity;
+import com.seamuseum.auswahlelement.comments.WriteEntryActivity;
 
 
 public class WerkeMainActivity extends Activity {
@@ -30,6 +33,10 @@ public class WerkeMainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_werke_main);
+
+        //IMON
+        context=this.getApplicationContext();
+        activity=this;
 
         _werkeList = (RecyclerView) findViewById(R.id.werke_list);
         _werkeList.setHasFixedSize(true);
@@ -53,6 +60,8 @@ public class WerkeMainActivity extends Activity {
                 viewHolder.setTitle(model.getTitel());
                 viewHolder.setDesc(model.getBeschreibung());
                 viewHolder.setImage(getApplicationContext(), model.getBildUrl());
+                //IMON
+                viewHolder.setButton(model.getTitel());
             }
         };
         _werkeList.setAdapter(firebaseRecyclerAdapter);
@@ -87,8 +96,38 @@ public class WerkeMainActivity extends Activity {
                     .centerCrop()
                     .into(werkImage);
         }
+
+        /** IMON*/
+        public void setButton(String button) {
+            ImageButton imagebutton = (ImageButton) _view.findViewById(R.id.addCommentWerk);
+            EntriesActivity.key = button;
+            imagebutton.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v)
+                {
+                     WerkeMainActivity.getActivity().startActivity(new Intent(getContext(), EntriesActivity.class));
+                }
+
+            });
+
+         /** IMON ENDE */
+
+        }
+    }
+/** IMON */
+    private static Context context;
+
+    public static Context getContext()
+    {
+        return context;
     }
 
+    private static Activity activity;
+    public static Activity getActivity()
+    {
+        return activity;
+    }
+/** IMON ENDE*/
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.werke_main_menu, menu);
