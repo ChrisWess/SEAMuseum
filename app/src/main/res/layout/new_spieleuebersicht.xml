@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/tableLayout1"
     android:layout_width="match_parent"
     android:layout_height="match_parent" >
@@ -15,14 +16,14 @@
             android:layout_width="0dp"
             android:layout_height="fill_parent"
             android:layout_weight="1"
-            android:src="@android:drawable/btn_dialog" />
+            android:src="@drawable/icon_artsweeper" />
 
         <ImageButton
             android:id="@+id/buttonMemory"
             android:layout_width="0dp"
             android:layout_height="fill_parent"
             android:layout_weight="1"
-            android:src="@android:drawable/ic_menu_gallery" />
+            android:src="@drawable/icon_memory" />
     </TableRow>
 
     <TableRow
@@ -36,15 +37,14 @@
             android:layout_width="0dp"
             android:layout_height="fill_parent"
             android:layout_weight="1"
-            android:src="@android:drawable/sym_action_chat"
-            />
+            android:src="@drawable/icon_quiz" />
 
         <ImageButton
             android:id="@+id/buttonUnbenannt"
             android:layout_width="0dp"
             android:layout_height="fill_parent"
             android:layout_weight="1"
-            android:src="@android:drawable/btn_star_big_on" />
+            android:src="@drawable/icon_puzzle" />
     </TableRow>
 
 </TableLayout>
