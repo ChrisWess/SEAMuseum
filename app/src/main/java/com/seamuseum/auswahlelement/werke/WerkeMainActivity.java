@@ -105,7 +105,7 @@ public class WerkeMainActivity extends Activity {
                 @Override
                 public void onClick(View v)
                 {
-                     WerkeMainActivity.getActivity().startActivity(new Intent(getContext(), EntriesActivity.class));
+                     activity.startActivity(new Intent(context, EntriesActivity.class));
                 }
 
             });
@@ -117,16 +117,7 @@ public class WerkeMainActivity extends Activity {
 /** IMON */
     private static Context context;
 
-    public static Context getContext()
-    {
-        return context;
-    }
-
     private static Activity activity;
-    public static Activity getActivity()
-    {
-        return activity;
-    }
 /** IMON ENDE*/
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
