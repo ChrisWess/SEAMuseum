@@ -24,6 +24,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
+import com.seamuseum.auswahlelement.AuswahlElementActivity;
 import com.seamuseum.auswahlelement.R;
 
 import java.util.ArrayList;
@@ -73,6 +74,12 @@ public class EntriesActivity extends Activity {
             toast.show();
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    @Override
+    public void onBackPressed()
+    {
+        startActivity(new Intent(getApplicationContext(), AuswahlElementActivity.class));
     }
 
     protected void refreshEntries()
