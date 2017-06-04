@@ -59,9 +59,14 @@ public class SuchActivity extends Activity {
                         for (DataSnapshot postSnapshot : dataSnapshot.getChildren())
                         {
                             Log.d("STATE", postSnapshot.toString());
-                            if (postSnapshot != null && postSnapshot.getKey() != null && !suchfeld.getText().equals("") && postSnapshot.getKey().toLowerCase().contains(suchfeld.getText().toString().toLowerCase()))
+                            Werk werk = postSnapshot.getValue(Werk.class);
+                            if(werk.getTitel() == null)
                             {
-                                sb.append(postSnapshot.getKey().toString() + "\n");
+                                werk.setTitel("");
+                            }
+                            if (postSnapshot != null && postSnapshot.getKey() != null && !suchfeld.getText().equals("") && werk.getTitel().toLowerCase().contains(suchfeld.getText().toString().toLowerCase()))
+                            {
+                                sb.append(werk.getTitel() + "\n");
                             }
 
                         }
