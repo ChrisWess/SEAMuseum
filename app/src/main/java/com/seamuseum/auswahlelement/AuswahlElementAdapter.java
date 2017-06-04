@@ -32,6 +32,7 @@ public class AuswahlElementAdapter extends BaseAdapter
         zodiak.add(new AuswahlElement(R.string.auswahl4));
         zodiak.add(new AuswahlElement(R.string.auswahl6));
         zodiak.add(new AuswahlElement(R.string.auswahl3));
+        zodiak.add(new AuswahlElement(R.string.auswahl7));
     }
 
     @Override

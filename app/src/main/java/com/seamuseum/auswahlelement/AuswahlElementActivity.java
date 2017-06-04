@@ -15,6 +15,7 @@ import com.seamuseum.auswahlelement.comments.EntriesActivity;
 import com.seamuseum.auswahlelement.service.KontaktActivity;
 import com.seamuseum.auswahlelement.service.ServiceActivity;
 import com.seamuseum.auswahlelement.spiele.UebersichtMenu;
+import com.seamuseum.auswahlelement.werke.SuchActivity;
 import com.seamuseum.auswahlelement.werke.WerkeMainActivity;
 
 /**
@@ -76,6 +77,11 @@ public class AuswahlElementActivity extends ListActivity implements OnItemClickL
                 i = new Intent();
                 EntriesActivity.key = "guestbookentries";
                 i.setClass(getApplicationContext(), EntriesActivity.class);
+                startActivity(i);
+                break;
+            case R.string.auswahl7:
+                i = new Intent();
+                i.setClass(getApplicationContext(), SuchActivity.class);
                 startActivity(i);
                 break;
             default:

@@ -7,6 +7,7 @@
     <string name="auswahl4">Museumskarte</string>
     <string name="auswahl5">Gästebuch</string>
     <string name="auswahl6">Anfahrt</string>
+    <string name="auswahl7">Suche</string>
     <string name="menu1">Anmelden</string>
     <string name="menu2">Über uns</string>
     <string name="menu3">Rechtliches</string>
@@ -60,6 +61,9 @@
     <string name="angebot_liste">Aktuelle Angebote:</string>
     <string name="angebote_aktuell">Wird geladen...</string>
 
+    <!-- SuchActivity -->
+    <string name="suchtext">Dein Suchbegriff</string>
+
     <!-- Gästebuch -->
     <string name="textfeld1">Dein Name</string>
     <string name="textfeld2">Deine Nachricht</string>
@@ -97,6 +101,7 @@ Beiträge, die den Regeln nicht entsprechen, werden umgehend gelöscht.\n \n Que
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="title_activity_kommentar_regeln">KommentarRegelnActivity</string>
+    <string name="title_activity_such">SuchActivity</string>
 
 
 </resources>

@@ -56,6 +56,10 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.seamuseum.auswahlelement.comments.EntriesActivity" />
         </activity>
+        <activity
+            android:name=".werke.SuchActivity"
+            android:label="@string/title_activity_such"
+            android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
 </manifest>
