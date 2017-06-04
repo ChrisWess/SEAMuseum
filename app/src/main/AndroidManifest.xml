@@ -44,6 +44,8 @@
             android:name=".werke.WerkeMainActivity"
             android:label="@string/app_name" />
         <activity
+            android:name=".werke.WerkSingleActivity" />
+        <activity
             android:name=".werke.WerkActivity"
             android:screenOrientation="portrait" />
         <activity android:name=".service.KontaktActivity" />

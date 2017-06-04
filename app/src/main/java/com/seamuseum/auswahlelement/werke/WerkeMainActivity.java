@@ -60,9 +60,20 @@ public class WerkeMainActivity extends Activity {
         ) {
             @Override
             protected void populateViewHolder(WerkViewHolder viewHolder, Werk model, int position) {
+                final String werkKey = getRef(position).getKey();
+
                 viewHolder.setTitle(model.getTitel());
                 viewHolder.setArtist(model.getKuenstler());
                 viewHolder.setImage(getApplicationContext(), model.getBildUrl(), model.getTitel());
+
+                viewHolder._view.setOnClickListener(new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Intent singleWerkIntent = new Intent(getApplicationContext(), WerkSingleActivity.class);
+                        singleWerkIntent.putExtra("werkId", werkKey);
+                        startActivity(singleWerkIntent);
+                    }
+                });
             }
         };
         _werkeList.setAdapter(firebaseRecyclerAdapter);

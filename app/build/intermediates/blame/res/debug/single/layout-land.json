@@ -1,22 +1,6 @@
 [
     {
-        "merged": "C:\\Users\\christophwessarges\\AndroidStudioProjects\\SEAMuseum\\C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\fragmentdemo3.xml",
-        "source": "C:\\Users\\christophwessarges\\AndroidStudioProjects\\SEAMuseum\\C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\src\\main\\res\\layout-land\\fragmentdemo3.xml"
-    },
-    {
-        "merged": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\fragmentdemo3.xml",
-        "source": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\src\\main\\res\\layout-land\\fragmentdemo3.xml"
-    },
-    {
-        "merged": "C:\\Users\\christophwessarges\\AndroidStudioProjects\\SEAMuseum\\C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\fragmentdemo3.xml",
-        "source": "C:\\Users\\christophwessarges\\AndroidStudioProjects\\SEAMuseum\\C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\src\\main\\res\\layout-land\\fragmentdemo3.xml"
-    },
-    {
-        "merged": "C:\\Users\\christophwessarges\\AndroidStudioProjects\\SEAMuseum\\C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\fragmentdemo3.xml",
-        "source": "C:\\Users\\christophwessarges\\AndroidStudioProjects\\SEAMuseum\\C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\src\\main\\res\\layout-land\\fragmentdemo3.xml"
-    },
-    {
-        "merged": "C:\\Users\\christophwessarges\\AndroidStudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\fragmentdemo3.xml",
-        "source": "C:\\Users\\christophwessarges\\AndroidStudioProjects\\SEAMuseum\\app\\src\\main\\res\\layout-land\\fragmentdemo3.xml"
+        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\fragmentdemo3.xml",
+        "source": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\src\\main\\res\\layout-land\\fragmentdemo3.xml"
     }
 ]
