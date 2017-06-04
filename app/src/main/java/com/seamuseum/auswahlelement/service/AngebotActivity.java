@@ -4,6 +4,8 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.Button;
 import android.widget.TextView;
 
 import com.google.firebase.database.DataSnapshot;
@@ -14,22 +16,24 @@ import com.google.firebase.database.ValueEventListener;
 import com.seamuseum.auswahlelement.AuswahlElementActivity;
 import com.seamuseum.auswahlelement.R;
 
-public class PreisActivity extends Activity
+public class AngebotActivity extends Activity
 {
 
-    private TextView _preise;
+    private TextView _angebote;
     private DatabaseReference _rootRef;
-    private DatabaseReference _preisRef;
+    private DatabaseReference _angebotRef;
+    private Button _kontakt;
 
     @Override
     protected void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_preis);
-        _preise = (TextView) findViewById(R.id.preise_aktuell);
-        _rootRef = FirebaseDatabase.getInstance().getReference();
-        _preisRef = _rootRef.child("Preise");
+        setContentView(R.layout.activity_angebot);
 
+        _angebote = (TextView) findViewById(R.id.angebote_aktuell);
+        _rootRef = FirebaseDatabase.getInstance().getReference();
+        _angebotRef = _rootRef.child("Angebote");
+        buttonInit();
     }
 
     @Override
@@ -39,13 +43,13 @@ public class PreisActivity extends Activity
         getActionBar().setHomeButtonEnabled(true);
         getActionBar().setDisplayHomeAsUpEnabled(true);
 
-        _preisRef.addValueEventListener(new ValueEventListener()
+        _angebotRef.addValueEventListener(new ValueEventListener()
         {
             @Override
             public void onDataChange(DataSnapshot dataSnapshot)
             {
-                String preisText = dataSnapshot.getValue(String.class);
-                _preise.setText(preisText);
+                String angebotText = dataSnapshot.getValue(String.class);
+                _angebote.setText(angebotText);
             }
 
             @Override
@@ -54,7 +58,6 @@ public class PreisActivity extends Activity
 
             }
         });
-
     }
 
     @Override
@@ -68,5 +71,19 @@ public class PreisActivity extends Activity
                 startActivity(homeIntent);
         }
         return (super.onOptionsItemSelected(menuItem));
+    }
+
+    private void buttonInit()
+    {
+        _kontakt = (Button) findViewById(R.id.kontakt_button_angebot);
+        _kontakt.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                Intent kontakt = new Intent(AngebotActivity.this, KontaktActivity.class);
+                startActivity(kontakt);
+            }
+        });
     }
 }
