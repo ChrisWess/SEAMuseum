@@ -86,6 +86,7 @@ Beiträge, die den Regeln nicht entsprechen, werden umgehend gelöscht.\n \n Que
     <!-- Für die Werke -->
     <string name="uploadNotPossible">Wählen Sie bitte ein Bild und füllen Sie alle Felder aus!</string>
     <string name="werkTitel">Titel des Werks</string>
+    <string name="werkKuenstler">Künstlername</string>
     <string name="werkBeschreibung">Beschreibung</string>
     <string name="addWerk">Füge Werk hinzu</string>
     <string name="infoWerk">Weitere Informationen</string>
@@ -94,6 +95,7 @@ Beiträge, die den Regeln nicht entsprechen, werden umgehend gelöscht.\n \n Que
     <string name="werkeDbRef">Werke</string>
     <string name="werkeStorage">Werke_Bilder</string>
     <string name="titelDb">titel</string>
+    <string name="kuenstlerDb">kuenstler</string>
     <string name="beschreibungDb">beschreibung</string>
     <string name="bildDb">bildUrl</string>
     <string name="title_activity_hauptmenu">HauptmenuActivity</string>

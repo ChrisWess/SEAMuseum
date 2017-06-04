@@ -25,6 +25,7 @@ public class WerkActivity extends Activity {
 
     private ImageButton _selectImage;
     private EditText _werkTitle;
+    private EditText _werkArtist;
     private EditText _werkDesc;
     private Button _submitBtn;
     private Uri _imageUri = null;
@@ -43,6 +44,7 @@ public class WerkActivity extends Activity {
 
         _selectImage = (ImageButton) findViewById(R.id.imageSelect);
         _werkTitle = (EditText) findViewById(R.id.titleField);
+        _werkArtist =  (EditText) findViewById(R.id.artistField);
         _werkDesc = (EditText) findViewById(R.id.descField);
         _submitBtn = (Button) findViewById(R.id.submitBtn);
 
@@ -74,9 +76,11 @@ public class WerkActivity extends Activity {
         _progress.setMessage(getApplicationContext().getString(R.string.uploadWerk));
 
         final String titleValue = _werkTitle.getText().toString().trim();
+        final String artistValue = _werkArtist.getText().toString().trim();
         final String descValue = _werkDesc.getText().toString().trim();
 
-        if (!TextUtils.isEmpty(titleValue) && !TextUtils.isEmpty(descValue) && _imageUri != null) {
+        if (!TextUtils.isEmpty(titleValue) && !TextUtils.isEmpty(artistValue) &&
+                !TextUtils.isEmpty(descValue) && _imageUri != null) {
             _progress.show();
             StorageReference filepath = _storage.child(getApplicationContext().getString(R.string.werkeStorage))
                     .child(_imageUri.getLastPathSegment());
@@ -87,6 +91,7 @@ public class WerkActivity extends Activity {
 
                     DatabaseReference newWerk = _database.push();
                     newWerk.child(getApplicationContext().getString(R.string.titelDb)).setValue(titleValue);
+                    newWerk.child(getApplicationContext().getString(R.string.kuenstlerDb)).setValue(artistValue);
                     newWerk.child(getApplicationContext().getString(R.string.beschreibungDb)).setValue(descValue);
                     newWerk.child(getApplicationContext().getString(R.string.bildDb)).setValue(downloadUrl.toString());
 

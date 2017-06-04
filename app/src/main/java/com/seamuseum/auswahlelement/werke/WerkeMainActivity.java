@@ -61,7 +61,7 @@ public class WerkeMainActivity extends Activity {
             @Override
             protected void populateViewHolder(WerkViewHolder viewHolder, Werk model, int position) {
                 viewHolder.setTitle(model.getTitel());
-                viewHolder.setDesc(model.getBeschreibung());
+                viewHolder.setArtist(model.getKuenstler());
                 viewHolder.setImage(getApplicationContext(), model.getBildUrl(), model.getTitel());
             }
         };
@@ -84,10 +84,10 @@ public class WerkeMainActivity extends Activity {
             werkTitle.setText(title);
         }
 
-        public void setDesc(String desc)
+        public void setArtist(String artist)
         {
-            TextView werkDesc = (TextView) _view.findViewById(R.id.werk_desc);
-            werkDesc.setText(desc);
+            TextView werkArtist= (TextView) _view.findViewById(R.id.werk_artist);
+            werkArtist.setText(artist);
         }
 
         public void setImage(final Context ctx, String image, final String key) {
