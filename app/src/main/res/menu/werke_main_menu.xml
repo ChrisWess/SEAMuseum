@@ -8,7 +8,7 @@
         android:showAsAction="always"/>
 
     <item
-        android:id="@+id/action_settings"
+        android:id="@+id/action_settings2"
         android:title="@string/infoWerk"
         android:showAsAction="never"/>
 </menu>

@@ -14,6 +14,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import com.seamuseum.auswahlelement.AuswahlElementActivity;
+import com.seamuseum.auswahlelement.MainActivity;
 import com.seamuseum.auswahlelement.R;
 
 public class AngebotActivity extends Activity
@@ -66,7 +67,7 @@ public class AngebotActivity extends Activity
         switch (menuItem.getItemId())
         {
             case android.R.id.home:
-                Intent homeIntent = new Intent(this, AuswahlElementActivity.class);
+                Intent homeIntent = new Intent(this, MainActivity.class);
                 homeIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(homeIntent);
         }

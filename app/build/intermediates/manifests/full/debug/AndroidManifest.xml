@@ -32,11 +32,6 @@
         <activity
             android:name="com.seamuseum.auswahlelement.AuswahlElementActivity"
             android:label="@string/app_name" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity
             android:name="com.seamuseum.auswahlelement.werke.FragmentDemo3Activity"
@@ -84,6 +79,16 @@
         <activity
             android:name="com.seamuseum.auswahlelement.werke.SuchActivity"
             android:label="@string/title_activity_such" />
+        <activity
+            android:name="com.seamuseum.auswahlelement.MainActivity"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
 
         <receiver
             android:name="com.google.android.gms.measurement.AppMeasurementReceiver"

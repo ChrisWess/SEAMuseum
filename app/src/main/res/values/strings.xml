@@ -18,7 +18,7 @@
     <string name="werk5">E</string>
 
     <!-- Für das Gästebuch -->
-    <string name="action_settings">Einstellungen</string>
+    <string name="action_settings2">Einstellungen</string>
 
 
     <!-- Für die Spiele -->
@@ -106,6 +106,9 @@ Beiträge, die den Regeln nicht entsprechen, werden umgehend gelöscht.\n \n Que
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="title_activity_kommentar_regeln">KommentarRegelnActivity</string>
     <string name="title_activity_such">SuchActivity</string>
+    <string name="title_activity_main">Museumapp</string>
+
+    <string name="action_settings">Settings</string>
 
 
 </resources>

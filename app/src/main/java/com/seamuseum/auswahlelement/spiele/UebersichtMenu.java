@@ -12,6 +12,7 @@ import android.widget.ImageButton;
 import android.widget.ListView;
 
 import com.seamuseum.auswahlelement.AuswahlElementActivity;
+import com.seamuseum.auswahlelement.MainActivity;
 import com.seamuseum.auswahlelement.R;
 import com.seamuseum.auswahlelement.spiele.artsweeper.game.ArtSweeperActivity;
 import com.seamuseum.auswahlelement.spiele.puzzle.PuzzleActivity;
@@ -33,10 +34,12 @@ public class UebersichtMenu extends Activity {
     }
 
     @Override
-    public boolean onOptionsItemSelected(MenuItem menuItem) {
-        switch (menuItem.getItemId()) {
+    public boolean onOptionsItemSelected(MenuItem menuItem)
+    {
+        switch (menuItem.getItemId())
+        {
             case android.R.id.home:
-                Intent homeIntent = new Intent(this, AuswahlElementActivity.class);
+                Intent homeIntent = new Intent(this, MainActivity.class);
                 homeIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(homeIntent);
         }

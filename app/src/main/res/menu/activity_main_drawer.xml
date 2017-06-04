@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_werke"
+            android:icon="@drawable/icon_werke"
+            android:title="Werke" />
+        <item
+            android:id="@+id/nav_spiele"
+            android:icon="@drawable/icon_games"
+            android:title="Spiele" />
+        <item
+            android:id="@+id/nav_service"
+            android:icon="@drawable/icon_service"
+            android:title="Kontakt und Leistungen" />
+        <item
+            android:id="@+id/nav_anfahrt"
+            android:icon="@drawable/icon_place"
+            android:title="Anfahrt" />
+
+        <item
+            android:id="@+id/nav_gaestebuch"
+            android:icon="@drawable/icon_guestbook"
+            android:title="Gästebuch" />
+
+        <item
+            android:id="@+id/nav_suche"
+            android:icon="@drawable/icon_search"
+            android:title="Suche" />
+    </group>
+
+</menu>

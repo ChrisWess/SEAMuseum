@@ -9,6 +9,7 @@ import android.widget.ImageView;
 import com.bumptech.glide.Glide;
 import com.google.firebase.storage.FirebaseStorage;
 import com.seamuseum.auswahlelement.AuswahlElementActivity;
+import com.seamuseum.auswahlelement.MainActivity;
 import com.seamuseum.auswahlelement.R;
 
 public class KontaktActivity extends Activity
@@ -36,7 +37,7 @@ public class KontaktActivity extends Activity
         switch (menuItem.getItemId())
         {
             case android.R.id.home:
-                Intent homeIntent = new Intent(this, AuswahlElementActivity.class);
+                Intent homeIntent = new Intent(this, MainActivity.class);
                 homeIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(homeIntent);
         }
