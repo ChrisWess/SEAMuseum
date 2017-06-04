@@ -58,8 +58,7 @@
         </activity>
         <activity
             android:name=".werke.SuchActivity"
-            android:label="@string/title_activity_such"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
+            android:label="@string/title_activity_such"/>
     </application>
 
 </manifest>
