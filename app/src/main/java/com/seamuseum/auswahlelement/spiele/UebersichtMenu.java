@@ -14,14 +14,15 @@ import android.widget.ListView;
 import com.seamuseum.auswahlelement.AuswahlElementActivity;
 import com.seamuseum.auswahlelement.R;
 import com.seamuseum.auswahlelement.spiele.artsweeper.game.ArtSweeperActivity;
+import com.seamuseum.auswahlelement.spiele.puzzle.PuzzleActivity;
 import com.seamuseum.auswahlelement.spiele.quiz.QuizActivity;
 
 public class UebersichtMenu extends Activity {
-    private static Context _context;
+    private Context _context;
     public ImageButton artsweeper;
     public ImageButton memory;
     public ImageButton quiz;
-    public ImageButton unknown;
+    public ImageButton puzzle;
 
     @Override
     protected void onStart() {
@@ -49,7 +50,6 @@ public class UebersichtMenu extends Activity {
         //MUSS NUR GEÄNDERT WERDEN, DAMIT DIE ALTE VERSION WIEDER LÄUFT!
         setContentView(R.layout.new_spieleuebersicht);
 
-        /** AB HIER NEUE VERSION */
         artsweeper = (ImageButton) findViewById(R.id.buttonArtsweeper);
         artsweeper.setOnClickListener(new View.OnClickListener()
         {
@@ -80,65 +80,16 @@ public class UebersichtMenu extends Activity {
                 startActivity(i);
             }
         });
-        unknown = (ImageButton) findViewById(R.id.buttonUnbenannt);
-        unknown.setOnClickListener(new View.OnClickListener()
+        puzzle = (ImageButton) findViewById(R.id.buttonPuzzle);
+        puzzle.setOnClickListener(new View.OnClickListener()
         {
             @Override
             public void onClick(View v)
             {
+                Intent i = new Intent();
+                i.setClass(_context, PuzzleActivity.class);
+                startActivity(i);
             }
         });
-
-        /** HIER ENDEN DIE ÄNDERUNGEN DER NEUEN VERSIONEN FÜR DIESE METHODE*/
-    }
-
-    /**
-     * Dieses Fragment zeigt eine Auswahlliste.
-     */
-    public static class SpielAuswahl extends ListFragment {
-
-        @Override
-        public void onActivityCreated(Bundle savedInstanceState) {
-            super.onActivityCreated(savedInstanceState);
-
-            String quizItem = getString(R.string.spiel1);
-            String memoryItem = getString(R.string.spiel2);
-            String mineItem = getString(R.string.spiel3);
-            // Liste aus einem String-Array befüllen
-            setListAdapter(new ArrayAdapter<String>(getActivity(), android.R.layout.simple_list_item_activated_1, new
-                    String[]{quizItem, memoryItem, mineItem}));
-        }
-
-        @Override
-        public void onSaveInstanceState(Bundle outState) {
-            super.onSaveInstanceState(outState);
-            // zuletzt selektierten Eintrag merken
-
-            //outState.putInt(STR_ZULETZT_SELEKTIERT, zuletztSelektiert);
-        }
-
-        @Override
-        public void onListItemClick(ListView l, View v, int position, long id) {
-            spielOeffnen(position);
-        }
-
-        private void spielOeffnen(int position) {
-            Intent i;
-            switch(position)
-            {
-                case 0:
-                    i = new Intent();
-                    i.setClass(_context, QuizActivity.class);
-                    startActivity(i);
-                    break;
-                case 1:
-
-                    break;
-                case 2:
-                    i = new Intent();
-                    i.setClass(_context, ArtSweeperActivity.class);
-                    startActivity(i);
-            }
-        }
     }
 }

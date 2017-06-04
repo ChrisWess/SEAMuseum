@@ -38,6 +38,10 @@
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
+            android:name=".spiele.puzzle.PuzzleActivity"
+            android:configChanges="orientation|screenSize"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
             android:name=".service.AngebotActivity"
             android:label="@string/app_name" />
         <activity

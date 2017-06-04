@@ -1,674 +1,902 @@
 [
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_artsweeper.png",
-        "source": "C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\src\\main\\res\\drawable\\icon_artsweeper.png"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background.xml",
+        "source": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/drawable/abc_dialog_material_background.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\quizbtnrichtig.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\src\\main\\res\\drawable\\quizbtnrichtig.xml"
     },
     {
-        "merged": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\input_outline.xml",
-        "source": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\src\\main\\res\\drawable\\input_outline.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_btn_colored_material.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/drawable/mona.jpg",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/res/drawable/mona.jpg"
     },
     {
-        "merged": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
-        "source": "C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\quizbtndefault.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\src\\main\\res\\drawable\\quizbtndefault.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_quiz.png",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\src\\main\\res\\drawable\\icon_quiz.png"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/drawable/icon_artsweeper.png",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/res/drawable/icon_artsweeper.png"
     },
     {
-        "merged": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
-        "source": "C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_ratingbar_material.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_guestbook.png",
-        "source": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\src\\main\\res\\drawable\\icon_guestbook.png"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\drawable\\abc_ratingbar_material.xml"
     },
     {
-        "merged": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\quizbtnrichtig.xml",
-        "source": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\src\\main\\res\\drawable\\quizbtnrichtig.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_tick_mark_material.xml",
+        "source": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/drawable/abc_seekbar_tick_mark_material.xml"
     },
     {
-        "merged": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
-        "source": "C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\drawable\\abc_ic_clear_material.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/drawable/design_bottom_navigation_item_background.xml",
+        "source": "/Users/christophwessarges/.android/build-cache/ffcfb8cb360ffac9ae17d7a68ef792ea25442e6b/output/res/drawable/design_bottom_navigation_item_background.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\input_outline.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\src\\main\\res\\drawable\\input_outline.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_bottom_navigation_item_background.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\0d1c76aae798439ef7a05af0991728931543dd8b\\output\\res\\drawable\\design_bottom_navigation_item_background.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/drawable/notification_bg_low.xml",
+        "source": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/drawable/notification_bg_low.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/drawable/icon_memory.png",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/res/drawable/icon_memory.png"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_password_eye.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\0d1c76aae798439ef7a05af0991728931543dd8b\\output\\res\\drawable\\design_password_eye.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_bottom_navigation_item_background.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\.android\\build-cache\\0cd23635246820e02bdfdd14846c3401ab22b412\\output\\res\\drawable\\design_bottom_navigation_item_background.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_btn_radio_material.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_artsweeper.png",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\src\\main\\res\\drawable\\icon_artsweeper.png"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\quizbtnfalsch.xml",
-        "source": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\src\\main\\res\\drawable\\quizbtnfalsch.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_ic_clear_material.xml"
     },
     {
-        "merged": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_quiz.png",
-        "source": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\src\\main\\res\\drawable\\icon_quiz.png"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\notification_tile_bg.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_dialog_material_background.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_maps.png",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\src\\main\\res\\drawable\\icon_maps.png"
     },
     {
-        "merged": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_bottom_navigation_item_background.xml",
-        "source": "C:\\Users\\MP\\.android\\build-cache\\0cd23635246820e02bdfdd14846c3401ab22b412\\output\\res\\drawable\\design_bottom_navigation_item_background.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_puzzle.png",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\src\\main\\res\\drawable\\icon_puzzle.png"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_ic_clear_material.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\0d1c76aae798439ef7a05af0991728931543dd8b\\output\\res\\drawable\\navigation_empty_icon.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_artsweeper.png",
-        "source": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\src\\main\\res\\drawable\\icon_artsweeper.png"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_artsweeper.png",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\src\\main\\res\\drawable\\icon_artsweeper.png"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
+        "source": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/drawable/abc_textfield_search_material.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_seekbar_track_material.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_password_eye.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\0d1c76aae798439ef7a05af0991728931543dd8b\\output\\res\\drawable\\design_password_eye.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_maps.png",
-        "source": "C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\src\\main\\res\\drawable\\icon_maps.png"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/drawable/abc_btn_colored_material.xml",
+        "source": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/drawable/abc_btn_colored_material.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\drawable\\abc_item_background_holo_light.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_quiz.png",
-        "source": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\src\\main\\res\\drawable\\icon_quiz.png"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\quizbtnfalsch.xml",
-        "source": "C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\src\\main\\res\\drawable\\quizbtnfalsch.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\quizbtndefault.xml",
-        "source": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\src\\main\\res\\drawable\\quizbtndefault.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
     },
     {
-        "merged": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\quizbtnfalsch.xml",
-        "source": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\src\\main\\res\\drawable\\quizbtnfalsch.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
+        "source": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/drawable/abc_btn_borderless_material.xml"
     },
     {
-        "merged": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
-        "source": "C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\drawable\\notification_bg_low.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_puzzle.png",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\src\\main\\res\\drawable\\icon_puzzle.png"
     },
     {
-        "merged": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
-        "source": "C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\drawable\\abc_btn_colored_material.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_switch_thumb_material.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/drawable/navigation_empty_icon.xml",
+        "source": "/Users/christophwessarges/.android/build-cache/ffcfb8cb360ffac9ae17d7a68ef792ea25442e6b/output/res/drawable/navigation_empty_icon.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\drawable\\abc_btn_borderless_material.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_puzzle.png",
-        "source": "C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\src\\main\\res\\drawable\\icon_puzzle.png"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\0d1c76aae798439ef7a05af0991728931543dd8b\\output\\res\\drawable\\design_snackbar_background.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_ic_clear_material.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/drawable/abc_ic_menu_overflow_material.xml",
+        "source": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/drawable/abc_ic_menu_overflow_material.xml"
     },
     {
-        "merged": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
-        "source": "C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\drawable\\abc_dialog_material_background.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/drawable/icon_guestbook.png",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/res/drawable/icon_guestbook.png"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\notification_bg_low.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\notification_bg.xml"
     },
     {
-        "merged": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
-        "source": "C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\quizbtnfalsch.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\src\\main\\res\\drawable\\quizbtnfalsch.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\quizbtnrichtig.xml",
-        "source": "C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\src\\main\\res\\drawable\\quizbtnrichtig.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_dialog_material_background.xml"
     },
     {
-        "merged": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
-        "source": "C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\drawable\\abc_text_cursor_material.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_textfield_search_material.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
     },
     {
-        "merged": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
-        "source": "C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/drawable/icon_werke.png",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/res/drawable/icon_werke.png"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\notification_tile_bg.xml"
     },
     {
-        "merged": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
-        "source": "C:\\Users\\MP\\.android\\build-cache\\0cd23635246820e02bdfdd14846c3401ab22b412\\output\\res\\drawable\\design_snackbar_background.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\notification_bg_low.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_dialog_material_background.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\input_outline.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\src\\main\\res\\drawable\\input_outline.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_ratingbar_material.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
     },
     {
-        "merged": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
-        "source": "C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\drawable\\abc_edit_text_material.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\drawable\\abc_ic_clear_material.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_ratingbar_material.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_tab_indicator_material.xml"
     },
     {
-        "merged": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
-        "source": "C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\drawable\\abc_btn_borderless_material.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_btn_check_material.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/drawable/quizbtndefault.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/res/drawable/quizbtndefault.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\notification_bg_low.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\0d1c76aae798439ef7a05af0991728931543dd8b\\output\\res\\drawable\\design_snackbar_background.xml"
     },
     {
-        "merged": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
-        "source": "C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_seekbar_track_material.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_textfield_search_material.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_service.png",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\src\\main\\res\\drawable\\icon_service.png"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
     },
     {
-        "merged": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
-        "source": "C:\\Users\\MP\\.android\\build-cache\\0cd23635246820e02bdfdd14846c3401ab22b412\\output\\res\\drawable\\navigation_empty_icon.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\quizbtndefault.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\src\\main\\res\\drawable\\quizbtndefault.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_btn_radio_material.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_btn_check_material.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_btn_colored_material.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\0d1c76aae798439ef7a05af0991728931543dd8b\\output\\res\\drawable\\design_fab_background.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_item_background_holo_light.xml"
     },
     {
-        "merged": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_password_eye.xml",
-        "source": "C:\\Users\\MP\\.android\\build-cache\\0cd23635246820e02bdfdd14846c3401ab22b412\\output\\res\\drawable\\design_password_eye.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_btn_borderless_material.xml"
     },
     {
-        "merged": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
-        "source": "C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\notification_bg.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_memory.png",
-        "source": "C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\src\\main\\res\\drawable\\icon_memory.png"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_tab_indicator_material.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_btn_colored_material.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_ic_search_api_material.xml"
     },
     {
-        "merged": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
-        "source": "C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\drawable\\abc_seekbar_track_material.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\.android\\build-cache\\0cd23635246820e02bdfdd14846c3401ab22b412\\output\\res\\drawable\\design_snackbar_background.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_bottom_navigation_item_background.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\0d1c76aae798439ef7a05af0991728931543dd8b\\output\\res\\drawable\\design_bottom_navigation_item_background.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
+        "source": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/drawable/abc_list_selector_holo_light.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_guestbook.png",
-        "source": "C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\src\\main\\res\\drawable\\icon_guestbook.png"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/drawable/icon_maps.png",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/res/drawable/icon_maps.png"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_puzzle.png",
-        "source": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\src\\main\\res\\drawable\\icon_puzzle.png"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_memory.png",
-        "source": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\src\\main\\res\\drawable\\icon_memory.png"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_quiz.png",
-        "source": "C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\src\\main\\res\\drawable\\icon_quiz.png"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\drawable\\abc_vector_test.xml"
     },
     {
-        "merged": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
-        "source": "C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\drawable\\notification_bg_low.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\0d1c76aae798439ef7a05af0991728931543dd8b\\output\\res\\drawable\\design_fab_background.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\0d1c76aae798439ef7a05af0991728931543dd8b\\output\\res\\drawable\\navigation_empty_icon.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
+        "source": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/drawable/abc_btn_radio_material.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_text_cursor_material.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_material.xml",
+        "source": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/drawable/abc_ratingbar_material.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\notification_bg.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_password_eye.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\0d1c76aae798439ef7a05af0991728931543dd8b\\output\\res\\drawable\\design_password_eye.xml"
     },
     {
-        "merged": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
-        "source": "C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_maps.png",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\src\\main\\res\\drawable\\icon_maps.png"
     },
     {
-        "merged": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
-        "source": "C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\drawable\\notification_tile_bg.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_btn_borderless_material.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/drawable/quizbtnfalsch.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/res/drawable/quizbtnfalsch.xml"
     },
     {
-        "merged": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
-        "source": "C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/drawable/design_fab_background.xml",
+        "source": "/Users/christophwessarges/.android/build-cache/ffcfb8cb360ffac9ae17d7a68ef792ea25442e6b/output/res/drawable/design_fab_background.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_seekbar_track_material.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_btn_radio_material.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\quizbtndefault.xml",
-        "source": "C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\src\\main\\res\\drawable\\quizbtndefault.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_ratingbar_material.xml"
     },
     {
-        "merged": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
-        "source": "C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
+        "source": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/drawable/abc_tab_indicator_material.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\notification_icon_background.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_service.png",
-        "source": "C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\src\\main\\res\\drawable\\icon_service.png"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_cab_background_top_material.xml"
     },
     {
-        "merged": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\quizbtndefault.xml",
-        "source": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\src\\main\\res\\drawable\\quizbtndefault.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\quizbtndefault.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\src\\main\\res\\drawable\\quizbtndefault.xml"
     },
     {
-        "merged": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
-        "source": "C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\quizbtnrichtig.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\src\\main\\res\\drawable\\quizbtnrichtig.xml"
     },
     {
-        "merged": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
-        "source": "C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
     },
     {
-        "merged": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
-        "source": "C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\drawable\\abc_ic_search_api_material.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_btn_check_material.xml"
     },
     {
-        "merged": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_service.png",
-        "source": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\src\\main\\res\\drawable\\icon_service.png"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
     },
     {
-        "merged": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
-        "source": "C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_btn_borderless_material.xml"
     },
     {
-        "merged": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
-        "source": "C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\drawable\\abc_btn_check_material.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/drawable/icon_puzzle.png",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/res/drawable/icon_puzzle.png"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\0d1c76aae798439ef7a05af0991728931543dd8b\\output\\res\\drawable\\navigation_empty_icon.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
     },
     {
-        "merged": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
-        "source": "C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\drawable\\abc_text_cursor_material.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/drawable/notification_tile_bg.xml",
+        "source": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/drawable/notification_tile_bg.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_password_eye.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\.android\\build-cache\\0cd23635246820e02bdfdd14846c3401ab22b412\\output\\res\\drawable\\design_password_eye.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_tab_indicator_material.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
+        "source": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/drawable/abc_cab_background_top_material.xml"
     },
     {
-        "merged": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
-        "source": "C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\drawable\\abc_btn_radio_material.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\input_outline.xml",
-        "source": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\src\\main\\res\\drawable\\input_outline.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_vector_test.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/drawable/design_password_eye.xml",
+        "source": "/Users/christophwessarges/.android/build-cache/ffcfb8cb360ffac9ae17d7a68ef792ea25442e6b/output/res/drawable/design_password_eye.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/drawable/input_outline.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/res/drawable/input_outline.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_btn_radio_material.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_ic_search_api_material.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\notification_icon_background.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/drawable/abc_text_cursor_material.xml",
+        "source": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/drawable/abc_text_cursor_material.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\input_outline.xml",
-        "source": "C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\src\\main\\res\\drawable\\input_outline.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/drawable/abc_ic_clear_material.xml",
+        "source": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/drawable/abc_ic_clear_material.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_guestbook.png",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\src\\main\\res\\drawable\\icon_guestbook.png"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\drawable\\abc_dialog_material_background.xml"
     },
     {
-        "merged": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_guestbook.png",
-        "source": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\src\\main\\res\\drawable\\icon_guestbook.png"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/drawable/quizbtnrichtig.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/res/drawable/quizbtnrichtig.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\drawable\\abc_cab_background_top_material.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
     },
     {
-        "merged": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_games.png",
-        "source": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\src\\main\\res\\drawable\\icon_games.png"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_games.png",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\src\\main\\res\\drawable\\icon_games.png"
     },
     {
-        "merged": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
-        "source": "C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/drawable/icon_service.png",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/res/drawable/icon_service.png"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_btn_colored_material.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/drawable/icon_games.png",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/res/drawable/icon_games.png"
     },
     {
-        "merged": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
-        "source": "C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\drawable\\abc_vector_test.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/drawable/abc_list_selector_background_transition_holo_light.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_werke.png",
-        "source": "C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\src\\main\\res\\drawable\\icon_werke.png"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
     },
     {
-        "merged": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_artsweeper.png",
-        "source": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\src\\main\\res\\drawable\\icon_artsweeper.png"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_games.png",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\src\\main\\res\\drawable\\icon_games.png"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\notification_tile_bg.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\drawable\\abc_edit_text_material.xml"
     },
     {
-        "merged": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_puzzle.png",
-        "source": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\src\\main\\res\\drawable\\icon_puzzle.png"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\drawable\\abc_ratingbar_small_material.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/drawable/abc_spinner_textfield_background_material.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_text_cursor_material.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
+        "source": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/drawable/abc_btn_default_mtrl_shape.xml"
     },
     {
-        "merged": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
-        "source": "C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
     },
     {
-        "merged": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
-        "source": "C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_item_background_holo_light.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\quizbtnrichtig.xml",
-        "source": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\src\\main\\res\\drawable\\quizbtnrichtig.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_ic_search_api_material.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_spinner_textfield_background_material.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\notification_icon_background.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_memory.png",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\src\\main\\res\\drawable\\icon_memory.png"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_maps.png",
-        "source": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\src\\main\\res\\drawable\\icon_maps.png"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
+        "source": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/drawable/abc_item_background_holo_dark.xml"
     },
     {
-        "merged": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
-        "source": "C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\drawable\\notification_icon_background.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_memory.png",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\src\\main\\res\\drawable\\icon_memory.png"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_games.png",
-        "source": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\src\\main\\res\\drawable\\icon_games.png"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_dialog_material_background.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_games.png",
-        "source": "C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\src\\main\\res\\drawable\\icon_games.png"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_cab_background_internal_bg.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_service.png",
-        "source": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\src\\main\\res\\drawable\\icon_service.png"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\quizbtnfalsch.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\src\\main\\res\\drawable\\quizbtnfalsch.xml"
     },
     {
-        "merged": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
-        "source": "C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\drawable\\abc_item_background_holo_light.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/drawable/abc_ic_ab_back_material.xml",
+        "source": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/drawable/abc_ic_ab_back_material.xml"
     },
     {
-        "merged": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
-        "source": "C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\drawable\\notification_bg.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
+        "source": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/drawable/abc_seekbar_track_material.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_list_selector_holo_light.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\.android\\build-cache\\0cd23635246820e02bdfdd14846c3401ab22b412\\output\\res\\drawable\\design_fab_background.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_vector_test.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/drawable/abc_vector_test.xml",
+        "source": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/drawable/abc_vector_test.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_btn_borderless_material.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\drawable\\notification_tile_bg.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_small_material.xml",
+        "source": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/drawable/abc_ratingbar_small_material.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\notification_bg.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_quiz.png",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\src\\main\\res\\drawable\\icon_quiz.png"
     },
     {
-        "merged": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
-        "source": "C:\\Users\\MP\\.android\\build-cache\\0cd23635246820e02bdfdd14846c3401ab22b412\\output\\res\\drawable\\design_fab_background.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\0d1c76aae798439ef7a05af0991728931543dd8b\\output\\res\\drawable\\navigation_empty_icon.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_textfield_search_material.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
+        "source": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/drawable/abc_item_background_holo_light.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_werke.png",
-        "source": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\src\\main\\res\\drawable\\icon_werke.png"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_text_cursor_material.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/drawable/abc_ic_search_api_material.xml",
+        "source": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/drawable/abc_ic_search_api_material.xml"
     },
     {
-        "merged": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
-        "source": "C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_edit_text_material.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_ic_clear_material.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_edit_text_material.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/drawable/icon_quiz.png",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/res/drawable/icon_quiz.png"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_edit_text_material.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_memory.png",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\src\\main\\res\\drawable\\icon_memory.png"
     },
     {
-        "merged": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
-        "source": "C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\drawable\\abc_ratingbar_material.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\notification_icon_background.xml"
     },
     {
-        "merged": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
-        "source": "C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\drawable\\abc_textfield_search_material.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\drawable\\abc_ic_search_api_material.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\notification_tile_bg.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
     },
     {
-        "merged": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
-        "source": "C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\drawable\\abc_btn_radio_material.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_ic_search_api_material.xml"
     },
     {
-        "merged": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_memory.png",
-        "source": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\src\\main\\res\\drawable\\icon_memory.png"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_werke.png",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\src\\main\\res\\drawable\\icon_werke.png"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\0d1c76aae798439ef7a05af0991728931543dd8b\\output\\res\\drawable\\design_snackbar_background.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_vector_test.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
     },
     {
-        "merged": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_maps.png",
-        "source": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\src\\main\\res\\drawable\\icon_maps.png"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\drawable\\abc_tab_indicator_material.xml"
     },
     {
-        "merged": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
-        "source": "C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
+        "source": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/drawable/abc_edit_text_material.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_list_selector_holo_dark.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_password_eye.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\0d1c76aae798439ef7a05af0991728931543dd8b\\output\\res\\drawable\\design_password_eye.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/drawable/abc_ic_voice_search_api_material.xml",
+        "source": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/drawable/abc_ic_voice_search_api_material.xml"
     },
     {
-        "merged": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_werke.png",
-        "source": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\src\\main\\res\\drawable\\icon_werke.png"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\0d1c76aae798439ef7a05af0991728931543dd8b\\output\\res\\drawable\\design_fab_background.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_switch_thumb_material.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
+        "source": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/drawable/abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_thumb_material.xml",
+        "source": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/drawable/abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_bottom_navigation_item_background.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\0d1c76aae798439ef7a05af0991728931543dd8b\\output\\res\\drawable\\design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
+        "source": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/drawable/abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_werke.png",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\src\\main\\res\\drawable\\icon_werke.png"
+    },
+    {
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_vector_test.xml"
+    },
+    {
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/drawable/notification_bg.xml",
+        "source": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_maps.png",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\src\\main\\res\\drawable\\icon_maps.png"
+    },
+    {
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
+        "source": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/drawable/abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\quizbtnfalsch.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\src\\main\\res\\drawable\\quizbtnfalsch.xml"
+    },
+    {
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/drawable/design_snackbar_background.xml",
+        "source": "/Users/christophwessarges/.android/build-cache/ffcfb8cb360ffac9ae17d7a68ef792ea25442e6b/output/res/drawable/design_snackbar_background.xml"
+    },
+    {
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_guestbook.png",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\src\\main\\res\\drawable\\icon_guestbook.png"
+    },
+    {
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_indicator_material.xml",
+        "source": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/drawable/abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_puzzle.png",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\src\\main\\res\\drawable\\icon_puzzle.png"
+    },
+    {
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\quizbtnrichtig.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\src\\main\\res\\drawable\\quizbtnrichtig.xml"
+    },
+    {
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_werke.png",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\src\\main\\res\\drawable\\icon_werke.png"
+    },
+    {
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
+        "source": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/drawable/abc_btn_check_material.xml"
+    },
+    {
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_bottom_navigation_item_background.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\0d1c76aae798439ef7a05af0991728931543dd8b\\output\\res\\drawable\\design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\.android\\build-cache\\99661d2a21f91b220d0f89dae7e95b593b03565b\\output\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\.android\\build-cache\\0cd23635246820e02bdfdd14846c3401ab22b412\\output\\res\\drawable\\navigation_empty_icon.xml"
+    },
+    {
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_artsweeper.png",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\src\\main\\res\\drawable\\icon_artsweeper.png"
+    },
+    {
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_games.png",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\src\\main\\res\\drawable\\icon_games.png"
+    },
+    {
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_service.png",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\src\\main\\res\\drawable\\icon_service.png"
+    },
+    {
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_service.png",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\src\\main\\res\\drawable\\icon_service.png"
+    },
+    {
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\input_outline.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\src\\main\\res\\drawable\\input_outline.xml"
+    },
+    {
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_guestbook.png",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\src\\main\\res\\drawable\\icon_guestbook.png"
+    },
+    {
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_quiz.png",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\src\\main\\res\\drawable\\icon_quiz.png"
+    },
+    {
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/drawable/notification_icon_background.xml",
+        "source": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/drawable/abc_ic_go_search_api_material.xml",
+        "source": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/drawable/abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\0d1c76aae798439ef7a05af0991728931543dd8b\\output\\res\\drawable\\design_snackbar_background.xml"
+    },
+    {
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\0d1c76aae798439ef7a05af0991728931543dd8b\\output\\res\\drawable\\design_fab_background.xml"
+    },
+    {
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable\\abc_ic_ab_back_material.xml"
     }
 ]

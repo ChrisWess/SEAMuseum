@@ -38,6 +38,8 @@
     <string name="game_reset_error">Fehler beim Zurücksetzen des Spiels.</string>
     <string name="win_message">Sie haben gewonnen!</string>
     <string name="loss_message">Verloren!</string>
+    <string name="action_new_game">Neues Spiel</string>
+    <string name="action_help">Hilfe</string>
 
     <!-- Für KontaktActivity -->
     <string name="kontakt_infos">Museum 42 \n \nKontakt: \nFrau Wess \nMuseum 42 \nMuseumstraße 42

@@ -40,7 +40,7 @@
             android:src="@drawable/icon_quiz" />
 
         <ImageButton
-            android:id="@+id/buttonUnbenannt"
+            android:id="@+id/buttonPuzzle"
             android:layout_width="0dp"
             android:layout_height="fill_parent"
             android:layout_weight="1"
