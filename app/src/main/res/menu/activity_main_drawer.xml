@@ -4,6 +4,11 @@
 
     <group android:checkableBehavior="single">
         <item
+            android:id="@+id/nav_suche"
+            android:icon="@drawable/icon_search"
+            android:title="Suche" />
+
+        <item
             android:id="@+id/nav_werke"
             android:icon="@drawable/icon_werke"
             android:title="Werke" />
@@ -25,10 +30,6 @@
             android:icon="@drawable/icon_guestbook"
             android:title="Gästebuch" />
 
-        <item
-            android:id="@+id/nav_suche"
-            android:icon="@drawable/icon_search"
-            android:title="Suche" />
     </group>
 
 </menu>
