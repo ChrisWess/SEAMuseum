@@ -1,7 +1,10 @@
 package com.seamuseum.auswahlelement.werke;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.Menu;
+import android.view.MenuItem;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -64,5 +67,19 @@ public class WerkSingleActivity extends Activity {
 
             }
         });
+    }
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        getMenuInflater().inflate(R.menu.werke_single_menu, menu);
+        return super.onCreateOptionsMenu(menu);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem item) {
+        if (item.getItemId() == R.id.action_add)
+        {
+            startActivity(new Intent(getApplicationContext(), WerkActivity.class));
+        }
+        return super.onOptionsItemSelected(item);
     }
 }

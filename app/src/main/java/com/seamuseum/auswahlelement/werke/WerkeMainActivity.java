@@ -33,6 +33,8 @@ public class WerkeMainActivity extends Activity {
 
     private DatabaseReference _database;
 
+    private static Activity activity;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -118,8 +120,6 @@ public class WerkeMainActivity extends Activity {
             });
         }
     }
-
-    private static Activity activity;
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

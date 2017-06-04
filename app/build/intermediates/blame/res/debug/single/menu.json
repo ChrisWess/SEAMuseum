@@ -16,6 +16,10 @@
         "source": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\src\\main\\res\\menu\\menu_entries.xml"
     },
     {
+        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\menu\\werke_single_menu.xml",
+        "source": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\src\\main\\res\\menu\\werke_single_menu.xml"
+    },
+    {
         "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_drawer.xml",
         "source": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
     },

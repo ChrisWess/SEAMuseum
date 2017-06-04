@@ -91,7 +91,9 @@ Beiträge, die den Regeln nicht entsprechen, werden umgehend gelöscht.\n \n Que
     <string name="werkKuenstler">Künstlername</string>
     <string name="werkBeschreibung">Beschreibung</string>
     <string name="addWerk">Füge Werk hinzu</string>
-    <string name="infoWerk">Weitere Informationen</string>
+    <string name="commentWerk">Kommentare</string>
+    <string name="removeWerk">Entferne Werk</string>
+    <string name="updateWerk">Bearbeite Werk</string>
     <string name="createWerk">Werk erstellen</string>
     <string name="uploadWerk">Werk wird hochgeladen</string>
     <string name="werkeDbRef">Werke</string>

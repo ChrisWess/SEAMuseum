@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/action_comment"
+        android:icon="@mipmap/ic_comment_white_24dp"
+        android:title="@string/commentWerk"
+        android:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_update"
+        android:title="@string/updateWerk" />
+
+    <item
+        android:id="@+id/action_remove"
+        android:title="@string/removeWerk" />
+</menu>
