@@ -3,7 +3,7 @@
     <string name="app_name">Museumsapp</string>
     <string name="auswahl1">Werke</string>
     <string name="auswahl2">Spiele</string>
-    <string name="auswahl3">Kontakt und Leistungen </string>
+    <string name="auswahl3">Kontakt und Leistungen</string>
     <string name="auswahl4">Museumskarte</string>
     <string name="auswahl5">Gästebuch</string>
     <string name="auswahl6">Anfahrt</string>
@@ -40,13 +40,26 @@
 
     <!-- Für KontaktActivity -->
     <string name="kontakt_infos">Museum 42 \n \nKontakt: \nFrau Wess \nMuseum 42 \nMuseumstraße 42
-    \n42424 Ort \n040 42 42 42 \ncontact@museum42.com \n\nÖffnungszeiten: \nMo - So: immer</string>
+    \n42424 Ort \n\n040 42 42 42 \ncontact@museum42.com \n\nÖffnungszeiten: \nMo - So: immer</string>
 
     <!-- Für ServiceActivity -->
-    <string name="service">Hier finden sie unsere aktuellen Preise und Angebote.</string>
+    <string name="service_angebot">Hier finden sie unsere aktuellen Angebote.</string>
+    <string name="service_preis">Hier finden sie unsere aktuellen Preise.</string>
+    <string name="service_kontakt">Sie haben Fragen oder Anregungen?\nKontaktieren Sie uns. Wir freuen uns auf Sie!</string>
+    <string name="service_head">Kontakt und Leistungen</string>
+    <string name="service_verlinkung">Sagt ihnen eines unserer Angebote zu? \nDann zögern sie nicht uns zu kontaktieren:</string>
+    <string name="freuen_service">Wir freuen uns auf ihren Besuch!</string>
 
     <!-- Für PreisActivity -->
-    <string name="preis">Hier stehen Preise. Viele Preise.</string>
+    <string name="preis">Preise</string>
+    <string name="eintritt">Eintritt:</string>
+    <string name="preis_aktuell">Wird geladen...</string>
+
+    <!-- Für AngebotActivity -->
+    <string name="angebot">Angebote</string>
+    <string name="angebot_liste">Aktuelle Angebote:</string>
+    <string name="angebote_aktuell">Wird geladen...</string>
+
     <!-- Gästebuch -->
     <string name="textfeld1">Dein Name</string>
     <string name="textfeld2">Deine Nachricht</string>

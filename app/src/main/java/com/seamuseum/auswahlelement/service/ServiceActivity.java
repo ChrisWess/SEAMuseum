@@ -15,6 +15,7 @@ public class ServiceActivity extends Activity
 
     private Button _preise;
     private Button _angebote;
+    private Button _kontakt;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -63,8 +64,21 @@ public class ServiceActivity extends Activity
             @Override
             public void onClick(View v)
             {
-                Intent test = new Intent(ServiceActivity.this, KontaktActivity.class);
-                startActivity(test);
+                Intent angebot = new Intent(ServiceActivity.this, AngebotActivity.class);
+                startActivity(angebot);
+
+            }
+        });
+
+        _kontakt = (Button) findViewById(R.id.kontakt_button);
+        _kontakt.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                Intent kontakt = new Intent(ServiceActivity.this, KontaktActivity.class);
+                startActivity(kontakt);
+
             }
         });
 

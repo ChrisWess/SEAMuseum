@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/MuseumsApp.iml" filepath="$PROJECT_DIR$/MuseumsApp.iml" />
       <module fileurl="file://$PROJECT_DIR$/SEA-Backup.iml" filepath="$PROJECT_DIR$/SEA-Backup.iml" />
+      <module fileurl="file://$PROJECT_DIR$/SEAMuseum.iml" filepath="$PROJECT_DIR$/SEAMuseum.iml" />
       <module fileurl="file://$PROJECT_DIR$/SEAMuseum1.iml" filepath="$PROJECT_DIR$/SEAMuseum1.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>

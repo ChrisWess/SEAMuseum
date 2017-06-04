@@ -8,6 +8,22 @@
         "source": "C:\\Users\\Elham\\.android\\build-cache\\29bf2146ddf158baef2ee7de8f1296cb21fefc34\\output\\res\\menu\\crop_image_menu.xml"
     },
     {
+        "merged": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\menu\\crop_image_menu.xml",
+        "source": "C:\\Users\\MP\\.android\\build-cache\\8bd2cf2fa7972f4848bc37e044d7dd518e6e92f1\\output\\res\\menu\\crop_image_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu.xml",
+        "source": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\src\\main\\res\\menu\\menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\menu\\werke_main_menu.xml",
+        "source": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\src\\main\\res\\menu\\werke_main_menu.xml"
+    },
+    {
+        "merged": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_entries.xml",
+        "source": "C:\\Users\\MP\\StudioProjects\\SEAMuseum\\app\\src\\main\\res\\menu\\menu_entries.xml"
+    },
+    {
         "merged": "C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\build\\intermediates\\res\\merged\\debug\\menu\\werke_main_menu.xml",
         "source": "C:\\Users\\Elham\\Desktop\\SEA-Backup\\app\\src\\main\\res\\menu\\werke_main_menu.xml"
     },
