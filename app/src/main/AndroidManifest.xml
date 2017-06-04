@@ -38,7 +38,7 @@
             android:screenOrientation="portrait"
             android:theme="@style/AppTheme.NoActionBar" />
         <activity
-            android:name=".angebote.AngeboteActivity"
+            android:name=".service.AngebotActivity"
             android:label="@string/app_name" />
         <activity
             android:name=".werke.WerkeMainActivity"
