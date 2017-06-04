@@ -5,6 +5,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.graphics.Color;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.text.Layout;
 import android.text.Spannable;
 import android.text.SpannableStringBuilder;
@@ -69,9 +70,7 @@ public class EntriesActivity extends Activity {
         }
         if(item.getItemId() == R.id.action_settings)
         {
-            Context context = getApplicationContext();
-            Toast toast = Toast.makeText(context, "Beleidigungen verboten!", Toast.LENGTH_SHORT); //TODO: ordentlich machen
-            toast.show();
+            startActivity(new Intent(getApplicationContext(), KommentarRegelnActivity.class));
         }
         return super.onOptionsItemSelected(item);
     }

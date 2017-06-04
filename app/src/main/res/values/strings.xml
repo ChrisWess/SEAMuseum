@@ -55,6 +55,16 @@
     <string name="title_activity_guestbook_write">Nachricht verfassen</string>
     <string name="abschicken">Abschicken</string>
     <string name="textview">Wird geladen...</string>
+    <string name="regelntitle">Regeln</string>
+    <string name="regeln">"Deine Meinung ist uns wichtig. Damit wir deine Beiträge im Gästebuch veröffentlichen können, musst du dich aber bitte an folgende Regeln halten: \n
+Der Ton im Gästebuch sollte immer höflich und von gegenseitigem Respekt geprägt sein.\n
+Beleidigungen, Beschimpfungen und Ausdrücke werden im Gästebuch nicht geduldet. Denke daran, dass auch jüngere Kinder diese Seite besuchen.\n
+Beiträge, die Werbung zum Inhalt haben, sind Spam. Bitte keine Links zu anderen Homepages! Sie werden gelöscht.\n
+Natürlich dürft ihr euch gegenseitig Grüße ausrichten. Aber private "nterhaltungen sind im Gästebuch nicht erwünscht.\n
+Sollten wir uns dagegen entscheiden, Dein Eintrag zu veröffentlichen, erfolgt keine automatische Benachrichtigung unsererseits.\n
+Für die Inhalte ist allein der Veröffentlicher verantwortlich. Der Betreiber behält sich vor, Informationen von der Veröffentlichung auszuschließen,
+        die öffentlich Anstoß erregen, Dritte verunglimpfen oder gegen geltendes Recht verstoßen.\n
+Beiträge, die den Regeln nicht entsprechen, werden umgehend gelöscht.\n \n Quelle: http://www.rsg-le.de/gaestebuch/gaestebuch-regeln.html"</string>
 
     <!-- Für die Werke -->
     <string name="uploadNotPossible">Wählen Sie bitte ein Bild und füllen Sie alle Felder aus!</string>
@@ -69,6 +79,11 @@
     <string name="titelDb">titel</string>
     <string name="beschreibungDb">beschreibung</string>
     <string name="bildDb">bildUrl</string>
+    <string name="title_activity_hauptmenu">HauptmenuActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="title_activity_kommentar_regeln">KommentarRegelnActivity</string>
 
 
 </resources>
