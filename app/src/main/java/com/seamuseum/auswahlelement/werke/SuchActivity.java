@@ -59,7 +59,7 @@ public class SuchActivity extends Activity {
                         for (DataSnapshot postSnapshot : dataSnapshot.getChildren())
                         {
                             Log.d("STATE", postSnapshot.toString());
-                            if (postSnapshot != null && postSnapshot.getKey() != null && !suchfeld.getText().equals("") && postSnapshot.getKey().contains(suchfeld.getText().toString()))
+                            if (postSnapshot != null && postSnapshot.getKey() != null && !suchfeld.getText().equals("") && postSnapshot.getKey().toLowerCase().contains(suchfeld.getText().toString().toLowerCase()))
                             {
                                 sb.append(postSnapshot.getKey().toString() + "\n");
                             }
