@@ -57,7 +57,7 @@ public class EntriesActivity extends Activity {
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.werke_main_menu, menu);
+        getMenuInflater().inflate(R.menu.entries_menu, menu);
         return super.onCreateOptionsMenu(menu);
 
     }
@@ -68,18 +68,18 @@ public class EntriesActivity extends Activity {
         {
             startActivity(new Intent(getApplicationContext(), WriteEntryActivity.class));
         }
-        if(item.getItemId() == R.id.action_settings)
+        if(item.getItemId() == R.id.action_rules)
         {
             startActivity(new Intent(getApplicationContext(), KommentarRegelnActivity.class));
         }
         return super.onOptionsItemSelected(item);
     }
 
-    @Override
-    public void onBackPressed()
-    {
-        startActivity(new Intent(getApplicationContext(), AuswahlElementActivity.class));
-    }
+//    @Override
+//    public void onBackPressed()
+//    {
+//        startActivity(new Intent(getApplicationContext(), AuswahlElementActivity.class));
+//    }
 
     protected void refreshEntries()
     {

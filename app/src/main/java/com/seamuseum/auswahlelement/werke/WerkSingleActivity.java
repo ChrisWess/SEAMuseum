@@ -82,6 +82,17 @@ public class WerkSingleActivity extends Activity {
             EntriesActivity.key = _werkKey;
             startActivity(new Intent(getApplicationContext(), EntriesActivity.class));
         }
+        if (item.getItemId() == R.id.action_update)
+        {
+            startActivity(new Intent(getApplicationContext(), WerkActivity.class));
+        }
+        if (item.getItemId() == R.id.action_remove)
+        {
+            _database.child(_werkKey).removeValue();
+            Intent homeIntent = new Intent(getApplicationContext(), WerkeMainActivity.class);
+            homeIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(homeIntent);
+        }
         return super.onOptionsItemSelected(item);
     }
 }

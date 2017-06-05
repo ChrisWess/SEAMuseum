@@ -122,6 +122,10 @@ public class WerkeMainActivity extends Activity {
         {
             startActivity(new Intent(getApplicationContext(), WerkActivity.class));
         }
+        if (item.getItemId() == R.id.action_search)
+        {
+            startActivity(new Intent(getApplicationContext(), SuchActivity.class));
+        }
         return super.onOptionsItemSelected(item);
     }
 }

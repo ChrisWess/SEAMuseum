@@ -46,8 +46,7 @@
         <activity
             android:name=".werke.WerkSingleActivity" />
         <activity
-            android:name=".werke.WerkActivity"
-            android:screenOrientation="portrait" />
+            android:name=".werke.WerkActivity" />
         <activity android:name=".service.KontaktActivity" />
         <activity android:name=".service.ServiceActivity" />
         <activity android:name=".service.PreisActivity" />
