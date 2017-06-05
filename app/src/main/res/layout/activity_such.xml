@@ -6,6 +6,11 @@
     android:layout_height="match_parent"
     android:weightSum="1">
 
+    <TextView
+        android:id="@+id/sucherklaerung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Geben Sie hier bitte ihren Suchbegriff ein!" />
 
     <EditText
         android:id="@+id/suchfeld"
@@ -16,22 +21,15 @@
         android:hint="@string/suchtext"
         tools:layout_editor_absoluteY="20dp"
         tools:layout_centerHorizontal="true"
-        tools:layout_editor_absoluteX="20dp"
-        android:layout_weight="0.1" />
+        tools:layout_editor_absoluteX="20dp" />
 
-    <TextView
-        android:id="@+id/leer"
+    <ListView
+        android:id="@+id/suchergebnisse"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="0.1"/>
+        android:choiceMode="singleChoice"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="10dp"
+        android:text="@string/textview" />
 
-        <ListView
-            android:id="@+id/suchergebnisse"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:choiceMode="singleChoice"
-            android:layout_marginLeft="5dp"
-            android:layout_marginTop="10dp"
-            android:layout_weight="0.9"
-            android:text="@string/textview" />
 </LinearLayout>

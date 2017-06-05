@@ -6,6 +6,7 @@ import android.graphics.Color;
 import android.os.Bundle;
 import android.text.Editable;
 import android.text.Layout;
+import android.text.Spannable;
 import android.text.SpannableStringBuilder;
 import android.text.Spanned;
 import android.text.TextWatcher;
@@ -37,6 +38,7 @@ public class SuchActivity extends Activity {
 
     public EditText suchfeld;
     public ListView suchergebnisse;
+    TextView titel;
     private DatabaseReference _rootRef;
     Query myTopPostsQuery;
 
@@ -45,6 +47,22 @@ public class SuchActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_such);
         _rootRef = FirebaseDatabase.getInstance().getReference();
+        titel = (TextView) findViewById(R.id.sucherklaerung);
+        SpannableStringBuilder sb = new SpannableStringBuilder();
+        sb.append("Suche\n\n");
+        sb.setSpan(new RelativeSizeSpan(2f), 0, sb.length(), 0);
+        sb.setSpan(new ForegroundColorSpan(Color.BLACK), 0, sb.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+        sb.setSpan(new AlignmentSpan.Standard(Layout.Alignment.ALIGN_CENTER),
+                0, sb.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+        sb.append("Geben Sie bitte hier ihren Suchbegriff oder eine Kombination aus Buchstaben ein. Unsere Suche wird entsprechend für Sie filtern. " +
+                "Klicken Sie dann einfach das Werk an, das Sie betrachten möchten!\n");
+        int start = sb.length();
+        sb.setSpan(new RelativeSizeSpan(1f), start, sb.length(), 0);
+        sb.setSpan(new ForegroundColorSpan(Color.GRAY), start, sb.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+        sb.setSpan(new AlignmentSpan.Standard(Layout.Alignment.ALIGN_NORMAL),
+                start, sb.length(), Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+        titel.setText(sb);
+
         suchergebnisse = (ListView) findViewById(R.id.suchergebnisse);
         suchfeld = (EditText) findViewById(R.id.suchfeld);
         suchfeld.addTextChangedListener(new TextWatcher() {

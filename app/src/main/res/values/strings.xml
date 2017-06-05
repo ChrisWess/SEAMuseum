@@ -64,7 +64,7 @@
     <string name="angebote_aktuell">Wird geladen...</string>
 
     <!-- SuchActivity -->
-    <string name="suchtext">Dein Suchbegriff</string>
+    <string name="suchtext">Ihr Suchbegriff</string>
 
     <!-- Gästebuch -->
     <string name="textfeld1">Dein Name</string>

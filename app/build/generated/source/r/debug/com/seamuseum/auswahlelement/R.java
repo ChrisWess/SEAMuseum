@@ -3782,7 +3782,6 @@ containing a value of this type.
         public static final int kontakt_button=0x7f0e00a3;
         public static final int kontakt_button_angebot=0x7f0e0082;
         public static final int largeLabel=0x7f0e00bc;
-        public static final int leer=0x7f0e00aa;
         public static final int left=0x7f0e0034;
         public static final int line1=0x7f0e00e4;
         public static final int line3=0x7f0e00e6;
@@ -3883,7 +3882,8 @@ containing a value of this type.
         public static final int submitBtn=0x7f0e00b1;
         public static final int submit_area=0x7f0e007e;
         public static final int suchergebnisse=0x7f0e00ab;
-        public static final int suchfeld=0x7f0e00a9;
+        public static final int sucherklaerung=0x7f0e00a9;
+        public static final int suchfeld=0x7f0e00aa;
         public static final int tabMode=0x7f0e001a;
         public static final int tableLayout1=0x7f0e00cb;
         public static final int tableRow1=0x7f0e00cc;
