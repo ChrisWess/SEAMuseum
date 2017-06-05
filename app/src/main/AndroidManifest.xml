@@ -53,6 +53,7 @@
         <activity android:name=".service.PreisActivity" />
         <activity android:name=".comments.EntriesActivity" />
         <activity android:name=".comments.WriteEntryActivity" />
+        <activity android:name=".gebaeudeplan.PlanAnzeigenActivity" />
         <activity
             android:name=".comments.KommentarRegelnActivity"
             android:label="@string/title_activity_kommentar_regeln">

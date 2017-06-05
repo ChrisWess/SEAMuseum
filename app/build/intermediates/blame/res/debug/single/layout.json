@@ -1,310 +1,314 @@
 [
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\layout\\abc_list_menu_item_radio.xml"
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
+        "source": "C:\\Users\\Chris\\.android\\build-cache\\ef80ae3be93b502b2a91376bb09e8ee6bbf97f89\\output\\res\\layout\\design_menu_item_action_area.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\icon_text_text.xml",
-        "source": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\src\\main\\res\\layout\\icon_text_text.xml"
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar_main.xml",
+        "source": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\src\\main\\res\\layout\\app_bar_main.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\layout\\abc_dialog_title_material.xml"
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
+        "source": "C:\\Users\\Chris\\.android\\build-cache\\ef80ae3be93b502b2a91376bb09e8ee6bbf97f89\\output\\res\\layout\\design_layout_tab_icon.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\layout\\abc_action_bar_up_container.xml"
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "C:\\Users\\Chris\\.android\\build-cache\\c0b5dbb1e4512f3eb1fc1689826bd3ec2c6044e6\\output\\res\\layout\\abc_list_menu_item_icon.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\layout\\abc_list_menu_item_layout.xml"
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "C:\\Users\\Chris\\.android\\build-cache\\c0b5dbb1e4512f3eb1fc1689826bd3ec2c6044e6\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "C:\\Users\\Chris\\.android\\build-cache\\c0b5dbb1e4512f3eb1fc1689826bd3ec2c6044e6\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\layout\\notification_action.xml"
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_navigation_item.xml",
+        "source": "C:\\Users\\Chris\\.android\\build-cache\\ef80ae3be93b502b2a91376bb09e8ee6bbf97f89\\output\\res\\layout\\design_bottom_navigation_item.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\layout\\abc_select_dialog_material.xml"
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "C:\\Users\\Chris\\.android\\build-cache\\c0b5dbb1e4512f3eb1fc1689826bd3ec2c6044e6\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_kommentar_regeln.xml",
-        "source": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\src\\main\\res\\layout\\activity_kommentar_regeln.xml"
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_werke_main.xml",
+        "source": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\src\\main\\res\\layout\\activity_werke_main.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\0d1c76aae798439ef7a05af0991728931543dd8b\\output\\res\\layout\\design_layout_snackbar_include.xml"
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Users\\Chris\\.android\\build-cache\\c0b5dbb1e4512f3eb1fc1689826bd3ec2c6044e6\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\layout\\abc_expanded_menu_layout.xml"
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_plan_anzeigen.xml",
+        "source": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\src\\main\\res\\layout\\activity_plan_anzeigen.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\0d1c76aae798439ef7a05af0991728931543dd8b\\output\\res\\layout\\design_layout_snackbar.xml"
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "C:\\Users\\Chris\\.android\\build-cache\\c0b5dbb1e4512f3eb1fc1689826bd3ec2c6044e6\\output\\res\\layout\\abc_search_view.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\new_spieleuebersicht.xml",
-        "source": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\src\\main\\res\\layout\\new_spieleuebersicht.xml"
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "C:\\Users\\Chris\\.android\\build-cache\\c0b5dbb1e4512f3eb1fc1689826bd3ec2c6044e6\\output\\res\\layout\\abc_select_dialog_material.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\layout\\abc_action_menu_layout.xml"
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Users\\Chris\\.android\\build-cache\\c0b5dbb1e4512f3eb1fc1689826bd3ec2c6044e6\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\0d1c76aae798439ef7a05af0991728931543dd8b\\output\\res\\layout\\design_layout_tab_icon.xml"
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
+        "source": "C:\\Users\\Chris\\.android\\build-cache\\c0b5dbb1e4512f3eb1fc1689826bd3ec2c6044e6\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_werke_main.xml",
-        "source": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\src\\main\\res\\layout\\activity_werke_main.xml"
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\Chris\\.android\\build-cache\\c0b5dbb1e4512f3eb1fc1689826bd3ec2c6044e6\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_navigation_item.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\0d1c76aae798439ef7a05af0991728931543dd8b\\output\\res\\layout\\design_bottom_navigation_item.xml"
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_angebot.xml",
+        "source": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\src\\main\\res\\layout\\activity_angebot.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\layout\\abc_action_bar_title_item.xml"
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_uebersicht_menu.xml",
+        "source": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\src\\main\\res\\layout\\activity_uebersicht_menu.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\0d1c76aae798439ef7a05af0991728931543dd8b\\output\\res\\layout\\design_layout_tab_text.xml"
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\crop_image_view.xml",
+        "source": "C:\\Users\\Chris\\.android\\build-cache\\2b7eed5020e5cbbd5074084acf15eb7b68f44f89\\output\\res\\layout\\crop_image_view.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\icon_text_text.xml",
+        "source": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\src\\main\\res\\layout\\icon_text_text.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\layout\\abc_screen_toolbar.xml"
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
+        "source": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\src\\main\\res\\layout\\activity_main.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_puzzle.xml",
-        "source": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\src\\main\\res\\layout\\activity_puzzle.xml"
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\werk_row.xml",
+        "source": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\src\\main\\res\\layout\\werk_row.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_uebersicht_menu.xml",
-        "source": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\src\\main\\res\\layout\\activity_uebersicht_menu.xml"
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_text_input_password_icon.xml",
+        "source": "C:\\Users\\Chris\\.android\\build-cache\\ef80ae3be93b502b2a91376bb09e8ee6bbf97f89\\output\\res\\layout\\design_text_input_password_icon.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\layout\\abc_activity_chooser_view.xml"
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\Chris\\.android\\build-cache\\c0b5dbb1e4512f3eb1fc1689826bd3ec2c6044e6\\output\\res\\layout\\notification_template_icon_group.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\crop_image_activity.xml",
+        "source": "C:\\Users\\Chris\\.android\\build-cache\\2b7eed5020e5cbbd5074084acf15eb7b68f44f89\\output\\res\\layout\\crop_image_activity.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\layout\\abc_list_menu_item_checkbox.xml"
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_artsweeper.xml",
+        "source": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\src\\main\\res\\layout\\activity_artsweeper.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\app_bar_main.xml",
-        "source": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\src\\main\\res\\layout\\app_bar_main.xml"
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
+        "source": "C:\\Users\\Chris\\.android\\build-cache\\c0b5dbb1e4512f3eb1fc1689826bd3ec2c6044e6\\output\\res\\layout\\notification_template_lines_media.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_guestbook_entries.xml",
-        "source": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\src\\main\\res\\layout\\activity_guestbook_entries.xml"
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_puzzle.xml",
+        "source": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\src\\main\\res\\layout\\activity_puzzle.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\layout\\abc_alert_dialog_title_material.xml"
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Users\\Chris\\.android\\build-cache\\c0b5dbb1e4512f3eb1fc1689826bd3ec2c6044e6\\output\\res\\layout\\abc_action_menu_layout.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\crop_image_view.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\29bf2146ddf158baef2ee7de8f1296cb21fefc34\\output\\res\\layout\\crop_image_view.xml"
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Users\\Chris\\.android\\build-cache\\c0b5dbb1e4512f3eb1fc1689826bd3ec2c6044e6\\output\\res\\layout\\abc_list_menu_item_radio.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\layout\\abc_search_view.xml"
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_preis.xml",
+        "source": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\src\\main\\res\\layout\\activity_preis.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\layout\\notification_template_media.xml"
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Users\\Chris\\.android\\build-cache\\c0b5dbb1e4512f3eb1fc1689826bd3ec2c6044e6\\output\\res\\layout\\abc_popup_menu_item_layout.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\layout\\abc_screen_simple.xml"
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\Users\\Chris\\.android\\build-cache\\c0b5dbb1e4512f3eb1fc1689826bd3ec2c6044e6\\output\\res\\layout\\abc_expanded_menu_layout.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\layout\\abc_screen_content_include.xml"
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "C:\\Users\\Chris\\.android\\build-cache\\c0b5dbb1e4512f3eb1fc1689826bd3ec2c6044e6\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\Chris\\.android\\build-cache\\c0b5dbb1e4512f3eb1fc1689826bd3ec2c6044e6\\output\\res\\layout\\abc_action_bar_title_item.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\layout\\notification_template_lines_media.xml"
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\Chris\\.android\\build-cache\\c0b5dbb1e4512f3eb1fc1689826bd3ec2c6044e6\\output\\res\\layout\\notification_template_part_chronometer.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\layout\\abc_alert_dialog_material.xml"
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\Users\\Chris\\.android\\build-cache\\c0b5dbb1e4512f3eb1fc1689826bd3ec2c6044e6\\output\\res\\layout\\abc_action_menu_item_layout.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_quiz.xml",
-        "source": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\src\\main\\res\\layout\\activity_quiz.xml"
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
+        "source": "C:\\Users\\Chris\\.android\\build-cache\\ef80ae3be93b502b2a91376bb09e8ee6bbf97f89\\output\\res\\layout\\design_layout_tab_text.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\layout\\notification_template_icon_group.xml"
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_service.xml",
+        "source": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\src\\main\\res\\layout\\activity_service.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\layout\\notification_template_part_time.xml"
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "C:\\Users\\Chris\\.android\\build-cache\\c0b5dbb1e4512f3eb1fc1689826bd3ec2c6044e6\\output\\res\\layout\\abc_dialog_title_material.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_kontakt.xml",
-        "source": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\src\\main\\res\\layout\\activity_kontakt.xml"
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_such.xml",
+        "source": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\src\\main\\res\\layout\\activity_such.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main.xml",
-        "source": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\src\\main\\res\\layout\\activity_main.xml"
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
+        "source": "C:\\Users\\Chris\\.android\\build-cache\\ef80ae3be93b502b2a91376bb09e8ee6bbf97f89\\output\\res\\layout\\design_navigation_item_header.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\layout\\select_dialog_item_material.xml"
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Users\\Chris\\.android\\build-cache\\c0b5dbb1e4512f3eb1fc1689826bd3ec2c6044e6\\output\\res\\layout\\abc_screen_simple.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\0d1c76aae798439ef7a05af0991728931543dd8b\\output\\res\\layout\\design_navigation_item_header.xml"
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
+        "source": "C:\\Users\\Chris\\.android\\build-cache\\ef80ae3be93b502b2a91376bb09e8ee6bbf97f89\\output\\res\\layout\\design_navigation_menu.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\0d1c76aae798439ef7a05af0991728931543dd8b\\output\\res\\layout\\design_navigation_menu_item.xml"
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "C:\\Users\\Chris\\.android\\build-cache\\c0b5dbb1e4512f3eb1fc1689826bd3ec2c6044e6\\output\\res\\layout\\abc_alert_dialog_material.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\layout\\select_dialog_singlechoice_material.xml"
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
+        "source": "C:\\Users\\Chris\\.android\\build-cache\\ef80ae3be93b502b2a91376bb09e8ee6bbf97f89\\output\\res\\layout\\design_bottom_sheet_dialog.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_preis.xml",
-        "source": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\src\\main\\res\\layout\\activity_preis.xml"
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "C:\\Users\\Chris\\.android\\build-cache\\c0b5dbb1e4512f3eb1fc1689826bd3ec2c6044e6\\output\\res\\layout\\abc_action_mode_bar.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\0d1c76aae798439ef7a05af0991728931543dd8b\\output\\res\\layout\\design_navigation_item.xml"
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "C:\\Users\\Chris\\.android\\build-cache\\c0b5dbb1e4512f3eb1fc1689826bd3ec2c6044e6\\output\\res\\layout\\abc_action_mode_close_item_material.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "C:\\Users\\Chris\\.android\\build-cache\\c0b5dbb1e4512f3eb1fc1689826bd3ec2c6044e6\\output\\res\\layout\\abc_list_menu_item_layout.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\layout\\notification_template_part_chronometer.xml"
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_werk_single.xml",
+        "source": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\src\\main\\res\\layout\\activity_werk_single.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_werk_single.xml",
-        "source": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\src\\main\\res\\layout\\activity_werk_single.xml"
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "C:\\Users\\Chris\\.android\\build-cache\\c0b5dbb1e4512f3eb1fc1689826bd3ec2c6044e6\\output\\res\\layout\\abc_activity_chooser_view.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_angebot.xml",
-        "source": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\src\\main\\res\\layout\\activity_angebot.xml"
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_guestbook_writeentry.xml",
+        "source": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\src\\main\\res\\layout\\activity_guestbook_writeentry.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_werk.xml",
-        "source": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\src\\main\\res\\layout\\activity_werk.xml"
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragmentdemo3.xml",
+        "source": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\src\\main\\res\\layout\\fragmentdemo3.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\layout\\notification_action_tombstone.xml"
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
+        "source": "C:\\Users\\Chris\\.android\\build-cache\\ef80ae3be93b502b2a91376bb09e8ee6bbf97f89\\output\\res\\layout\\design_navigation_menu_item.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_service.xml",
-        "source": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\src\\main\\res\\layout\\activity_service.xml"
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_kommentar_regeln.xml",
+        "source": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\src\\main\\res\\layout\\activity_kommentar_regeln.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_text_input_password_icon.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\0d1c76aae798439ef7a05af0991728931543dd8b\\output\\res\\layout\\design_text_input_password_icon.xml"
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_quiz.xml",
+        "source": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\src\\main\\res\\layout\\activity_quiz.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\0d1c76aae798439ef7a05af0991728931543dd8b\\output\\res\\layout\\design_menu_item_action_area.xml"
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "C:\\Users\\Chris\\.android\\build-cache\\c0b5dbb1e4512f3eb1fc1689826bd3ec2c6044e6\\output\\res\\layout\\select_dialog_multichoice_material.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_main.xml",
-        "source": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\src\\main\\res\\layout\\content_main.xml"
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_werk.xml",
+        "source": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\src\\main\\res\\layout\\activity_werk.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\layout\\abc_action_mode_bar.xml"
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "C:\\Users\\Chris\\.android\\build-cache\\c0b5dbb1e4512f3eb1fc1689826bd3ec2c6044e6\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "C:\\Users\\Chris\\.android\\build-cache\\c0b5dbb1e4512f3eb1fc1689826bd3ec2c6044e6\\output\\res\\layout\\notification_template_media.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "C:\\Users\\Chris\\.android\\build-cache\\c0b5dbb1e4512f3eb1fc1689826bd3ec2c6044e6\\output\\res\\layout\\select_dialog_item_material.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\layout\\select_dialog_multichoice_material.xml"
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\new_spieleuebersicht.xml",
+        "source": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\src\\main\\res\\layout\\new_spieleuebersicht.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\0d1c76aae798439ef7a05af0991728931543dd8b\\output\\res\\layout\\design_bottom_sheet_dialog.xml"
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_guestbook_entries.xml",
+        "source": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\src\\main\\res\\layout\\activity_guestbook_entries.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\layout\\notification_template_media_custom.xml"
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\Chris\\.android\\build-cache\\c0b5dbb1e4512f3eb1fc1689826bd3ec2c6044e6\\output\\res\\layout\\notification_template_part_time.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_artsweeper.xml",
-        "source": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\src\\main\\res\\layout\\activity_artsweeper.xml"
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
+        "source": "C:\\Users\\Chris\\.android\\build-cache\\ef80ae3be93b502b2a91376bb09e8ee6bbf97f89\\output\\res\\layout\\design_navigation_item_separator.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_guestbook_writeentry.xml",
-        "source": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\src\\main\\res\\layout\\activity_guestbook_writeentry.xml"
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "C:\\Users\\Chris\\.android\\build-cache\\c0b5dbb1e4512f3eb1fc1689826bd3ec2c6044e6\\output\\res\\layout\\abc_screen_content_include.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\layout\\abc_action_menu_item_layout.xml"
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_main.xml",
+        "source": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\src\\main\\res\\layout\\content_main.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\werk_row.xml",
-        "source": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\src\\main\\res\\layout\\werk_row.xml"
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
+        "source": "C:\\Users\\Chris\\.android\\build-cache\\ef80ae3be93b502b2a91376bb09e8ee6bbf97f89\\output\\res\\layout\\design_layout_snackbar.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\0d1c76aae798439ef7a05af0991728931543dd8b\\output\\res\\layout\\design_navigation_item_separator.xml"
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Users\\Chris\\.android\\build-cache\\c0b5dbb1e4512f3eb1fc1689826bd3ec2c6044e6\\output\\res\\layout\\abc_action_bar_up_container.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\fragmentdemo3.xml",
-        "source": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\src\\main\\res\\layout\\fragmentdemo3.xml"
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
+        "source": "C:\\Users\\Chris\\.android\\build-cache\\ef80ae3be93b502b2a91376bb09e8ee6bbf97f89\\output\\res\\layout\\design_layout_snackbar_include.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
+        "source": "C:\\Users\\Chris\\.android\\build-cache\\ef80ae3be93b502b2a91376bb09e8ee6bbf97f89\\output\\res\\layout\\design_navigation_item_subheader.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
+        "source": "C:\\Users\\Chris\\.android\\build-cache\\c0b5dbb1e4512f3eb1fc1689826bd3ec2c6044e6\\output\\res\\layout\\notification_template_media_custom.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\0d1c76aae798439ef7a05af0991728931543dd8b\\output\\res\\layout\\design_navigation_item_subheader.xml"
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "C:\\Users\\Chris\\.android\\build-cache\\c0b5dbb1e4512f3eb1fc1689826bd3ec2c6044e6\\output\\res\\layout\\abc_screen_toolbar.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\layout\\abc_list_menu_item_icon.xml"
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\Chris\\.android\\build-cache\\c0b5dbb1e4512f3eb1fc1689826bd3ec2c6044e6\\output\\res\\layout\\notification_action_tombstone.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\crop_image_activity.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\29bf2146ddf158baef2ee7de8f1296cb21fefc34\\output\\res\\layout\\crop_image_activity.xml"
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_kontakt.xml",
+        "source": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\src\\main\\res\\layout\\activity_kontakt.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\0d1c76aae798439ef7a05af0991728931543dd8b\\output\\res\\layout\\design_navigation_menu.xml"
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
+        "source": "C:\\Users\\Chris\\.android\\build-cache\\ef80ae3be93b502b2a91376bb09e8ee6bbf97f89\\output\\res\\layout\\design_navigation_item.xml"
     },
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_such.xml",
-        "source": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\src\\main\\res\\layout\\activity_such.xml"
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
+        "source": "C:\\Users\\Chris\\.android\\build-cache\\c0b5dbb1e4512f3eb1fc1689826bd3ec2c6044e6\\output\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "C:\\Users\\Chris\\StudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "C:\\Users\\Chris\\.android\\build-cache\\c0b5dbb1e4512f3eb1fc1689826bd3ec2c6044e6\\output\\res\\layout\\abc_popup_menu_header_item_layout.xml"
     }
 ]

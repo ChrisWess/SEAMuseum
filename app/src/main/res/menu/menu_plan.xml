@@ -1,0 +1,28 @@
+<menu xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item android:id="@+id/menu_eg"
+        android:title="Erdgeschoss" />
+    <item android:id="@+id/menu_ob_eins"
+        android:title="Obergeschoss 1" />
+    <item android:id="@+id/menu_ob_zwei"
+        android:title="Obergeschoss 2" />
+
+
+    <!--<item android:id="@+id/menu_EG"-->
+        <!--android:icon="@android:drawable/ic_menu_today"-->
+        <!--android:title="plan_menue"-->
+        <!--android:showAsAction="ifRoom|withText"-->
+        <!--tools:ignore="AppCompatResource" />-->
+
+    <!--<item android:id="@+id/menu_eg"-->
+        <!--android:title="Erdgeschoss" />-->
+    <!--<item android:id="@+id/menu_ob_eins"-->
+        <!--android:title="Obergeschoss 1" />-->
+    <!--<item android:id="@+id/menu_ob_zwei"-->
+        <!--android:title="Obergeschoss 2" />-->
+
+
+
+</menu>

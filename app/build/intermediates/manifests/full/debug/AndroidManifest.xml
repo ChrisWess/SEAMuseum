@@ -70,6 +70,7 @@
         <activity android:name="com.seamuseum.auswahlelement.service.PreisActivity" />
         <activity android:name="com.seamuseum.auswahlelement.comments.EntriesActivity" />
         <activity android:name="com.seamuseum.auswahlelement.comments.WriteEntryActivity" />
+        <activity android:name="com.seamuseum.auswahlelement.gebaeudeplan.PlanAnzeigenActivity" />
         <activity
             android:name="com.seamuseum.auswahlelement.comments.KommentarRegelnActivity"
             android:label="@string/title_activity_kommentar_regeln" >

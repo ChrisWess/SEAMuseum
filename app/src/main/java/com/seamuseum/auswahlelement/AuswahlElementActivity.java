@@ -12,6 +12,7 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 
 import com.seamuseum.auswahlelement.comments.EntriesActivity;
+import com.seamuseum.auswahlelement.gebaeudeplan.PlanAnzeigenActivity;
 import com.seamuseum.auswahlelement.service.KontaktActivity;
 import com.seamuseum.auswahlelement.service.ServiceActivity;
 import com.seamuseum.auswahlelement.spiele.UebersichtMenu;
@@ -71,6 +72,11 @@ public class AuswahlElementActivity extends ListActivity implements OnItemClickL
             case R.string.auswahl6:
                 i = new Intent(Intent.ACTION_VIEW, Uri.parse("geo:0,0?q=Museum für Kunst und Gewerbe Hamburg"));
                 i.setPackage("com.google.android.apps.maps");
+                startActivity(i);
+                break;
+            case R.string.auswahl4:
+                i = new Intent();
+                i.setClass(getApplicationContext(), PlanAnzeigenActivity.class);
                 startActivity(i);
                 break;
             case R.string.auswahl5:
