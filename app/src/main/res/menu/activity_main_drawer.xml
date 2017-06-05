@@ -16,22 +16,22 @@
             android:icon="@drawable/icon_games"
             android:title="Spiele" />
         <item
-            android:id="@+id/nav_service"
-            android:icon="@drawable/icon_service"
-            android:title="Kontakt und Leistungen" />
-        <item
-            android:id="@+id/nav_museumskarte"
-            android:icon="@drawable/icon_service"
-            android:title="Museumskarte" />
+            android:id="@+id/nav_gaestebuch"
+            android:icon="@drawable/icon_guestbook"
+            android:title="Gästebuch" />
         <item
             android:id="@+id/nav_anfahrt"
             android:icon="@drawable/icon_place"
             android:title="Anfahrt" />
-
         <item
-            android:id="@+id/nav_gaestebuch"
-            android:icon="@drawable/icon_guestbook"
-            android:title="Gästebuch" />
+            android:id="@+id/nav_museumskarte"
+            android:icon="@drawable/icon_maps"
+            android:title="Museumskarte" />
+        <item
+            android:id="@+id/nav_service"
+            android:icon="@drawable/icon_service"
+            android:title="Kontakt und Leistungen" />
+
 
     </group>
 
