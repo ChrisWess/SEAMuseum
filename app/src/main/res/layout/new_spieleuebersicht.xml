@@ -13,9 +13,11 @@
 
         <ImageButton
             android:id="@+id/buttonArtsweeper"
+            style="@style/Widget.AppCompat.ImageButton"
             android:layout_width="0dp"
             android:layout_height="fill_parent"
             android:layout_weight="1"
+            android:background="@drawable/side_nav_bar"
             android:src="@drawable/icon_artsweeper" />
 
         <ImageButton
@@ -23,6 +25,7 @@
             android:layout_width="0dp"
             android:layout_height="fill_parent"
             android:layout_weight="1"
+            android:background="@drawable/side_nav_red"
             android:src="@drawable/icon_memory" />
     </TableRow>
 
@@ -37,6 +40,7 @@
             android:layout_width="0dp"
             android:layout_height="fill_parent"
             android:layout_weight="1"
+            android:background="@drawable/side_nav_red"
             android:src="@drawable/icon_quiz" />
 
         <ImageButton
@@ -44,6 +48,7 @@
             android:layout_width="0dp"
             android:layout_height="fill_parent"
             android:layout_weight="1"
+            android:background="@drawable/side_nav_bar"
             android:src="@drawable/icon_puzzle" />
     </TableRow>
 
