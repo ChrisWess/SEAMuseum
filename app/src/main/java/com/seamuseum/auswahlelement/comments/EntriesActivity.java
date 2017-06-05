@@ -100,12 +100,12 @@ public class EntriesActivity extends Activity {
 
                 Log.i("STATE", "BIN DA");
                 SpannableStringBuilder sb = new SpannableStringBuilder();
-                List<User> users = new ArrayList<User>();
+                List<User> users = new ArrayList<>();
 
                 for (DataSnapshot postSnapshot: dataSnapshot.getChildren()) {
                     Log.d("STATE", "BIN DRIN");
                     Log.d("STATE", postSnapshot.toString());
-                    if(postSnapshot != null && postSnapshot.child("Name") != null && postSnapshot.child("Name").getValue() != null
+                    if(postSnapshot.child("Name") != null && postSnapshot.child("Name").getValue() != null
                             && postSnapshot.child("Datum") != null && postSnapshot.child("Datum").getValue() != null
                             && postSnapshot.child("Nachricht") != null && postSnapshot.child("Nachricht").getValue() != null)
                     {
@@ -151,6 +151,15 @@ public class EntriesActivity extends Activity {
                     Log.e("STATE", "LEERER STRING");
                 }
                 Log.i("STATE", sb.toString());
+                if(sb.toString().equals(""))
+                {
+                    sb.append("Keine Kommentare vorhanden!");
+                    sb.setSpan(new RelativeSizeSpan(2f), 0, sb.length(), 0);
+                    sb.setSpan(new ForegroundColorSpan(Color.GRAY), 0, sb.length(), Spanned.SPAN_EXCLUSIVE_EXCLUSIVE);
+                    sb.setSpan(new AlignmentSpan.Standard(Layout.Alignment.ALIGN_CENTER), 0, sb.length(),
+                            Spannable.SPAN_EXCLUSIVE_EXCLUSIVE);
+                }
+
                 text.setText(sb);
             }
 
