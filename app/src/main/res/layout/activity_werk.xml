@@ -1,66 +1,72 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<ScrollView
+    android:id="@+id/werkCreateScroller"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context="com.seamuseum.auswahlelement.werke.WerkActivity">
+    android:layout_height="wrap_content"
+    android:scrollbars="vertical"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android">
 
-    <ImageButton
-        android:id="@+id/imageSelect"
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:adjustViewBounds="true"
-        android:background="#00ffffff"
-        android:cropToPadding="false"
-        android:scaleType="fitXY"
-        android:src="@mipmap/add_btn" />
+        android:layout_height="match_parent">
 
-    <EditText
-        android:id="@+id/titleField"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/imageSelect"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="5dp"
-        android:ems="15"
-        android:background="@drawable/input_outline"
-        android:hint="@string/werkTitel"
-        android:inputType="textPersonName"
-        android:padding="15dp" />
+        <ImageButton
+            android:id="@+id/imageSelect"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:background="#00ffffff"
+            android:cropToPadding="false"
+            android:scaleType="fitXY"
+            android:src="@mipmap/add_btn" />
 
-    <EditText
-        android:id="@+id/artistField"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/titleField"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="15dp"
-        android:ems="15"
-        android:background="@drawable/input_outline"
-        android:hint="@string/werkKuenstler"
-        android:inputType="textPersonName"
-        android:padding="15dp" />
+        <EditText
+            android:id="@+id/titleField"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageSelect"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:ems="15"
+            android:background="@drawable/input_outline"
+            android:hint="@string/werkTitel"
+            android:inputType="textPersonName"
+            android:padding="10dp" />
 
-    <EditText
-        android:id="@+id/descField"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:maxHeight="120dp"
-        android:layout_below="@+id/artistField"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="15dp"
-        android:background="@drawable/input_outline"
-        android:ems="15"
-        android:hint="@string/werkBeschreibung"
-        android:inputType="textMultiLine"
-        android:padding="15dp" />
+        <EditText
+            android:id="@+id/artistField"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/titleField"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:ems="15"
+            android:background="@drawable/input_outline"
+            android:hint="@string/werkKuenstler"
+            android:inputType="textPersonName"
+            android:padding="10dp" />
 
-    <Button
-        android:id="@+id/submitBtn"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:text="@string/createWerk" />
+        <EditText
+            android:id="@+id/descField"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/artistField"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/input_outline"
+            android:ems="15"
+            android:hint="@string/werkBeschreibung"
+            android:inputType="textMultiLine"
+            android:padding="10dp" />
 
-</RelativeLayout>
+        <Button
+            android:id="@+id/submitBtn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/descField"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            android:text="@string/createWerk" />
+    </RelativeLayout>
+</ScrollView>
