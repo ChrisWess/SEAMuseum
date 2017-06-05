@@ -3802,10 +3802,10 @@ containing a value of this type.
         public static final int moves=0x7f0e009d;
         public static final int multiply=0x7f0e0027;
         public static final int namefeld=0x7f0e0090;
-        public static final int nav_anfahrt=0x7f0e00f3;
-        public static final int nav_gaestebuch=0x7f0e00f4;
-        public static final int nav_museumskarte=0x7f0e00f2;
-        public static final int nav_service=0x7f0e00f1;
+        public static final int nav_anfahrt=0x7f0e00f2;
+        public static final int nav_gaestebuch=0x7f0e00f1;
+        public static final int nav_museumskarte=0x7f0e00f3;
+        public static final int nav_service=0x7f0e00f4;
         public static final int nav_spiele=0x7f0e00f0;
         public static final int nav_suche=0x7f0e00ee;
         public static final int nav_view=0x7f0e0096;

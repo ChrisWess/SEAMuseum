@@ -56,6 +56,12 @@ public class Werk {
         return bildUrl;
     }
 
+    @Override
+    public String toString()
+    {
+        return titel;
+    }
+
 
 
 

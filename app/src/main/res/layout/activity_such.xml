@@ -25,16 +25,13 @@
         android:layout_height="wrap_content"
         android:layout_weight="0.1"/>
 
-    <ScrollView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_weight="0.9">
-
-        <TextView
+        <ListView
             android:id="@+id/suchergebnisse"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:choiceMode="singleChoice"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="10dp"
             android:layout_weight="0.9"
             android:text="@string/textview" />
-    </ScrollView>
 </LinearLayout>

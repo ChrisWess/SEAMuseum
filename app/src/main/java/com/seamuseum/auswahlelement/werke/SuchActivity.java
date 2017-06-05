@@ -2,13 +2,23 @@ package com.seamuseum.auswahlelement.werke;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.graphics.Color;
 import android.os.Bundle;
 import android.text.Editable;
+import android.text.Layout;
 import android.text.SpannableStringBuilder;
+import android.text.Spanned;
 import android.text.TextWatcher;
+import android.text.style.AlignmentSpan;
+import android.text.style.ForegroundColorSpan;
+import android.text.style.RelativeSizeSpan;
 import android.util.Log;
 import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ArrayAdapter;
 import android.widget.EditText;
+import android.widget.ListView;
+import android.widget.ScrollView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -20,11 +30,13 @@ import com.google.firebase.database.Query;
 import com.google.firebase.database.ValueEventListener;
 import com.seamuseum.auswahlelement.R;
 
+import java.util.ArrayList;
+
 
 public class SuchActivity extends Activity {
 
     public EditText suchfeld;
-    public TextView suchergebnisse;
+    public ListView suchergebnisse;
     public TextView leer;
     private DatabaseReference _rootRef;
     private int anzahlErgebnisse;
@@ -36,8 +48,8 @@ public class SuchActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_such);
         _rootRef = FirebaseDatabase.getInstance().getReference();
-        suchergebnisse = (TextView) findViewById(R.id.suchergebnisse);
-        suchergebnisse.setOnClickListener(new View.OnClickListener(){
+        suchergebnisse = (ListView) findViewById(R.id.suchergebnisse);
+        /**suchergebnisse.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
                 if(anzahlErgebnisse == 1)
                 {
@@ -52,50 +64,68 @@ public class SuchActivity extends Activity {
                     toast.show();
                 }
             }
-        });
-        leer = (TextView) findViewById(R.id.leer);
+        });*/
         suchfeld = (EditText) findViewById(R.id.suchfeld);
         suchfeld.addTextChangedListener(new TextWatcher() {
 
             public void afterTextChanged(Editable s)
             {
-                suchergebnisse.setText(suchfeld.getText().toString());
+                //suchergebnisse.setText(suchfeld.getText().toString());
                 myTopPostsQuery = _rootRef.child("Werke");// My top posts by number of stars
 
-                myTopPostsQuery.addValueEventListener(new ValueEventListener()
-                {
+                myTopPostsQuery.addValueEventListener(new ValueEventListener() {
                     @Override
-                    public void onDataChange(DataSnapshot dataSnapshot)
-                    {
-                        anzahlErgebnisse=0;
+                    public void onDataChange(DataSnapshot dataSnapshot) {
+                        ArrayList<Werk> ergebnisse = new ArrayList<Werk>();
                         Log.i("STATE", "BIN DA");
                         SpannableStringBuilder sb = new SpannableStringBuilder();
-                        for (DataSnapshot postSnapshot : dataSnapshot.getChildren())
-                        {
+                        for (DataSnapshot postSnapshot : dataSnapshot.getChildren()) {
                             Log.d("STATE", postSnapshot.toString());
                             Werk werk = postSnapshot.getValue(Werk.class);
-                            if(werk.getTitel() == null)
-                            {
+                            if (werk.getTitel() == null) {
                                 werk.setTitel("");
                             }
                             if (postSnapshot.getKey() != null && !suchfeld.getText().toString().equals("") && werk.getTitel().toLowerCase().contains(suchfeld.getText().toString().toLowerCase()))
                             {
-                                ++anzahlErgebnisse;
-                                sb.append(werk.getTitel() + "\n");
-                                lastResultKey=postSnapshot.getKey();
+                                ergebnisse.add(werk);
+                                //sb.append(werk.getTitel() + "\n");
+                                //lastResultKey = postSnapshot.getKey();
+
                             }
 
                         }
-                        suchergebnisse.setText(sb);
+                        Werk[] werke = ergebnisse.toArray(new Werk[ergebnisse.size()]);
+                      //  String[] strings = new String[werke.length];
+                        //for(int i = 0; i < werke.length;++i)
+                        //{
+                         //   strings[i]=werke[i].getTitel();
+                        //}
+                        ArrayAdapter<Werk> ergebnisAdapter = new ArrayAdapter<Werk>(getBaseContext(), android.R.layout.simple_list_item_1, android.R.id.text1, werke);
+                        suchergebnisse = (ListView) findViewById(R.id.suchergebnisse);
+                        suchergebnisse.setAdapter(ergebnisAdapter);
+                        suchergebnisse.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+
+                            @Override
+                            public void onItemClick(AdapterView<?> arg0, View arg1, int arg2,
+                                                    long arg3) {
+                                //TODO: Setze korrekte Variable: WerkSingleActivity._werkKey = (Werk) suchergebnisse.getItemAtPosition(arg2).get;
+                                Intent intent = new Intent(getApplicationContext(), WerkSingleActivity.class);
+                                startActivity(intent);
+                            }
+
+                        });
+
+                        //sb.setSpan(new RelativeSizeSpan(2f), 0, sb.length(), 0);
+                        //suchergebnisse.setText(sb);
                     }
 
                     @Override
-                    public void onCancelled(DatabaseError databaseError)
-                    {
+                    public void onCancelled(DatabaseError databaseError) {
 
                     }
                 });
             }
+
 
             public void beforeTextChanged(CharSequence s, int start, int count, int after) {}
 
