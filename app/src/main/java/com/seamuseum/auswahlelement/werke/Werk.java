@@ -10,6 +10,7 @@ public class Werk {
     private String kuenstler;
     private String beschreibung;
     private String bildUrl;
+    private String key;
 
     public Werk()
     {
@@ -17,6 +18,13 @@ public class Werk {
     }
 
     public Werk(String titel, String kuenstler, String beschreibung, String bildUrl) {
+        this.titel = titel;
+        this.kuenstler = kuenstler;
+        this.beschreibung = beschreibung;
+        this.bildUrl = bildUrl;
+    }
+
+    public Werk(String titel, String kuenstler, String beschreibung, String bildUrl, String key) {
         this.titel = titel;
         this.kuenstler = kuenstler;
         this.beschreibung = beschreibung;
@@ -55,6 +63,10 @@ public class Werk {
     public String getBildUrl() {
         return bildUrl;
     }
+
+
+    public void setKey(String s){key=s;}
+    public String getKey() { return key;}
 
     @Override
     public String toString()

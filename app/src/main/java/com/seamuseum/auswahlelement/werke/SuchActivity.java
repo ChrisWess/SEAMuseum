@@ -37,10 +37,7 @@ public class SuchActivity extends Activity {
 
     public EditText suchfeld;
     public ListView suchergebnisse;
-    public TextView leer;
     private DatabaseReference _rootRef;
-    private int anzahlErgebnisse;
-    private String lastResultKey;
     Query myTopPostsQuery;
 
     @Override
@@ -49,29 +46,12 @@ public class SuchActivity extends Activity {
         setContentView(R.layout.activity_such);
         _rootRef = FirebaseDatabase.getInstance().getReference();
         suchergebnisse = (ListView) findViewById(R.id.suchergebnisse);
-        /**suchergebnisse.setOnClickListener(new View.OnClickListener(){
-            public void onClick(View v){
-                if(anzahlErgebnisse == 1)
-                {
-                    WerkSingleActivity._werkKey = lastResultKey;
-                    Intent intent = new Intent(getApplicationContext(), WerkSingleActivity.class);
-                    startActivity(intent);
-                }
-                else
-                {
-                    Toast toast;
-                    toast = Toast.makeText(getApplicationContext(), "Bitte Suche auf 1 Werk reduzieren!", Toast.LENGTH_SHORT);
-                    toast.show();
-                }
-            }
-        });*/
         suchfeld = (EditText) findViewById(R.id.suchfeld);
         suchfeld.addTextChangedListener(new TextWatcher() {
 
             public void afterTextChanged(Editable s)
             {
-                //suchergebnisse.setText(suchfeld.getText().toString());
-                myTopPostsQuery = _rootRef.child("Werke");// My top posts by number of stars
+                myTopPostsQuery = _rootRef.child("Werke");
 
                 myTopPostsQuery.addValueEventListener(new ValueEventListener() {
                     @Override
@@ -87,19 +67,12 @@ public class SuchActivity extends Activity {
                             }
                             if (postSnapshot.getKey() != null && !suchfeld.getText().toString().equals("") && werk.getTitel().toLowerCase().contains(suchfeld.getText().toString().toLowerCase()))
                             {
+                                werk.setKey(postSnapshot.getKey());
                                 ergebnisse.add(werk);
-                                //sb.append(werk.getTitel() + "\n");
-                                //lastResultKey = postSnapshot.getKey();
-
                             }
 
                         }
                         Werk[] werke = ergebnisse.toArray(new Werk[ergebnisse.size()]);
-                      //  String[] strings = new String[werke.length];
-                        //for(int i = 0; i < werke.length;++i)
-                        //{
-                         //   strings[i]=werke[i].getTitel();
-                        //}
                         ArrayAdapter<Werk> ergebnisAdapter = new ArrayAdapter<Werk>(getBaseContext(), android.R.layout.simple_list_item_1, android.R.id.text1, werke);
                         suchergebnisse = (ListView) findViewById(R.id.suchergebnisse);
                         suchergebnisse.setAdapter(ergebnisAdapter);
@@ -108,15 +81,12 @@ public class SuchActivity extends Activity {
                             @Override
                             public void onItemClick(AdapterView<?> arg0, View arg1, int arg2,
                                                     long arg3) {
-                                //TODO: Setze korrekte Variable: WerkSingleActivity._werkKey = (Werk) suchergebnisse.getItemAtPosition(arg2).get;
+                                WerkSingleActivity._werkKey = ((Werk) suchergebnisse.getItemAtPosition(arg2)).getKey();
                                 Intent intent = new Intent(getApplicationContext(), WerkSingleActivity.class);
                                 startActivity(intent);
                             }
 
                         });
-
-                        //sb.setSpan(new RelativeSizeSpan(2f), 0, sb.length(), 0);
-                        //suchergebnisse.setText(sb);
                     }
 
                     @Override
