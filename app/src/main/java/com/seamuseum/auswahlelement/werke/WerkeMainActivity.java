@@ -33,14 +33,11 @@ public class WerkeMainActivity extends Activity {
 
     private DatabaseReference _database;
 
-    private static Activity activity;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_werke_main);
 
-        activity = this;
 
         _werkeList = (RecyclerView) findViewById(R.id.werke_list);
         _werkeList.setHasFixedSize(true);
@@ -72,7 +69,8 @@ public class WerkeMainActivity extends Activity {
                     @Override
                     public void onClick(View v) {
                         Intent singleWerkIntent = new Intent(getApplicationContext(), WerkSingleActivity.class);
-                        singleWerkIntent.putExtra("werkId", werkKey);
+                        //changed by Imon: globale Variable statt Extras in Intent = einfach ist manchmal besser
+                        WerkSingleActivity._werkKey = werkKey;
                         startActivity(singleWerkIntent);
                     }
                 });
@@ -91,33 +89,23 @@ public class WerkeMainActivity extends Activity {
             _view = itemView;
         }
 
-        public void setTitle(String title)
+        void setTitle(String title)
         {
             TextView werkTitle = (TextView) _view.findViewById(R.id.werk_title);
             werkTitle.setText(title);
         }
 
-        public void setArtist(String artist)
+        void setArtist(String artist)
         {
             TextView werkArtist= (TextView) _view.findViewById(R.id.werk_artist);
             werkArtist.setText(artist);
         }
 
-        public void setImage(final Context ctx, String image, final String key) {
+        void setImage(final Context ctx, String image, final String key) {
             ImageView werkImage = (ImageView) _view.findViewById(R.id.werk_image);
             Glide.with(ctx)
                     .load(image)
                     .into(werkImage);
-
-            //imon
-            ImageButton button = (ImageButton) _view.findViewById(R.id.addCommentWerk);
-            button.setOnClickListener(new View.OnClickListener() {
-                @Override
-                public void onClick(View v) {
-                    EntriesActivity.key=key;
-                    activity.startActivity(new Intent(ctx, EntriesActivity.class));
-                }
-            });
         }
     }
 

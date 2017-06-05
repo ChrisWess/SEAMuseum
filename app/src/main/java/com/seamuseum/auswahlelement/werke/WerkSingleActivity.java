@@ -15,6 +15,7 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import com.seamuseum.auswahlelement.R;
+import com.seamuseum.auswahlelement.comments.EntriesActivity;
 
 
 import uk.co.senab.photoview.PhotoViewAttacher;
@@ -22,7 +23,7 @@ import uk.co.senab.photoview.PhotoViewAttacher;
 
 public class WerkSingleActivity extends Activity {
 
-    private String _werkKey = null;
+    public static String _werkKey = null;
     private DatabaseReference _database;
 
     private ImageView _image;
@@ -35,7 +36,7 @@ public class WerkSingleActivity extends Activity {
 
         _database = FirebaseDatabase.getInstance().getReference().child(
                 getApplicationContext().getString(R.string.werkeDbRef));
-        _werkKey = getIntent().getExtras().getString("werkId");
+        //_werkKey = getIntent().getExtras().getString("werkId");
 
         _image = (ImageView) findViewById(R.id.singleWerkImage);
         _description = (TextView) findViewById(R.id.singleWerkDescription);
@@ -76,9 +77,10 @@ public class WerkSingleActivity extends Activity {
 
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
-        if (item.getItemId() == R.id.action_add)
+        if (item.getItemId() == R.id.action_comment)
         {
-            startActivity(new Intent(getApplicationContext(), WerkActivity.class));
+            EntriesActivity.key = _werkKey;
+            startActivity(new Intent(getApplicationContext(), EntriesActivity.class));
         }
         return super.onOptionsItemSelected(item);
     }

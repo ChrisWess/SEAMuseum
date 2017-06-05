@@ -10,6 +10,7 @@ import android.util.Log;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import com.google.firebase.database.DataSnapshot;
 import com.google.firebase.database.DatabaseError;
@@ -26,6 +27,8 @@ public class SuchActivity extends Activity {
     public TextView suchergebnisse;
     public TextView leer;
     private DatabaseReference _rootRef;
+    private int anzahlErgebnisse;
+    private String lastResultKey;
     Query myTopPostsQuery;
 
     @Override
@@ -36,8 +39,18 @@ public class SuchActivity extends Activity {
         suchergebnisse = (TextView) findViewById(R.id.suchergebnisse);
         suchergebnisse.setOnClickListener(new View.OnClickListener(){
             public void onClick(View v){
-                Intent intent = new Intent(getApplicationContext(), WerkeMainActivity.class);
-                startActivity(intent);
+                if(anzahlErgebnisse == 1)
+                {
+                    WerkSingleActivity._werkKey = lastResultKey;
+                    Intent intent = new Intent(getApplicationContext(), WerkSingleActivity.class);
+                    startActivity(intent);
+                }
+                else
+                {
+                    Toast toast;
+                    toast = Toast.makeText(getApplicationContext(), "Bitte Suche auf 1 Werk reduzieren!", Toast.LENGTH_SHORT);
+                    toast.show();
+                }
             }
         });
         leer = (TextView) findViewById(R.id.leer);
@@ -54,6 +67,7 @@ public class SuchActivity extends Activity {
                     @Override
                     public void onDataChange(DataSnapshot dataSnapshot)
                     {
+                        anzahlErgebnisse=0;
                         Log.i("STATE", "BIN DA");
                         SpannableStringBuilder sb = new SpannableStringBuilder();
                         for (DataSnapshot postSnapshot : dataSnapshot.getChildren())
@@ -64,9 +78,11 @@ public class SuchActivity extends Activity {
                             {
                                 werk.setTitel("");
                             }
-                            if (postSnapshot != null && postSnapshot.getKey() != null && !suchfeld.getText().equals("") && werk.getTitel().toLowerCase().contains(suchfeld.getText().toString().toLowerCase()))
+                            if (postSnapshot.getKey() != null && !suchfeld.getText().toString().equals("") && werk.getTitel().toLowerCase().contains(suchfeld.getText().toString().toLowerCase()))
                             {
+                                ++anzahlErgebnisse;
                                 sb.append(werk.getTitel() + "\n");
+                                lastResultKey=postSnapshot.getKey();
                             }
 
                         }
