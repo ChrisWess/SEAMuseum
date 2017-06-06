@@ -207,33 +207,31 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
             query = _rootRef.child("Accounts");
             final String mail = email.toString();
             final String passwort = password.toString();
-            query.addValueEventListener(new ValueEventListener() {
-                                            @Override
-                                            public void onDataChange(DataSnapshot dataSnapshot) {
-                                                Log.d("db acc",dataSnapshot.getKey().toString());
-                                                Log.d("db pw",dataSnapshot.getValue().toString());
-                                                loginFlag = dataSnapshot.hasChild(mail) && dataSnapshot.child(mail).getValue().equals(passwort);
-                                                Log.d("boolean",Boolean.toString(loginFlag));
-                                            }
-
-                                            @Override
-                                            public void onCancelled(DatabaseError databaseError) {
-
-                                            }
-                                        });
-
-            Toast t;
-            if(loginFlag)
+            query.addValueEventListener(new ValueEventListener()
             {
-                t = Toast.makeText(getApplicationContext(),"Login erfolgreich", Toast.LENGTH_SHORT);
-                t.show();
-                startActivity(new Intent(getApplicationContext(), AuswahlElementActivity.class));
-            }
-            else
-            {
-                t = Toast.makeText(getApplicationContext(),"Login fehlgeschlagen", Toast.LENGTH_SHORT);
-                t.show();
-            }
+                @Override
+                public void onDataChange(DataSnapshot dataSnapshot) {
+                    loginFlag= dataSnapshot.hasChild(mail)&& dataSnapshot.child(mail).getValue().toString().equals(passwort);
+                    Toast t;
+                    if(loginFlag)
+                    {
+                        t = Toast.makeText(getApplicationContext(),"Login erfolgreich", Toast.LENGTH_SHORT);
+                        t.show();
+                        startActivity(new Intent(getApplicationContext(), AuswahlElementActivity.class));
+                    }
+                    else
+                    {
+                        t = Toast.makeText(getApplicationContext(),"Login fehlgeschlagen", Toast.LENGTH_SHORT);
+                        t.show();
+                    }
+                }
+
+                @Override
+                public void onCancelled(DatabaseError databaseError) {
+
+                }
+            });
+
 
             //showProgress(true);
             //mAuthTask = new UserLoginTask(email, password);
