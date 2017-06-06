@@ -1,6 +1,10 @@
 [
     {
-        "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v23\\abc_control_background_material.xml",
-        "source": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable-v23\\abc_control_background_material.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable-v23\\abc_control_background_material.xml",
+        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\drawable-v23\\abc_control_background_material.xml"
+    },
+    {
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/drawable-v23/abc_control_background_material.xml",
+        "source": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/drawable-v23/abc_control_background_material.xml"
     }
 ]

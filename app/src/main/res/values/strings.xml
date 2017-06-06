@@ -23,13 +23,12 @@
 
     <!-- Für die Spiele -->
     <string name="spielelabel">Spiele</string>
+    <!-- Für das Quiz -->
     <string name="quizlabel">Minigame: Quiz</string>
     <string name="quiz_beschreibung">Stellen sie ihr Wissen über Kunst, Künstler und Kunstgeschichte auf die Probe!
     \nDie Fragen beziehen sich auf Informationen und Werke unserer aktuellen Ausstellungen.
     \nViel Spaß!</string>
-    <string name="spiel1">Quiz</string>
-    <string name="spiel2">Memory</string>
-    <string name="spiel3">Artsweeper</string>
+    <!-- Für Artsweeper -->
     <string name="over_flag_limit_error">Flaggenlimit erreicht. Entfernen sie bitte zuerst eine Flagge.</string>
     <string name="uncover_tile_error">Sie müssen eine Flagge entfernen.</string>
     <string name="board_initialization_error">Es trat ein Fehler beim Starten des Spiels auf.</string>
@@ -38,8 +37,21 @@
     <string name="game_reset_error">Fehler beim Zurücksetzen des Spiels.</string>
     <string name="win_message">Sie haben gewonnen!</string>
     <string name="loss_message">Verloren!</string>
+    <!-- Für das Puzzle -->
     <string name="action_new_game">Neues Spiel</string>
     <string name="action_help">Hilfe</string>
+    <!-- Für das Memory -->
+    <string name="state_ready">Starten</string>
+    <string name="state_pause">Pausiert</string>
+    <string name="state_game_over">Ausgezeichnet!</string>
+    <string name="menu_new_game">Neues Spiel</string>
+    <string name="menu_exit">Beenden</string>
+    <string name="menu_resume">Weiter</string>
+    <string name="solved_in">Gelöst in</string>
+    <string name="minute">Minute</string>
+    <string name="minutes">Minuten</string>
+    <string name="second">sekunde</string>
+    <string name="seconds">sekunden</string>
 
     <!-- Für KontaktActivity -->
     <string name="kontakt_infos">Museum 42 \n \nKontakt: \nFrau Wess \nMuseum 42 \nMuseumstraße 42
