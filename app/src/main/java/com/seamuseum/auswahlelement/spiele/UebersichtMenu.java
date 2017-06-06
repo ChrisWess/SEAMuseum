@@ -15,6 +15,7 @@ import com.seamuseum.auswahlelement.AuswahlElementActivity;
 import com.seamuseum.auswahlelement.MainActivity;
 import com.seamuseum.auswahlelement.R;
 import com.seamuseum.auswahlelement.spiele.artsweeper.game.ArtSweeperActivity;
+import com.seamuseum.auswahlelement.spiele.memory.MemoryGame;
 import com.seamuseum.auswahlelement.spiele.puzzle.PuzzleActivity;
 import com.seamuseum.auswahlelement.spiele.quiz.QuizActivity;
 
@@ -70,6 +71,9 @@ public class UebersichtMenu extends Activity {
             @Override
             public void onClick(View v)
             {
+                Intent i = new Intent();
+                i.setClass(_context, MemoryGame.class);
+                startActivity(i);
             }
         });
         quiz = (ImageButton) findViewById(R.id.buttonQuiz);
