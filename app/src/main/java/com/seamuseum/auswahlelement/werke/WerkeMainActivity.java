@@ -22,6 +22,7 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.seamuseum.auswahlelement.LoginActivity;
 import com.seamuseum.auswahlelement.R;
 import com.seamuseum.auswahlelement.comments.EntriesActivity;
 import com.seamuseum.auswahlelement.comments.WriteEntryActivity;
@@ -32,6 +33,8 @@ public class WerkeMainActivity extends Activity {
     private RecyclerView _werkeList;
 
     private DatabaseReference _database;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,7 +53,6 @@ public class WerkeMainActivity extends Activity {
     @Override
     protected void onStart() {
         super.onStart();
-
         FirebaseRecyclerAdapter<Werk, WerkViewHolder> firebaseRecyclerAdapter = new FirebaseRecyclerAdapter<Werk, WerkViewHolder>(
                 Werk.class,
                 R.layout.werk_row,
@@ -110,14 +112,17 @@ public class WerkeMainActivity extends Activity {
     }
 
     @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
+    public boolean onCreateOptionsMenu(Menu menu)
+    {
         getMenuInflater().inflate(R.menu.werke_main_menu, menu);
+        onPrepareOptionsMenu(menu);
         return super.onCreateOptionsMenu(menu);
 
     }
 
     @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
+    public boolean onOptionsItemSelected(MenuItem item)
+    {
         if (item.getItemId() == R.id.action_add)
         {
             startActivity(new Intent(getApplicationContext(), WerkActivity.class));
@@ -128,5 +133,13 @@ public class WerkeMainActivity extends Activity {
         }
         return super.onOptionsItemSelected(item);
     }
+
+    public boolean onPrepareOptionsMenu(Menu menu)
+    {
+        MenuItem register = menu.findItem(R.id.action_add);
+        register.setVisible(LoginActivity.loginFlag);
+        return true;
+    }
+
 }
 

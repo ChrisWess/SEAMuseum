@@ -105,9 +105,12 @@ public class AuswahlElementActivity extends ListActivity implements OnItemClickL
     @Override
     public boolean onOptionsItemSelected(MenuItem item)
     {
+
         switch (item.getItemId())
         {
             case R.id.menu_anmelden:
+                Intent inte = new Intent(this, LoginActivity.class);
+                startActivity(inte);
                 return true;
             case R.id.menu_ueber_uns:
                 Intent infoIntent = new Intent(this, KontaktActivity.class);

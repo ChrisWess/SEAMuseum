@@ -14,6 +14,7 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.seamuseum.auswahlelement.LoginActivity;
 import com.seamuseum.auswahlelement.R;
 import com.seamuseum.auswahlelement.comments.EntriesActivity;
 
@@ -72,6 +73,7 @@ public class WerkSingleActivity extends Activity {
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.werke_single_menu, menu);
+        onPrepareOptionsMenu(menu);
         return super.onCreateOptionsMenu(menu);
     }
 
@@ -94,5 +96,14 @@ public class WerkSingleActivity extends Activity {
             startActivity(homeIntent);
         }
         return super.onOptionsItemSelected(item);
+    }
+
+    public boolean onPrepareOptionsMenu(Menu menu)
+    {
+        MenuItem bearbeiten = menu.findItem(R.id.action_update);
+        MenuItem entfernen = menu.findItem(R.id.action_remove);
+        bearbeiten.setVisible(LoginActivity.loginFlag);
+        entfernen.setVisible(LoginActivity.loginFlag);
+        return true;
     }
 }
