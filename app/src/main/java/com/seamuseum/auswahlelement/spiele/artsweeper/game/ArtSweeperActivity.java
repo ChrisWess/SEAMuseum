@@ -99,8 +99,8 @@ public class ArtSweeperActivity extends Activity implements GameManager.Listener
 
         mStatusImageDrawable = new LevelListDrawable(); //TODO: ConcentricCircle ersetzen
         mStatusImageDrawable.addLevel(0, IN_PLAY_LEVEL, new ConcentricCirclesDrawable(new int[]{inPlayOuter, inPlayInner}, fillPercent));
-        mStatusImageDrawable.addLevel(0, WON_LEVEL, new ConcentricCirclesDrawable(new int[]{Color.GREEN, Color.YELLOW}, fillPercent));
-        mStatusImageDrawable.addLevel(0, LOST_LEVEL, new ConcentricCirclesDrawable(new int[]{Color.RED, Color.BLACK}, fillPercent));
+        mStatusImageDrawable.addLevel(0, WON_LEVEL, getResources().getDrawable(R.drawable.monaicon)); //new ConcentricCirclesDrawable(new int[]{Color.GREEN, Color.YELLOW}, fillPercent)
+        mStatusImageDrawable.addLevel(0, LOST_LEVEL, getResources().getDrawable(R.drawable.schrei)); //new ConcentricCirclesDrawable(new int[]{Color.RED, Color.BLACK}, fillPercent)
 
         mStatusImageView.setBackground(mStatusImageDrawable);
     }

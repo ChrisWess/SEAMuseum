@@ -10,7 +10,6 @@ import android.view.View;
 import com.seamuseum.auswahlelement.R;
 import com.seamuseum.auswahlelement.spiele.artsweeper.GameBus;
 import com.seamuseum.auswahlelement.spiele.artsweeper.drawable.BeveledTileDrawable;
-import com.seamuseum.auswahlelement.spiele.artsweeper.drawable.ConcentricCirclesDrawable;
 import com.seamuseum.auswahlelement.spiele.artsweeper.drawable.TextDrawable;
 import com.seamuseum.auswahlelement.spiele.artsweeper.exceptions.InvalidArgumentException;
 import com.seamuseum.auswahlelement.spiele.artsweeper.game.Game;
@@ -88,8 +87,8 @@ public class TileView extends View {
     }
 
     private void setupDrawableBackgrounds() throws InvalidArgumentException {
-        Drawable coveredTile = setupCoveredTile(); //TODO: ConcentricCircle ersetzen
-        LayerDrawable flaggedMineDrawable = new LayerDrawable(new Drawable[]{coveredTile, new ConcentricCirclesDrawable()});
+        Drawable coveredTile = setupCoveredTile();
+        LayerDrawable flaggedMineDrawable = new LayerDrawable(new Drawable[]{coveredTile, getResources().getDrawable(R.drawable.monaicon)});
 
         mDrawableContainer = new LevelListDrawable();
         mDrawableContainer.addLevel(0, COVERED, coveredTile);
@@ -115,8 +114,7 @@ public class TileView extends View {
         Drawable uncoveredDrawable;
 
         if(boardSquare != null && boardSquare.doesContainMine()) {
-            //TODO: ConcentricCircle ersetzen
-            uncoveredDrawable = new ConcentricCirclesDrawable(new int[]{Color.RED, Color.BLACK}, 0.50f);
+            uncoveredDrawable = getResources().getDrawable(R.drawable.schrei);
         }
         else {
             String adjacentMineCountText;

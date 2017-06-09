@@ -4,16 +4,12 @@
         "source": "/Users/christophwessarges/.android/build-cache/ffcfb8cb360ffac9ae17d7a68ef792ea25442e6b/output/res/color/design_tint_password_toggle.xml"
     },
     {
-        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_default.xml",
-        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\color\\abc_tint_default.xml"
-    },
-    {
         "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/color/abc_tint_spinner.xml",
         "source": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/color/abc_tint_spinner.xml"
     },
     {
-        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_dark.xml",
-        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\color\\switch_thumb_material_dark.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",
+        "source": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/color/abc_secondary_text_material_light.xml"
     },
     {
         "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/color/abc_hint_foreground_material_dark.xml",
@@ -36,20 +32,16 @@
         "source": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/color/abc_tint_seek_thumb.xml"
     },
     {
-        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_dark.xml",
-        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\color\\abc_hint_foreground_material_dark.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/color/abc_btn_colored_borderless_text_material.xml",
+        "source": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/color/abc_btn_colored_borderless_text_material.xml"
     },
     {
         "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/color/abc_tint_switch_track.xml",
         "source": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/color/abc_tint_switch_track.xml"
     },
     {
-        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_edittext.xml",
-        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\color\\abc_tint_edittext.xml"
-    },
-    {
-        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_text_material.xml",
-        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\color\\abc_btn_colored_text_material.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/color/switch_thumb_material_dark.xml",
+        "source": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/color/switch_thumb_material_dark.xml"
     },
     {
         "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/color/abc_tint_default.xml",
@@ -64,10 +56,6 @@
         "source": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/color/abc_primary_text_disable_only_material_light.xml"
     },
     {
-        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_dark.xml",
-        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\color\\abc_primary_text_disable_only_material_dark.xml"
-    },
-    {
         "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_dark.xml",
         "source": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/color/abc_primary_text_material_dark.xml"
     },
@@ -76,103 +64,27 @@
         "source": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/color/abc_hint_foreground_material_light.xml"
     },
     {
-        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_btn_checkable.xml",
-        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\color\\abc_tint_btn_checkable.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/color/design_error.xml",
+        "source": "/Users/christophwessarges/.android/build-cache/ffcfb8cb360ffac9ae17d7a68ef792ea25442e6b/output/res/color/design_error.xml"
     },
     {
         "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/color/abc_btn_colored_text_material.xml",
         "source": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/color/abc_btn_colored_text_material.xml"
     },
     {
-        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_light.xml",
-        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\color\\abc_secondary_text_material_light.xml"
-    },
-    {
         "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/color/abc_primary_text_material_light.xml",
         "source": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/color/abc_primary_text_material_light.xml"
-    },
-    {
-        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/color/abc_tint_btn_checkable.xml",
-        "source": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/color/abc_tint_btn_checkable.xml"
-    },
-    {
-        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_secondary_text_material_dark.xml",
-        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\color\\abc_secondary_text_material_dark.xml"
-    },
-    {
-        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/color/abc_tint_edittext.xml",
-        "source": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/color/abc_tint_edittext.xml"
-    },
-    {
-        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_dark.xml",
-        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\color\\abc_primary_text_material_dark.xml"
-    },
-    {
-        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_material_light.xml",
-        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\color\\abc_primary_text_material_light.xml"
-    },
-    {
-        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_thumb.xml",
-        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\color\\abc_tint_switch_thumb.xml"
-    },
-    {
-        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/color/abc_secondary_text_material_light.xml",
-        "source": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/color/abc_secondary_text_material_light.xml"
-    },
-    {
-        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_switch_track.xml",
-        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\color\\abc_tint_switch_track.xml"
-    },
-    {
-        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/color/abc_btn_colored_borderless_text_material.xml",
-        "source": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/color/abc_btn_colored_borderless_text_material.xml"
-    },
-    {
-        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_search_url_text.xml",
-        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\color\\abc_search_url_text.xml"
-    },
-    {
-        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_error.xml",
-        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\0d1c76aae798439ef7a05af0991728931543dd8b\\output\\res\\color\\design_error.xml"
-    },
-    {
-        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\color\\design_tint_password_toggle.xml",
-        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\0d1c76aae798439ef7a05af0991728931543dd8b\\output\\res\\color\\design_tint_password_toggle.xml"
-    },
-    {
-        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/color/switch_thumb_material_dark.xml",
-        "source": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/color/switch_thumb_material_dark.xml"
-    },
-    {
-        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_spinner.xml",
-        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\color\\abc_tint_spinner.xml"
-    },
-    {
-        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_tint_seek_thumb.xml",
-        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\color\\abc_tint_seek_thumb.xml"
-    },
-    {
-        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/color/design_error.xml",
-        "source": "/Users/christophwessarges/.android/build-cache/ffcfb8cb360ffac9ae17d7a68ef792ea25442e6b/output/res/color/design_error.xml"
-    },
-    {
-        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_hint_foreground_material_light.xml",
-        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\color\\abc_hint_foreground_material_light.xml"
-    },
-    {
-        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_btn_colored_borderless_text_material.xml",
-        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\color\\abc_btn_colored_borderless_text_material.xml"
     },
     {
         "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/color/abc_primary_text_disable_only_material_dark.xml",
         "source": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/color/abc_primary_text_disable_only_material_dark.xml"
     },
     {
-        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\color\\switch_thumb_material_light.xml",
-        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\color\\switch_thumb_material_light.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/color/abc_tint_btn_checkable.xml",
+        "source": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/color/abc_tint_btn_checkable.xml"
     },
     {
-        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\color\\abc_primary_text_disable_only_material_light.xml",
-        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\color\\abc_primary_text_disable_only_material_light.xml"
+        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/color/abc_tint_edittext.xml",
+        "source": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/color/abc_tint_edittext.xml"
     }
 ]

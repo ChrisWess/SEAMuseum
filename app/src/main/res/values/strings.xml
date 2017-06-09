@@ -128,4 +128,10 @@ Beiträge, die den Regeln nicht entsprechen, werden umgehend gelöscht.\n \n Que
     <string name="action_settings">Settings</string>
 
 
+
+    <string name="title_activity_login">temp</string>
+    <string name="prompt_email">temp</string>
+    <string name="prompt_password">temp</string>
+    <string name="action_sign_in_short">temp</string>
+    <string name="action_sign_in">temp</string>
 </resources>

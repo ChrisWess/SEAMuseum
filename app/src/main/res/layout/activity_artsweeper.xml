@@ -39,8 +39,9 @@
             android:id="@+id/status_image_view"
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            />
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1" />
 
         <com.seamuseum.auswahlelement.spiele.artsweeper.view.BeveledTileTextView
             android:id="@+id/elapsed_time_text_view"

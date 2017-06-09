@@ -1,9 +1,5 @@
 [
     {
-        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu.xml",
-        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\src\\main\\res\\menu\\menu.xml"
-    },
-    {
         "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/menu/main.xml",
         "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/res/menu/main.xml"
     },
@@ -16,24 +12,12 @@
         "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/res/menu/activity_main_drawer.xml"
     },
     {
-        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\menu\\main.xml",
-        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\src\\main\\res\\menu\\main.xml"
-    },
-    {
         "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/menu/menu_plan.xml",
         "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/res/menu/menu_plan.xml"
     },
     {
-        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_puzzle.xml",
-        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\src\\main\\res\\menu\\menu_puzzle.xml"
-    },
-    {
         "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/menu/menu_puzzle.xml",
         "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/res/menu/menu_puzzle.xml"
-    },
-    {
-        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_entries.xml",
-        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\src\\main\\res\\menu\\menu_entries.xml"
     },
     {
         "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/menu/crop_image_menu.xml",
@@ -44,28 +28,8 @@
         "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/res/menu/werke_main_menu.xml"
     },
     {
-        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\menu\\entries_menu.xml",
-        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\src\\main\\res\\menu\\entries_menu.xml"
-    },
-    {
-        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\menu\\werke_single_menu.xml",
-        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\src\\main\\res\\menu\\werke_single_menu.xml"
-    },
-    {
         "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/menu/entries_menu.xml",
         "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/res/menu/entries_menu.xml"
-    },
-    {
-        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\menu\\activity_main_drawer.xml",
-        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\src\\main\\res\\menu\\activity_main_drawer.xml"
-    },
-    {
-        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\menu\\werke_main_menu.xml",
-        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\src\\main\\res\\menu\\werke_main_menu.xml"
-    },
-    {
-        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_plan.xml",
-        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\src\\main\\res\\menu\\menu_plan.xml"
     },
     {
         "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/menu/werke_single_menu.xml",
@@ -74,9 +38,5 @@
     {
         "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/menu/menu_entries.xml",
         "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/res/menu/menu_entries.xml"
-    },
-    {
-        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\menu\\crop_image_menu.xml",
-        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\29bf2146ddf158baef2ee7de8f1296cb21fefc34\\output\\res\\menu\\crop_image_menu.xml"
     }
 ]

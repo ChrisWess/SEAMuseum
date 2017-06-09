@@ -1,9 +1,5 @@
 [
     {
-        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\layout-land\\fragmentdemo3.xml",
-        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\src\\main\\res\\layout-land\\fragmentdemo3.xml"
-    },
-    {
         "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/layout-land/fragmentdemo3.xml",
         "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/res/layout-land/fragmentdemo3.xml"
     }
