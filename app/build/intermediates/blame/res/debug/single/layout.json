@@ -584,10 +584,6 @@
         "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/C:\\Users\\Elham\\.android\\build-cache\\0d1c76aae798439ef7a05af0991728931543dd8b\\output\\res\\layout\\design_layout_tab_text.xml"
     },
     {
-        "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/layout/activity_uebersicht_menu.xml",
-        "source": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/src/main/res/layout/activity_uebersicht_menu.xml"
-    },
-    {
         "merged": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/res/merged/debug/layout/notification_template_icon_group.xml",
         "source": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/layout/notification_template_icon_group.xml"
     },
