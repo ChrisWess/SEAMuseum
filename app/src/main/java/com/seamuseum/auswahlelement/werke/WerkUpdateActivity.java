@@ -13,23 +13,30 @@ import android.widget.EditText;
 import android.widget.ImageButton;
 import android.widget.Toast;
 
+import com.bumptech.glide.Glide;
 import com.google.android.gms.tasks.OnSuccessListener;
+import com.google.firebase.database.DataSnapshot;
+import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
+import com.google.firebase.database.ValueEventListener;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
 import com.seamuseum.auswahlelement.AuswahlElementActivity;
 import com.seamuseum.auswahlelement.R;
 
-public class WerkActivity extends Activity {
 
+
+public class WerkUpdateActivity extends Activity {
+
+    private String _werkKey;
     private ImageButton _selectImage;
     private EditText _werkTitle;
     private EditText _werkArtist;
     private EditText _werkDesc;
     private Button _submitBtn;
-    private Uri _imageUri = null;
+    private Uri _imageUri;
 
     private StorageReference _storage;
     private DatabaseReference _database;
@@ -52,6 +59,7 @@ public class WerkActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_werk);
 
+        _werkKey = getIntent().getExtras().getString("werkId");
         _selectImage = (ImageButton) findViewById(R.id.imageSelect);
         _werkTitle = (EditText) findViewById(R.id.titleField);
         _werkArtist =  (EditText) findViewById(R.id.artistField);
@@ -62,6 +70,32 @@ public class WerkActivity extends Activity {
         _database = FirebaseDatabase.getInstance().getReference().child(
                 getApplicationContext().getString(R.string.werkeDbRef));
 
+        _database.child(_werkKey).addValueEventListener(new ValueEventListener() {
+            @Override
+            public void onDataChange(DataSnapshot dataSnapshot) {
+                String titel = dataSnapshot.child(getApplicationContext().
+                        getString(R.string.titelDb)).getValue(String.class);
+                String kuenstler = dataSnapshot.child(getApplicationContext().
+                        getString(R.string.kuenstlerDb)).getValue(String.class);
+                String beschreibung = dataSnapshot.child(getApplicationContext().
+                        getString(R.string.beschreibungDb)).getValue(String.class);
+                String bildUrl = dataSnapshot.child(getApplicationContext().
+                        getString(R.string.bildDb)).getValue(String.class);
+
+                _werkTitle.setText(titel);
+                _werkArtist.setText(kuenstler);
+                _werkDesc.setText(beschreibung);
+                Glide.with(getApplicationContext())
+                        .load(bildUrl)
+                        .into(_selectImage);
+            }
+
+            @Override
+            public void onCancelled(DatabaseError databaseError) {
+
+            }
+        });
+        _imageUri = null;
         _progress = new ProgressDialog(this);
 
         _selectImage.setOnClickListener(new View.OnClickListener() {
@@ -112,18 +146,31 @@ public class WerkActivity extends Activity {
                 public void onSuccess(UploadTask.TaskSnapshot taskSnapshot) {
                     Uri downloadUrl = taskSnapshot.getDownloadUrl();
 
-                    DatabaseReference newWerk = _database.push();
+                    DatabaseReference newWerk = _database.child(_werkKey);
                     newWerk.child(getApplicationContext().getString(R.string.titelDb)).setValue(titleValue);
                     newWerk.child(getApplicationContext().getString(R.string.kuenstlerDb)).setValue(artistValue);
                     newWerk.child(getApplicationContext().getString(R.string.beschreibungDb)).setValue(descValue);
                     newWerk.child(getApplicationContext().getString(R.string.bildDb)).setValue(downloadUrl.toString());
 
-                    Intent homeIntent = new Intent(getApplicationContext(), WerkeMainActivity.class);
+                    Intent homeIntent = new Intent(getApplicationContext(), WerkSingleActivity.class);
                     homeIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                     startActivity(homeIntent);
                     _progress.dismiss();
                 }
             });
+        }
+        /*wenn das Bild nicht geändert wurde*/
+        else if (_imageUri == null)
+        {
+            _progress.show();
+            DatabaseReference newWerk = _database.child(_werkKey);
+            newWerk.child(getApplicationContext().getString(R.string.titelDb)).setValue(titleValue);
+            newWerk.child(getApplicationContext().getString(R.string.kuenstlerDb)).setValue(artistValue);
+            newWerk.child(getApplicationContext().getString(R.string.beschreibungDb)).setValue(descValue);
+            Intent homeIntent = new Intent(getApplicationContext(), WerkSingleActivity.class);
+            homeIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(homeIntent);
+            _progress.dismiss();
         }
         else
         {

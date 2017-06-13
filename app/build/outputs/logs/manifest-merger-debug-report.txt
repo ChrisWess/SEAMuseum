@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:2:1-84:12
+ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:2:1-82:12
 	package
 		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:3:5-43
 		INJECTED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml
@@ -42,7 +42,7 @@ ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:12:
 	android:name
 		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:12:22-69
 application
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:14:5-82:19
+ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:14:5-80:19
 MERGED from [com.google.firebase:firebase-core:10.2.4] C:\Users\Elham\.android\build-cache\2af22cfa26bd80b4f0251a88a3d214b39624f2e2\output\AndroidManifest.xml:5:5-20
 MERGED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\Elham\.android\build-cache\660ac9a44c801e852991be8e092bd2d67ff0b1aa\output\AndroidManifest.xml:24:5-33:19
 MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] C:\Users\Elham\.android\build-cache\b8a25c70f404bfb51680523b3e7f194b6f96d120\output\AndroidManifest.xml:24:5-28:19
@@ -71,149 +71,145 @@ MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Elham\.android\
 	android:icon
 		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:16:9-38
 activity#com.seamuseum.auswahlelement.AuswahlElementActivity
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:18:9-20:57
-	android:label
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:20:13-45
+ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:18:9-19:54
 	android:name
 		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:19:13-51
 activity#com.seamuseum.auswahlelement.werke.FragmentDemo3Activity
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:21:9-23:48
-	android:label
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:23:13-45
+ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:20:9-21:59
 	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:22:13-56
+		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:21:13-56
 activity#com.seamuseum.auswahlelement.werke.FragmentDemo3Activity$DetailsActivity
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:24:9-81
+ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:22:9-81
 	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:24:19-78
+		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:22:19-78
 activity#com.seamuseum.auswahlelement.spiele.UebersichtMenu
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:25:9-27:51
+ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:23:9-25:51
 	android:label
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:27:13-48
+		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:25:13-48
 	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:26:13-50
+		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:24:13-50
 activity#com.seamuseum.auswahlelement.spiele.quiz.QuizActivity
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:28:9-31:49
+ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:26:9-29:49
 	android:label
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:31:13-46
+		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:29:13-46
 	android:configChanges
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:30:13-59
+		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:28:13-59
 	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:29:13-53
+		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:27:13-53
 activity#com.seamuseum.auswahlelement.spiele.artsweeper.game.ArtSweeperActivity
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:32:9-35:59
+ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:30:9-33:59
 	android:screenOrientation
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:34:13-49
+		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:32:13-49
 	android:theme
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:35:13-56
+		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:33:13-56
 	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:33:13-70
+		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:31:13-70
 activity#com.seamuseum.auswahlelement.spiele.puzzle.PuzzleActivity
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:36:9-39:59
+ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:34:9-37:59
 	android:configChanges
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:38:13-59
+		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:36:13-59
 	android:theme
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:39:13-56
+		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:37:13-56
 	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:37:13-57
+		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:35:13-57
 activity#com.seamuseum.auswahlelement.spiele.memory.MemoryGame
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:40:9-43:66
+ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:38:9-42:63
 	android:screenOrientation
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:42:13-49
+		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:41:13-49
 	android:configChanges
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:43:13-63
+		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:40:13-63
 	android:theme
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:41:13-60
+		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:42:13-60
 	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:40:19-59
+		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:39:13-53
 activity#com.seamuseum.auswahlelement.service.AngebotActivity
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:44:9-46:48
-	android:label
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:46:13-45
+ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:43:9-44:55
 	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:45:13-52
+		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:44:13-52
 activity#com.seamuseum.auswahlelement.werke.WerkeMainActivity
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:47:9-49:48
+ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:45:9-47:48
 	android:label
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:49:13-45
+		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:47:13-45
 	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:48:13-52
+		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:46:13-52
 activity#com.seamuseum.auswahlelement.werke.WerkSingleActivity
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:50:9-62
+ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:48:9-62
 	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:50:19-59
+		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:48:19-59
 activity#com.seamuseum.auswahlelement.werke.WerkActivity
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:51:9-56
+ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:49:9-56
 	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:51:19-53
+		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:49:19-53
 activity#com.seamuseum.auswahlelement.service.KontaktActivity
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:52:9-61
+ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:50:9-61
 	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:52:19-58
+		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:50:19-58
 activity#com.seamuseum.auswahlelement.service.ServiceActivity
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:53:9-61
+ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:51:9-61
 	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:53:19-58
+		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:51:19-58
 activity#com.seamuseum.auswahlelement.service.PreisActivity
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:54:9-59
+ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:52:9-59
 	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:54:19-56
+		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:52:19-56
 activity#com.seamuseum.auswahlelement.comments.EntriesActivity
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:55:9-62
+ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:53:9-62
 	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:55:19-59
+		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:53:19-59
 activity#com.seamuseum.auswahlelement.comments.WriteEntryActivity
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:56:9-65
+ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:54:9-65
 	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:56:19-62
+		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:54:19-62
 activity#com.seamuseum.auswahlelement.gebaeudeplan.PlanAnzeigenActivity
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:57:9-71
+ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:55:9-71
 	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:57:19-68
+		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:55:19-68
 activity#com.seamuseum.auswahlelement.comments.KommentarRegelnActivity
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:58:9-64:20
-	android:label
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:60:13-68
+ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:56:9-61:20
 	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:59:13-61
+		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:57:13-61
 meta-data#android.support.PARENT_ACTIVITY
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:61:13-63:89
+ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:58:13-60:89
 	android:value
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:63:17-86
+		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:60:17-86
 	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:62:17-63
+		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:59:17-63
 activity#com.seamuseum.auswahlelement.werke.SuchActivity
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:65:9-67:59
+ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:62:9-63:50
+	android:name
+		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:63:13-47
+activity#com.seamuseum.auswahlelement.MainActivity
+ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:64:9-73:20
 	android:label
+		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:66:13-56
+	android:theme
 		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:67:13-56
 	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:66:13-47
-activity#com.seamuseum.auswahlelement.MainActivity
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:68:9-77:20
-	android:label
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:70:13-56
-	android:theme
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:71:13-56
-	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:69:13-41
+		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:65:13-41
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:72:13-76:29
+ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:68:13-72:29
 action#android.intent.action.MAIN
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:73:17-69
+ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:69:17-69
 	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:73:25-66
+		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:69:25-66
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:75:17-77
+ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:71:17-77
 	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:75:27-74
+		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:71:27-74
 activity#com.seamuseum.auswahlelement.LoginActivity
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:78:9-81:68
+ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:74:9-77:59
 	android:label
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:80:13-57
+		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:76:13-57
 	android:theme
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:81:13-56
+		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:77:13-56
 	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:79:13-42
+		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:75:13-42
+activity#com.seamuseum.auswahlelement.werke.WerkUpdateActivity
+ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:78:9-79:60
+	android:label
+		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:79:13-57
+	android:name
+		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:78:19-59
 uses-sdk
 INJECTED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.google.firebase:firebase-core:10.2.4] C:\Users\Elham\.android\build-cache\2af22cfa26bd80b4f0251a88a3d214b39624f2e2\output\AndroidManifest.xml:4:5-43

@@ -117,6 +117,9 @@ Beiträge, die den Regeln nicht entsprechen, werden umgehend gelöscht.\n \n Que
     <string name="kuenstlerDb">kuenstler</string>
     <string name="beschreibungDb">beschreibung</string>
     <string name="bildDb">bildUrl</string>
+    <string name="loescheWerkAlertTitel">Lösche Werk</string>
+    <string name="loescheWerkAlertText">Wollen Sie dieses Werk wirklich löschen?</string>
+
     <string name="title_activity_hauptmenu">HauptmenuActivity</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
@@ -126,7 +129,6 @@ Beiträge, die den Regeln nicht entsprechen, werden umgehend gelöscht.\n \n Que
     <string name="title_activity_main">Museumapp</string>
 
     <string name="action_settings">Settings</string>
-
 
 
     <string name="title_activity_login">temp</string>

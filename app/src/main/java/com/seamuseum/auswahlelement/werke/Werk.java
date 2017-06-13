@@ -23,13 +23,13 @@ public class Werk {
         this.beschreibung = beschreibung;
         this.bildUrl = bildUrl;
     }
-
-    public Werk(String titel, String kuenstler, String beschreibung, String bildUrl, String key) {
-        this.titel = titel;
-        this.kuenstler = kuenstler;
-        this.beschreibung = beschreibung;
-        this.bildUrl = bildUrl;
-    }
+//
+//    public Werk(String titel, String kuenstler, String beschreibung, String bildUrl, String key) {
+//        this.titel = titel;
+//        this.kuenstler = kuenstler;
+//        this.beschreibung = beschreibung;
+//        this.bildUrl = bildUrl;
+//    }
 
     public void setTitel(String titel) {
         this.titel = titel;
@@ -63,7 +63,6 @@ public class Werk {
     public String getBildUrl() {
         return bildUrl;
     }
-
 
     public void setKey(String s){key=s;}
     public String getKey() { return key;}

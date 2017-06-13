@@ -34,12 +34,8 @@
         android:allowBackup="true"
         android:icon="@drawable/icon"
         android:label="@string/app_name" >
-        <activity
-            android:name="com.seamuseum.auswahlelement.AuswahlElementActivity"
-            android:label="@string/app_name" />
-        <activity
-            android:name="com.seamuseum.auswahlelement.werke.FragmentDemo3Activity"
-            android:label="@string/app_name" />
+        <activity android:name="com.seamuseum.auswahlelement.AuswahlElementActivity" />
+        <activity android:name="com.seamuseum.auswahlelement.werke.FragmentDemo3Activity" />
         <activity android:name="com.seamuseum.auswahlelement.werke.FragmentDemo3Activity$DetailsActivity" />
         <activity
             android:name="com.seamuseum.auswahlelement.spiele.UebersichtMenu"
@@ -61,9 +57,7 @@
             android:configChanges="keyboardHidden|orientation"
             android:screenOrientation="portrait"
             android:theme="@android:style/Theme.NoTitleBar" />
-        <activity
-            android:name="com.seamuseum.auswahlelement.service.AngebotActivity"
-            android:label="@string/app_name" />
+        <activity android:name="com.seamuseum.auswahlelement.service.AngebotActivity" />
         <activity
             android:name="com.seamuseum.auswahlelement.werke.WerkeMainActivity"
             android:label="@string/app_name" />
@@ -75,16 +69,12 @@
         <activity android:name="com.seamuseum.auswahlelement.comments.EntriesActivity" />
         <activity android:name="com.seamuseum.auswahlelement.comments.WriteEntryActivity" />
         <activity android:name="com.seamuseum.auswahlelement.gebaeudeplan.PlanAnzeigenActivity" />
-        <activity
-            android:name="com.seamuseum.auswahlelement.comments.KommentarRegelnActivity"
-            android:label="@string/title_activity_kommentar_regeln" >
+        <activity android:name="com.seamuseum.auswahlelement.comments.KommentarRegelnActivity" >
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.seamuseum.auswahlelement.comments.EntriesActivity" />
         </activity>
-        <activity
-            android:name="com.seamuseum.auswahlelement.werke.SuchActivity"
-            android:label="@string/title_activity_such" />
+        <activity android:name="com.seamuseum.auswahlelement.werke.SuchActivity" />
         <activity
             android:name="com.seamuseum.auswahlelement.MainActivity"
             android:label="@string/title_activity_main"
@@ -99,6 +89,9 @@
             android:name="com.seamuseum.auswahlelement.LoginActivity"
             android:label="@string/title_activity_login"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name="com.seamuseum.auswahlelement.werke.WerkUpdateActivity"
+            android:label="@string/title_activity_login" />
 
         <receiver
             android:name="com.google.android.gms.measurement.AppMeasurementReceiver"

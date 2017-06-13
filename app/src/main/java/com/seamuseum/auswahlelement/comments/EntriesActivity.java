@@ -84,12 +84,6 @@ public class EntriesActivity extends Activity {
         return super.onOptionsItemSelected(item);
     }
 
-    @Override
-    public void onBackPressed()
-    {
-        startActivity(new Intent(getApplicationContext(), AuswahlElementActivity.class));
-    }
-
     protected void refreshEntries()
     {
         Log.d("STATE", "HEY");

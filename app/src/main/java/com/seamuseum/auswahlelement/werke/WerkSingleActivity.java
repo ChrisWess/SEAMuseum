@@ -1,7 +1,10 @@
 package com.seamuseum.auswahlelement.werke;
 
 import android.app.Activity;
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
@@ -96,14 +99,33 @@ public class WerkSingleActivity extends Activity {
         }
         if (item.getItemId() == R.id.action_update)
         {
-            startActivity(new Intent(getApplicationContext(), WerkActivity.class));
+            Intent updateIntent = new Intent(getApplicationContext(), WerkUpdateActivity.class);
+            updateIntent.putExtra("werkId", _werkKey);
+            startActivity(updateIntent);
         }
         if (item.getItemId() == R.id.action_remove)
         {
-            _database.child(_werkKey).removeValue();
-            Intent homeIntent = new Intent(getApplicationContext(), WerkeMainActivity.class);
-            homeIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-            startActivity(homeIntent);
+            AlertDialog.Builder builder = new AlertDialog.Builder(this, android.R.style.Theme_Material_Dialog_Alert);
+            builder.setCancelable(true);
+            builder.setTitle(R.string.loescheWerkAlertTitel)
+                    .setMessage(R.string.loescheWerkAlertText)
+                    .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int which)
+                        {
+                            _database.child(_werkKey).removeValue();
+                            Intent homeIntent = new Intent(getApplicationContext(), WerkeMainActivity.class);
+                            homeIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                            startActivity(homeIntent);
+                        }
+                    })
+                    .setNegativeButton(android.R.string.no, new DialogInterface.OnClickListener() {
+                        public void onClick(DialogInterface dialog, int which)
+                        {
+                            dialog.cancel();
+                        }
+                    })
+                    .setIcon(android.R.drawable.ic_dialog_alert);
+                    builder.create().show();
         }
         if (item.getItemId() == android.R.id.home)
         {
