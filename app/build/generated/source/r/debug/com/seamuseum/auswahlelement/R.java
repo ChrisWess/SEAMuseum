@@ -3747,6 +3747,7 @@ containing a value of this type.
         public static final int ic_comment_white_24dp=0x7f030002;
         public static final int ic_home_white_24dp=0x7f030003;
         public static final int ic_search_white_24dp=0x7f030004;
+        public static final int ic_security_white_24dp=0x7f030005;
     }
     public static final class string {
         public static final int abc_action_bar_home_description=0x7f070000;

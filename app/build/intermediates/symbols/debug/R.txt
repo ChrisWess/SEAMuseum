@@ -1182,6 +1182,7 @@ int mipmap ic_add_circle_outline_white_24dp 0x7f030001
 int mipmap ic_comment_white_24dp 0x7f030002
 int mipmap ic_home_white_24dp 0x7f030003
 int mipmap ic_search_white_24dp 0x7f030004
+int mipmap ic_security_white_24dp 0x7f030005
 int string abc_action_bar_home_description 0x7f070000
 int string abc_action_bar_home_description_format 0x7f070001
 int string abc_action_bar_home_subtitle_description_format 0x7f070002
