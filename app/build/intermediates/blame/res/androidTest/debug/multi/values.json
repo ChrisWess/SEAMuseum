@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values/values.xml",
+        "outputFile": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,31 @@
                     "endOffset": 96
                 },
                 "from": {
-                    "file": "/Users/christophwessarges/.android/build-cache/a9430144843f413f4ab47ab98d5f1f5058a5f990/output/res/values/values.xml",
+                    "file": "C:\\Users\\Elham\\.android\\build-cache\\61490a88bd0a51c591796701180b26ebbf886274\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 229,
+                        "endColumn": 45,
+                        "endOffset": 270
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "C:\\Users\\christophwessarges\\AndroidStudioProjects\\SEAMuseum\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 45,
+                    "endOffset": 96
+                },
+                "from": {
+                    "file": "C:\\Users\\christophwessarges\\.android\\build-cache\\a9430144843f413f4ab47ab98d5f1f5058a5f990\\output\\res\\values\\values.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,

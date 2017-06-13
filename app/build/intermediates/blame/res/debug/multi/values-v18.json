@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v18/values-v18.xml",
+        "outputFile": "C:\\Users\\christophwessarges\\AndroidStudioProjects\\SEAMuseum\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v18\\values-v18.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,31 @@
                     "endOffset": 99
                 },
                 "from": {
-                    "file": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/values-v18/values-v18.xml",
+                    "file": "C:\\Users\\christophwessarges\\.android\\build-cache\\4b36446cde0f46783a55981856e56d027757636e\\output\\res\\values-v18\\values-v18.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 55,
+                        "endColumn": 48,
+                        "endOffset": 99
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v18\\values-v18.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 48,
+                    "endOffset": 99
+                },
+                "from": {
+                    "file": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\values-v18\\values-v18.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

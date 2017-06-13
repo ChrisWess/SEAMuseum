@@ -14,6 +14,7 @@ import com.google.firebase.database.DatabaseError;
 import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
+import com.seamuseum.auswahlelement.AuswahlElementActivity;
 import com.seamuseum.auswahlelement.LoginActivity;
 import com.seamuseum.auswahlelement.R;
 import com.seamuseum.auswahlelement.comments.EntriesActivity;
@@ -29,6 +30,15 @@ public class WerkSingleActivity extends Activity {
 
     private ImageView _image;
     private TextView _description;
+
+    @Override
+    protected void onStart()
+    {
+        super.onStart();
+        getActionBar().setHomeButtonEnabled(true);
+        getActionBar().setDisplayHomeAsUpEnabled(true);
+        getActionBar().setHomeAsUpIndicator(R.mipmap.ic_home_white_24dp);
+    }
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -92,6 +102,12 @@ public class WerkSingleActivity extends Activity {
         {
             _database.child(_werkKey).removeValue();
             Intent homeIntent = new Intent(getApplicationContext(), WerkeMainActivity.class);
+            homeIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(homeIntent);
+        }
+        if (item.getItemId() == android.R.id.home)
+        {
+            Intent homeIntent = new Intent(this, AuswahlElementActivity.class);
             homeIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
             startActivity(homeIntent);
         }

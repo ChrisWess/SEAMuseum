@@ -29,6 +29,7 @@ public class KontaktActivity extends Activity
         super.onStart();
         getActionBar().setHomeButtonEnabled(true);
         getActionBar().setDisplayHomeAsUpEnabled(true);
+        getActionBar().setHomeAsUpIndicator(R.mipmap.ic_home_white_24dp);
     }
 
     @Override
@@ -37,7 +38,7 @@ public class KontaktActivity extends Activity
         switch (menuItem.getItemId())
         {
             case android.R.id.home:
-                Intent homeIntent = new Intent(this, MainActivity.class);
+                Intent homeIntent = new Intent(this, AuswahlElementActivity.class);
                 homeIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(homeIntent);
         }

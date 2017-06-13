@@ -12,7 +12,6 @@ import com.google.firebase.database.DatabaseReference;
 import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.database.ValueEventListener;
 import com.seamuseum.auswahlelement.AuswahlElementActivity;
-import com.seamuseum.auswahlelement.MainActivity;
 import com.seamuseum.auswahlelement.R;
 
 public class PreisActivity extends Activity
@@ -39,6 +38,7 @@ public class PreisActivity extends Activity
         super.onStart();
         getActionBar().setHomeButtonEnabled(true);
         getActionBar().setDisplayHomeAsUpEnabled(true);
+        getActionBar().setHomeAsUpIndicator(R.mipmap.ic_home_white_24dp);
 
         _preisRef.addValueEventListener(new ValueEventListener()
         {
@@ -64,7 +64,7 @@ public class PreisActivity extends Activity
         switch (menuItem.getItemId())
         {
             case android.R.id.home:
-                Intent homeIntent = new Intent(this, MainActivity.class);
+                Intent homeIntent = new Intent(this, AuswahlElementActivity.class);
                 homeIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(homeIntent);
         }

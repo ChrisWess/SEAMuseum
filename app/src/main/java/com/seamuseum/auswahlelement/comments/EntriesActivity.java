@@ -53,6 +53,9 @@ public class EntriesActivity extends Activity {
     public void onStart()
     {
         super.onStart();
+        getActionBar().setHomeButtonEnabled(true);
+        getActionBar().setDisplayHomeAsUpEnabled(true);
+        getActionBar().setHomeAsUpIndicator(R.mipmap.ic_home_white_24dp);
         //refreshEntries();
     }
     @Override
@@ -71,6 +74,12 @@ public class EntriesActivity extends Activity {
         if(item.getItemId() == R.id.action_rules)
         {
             startActivity(new Intent(getApplicationContext(), KommentarRegelnActivity.class));
+        }
+        if (item.getItemId() == android.R.id.home)
+        {
+            Intent homeIntent = new Intent(this, AuswahlElementActivity.class);
+            homeIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+            startActivity(homeIntent);
         }
         return super.onOptionsItemSelected(item);
     }

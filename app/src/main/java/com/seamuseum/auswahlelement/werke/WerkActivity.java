@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
 import android.text.TextUtils;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -18,8 +19,8 @@ import com.google.firebase.database.FirebaseDatabase;
 import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
+import com.seamuseum.auswahlelement.AuswahlElementActivity;
 import com.seamuseum.auswahlelement.R;
-import com.theartofdev.edmodo.cropper.CropImage;
 
 public class WerkActivity extends Activity {
 
@@ -70,6 +71,28 @@ public class WerkActivity extends Activity {
             }
 
         });
+    }
+
+    @Override
+    protected void onStart()
+    {
+        super.onStart();
+        getActionBar().setHomeButtonEnabled(true);
+        getActionBar().setDisplayHomeAsUpEnabled(true);
+        getActionBar().setHomeAsUpIndicator(R.mipmap.ic_home_white_24dp);
+    }
+
+    @Override
+    public boolean onOptionsItemSelected(MenuItem menuItem)
+    {
+        switch (menuItem.getItemId())
+        {
+            case android.R.id.home:
+                Intent homeIntent = new Intent(this, AuswahlElementActivity.class);
+                homeIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                startActivity(homeIntent);
+        }
+        return (super.onOptionsItemSelected(menuItem));
     }
 
     private void startPosting() {

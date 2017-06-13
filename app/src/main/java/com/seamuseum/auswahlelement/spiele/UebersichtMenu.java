@@ -12,7 +12,6 @@ import android.widget.ImageButton;
 import android.widget.ListView;
 
 import com.seamuseum.auswahlelement.AuswahlElementActivity;
-import com.seamuseum.auswahlelement.MainActivity;
 import com.seamuseum.auswahlelement.R;
 import com.seamuseum.auswahlelement.spiele.artsweeper.game.ArtSweeperActivity;
 import com.seamuseum.auswahlelement.spiele.memory.MemoryGame;
@@ -31,6 +30,7 @@ public class UebersichtMenu extends Activity {
         super.onStart();
         getActionBar().setHomeButtonEnabled(true);
         getActionBar().setDisplayHomeAsUpEnabled(true);
+        getActionBar().setHomeAsUpIndicator(R.mipmap.ic_home_white_24dp);
         _context = getApplicationContext();
     }
 
@@ -40,7 +40,7 @@ public class UebersichtMenu extends Activity {
         switch (menuItem.getItemId())
         {
             case android.R.id.home:
-                Intent homeIntent = new Intent(this, MainActivity.class);
+                Intent homeIntent = new Intent(this, AuswahlElementActivity.class);
                 homeIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                 startActivity(homeIntent);
         }
