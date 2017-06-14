@@ -15,6 +15,7 @@ import android.widget.AdapterView;
 import android.widget.AdapterView.OnItemClickListener;
 
 import com.seamuseum.auswahlelement.comments.EntriesActivity;
+import com.seamuseum.auswahlelement.comments.KommentarRegelnActivity;
 import com.seamuseum.auswahlelement.gebaeudeplan.PlanAnzeigenActivity;
 import com.seamuseum.auswahlelement.service.KontaktActivity;
 import com.seamuseum.auswahlelement.service.ServiceActivity;
@@ -113,11 +114,11 @@ public class AuswahlElementActivity extends ListActivity implements OnItemClickL
     @Override
     public boolean onOptionsItemSelected(MenuItem item)
     {
-
+        Intent inte;
         switch (item.getItemId())
         {
             case R.id.menu_anmelden:
-                Intent inte = new Intent(this, LoginActivity.class);
+                inte = new Intent(this, LoginActivity.class);
                 startActivity(inte);
                 return true;
             /**case R.id.menu_ueber_uns:
@@ -125,6 +126,8 @@ public class AuswahlElementActivity extends ListActivity implements OnItemClickL
                 startActivity(infoIntent);
                 return true;*/
             case R.id.menu_rechtliches:
+                inte = new Intent(this, KommentarRegelnActivity.class);
+                startActivity(inte);
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
