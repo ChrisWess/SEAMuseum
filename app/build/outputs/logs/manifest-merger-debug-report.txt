@@ -1,382 +1,382 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:2:1-82:12
+ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:2:1-85:12
 	package
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:3:5-43
-		INJECTED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:3:5-43
+		INJECTED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml
 	android:versionName
-		INJECTED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml
 	xmlns:android
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:2:11-69
+		ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:2:11-69
 	android:versionCode
-		INJECTED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:5:5-80
+ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:5:5-80
 	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:5:22-77
+		ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:5:22-77
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:6:5-81
+ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:6:5-81
 	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:6:22-78
+		ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:6:22-78
 uses-permission#android.permission.INTERNET
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:7:5-67
-MERGED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\Elham\.android\build-cache\660ac9a44c801e852991be8e092bd2d67ff0b1aa\output\AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] C:\Users\Elham\.android\build-cache\b8a25c70f404bfb51680523b3e7f194b6f96d120\output\AndroidManifest.xml:20:5-66
-MERGED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Elham\.android\build-cache\99bb4da0ecc62f9642e8149b699b4fcec69eb53d\output\AndroidManifest.xml:20:5-66
-MERGED from [com.firebaseui:firebase-ui-database:1.2.0] C:\Users\Elham\.android\build-cache\7a1cf1c3da561d3e97f201985fc7f62427542a53\output\AndroidManifest.xml:11:5-67
+ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:7:5-67
+MERGED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\MP\.android\build-cache\4aaeecb5f0e9dff1463d765bebda60a150c58a51\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] C:\Users\MP\.android\build-cache\d2ff71096bb70eefea5cb01a3747398fc8ddb9aa\output\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\MP\.android\build-cache\ac4bda490daceb2df71ad761f4ef03005f6d5bcd\output\AndroidManifest.xml:20:5-66
+MERGED from [com.firebaseui:firebase-ui-database:1.2.0] C:\Users\MP\.android\build-cache\d14efeaa161f9701b3020ec3ed55359798987674\output\AndroidManifest.xml:11:5-67
 	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:7:22-64
+		ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:7:22-64
 uses-permission#android.permission.GET_ACCOUNTS
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:10:5-71
+ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:10:5-71
 	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:10:22-68
+		ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:10:22-68
 uses-permission#android.permission.READ_PROFILE
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:11:5-71
+ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:11:5-71
 	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:11:22-68
+		ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:11:22-68
 uses-permission#android.permission.READ_CONTACTS
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:12:5-72
+ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:12:5-72
 	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:12:22-69
+		ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:12:22-69
 application
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:14:5-80:19
-MERGED from [com.google.firebase:firebase-core:10.2.4] C:\Users\Elham\.android\build-cache\2af22cfa26bd80b4f0251a88a3d214b39624f2e2\output\AndroidManifest.xml:5:5-20
-MERGED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\Elham\.android\build-cache\660ac9a44c801e852991be8e092bd2d67ff0b1aa\output\AndroidManifest.xml:24:5-33:19
-MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] C:\Users\Elham\.android\build-cache\b8a25c70f404bfb51680523b3e7f194b6f96d120\output\AndroidManifest.xml:24:5-28:19
-MERGED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Elham\.android\build-cache\99bb4da0ecc62f9642e8149b699b4fcec69eb53d\output\AndroidManifest.xml:28:5-49:19
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Elham\.android\build-cache\30e638553bf11a3f9bb2197affcc3fb7126ca711\output\AndroidManifest.xml:9:5-20
-MERGED from [com.android.support:design:25.3.1] C:\Users\Elham\.android\build-cache\0d1c76aae798439ef7a05af0991728931543dd8b\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:transition:25.3.1] C:\Users\Elham\.android\build-cache\47784c916cf115c2a90163c9d265533c33f0d9e1\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Elham\.android\build-cache\75096ec17403138e4f46625586c212244f459092\output\AndroidManifest.xml:26:5-20
-MERGED from [com.firebaseui:firebase-ui-database:1.2.0] C:\Users\Elham\.android\build-cache\7a1cf1c3da561d3e97f201985fc7f62427542a53\output\AndroidManifest.xml:13:5-17:19
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Elham\.android\build-cache\e722e25262974ac06465605f724f76b2202684fd\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Elham\.android\build-cache\52d25f17b8963b1a53738455af5256908213fe7a\output\AndroidManifest.xml:26:5-20
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Elham\.android\build-cache\d21a5af8e805c52d6cdbba2ffe3a433d72d67241\output\AndroidManifest.xml:26:5-20
-MERGED from [com.google.firebase:firebase-common:10.2.4] C:\Users\Elham\.android\build-cache\bd3d10dc648b72e42b485d14f814f738b37bb711\output\AndroidManifest.xml:4:5-7:19
-MERGED from [com.google.android.gms:play-services-tasks:10.2.4] C:\Users\Elham\.android\build-cache\ca11633b8831d56a27dd01ecb4b516df4e7713da\output\AndroidManifest.xml:4:5-19
-MERGED from [com.google.android.gms:play-services-basement:10.2.4] C:\Users\Elham\.android\build-cache\462a329b8539f9dd97e5bf64f95380c017273abe\output\AndroidManifest.xml:19:5-21:19
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Elham\.android\build-cache\88794ee0f62838b2141ed5145b8a5cf12bffc54e\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Elham\.android\build-cache\45d32a4116091286619e36c75bf7c6e85ae9f3f8\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Elham\.android\build-cache\17002630299761f66fa4a0496033a3aaccd5be4f\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Elham\.android\build-cache\d412fbc26c8d88e714ddba00ec96ee2a2b602425\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Elham\.android\build-cache\bd74ac2e5fc978124a50781d83973447a8f4777f\output\AndroidManifest.xml:29:5-20
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Elham\.android\build-cache\4fda6f0c09fd6e127745ba01e7e960baefa54c4f\output\AndroidManifest.xml:29:5-20
+ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:14:5-83:19
+MERGED from [com.google.firebase:firebase-core:10.2.4] C:\Users\MP\.android\build-cache\77becfbb4f8a081a5782988da1bc3ebeeb2cd34c\output\AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\MP\.android\build-cache\4aaeecb5f0e9dff1463d765bebda60a150c58a51\output\AndroidManifest.xml:24:5-33:19
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] C:\Users\MP\.android\build-cache\d2ff71096bb70eefea5cb01a3747398fc8ddb9aa\output\AndroidManifest.xml:24:5-28:19
+MERGED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\MP\.android\build-cache\ac4bda490daceb2df71ad761f4ef03005f6d5bcd\output\AndroidManifest.xml:28:5-49:19
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\MP\.android\build-cache\6600d38f220e569fd7d42239dd6fbf9e9949a358\output\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:design:25.3.1] C:\Users\MP\.android\build-cache\7f2a905ba1ff34e2255c807e85163261b0e3d6fe\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:transition:25.3.1] C:\Users\MP\.android\build-cache\6ac83634859adc50b736635ad402e591c20754ff\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\MP\.android\build-cache\216bc82897da8d4b0df7fa3faa323c481032101c\output\AndroidManifest.xml:26:5-20
+MERGED from [com.firebaseui:firebase-ui-database:1.2.0] C:\Users\MP\.android\build-cache\d14efeaa161f9701b3020ec3ed55359798987674\output\AndroidManifest.xml:13:5-17:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\MP\.android\build-cache\c46970eba8617fe8cb9df7d538c07cd048aa0903\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\MP\.android\build-cache\dfbda6ef59f55c18889d7efc32b20f99a9dd6d0a\output\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\MP\.android\build-cache\7972fedfdbb552714db6e9d982348a37e7f9d099\output\AndroidManifest.xml:26:5-20
+MERGED from [com.google.firebase:firebase-common:10.2.4] C:\Users\MP\.android\build-cache\56a2cd453d3640a9483818ad253d110815ae053d\output\AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tasks:10.2.4] C:\Users\MP\.android\build-cache\8ae54083f1cc4aeb3aefccbbd848597c8c34b714\output\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.2.4] C:\Users\MP\.android\build-cache\44b4fa14801a4e27498e7701286e16b1c2debba1\output\AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\MP\.android\build-cache\b09f24051b9b44e36d78fa76029d142471ffee6b\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\MP\.android\build-cache\0587d74b7b7a031888ffcff34e8f2baed7bf10aa\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\MP\.android\build-cache\f4c5e7d020c69b6bb8a7d79af6e846cb9a2d2efe\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\MP\.android\build-cache\ef65995dcf9f91c78e236bfc16f94d4e7b36c957\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\MP\.android\build-cache\e0ded4eb44ce2c80cdb04213ea491f1eb1146a45\output\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\MP\.android\build-cache\6d2de85ce42e75e8b6bec8678df014ec99b9c2a7\output\AndroidManifest.xml:29:5-20
 	android:label
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:17:9-41
+		ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:17:9-41
 	android:allowBackup
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:15:9-35
+		ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:15:9-35
 	android:icon
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:16:9-38
+		ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:16:9-38
 activity#com.seamuseum.auswahlelement.AuswahlElementActivity
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:18:9-19:54
+ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:18:9-25:20
 	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:19:13-51
-activity#com.seamuseum.auswahlelement.werke.FragmentDemo3Activity
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:20:9-21:59
-	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:21:13-56
-activity#com.seamuseum.auswahlelement.werke.FragmentDemo3Activity$DetailsActivity
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:22:9-81
-	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:22:19-78
-activity#com.seamuseum.auswahlelement.spiele.UebersichtMenu
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:23:9-25:51
-	android:label
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:25:13-48
-	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:24:13-50
-activity#com.seamuseum.auswahlelement.spiele.quiz.QuizActivity
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:26:9-29:49
-	android:label
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:29:13-46
-	android:configChanges
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:28:13-59
-	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:27:13-53
-activity#com.seamuseum.auswahlelement.spiele.artsweeper.game.ArtSweeperActivity
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:30:9-33:59
-	android:screenOrientation
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:32:13-49
-	android:theme
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:33:13-56
-	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:31:13-70
-activity#com.seamuseum.auswahlelement.spiele.puzzle.PuzzleActivity
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:34:9-37:59
-	android:configChanges
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:36:13-59
-	android:theme
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:37:13-56
-	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:35:13-57
-activity#com.seamuseum.auswahlelement.spiele.memory.MemoryGame
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:38:9-42:63
-	android:screenOrientation
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:41:13-49
-	android:configChanges
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:40:13-63
-	android:theme
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:42:13-60
-	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:39:13-53
-activity#com.seamuseum.auswahlelement.service.AngebotActivity
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:43:9-44:55
-	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:44:13-52
-activity#com.seamuseum.auswahlelement.werke.WerkeMainActivity
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:45:9-47:48
-	android:label
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:47:13-45
-	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:46:13-52
-activity#com.seamuseum.auswahlelement.werke.WerkSingleActivity
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:48:9-62
-	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:48:19-59
-activity#com.seamuseum.auswahlelement.werke.WerkActivity
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:49:9-56
-	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:49:19-53
-activity#com.seamuseum.auswahlelement.service.KontaktActivity
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:50:9-61
-	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:50:19-58
-activity#com.seamuseum.auswahlelement.service.ServiceActivity
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:51:9-61
-	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:51:19-58
-activity#com.seamuseum.auswahlelement.service.PreisActivity
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:52:9-59
-	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:52:19-56
-activity#com.seamuseum.auswahlelement.comments.EntriesActivity
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:53:9-62
-	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:53:19-59
-activity#com.seamuseum.auswahlelement.comments.WriteEntryActivity
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:54:9-65
-	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:54:19-62
-activity#com.seamuseum.auswahlelement.gebaeudeplan.PlanAnzeigenActivity
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:55:9-71
-	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:55:19-68
-activity#com.seamuseum.auswahlelement.comments.KommentarRegelnActivity
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:56:9-61:20
-	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:57:13-61
-meta-data#android.support.PARENT_ACTIVITY
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:58:13-60:89
-	android:value
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:60:17-86
-	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:59:17-63
-activity#com.seamuseum.auswahlelement.werke.SuchActivity
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:62:9-63:50
-	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:63:13-47
-activity#com.seamuseum.auswahlelement.MainActivity
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:64:9-73:20
-	android:label
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:66:13-56
-	android:theme
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:67:13-56
-	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:65:13-41
+		ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:19:13-51
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:68:13-72:29
+ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:20:9-24:25
 action#android.intent.action.MAIN
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:69:17-69
+ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:21:13-65
 	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:69:25-66
+		ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:21:21-62
 category#android.intent.category.LAUNCHER
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:71:17-77
+ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:23:13-73
 	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:71:27-74
-activity#com.seamuseum.auswahlelement.LoginActivity
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:74:9-77:59
+		ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:23:23-70
+activity#com.seamuseum.auswahlelement.werke.FragmentDemo3Activity
+ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:26:9-27:59
+	android:name
+		ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:27:13-56
+activity#com.seamuseum.auswahlelement.werke.FragmentDemo3Activity$DetailsActivity
+ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:28:9-81
+	android:name
+		ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:28:19-78
+activity#com.seamuseum.auswahlelement.spiele.UebersichtMenu
+ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:29:9-31:51
 	android:label
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:76:13-57
+		ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:31:13-48
+	android:name
+		ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:30:13-50
+activity#com.seamuseum.auswahlelement.spiele.quiz.QuizActivity
+ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:32:9-35:49
+	android:label
+		ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:35:13-46
+	android:configChanges
+		ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:34:13-59
+	android:name
+		ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:33:13-53
+activity#com.seamuseum.auswahlelement.spiele.artsweeper.game.ArtSweeperActivity
+ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:36:9-39:59
+	android:screenOrientation
+		ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:38:13-49
 	android:theme
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:77:13-56
+		ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:39:13-56
 	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:75:13-42
-activity#com.seamuseum.auswahlelement.werke.WerkUpdateActivity
-ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:78:9-79:60
+		ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:37:13-70
+activity#com.seamuseum.auswahlelement.spiele.puzzle.PuzzleActivity
+ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:40:9-43:59
+	android:configChanges
+		ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:42:13-59
+	android:theme
+		ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:43:13-56
+	android:name
+		ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:41:13-57
+activity#com.seamuseum.auswahlelement.spiele.memory.MemoryGame
+ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:44:9-48:63
+	android:screenOrientation
+		ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:47:13-49
+	android:configChanges
+		ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:46:13-63
+	android:theme
+		ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:48:13-60
+	android:name
+		ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:45:13-53
+activity#com.seamuseum.auswahlelement.service.AngebotActivity
+ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:49:9-51:51
+	android:screenOrientation
+		ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:51:13-49
+	android:name
+		ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:50:13-52
+activity#com.seamuseum.auswahlelement.werke.WerkeMainActivity
+ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:52:9-54:48
 	android:label
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:79:13-57
+		ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:54:13-45
 	android:name
-		ADDED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml:78:19-59
+		ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:53:13-52
+activity#com.seamuseum.auswahlelement.werke.WerkSingleActivity
+ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:55:9-62
+	android:name
+		ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:55:19-59
+activity#com.seamuseum.auswahlelement.werke.WerkActivity
+ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:56:9-56
+	android:name
+		ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:56:19-53
+activity#com.seamuseum.auswahlelement.service.KontaktActivity
+ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:57:9-59:51
+	android:screenOrientation
+		ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:59:13-49
+	android:name
+		ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:58:13-52
+activity#com.seamuseum.auswahlelement.service.ServiceActivity
+ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:60:9-62:51
+	android:screenOrientation
+		ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:62:13-49
+	android:name
+		ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:61:13-52
+activity#com.seamuseum.auswahlelement.service.PreisActivity
+ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:63:9-65:51
+	android:screenOrientation
+		ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:65:13-49
+	android:name
+		ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:64:13-50
+activity#com.seamuseum.auswahlelement.comments.EntriesActivity
+ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:66:9-62
+	android:name
+		ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:66:19-59
+activity#com.seamuseum.auswahlelement.comments.WriteEntryActivity
+ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:67:9-65
+	android:name
+		ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:67:19-62
+activity#com.seamuseum.auswahlelement.gebaeudeplan.PlanAnzeigenActivity
+ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:68:9-71
+	android:name
+		ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:68:19-68
+activity#com.seamuseum.auswahlelement.comments.KommentarRegelnActivity
+ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:69:9-74:20
+	android:name
+		ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:70:13-61
+meta-data#android.support.PARENT_ACTIVITY
+ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:71:13-73:89
+	android:value
+		ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:73:17-86
+	android:name
+		ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:72:17-63
+activity#com.seamuseum.auswahlelement.werke.SuchActivity
+ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:75:9-76:50
+	android:name
+		ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:76:13-47
+activity#com.seamuseum.auswahlelement.LoginActivity
+ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:77:9-80:59
+	android:label
+		ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:79:13-57
+	android:theme
+		ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:80:13-56
+	android:name
+		ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:78:13-42
+activity#com.seamuseum.auswahlelement.werke.WerkUpdateActivity
+ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:81:9-82:60
+	android:label
+		ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:82:13-57
+	android:name
+		ADDED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:81:19-59
 uses-sdk
-INJECTED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
-MERGED from [com.google.firebase:firebase-core:10.2.4] C:\Users\Elham\.android\build-cache\2af22cfa26bd80b4f0251a88a3d214b39624f2e2\output\AndroidManifest.xml:4:5-43
-MERGED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\Elham\.android\build-cache\660ac9a44c801e852991be8e092bd2d67ff0b1aa\output\AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] C:\Users\Elham\.android\build-cache\b8a25c70f404bfb51680523b3e7f194b6f96d120\output\AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Elham\.android\build-cache\99bb4da0ecc62f9642e8149b699b4fcec69eb53d\output\AndroidManifest.xml:17:5-43
-MERGED from [com.google.firebase:firebase-storage:10.2.4] C:\Users\Elham\.android\build-cache\16f739847153fa226e456f754a806b76ad4f4919\output\AndroidManifest.xml:3:5-43
-MERGED from [com.google.firebase:firebase-storage-common:10.2.4] C:\Users\Elham\.android\build-cache\a466dcde42157b54be344027436f3607efb2c639\output\AndroidManifest.xml:3:5-43
-MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Elham\.android\build-cache\30e638553bf11a3f9bb2197affcc3fb7126ca711\output\AndroidManifest.xml:5:5-7:41
-MERGED from [com.android.support:design:25.3.1] C:\Users\Elham\.android\build-cache\0d1c76aae798439ef7a05af0991728931543dd8b\output\AndroidManifest.xml:21:5-23:62
-MERGED from [com.android.support:transition:25.3.1] C:\Users\Elham\.android\build-cache\47784c916cf115c2a90163c9d265533c33f0d9e1\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Elham\.android\build-cache\75096ec17403138e4f46625586c212244f459092\output\AndroidManifest.xml:20:5-43
-MERGED from [com.firebaseui:firebase-ui-database:1.2.0] C:\Users\Elham\.android\build-cache\7a1cf1c3da561d3e97f201985fc7f62427542a53\output\AndroidManifest.xml:7:5-9:41
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Elham\.android\build-cache\e722e25262974ac06465605f724f76b2202684fd\output\AndroidManifest.xml:21:5-23:78
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Elham\.android\build-cache\52d25f17b8963b1a53738455af5256908213fe7a\output\AndroidManifest.xml:20:5-44
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Elham\.android\build-cache\d21a5af8e805c52d6cdbba2ffe3a433d72d67241\output\AndroidManifest.xml:20:5-43
-MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Elham\.android\build-cache\ba570a11ce7275b0642baa4e2dff9d92bd6300c7\output\AndroidManifest.xml:20:5-43
-MERGED from [com.google.firebase:firebase-database:10.2.4] C:\Users\Elham\.android\build-cache\66c5cef559f1e59856bac92a1b7b7cbf35ec17c1\output\AndroidManifest.xml:3:5-43
-MERGED from [com.google.firebase:firebase-database-connection:10.2.4] C:\Users\Elham\.android\build-cache\5a4eb5f32095d61e802a84fe7625f87875eaeac9\output\AndroidManifest.xml:3:5-43
-MERGED from [com.google.firebase:firebase-common:10.2.4] C:\Users\Elham\.android\build-cache\bd3d10dc648b72e42b485d14f814f738b37bb711\output\AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-tasks:10.2.4] C:\Users\Elham\.android\build-cache\ca11633b8831d56a27dd01ecb4b516df4e7713da\output\AndroidManifest.xml:3:5-43
-MERGED from [com.google.android.gms:play-services-basement:10.2.4] C:\Users\Elham\.android\build-cache\462a329b8539f9dd97e5bf64f95380c017273abe\output\AndroidManifest.xml:17:5-43
-MERGED from [com.commit451:PhotoView:1.2.4] C:\Users\Elham\.android\build-cache\fe81f8558ac65ac85235d2fb3826abf32c1d5d9b\output\AndroidManifest.xml:8:5-10:41
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Elham\.android\build-cache\88794ee0f62838b2141ed5145b8a5cf12bffc54e\output\AndroidManifest.xml:21:5-23:54
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Elham\.android\build-cache\45d32a4116091286619e36c75bf7c6e85ae9f3f8\output\AndroidManifest.xml:21:5-23:60
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Elham\.android\build-cache\17002630299761f66fa4a0496033a3aaccd5be4f\output\AndroidManifest.xml:21:5-23:63
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Elham\.android\build-cache\d412fbc26c8d88e714ddba00ec96ee2a2b602425\output\AndroidManifest.xml:21:5-23:58
-MERGED from [com.jakewharton:butterknife:8.6.0] C:\Users\Elham\.android\build-cache\bf41ed03a24ad768818d2f71c2b063cad5f59a55\output\AndroidManifest.xml:5:5-43
-MERGED from [com.github.chrisbanes:PhotoView:2.0.0] C:\Users\Elham\.android\build-cache\1bb86a2b07ca7f319c3bec22baeff11e6e71c9ef\output\AndroidManifest.xml:8:5-10:41
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Elham\.android\build-cache\bd74ac2e5fc978124a50781d83973447a8f4777f\output\AndroidManifest.xml:21:5-23:61
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Elham\.android\build-cache\4fda6f0c09fd6e127745ba01e7e960baefa54c4f\output\AndroidManifest.xml:21:5-23:58
+INJECTED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.google.firebase:firebase-core:10.2.4] C:\Users\MP\.android\build-cache\77becfbb4f8a081a5782988da1bc3ebeeb2cd34c\output\AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\MP\.android\build-cache\4aaeecb5f0e9dff1463d765bebda60a150c58a51\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] C:\Users\MP\.android\build-cache\d2ff71096bb70eefea5cb01a3747398fc8ddb9aa\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\MP\.android\build-cache\ac4bda490daceb2df71ad761f4ef03005f6d5bcd\output\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-storage:10.2.4] C:\Users\MP\.android\build-cache\570c2b5acbda371dc1134d1f1ddeb38785936101\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-storage-common:10.2.4] C:\Users\MP\.android\build-cache\559f013ef4757f195c5d0bd6c40c9c16c4513d56\output\AndroidManifest.xml:3:5-43
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\MP\.android\build-cache\6600d38f220e569fd7d42239dd6fbf9e9949a358\output\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:design:25.3.1] C:\Users\MP\.android\build-cache\7f2a905ba1ff34e2255c807e85163261b0e3d6fe\output\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:transition:25.3.1] C:\Users\MP\.android\build-cache\6ac83634859adc50b736635ad402e591c20754ff\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\MP\.android\build-cache\216bc82897da8d4b0df7fa3faa323c481032101c\output\AndroidManifest.xml:20:5-43
+MERGED from [com.firebaseui:firebase-ui-database:1.2.0] C:\Users\MP\.android\build-cache\d14efeaa161f9701b3020ec3ed55359798987674\output\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\MP\.android\build-cache\c46970eba8617fe8cb9df7d538c07cd048aa0903\output\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\MP\.android\build-cache\dfbda6ef59f55c18889d7efc32b20f99a9dd6d0a\output\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\MP\.android\build-cache\7972fedfdbb552714db6e9d982348a37e7f9d099\output\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\MP\.android\build-cache\2fac7198609afb6a8aa9747ccfb73a09419e63ff\output\AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-database:10.2.4] C:\Users\MP\.android\build-cache\70c712ef57989a4b6643193f2dc4a1139d3b239b\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-database-connection:10.2.4] C:\Users\MP\.android\build-cache\26ba04010e0063bec25b3e872e48b63adb12b1cc\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-common:10.2.4] C:\Users\MP\.android\build-cache\56a2cd453d3640a9483818ad253d110815ae053d\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:10.2.4] C:\Users\MP\.android\build-cache\8ae54083f1cc4aeb3aefccbbd848597c8c34b714\output\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:10.2.4] C:\Users\MP\.android\build-cache\44b4fa14801a4e27498e7701286e16b1c2debba1\output\AndroidManifest.xml:17:5-43
+MERGED from [com.commit451:PhotoView:1.2.4] C:\Users\MP\.android\build-cache\664065c91f53e3c5b9cc1dda184d5b62ced9e0fd\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\MP\.android\build-cache\b09f24051b9b44e36d78fa76029d142471ffee6b\output\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\MP\.android\build-cache\0587d74b7b7a031888ffcff34e8f2baed7bf10aa\output\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\MP\.android\build-cache\f4c5e7d020c69b6bb8a7d79af6e846cb9a2d2efe\output\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\MP\.android\build-cache\ef65995dcf9f91c78e236bfc16f94d4e7b36c957\output\AndroidManifest.xml:21:5-23:58
+MERGED from [com.jakewharton:butterknife:8.6.0] C:\Users\MP\.android\build-cache\4fbd4599e2b056b799acac12933ff78f4b7e6cb5\output\AndroidManifest.xml:5:5-43
+MERGED from [com.github.chrisbanes:PhotoView:2.0.0] C:\Users\MP\.android\build-cache\fa86c80dfe857eefb335d5cebb6d1391af14f55f\output\AndroidManifest.xml:8:5-10:41
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\MP\.android\build-cache\e0ded4eb44ce2c80cdb04213ea491f1eb1146a45\output\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\MP\.android\build-cache\6d2de85ce42e75e8b6bec8678df014ec99b9c2a7\output\AndroidManifest.xml:21:5-23:58
 	tools:overrideLibrary
-		ADDED from [com.android.support:design:25.3.1] C:\Users\Elham\.android\build-cache\0d1c76aae798439ef7a05af0991728931543dd8b\output\AndroidManifest.xml:23:9-59
+		ADDED from [com.android.support:design:25.3.1] C:\Users\MP\.android\build-cache\7f2a905ba1ff34e2255c807e85163261b0e3d6fe\output\AndroidManifest.xml:23:9-59
 	android:targetSdkVersion
-		INJECTED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml
-		INJECTED from C:\Users\Elham\Desktop\SEAMuseum\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\MP\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml
 uses-permission#android.permission.ACCESS_NETWORK_STATE
-ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\Elham\.android\build-cache\660ac9a44c801e852991be8e092bd2d67ff0b1aa\output\AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] C:\Users\Elham\.android\build-cache\b8a25c70f404bfb51680523b3e7f194b6f96d120\output\AndroidManifest.xml:21:5-78
-MERGED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Elham\.android\build-cache\99bb4da0ecc62f9642e8149b699b4fcec69eb53d\output\AndroidManifest.xml:19:5-78
+ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\MP\.android\build-cache\4aaeecb5f0e9dff1463d765bebda60a150c58a51\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] C:\Users\MP\.android\build-cache\d2ff71096bb70eefea5cb01a3747398fc8ddb9aa\output\AndroidManifest.xml:21:5-78
+MERGED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\MP\.android\build-cache\ac4bda490daceb2df71ad761f4ef03005f6d5bcd\output\AndroidManifest.xml:19:5-78
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\Elham\.android\build-cache\660ac9a44c801e852991be8e092bd2d67ff0b1aa\output\AndroidManifest.xml:21:22-76
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\MP\.android\build-cache\4aaeecb5f0e9dff1463d765bebda60a150c58a51\output\AndroidManifest.xml:21:22-76
 uses-permission#android.permission.WAKE_LOCK
-ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\Elham\.android\build-cache\660ac9a44c801e852991be8e092bd2d67ff0b1aa\output\AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] C:\Users\Elham\.android\build-cache\b8a25c70f404bfb51680523b3e7f194b6f96d120\output\AndroidManifest.xml:22:5-67
-MERGED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Elham\.android\build-cache\99bb4da0ecc62f9642e8149b699b4fcec69eb53d\output\AndroidManifest.xml:21:5-67
+ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\MP\.android\build-cache\4aaeecb5f0e9dff1463d765bebda60a150c58a51\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] C:\Users\MP\.android\build-cache\d2ff71096bb70eefea5cb01a3747398fc8ddb9aa\output\AndroidManifest.xml:22:5-67
+MERGED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\MP\.android\build-cache\ac4bda490daceb2df71ad761f4ef03005f6d5bcd\output\AndroidManifest.xml:21:5-67
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\Elham\.android\build-cache\660ac9a44c801e852991be8e092bd2d67ff0b1aa\output\AndroidManifest.xml:22:22-65
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\MP\.android\build-cache\4aaeecb5f0e9dff1463d765bebda60a150c58a51\output\AndroidManifest.xml:22:22-65
 receiver#com.google.android.gms.measurement.AppMeasurementReceiver
-ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\Elham\.android\build-cache\660ac9a44c801e852991be8e092bd2d67ff0b1aa\output\AndroidManifest.xml:25:7-26:18
-MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] C:\Users\Elham\.android\build-cache\b8a25c70f404bfb51680523b3e7f194b6f96d120\output\AndroidManifest.xml:25:7-26:18
+ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\MP\.android\build-cache\4aaeecb5f0e9dff1463d765bebda60a150c58a51\output\AndroidManifest.xml:25:7-26:18
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] C:\Users\MP\.android\build-cache\d2ff71096bb70eefea5cb01a3747398fc8ddb9aa\output\AndroidManifest.xml:25:7-26:18
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\Elham\.android\build-cache\660ac9a44c801e852991be8e092bd2d67ff0b1aa\output\AndroidManifest.xml:25:90-112
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\MP\.android\build-cache\4aaeecb5f0e9dff1463d765bebda60a150c58a51\output\AndroidManifest.xml:25:90-112
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\Elham\.android\build-cache\660ac9a44c801e852991be8e092bd2d67ff0b1aa\output\AndroidManifest.xml:25:113-137
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\MP\.android\build-cache\4aaeecb5f0e9dff1463d765bebda60a150c58a51\output\AndroidManifest.xml:25:113-137
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\Elham\.android\build-cache\660ac9a44c801e852991be8e092bd2d67ff0b1aa\output\AndroidManifest.xml:25:17-89
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\MP\.android\build-cache\4aaeecb5f0e9dff1463d765bebda60a150c58a51\output\AndroidManifest.xml:25:17-89
 receiver#com.google.android.gms.measurement.AppMeasurementInstallReferrerReceiver
-ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\Elham\.android\build-cache\660ac9a44c801e852991be8e092bd2d67ff0b1aa\output\AndroidManifest.xml:27:7-31:18
+ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\MP\.android\build-cache\4aaeecb5f0e9dff1463d765bebda60a150c58a51\output\AndroidManifest.xml:27:7-31:18
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\Elham\.android\build-cache\660ac9a44c801e852991be8e092bd2d67ff0b1aa\output\AndroidManifest.xml:27:162-184
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\MP\.android\build-cache\4aaeecb5f0e9dff1463d765bebda60a150c58a51\output\AndroidManifest.xml:27:162-184
 	android:permission
-		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\Elham\.android\build-cache\660ac9a44c801e852991be8e092bd2d67ff0b1aa\output\AndroidManifest.xml:27:105-161
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\MP\.android\build-cache\4aaeecb5f0e9dff1463d765bebda60a150c58a51\output\AndroidManifest.xml:27:105-161
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\Elham\.android\build-cache\660ac9a44c801e852991be8e092bd2d67ff0b1aa\output\AndroidManifest.xml:27:17-104
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\MP\.android\build-cache\4aaeecb5f0e9dff1463d765bebda60a150c58a51\output\AndroidManifest.xml:27:17-104
 intent-filter#com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\Elham\.android\build-cache\660ac9a44c801e852991be8e092bd2d67ff0b1aa\output\AndroidManifest.xml:28:11-30:27
+ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\MP\.android\build-cache\4aaeecb5f0e9dff1463d765bebda60a150c58a51\output\AndroidManifest.xml:28:11-30:27
 action#com.android.vending.INSTALL_REFERRER
-ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\Elham\.android\build-cache\660ac9a44c801e852991be8e092bd2d67ff0b1aa\output\AndroidManifest.xml:29:15-76
+ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\MP\.android\build-cache\4aaeecb5f0e9dff1463d765bebda60a150c58a51\output\AndroidManifest.xml:29:15-76
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\Elham\.android\build-cache\660ac9a44c801e852991be8e092bd2d67ff0b1aa\output\AndroidManifest.xml:29:23-74
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\MP\.android\build-cache\4aaeecb5f0e9dff1463d765bebda60a150c58a51\output\AndroidManifest.xml:29:23-74
 service#com.google.android.gms.measurement.AppMeasurementService
-ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\Elham\.android\build-cache\660ac9a44c801e852991be8e092bd2d67ff0b1aa\output\AndroidManifest.xml:32:7-137
-MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] C:\Users\Elham\.android\build-cache\b8a25c70f404bfb51680523b3e7f194b6f96d120\output\AndroidManifest.xml:27:7-137
+ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\MP\.android\build-cache\4aaeecb5f0e9dff1463d765bebda60a150c58a51\output\AndroidManifest.xml:32:7-137
+MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] C:\Users\MP\.android\build-cache\d2ff71096bb70eefea5cb01a3747398fc8ddb9aa\output\AndroidManifest.xml:27:7-137
 	android:enabled
-		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\Elham\.android\build-cache\660ac9a44c801e852991be8e092bd2d67ff0b1aa\output\AndroidManifest.xml:32:88-110
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\MP\.android\build-cache\4aaeecb5f0e9dff1463d765bebda60a150c58a51\output\AndroidManifest.xml:32:88-110
 	android:exported
-		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\Elham\.android\build-cache\660ac9a44c801e852991be8e092bd2d67ff0b1aa\output\AndroidManifest.xml:32:111-135
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\MP\.android\build-cache\4aaeecb5f0e9dff1463d765bebda60a150c58a51\output\AndroidManifest.xml:32:111-135
 	android:name
-		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\Elham\.android\build-cache\660ac9a44c801e852991be8e092bd2d67ff0b1aa\output\AndroidManifest.xml:32:16-87
+		ADDED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\MP\.android\build-cache\4aaeecb5f0e9dff1463d765bebda60a150c58a51\output\AndroidManifest.xml:32:16-87
 uses-permission#com.google.android.c2dm.permission.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Elham\.android\build-cache\99bb4da0ecc62f9642e8149b699b4fcec69eb53d\output\AndroidManifest.xml:22:5-81
+ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\MP\.android\build-cache\ac4bda490daceb2df71ad761f4ef03005f6d5bcd\output\AndroidManifest.xml:22:5-81
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Elham\.android\build-cache\99bb4da0ecc62f9642e8149b699b4fcec69eb53d\output\AndroidManifest.xml:22:22-79
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\MP\.android\build-cache\ac4bda490daceb2df71ad761f4ef03005f6d5bcd\output\AndroidManifest.xml:22:22-79
 permission#${applicationId}.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Elham\.android\build-cache\99bb4da0ecc62f9642e8149b699b4fcec69eb53d\output\AndroidManifest.xml:24:5-109
+ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\MP\.android\build-cache\ac4bda490daceb2df71ad761f4ef03005f6d5bcd\output\AndroidManifest.xml:24:5-109
 	android:protectionLevel
-		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Elham\.android\build-cache\99bb4da0ecc62f9642e8149b699b4fcec69eb53d\output\AndroidManifest.xml:24:72-107
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\MP\.android\build-cache\ac4bda490daceb2df71ad761f4ef03005f6d5bcd\output\AndroidManifest.xml:24:72-107
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Elham\.android\build-cache\99bb4da0ecc62f9642e8149b699b4fcec69eb53d\output\AndroidManifest.xml:24:17-71
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\MP\.android\build-cache\ac4bda490daceb2df71ad761f4ef03005f6d5bcd\output\AndroidManifest.xml:24:17-71
 uses-permission#${applicationId}.permission.C2D_MESSAGE
-ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Elham\.android\build-cache\99bb4da0ecc62f9642e8149b699b4fcec69eb53d\output\AndroidManifest.xml:26:5-78
+ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\MP\.android\build-cache\ac4bda490daceb2df71ad761f4ef03005f6d5bcd\output\AndroidManifest.xml:26:5-78
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Elham\.android\build-cache\99bb4da0ecc62f9642e8149b699b4fcec69eb53d\output\AndroidManifest.xml:26:22-76
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\MP\.android\build-cache\ac4bda490daceb2df71ad761f4ef03005f6d5bcd\output\AndroidManifest.xml:26:22-76
 receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
-ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Elham\.android\build-cache\99bb4da0ecc62f9642e8149b699b4fcec69eb53d\output\AndroidManifest.xml:30:9-35:20
+ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\MP\.android\build-cache\ac4bda490daceb2df71ad761f4ef03005f6d5bcd\output\AndroidManifest.xml:30:9-35:20
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Elham\.android\build-cache\99bb4da0ecc62f9642e8149b699b4fcec69eb53d\output\AndroidManifest.xml:30:85-108
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\MP\.android\build-cache\ac4bda490daceb2df71ad761f4ef03005f6d5bcd\output\AndroidManifest.xml:30:85-108
 	android:permission
-		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Elham\.android\build-cache\99bb4da0ecc62f9642e8149b699b4fcec69eb53d\output\AndroidManifest.xml:30:109-169
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\MP\.android\build-cache\ac4bda490daceb2df71ad761f4ef03005f6d5bcd\output\AndroidManifest.xml:30:109-169
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Elham\.android\build-cache\99bb4da0ecc62f9642e8149b699b4fcec69eb53d\output\AndroidManifest.xml:30:19-84
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\MP\.android\build-cache\ac4bda490daceb2df71ad761f4ef03005f6d5bcd\output\AndroidManifest.xml:30:19-84
 intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Elham\.android\build-cache\99bb4da0ecc62f9642e8149b699b4fcec69eb53d\output\AndroidManifest.xml:31:13-34:29
+ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\MP\.android\build-cache\ac4bda490daceb2df71ad761f4ef03005f6d5bcd\output\AndroidManifest.xml:31:13-34:29
 action#com.google.android.c2dm.intent.RECEIVE
-ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Elham\.android\build-cache\99bb4da0ecc62f9642e8149b699b4fcec69eb53d\output\AndroidManifest.xml:32:17-80
+ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\MP\.android\build-cache\ac4bda490daceb2df71ad761f4ef03005f6d5bcd\output\AndroidManifest.xml:32:17-80
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Elham\.android\build-cache\99bb4da0ecc62f9642e8149b699b4fcec69eb53d\output\AndroidManifest.xml:32:25-78
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\MP\.android\build-cache\ac4bda490daceb2df71ad761f4ef03005f6d5bcd\output\AndroidManifest.xml:32:25-78
 category#${applicationId}
-ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Elham\.android\build-cache\99bb4da0ecc62f9642e8149b699b4fcec69eb53d\output\AndroidManifest.xml:33:17-60
+ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\MP\.android\build-cache\ac4bda490daceb2df71ad761f4ef03005f6d5bcd\output\AndroidManifest.xml:33:17-60
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Elham\.android\build-cache\99bb4da0ecc62f9642e8149b699b4fcec69eb53d\output\AndroidManifest.xml:33:27-58
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\MP\.android\build-cache\ac4bda490daceb2df71ad761f4ef03005f6d5bcd\output\AndroidManifest.xml:33:27-58
 receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
-ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Elham\.android\build-cache\99bb4da0ecc62f9642e8149b699b4fcec69eb53d\output\AndroidManifest.xml:39:9-119
+ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\MP\.android\build-cache\ac4bda490daceb2df71ad761f4ef03005f6d5bcd\output\AndroidManifest.xml:39:9-119
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Elham\.android\build-cache\99bb4da0ecc62f9642e8149b699b4fcec69eb53d\output\AndroidManifest.xml:39:93-117
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\MP\.android\build-cache\ac4bda490daceb2df71ad761f4ef03005f6d5bcd\output\AndroidManifest.xml:39:93-117
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Elham\.android\build-cache\99bb4da0ecc62f9642e8149b699b4fcec69eb53d\output\AndroidManifest.xml:39:19-92
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\MP\.android\build-cache\ac4bda490daceb2df71ad761f4ef03005f6d5bcd\output\AndroidManifest.xml:39:19-92
 service#com.google.firebase.iid.FirebaseInstanceIdService
-ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Elham\.android\build-cache\99bb4da0ecc62f9642e8149b699b4fcec69eb53d\output\AndroidManifest.xml:43:9-47:19
+ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\MP\.android\build-cache\ac4bda490daceb2df71ad761f4ef03005f6d5bcd\output\AndroidManifest.xml:43:9-47:19
 	android:exported
-		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Elham\.android\build-cache\99bb4da0ecc62f9642e8149b699b4fcec69eb53d\output\AndroidManifest.xml:43:83-106
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\MP\.android\build-cache\ac4bda490daceb2df71ad761f4ef03005f6d5bcd\output\AndroidManifest.xml:43:83-106
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Elham\.android\build-cache\99bb4da0ecc62f9642e8149b699b4fcec69eb53d\output\AndroidManifest.xml:43:18-82
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\MP\.android\build-cache\ac4bda490daceb2df71ad761f4ef03005f6d5bcd\output\AndroidManifest.xml:43:18-82
 intent-filter#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Elham\.android\build-cache\99bb4da0ecc62f9642e8149b699b4fcec69eb53d\output\AndroidManifest.xml:44:13-46:29
+ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\MP\.android\build-cache\ac4bda490daceb2df71ad761f4ef03005f6d5bcd\output\AndroidManifest.xml:44:13-46:29
 	android:priority
-		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Elham\.android\build-cache\99bb4da0ecc62f9642e8149b699b4fcec69eb53d\output\AndroidManifest.xml:44:28-51
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\MP\.android\build-cache\ac4bda490daceb2df71ad761f4ef03005f6d5bcd\output\AndroidManifest.xml:44:28-51
 action#com.google.firebase.INSTANCE_ID_EVENT
-ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Elham\.android\build-cache\99bb4da0ecc62f9642e8149b699b4fcec69eb53d\output\AndroidManifest.xml:45:17-79
+ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\MP\.android\build-cache\ac4bda490daceb2df71ad761f4ef03005f6d5bcd\output\AndroidManifest.xml:45:17-79
 	android:name
-		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\Elham\.android\build-cache\99bb4da0ecc62f9642e8149b699b4fcec69eb53d\output\AndroidManifest.xml:45:25-77
+		ADDED from [com.google.firebase:firebase-iid:10.2.4] C:\Users\MP\.android\build-cache\ac4bda490daceb2df71ad761f4ef03005f6d5bcd\output\AndroidManifest.xml:45:25-77
 meta-data#android.support.VERSION
-ADDED from [com.android.support:design:25.3.1] C:\Users\Elham\.android\build-cache\0d1c76aae798439ef7a05af0991728931543dd8b\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:transition:25.3.1] C:\Users\Elham\.android\build-cache\47784c916cf115c2a90163c9d265533c33f0d9e1\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\Elham\.android\build-cache\75096ec17403138e4f46625586c212244f459092\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Elham\.android\build-cache\e722e25262974ac06465605f724f76b2202684fd\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Elham\.android\build-cache\52d25f17b8963b1a53738455af5256908213fe7a\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Elham\.android\build-cache\d21a5af8e805c52d6cdbba2ffe3a433d72d67241\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\Elham\.android\build-cache\ba570a11ce7275b0642baa4e2dff9d92bd6300c7\output\AndroidManifest.xml:22:5-24:34
-MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Elham\.android\build-cache\88794ee0f62838b2141ed5145b8a5cf12bffc54e\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Elham\.android\build-cache\45d32a4116091286619e36c75bf7c6e85ae9f3f8\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Elham\.android\build-cache\17002630299761f66fa4a0496033a3aaccd5be4f\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Elham\.android\build-cache\d412fbc26c8d88e714ddba00ec96ee2a2b602425\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Elham\.android\build-cache\bd74ac2e5fc978124a50781d83973447a8f4777f\output\AndroidManifest.xml:25:5-27:34
-MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Elham\.android\build-cache\4fda6f0c09fd6e127745ba01e7e960baefa54c4f\output\AndroidManifest.xml:25:5-27:34
+ADDED from [com.android.support:design:25.3.1] C:\Users\MP\.android\build-cache\7f2a905ba1ff34e2255c807e85163261b0e3d6fe\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:transition:25.3.1] C:\Users\MP\.android\build-cache\6ac83634859adc50b736635ad402e591c20754ff\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:cardview-v7:25.3.1] C:\Users\MP\.android\build-cache\216bc82897da8d4b0df7fa3faa323c481032101c\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\MP\.android\build-cache\c46970eba8617fe8cb9df7d538c07cd048aa0903\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\MP\.android\build-cache\dfbda6ef59f55c18889d7efc32b20f99a9dd6d0a\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\MP\.android\build-cache\7972fedfdbb552714db6e9d982348a37e7f9d099\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:recyclerview-v7:25.3.1] C:\Users\MP\.android\build-cache\2fac7198609afb6a8aa9747ccfb73a09419e63ff\output\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\MP\.android\build-cache\b09f24051b9b44e36d78fa76029d142471ffee6b\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\MP\.android\build-cache\0587d74b7b7a031888ffcff34e8f2baed7bf10aa\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\MP\.android\build-cache\f4c5e7d020c69b6bb8a7d79af6e846cb9a2d2efe\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\MP\.android\build-cache\ef65995dcf9f91c78e236bfc16f94d4e7b36c957\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\MP\.android\build-cache\e0ded4eb44ce2c80cdb04213ea491f1eb1146a45\output\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\MP\.android\build-cache\6d2de85ce42e75e8b6bec8678df014ec99b9c2a7\output\AndroidManifest.xml:25:5-27:34
 	android:value
-		ADDED from [com.android.support:design:25.3.1] C:\Users\Elham\.android\build-cache\0d1c76aae798439ef7a05af0991728931543dd8b\output\AndroidManifest.xml:27:9-31
+		ADDED from [com.android.support:design:25.3.1] C:\Users\MP\.android\build-cache\7f2a905ba1ff34e2255c807e85163261b0e3d6fe\output\AndroidManifest.xml:27:9-31
 	android:name
-		ADDED from [com.android.support:design:25.3.1] C:\Users\Elham\.android\build-cache\0d1c76aae798439ef7a05af0991728931543dd8b\output\AndroidManifest.xml:26:9-47
+		ADDED from [com.android.support:design:25.3.1] C:\Users\MP\.android\build-cache\7f2a905ba1ff34e2255c807e85163261b0e3d6fe\output\AndroidManifest.xml:26:9-47
 meta-data#com.google.android.gms.version
-ADDED from [com.firebaseui:firebase-ui-database:1.2.0] C:\Users\Elham\.android\build-cache\7a1cf1c3da561d3e97f201985fc7f62427542a53\output\AndroidManifest.xml:14:9-16:69
-MERGED from [com.google.android.gms:play-services-basement:10.2.4] C:\Users\Elham\.android\build-cache\462a329b8539f9dd97e5bf64f95380c017273abe\output\AndroidManifest.xml:20:9-121
+ADDED from [com.firebaseui:firebase-ui-database:1.2.0] C:\Users\MP\.android\build-cache\d14efeaa161f9701b3020ec3ed55359798987674\output\AndroidManifest.xml:14:9-16:69
+MERGED from [com.google.android.gms:play-services-basement:10.2.4] C:\Users\MP\.android\build-cache\44b4fa14801a4e27498e7701286e16b1c2debba1\output\AndroidManifest.xml:20:9-121
 	android:value
-		ADDED from [com.firebaseui:firebase-ui-database:1.2.0] C:\Users\Elham\.android\build-cache\7a1cf1c3da561d3e97f201985fc7f62427542a53\output\AndroidManifest.xml:16:13-66
+		ADDED from [com.firebaseui:firebase-ui-database:1.2.0] C:\Users\MP\.android\build-cache\d14efeaa161f9701b3020ec3ed55359798987674\output\AndroidManifest.xml:16:13-66
 	android:name
-		ADDED from [com.firebaseui:firebase-ui-database:1.2.0] C:\Users\Elham\.android\build-cache\7a1cf1c3da561d3e97f201985fc7f62427542a53\output\AndroidManifest.xml:15:13-58
+		ADDED from [com.firebaseui:firebase-ui-database:1.2.0] C:\Users\MP\.android\build-cache\d14efeaa161f9701b3020ec3ed55359798987674\output\AndroidManifest.xml:15:13-58
 provider#com.google.firebase.provider.FirebaseInitProvider
-ADDED from [com.google.firebase:firebase-common:10.2.4] C:\Users\Elham\.android\build-cache\bd3d10dc648b72e42b485d14f814f738b37bb711\output\AndroidManifest.xml:6:9-194
+ADDED from [com.google.firebase:firebase-common:10.2.4] C:\Users\MP\.android\build-cache\56a2cd453d3640a9483818ad253d110815ae053d\output\AndroidManifest.xml:6:9-194
 	android:authorities
-		ADDED from [com.google.firebase:firebase-common:10.2.4] C:\Users\Elham\.android\build-cache\bd3d10dc648b72e42b485d14f814f738b37bb711\output\AndroidManifest.xml:6:19-78
+		ADDED from [com.google.firebase:firebase-common:10.2.4] C:\Users\MP\.android\build-cache\56a2cd453d3640a9483818ad253d110815ae053d\output\AndroidManifest.xml:6:19-78
 	android:exported
-		ADDED from [com.google.firebase:firebase-common:10.2.4] C:\Users\Elham\.android\build-cache\bd3d10dc648b72e42b485d14f814f738b37bb711\output\AndroidManifest.xml:6:144-168
+		ADDED from [com.google.firebase:firebase-common:10.2.4] C:\Users\MP\.android\build-cache\56a2cd453d3640a9483818ad253d110815ae053d\output\AndroidManifest.xml:6:144-168
 	android:initOrder
-		ADDED from [com.google.firebase:firebase-common:10.2.4] C:\Users\Elham\.android\build-cache\bd3d10dc648b72e42b485d14f814f738b37bb711\output\AndroidManifest.xml:6:169-192
+		ADDED from [com.google.firebase:firebase-common:10.2.4] C:\Users\MP\.android\build-cache\56a2cd453d3640a9483818ad253d110815ae053d\output\AndroidManifest.xml:6:169-192
 	android:name
-		ADDED from [com.google.firebase:firebase-common:10.2.4] C:\Users\Elham\.android\build-cache\bd3d10dc648b72e42b485d14f814f738b37bb711\output\AndroidManifest.xml:6:79-143
+		ADDED from [com.google.firebase:firebase-common:10.2.4] C:\Users\MP\.android\build-cache\56a2cd453d3640a9483818ad253d110815ae053d\output\AndroidManifest.xml:6:79-143
