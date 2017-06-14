@@ -3,8 +3,12 @@ package com.seamuseum.auswahlelement;
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.annotation.TargetApi;
+import android.app.ActionBar;
+import android.app.Activity;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.support.annotation.NonNull;
 import android.support.design.widget.Snackbar;
 import android.support.v7.app.AppCompatActivity;
@@ -50,7 +54,7 @@ import static android.Manifest.permission.READ_CONTACTS;
 /**
  * A login screen that offers login via email/password.
  */
-public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<Cursor> {
+public class LoginActivity extends Activity implements LoaderCallbacks<Cursor> {
 
     /**
      * Id to identity READ_CONTACTS permission request.
@@ -218,6 +222,7 @@ public class LoginActivity extends AppCompatActivity implements LoaderCallbacks<
                         t = Toast.makeText(getApplicationContext(),"Login erfolgreich", Toast.LENGTH_SHORT);
                         t.show();
                         startActivity(new Intent(getApplicationContext(), AuswahlElementActivity.class));
+
                     }
                     else
                     {

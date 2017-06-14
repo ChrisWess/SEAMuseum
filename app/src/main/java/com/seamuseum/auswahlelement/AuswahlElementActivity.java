@@ -1,7 +1,10 @@
 package com.seamuseum.auswahlelement;
 
+import android.app.ActionBar;
 import android.app.ListActivity;
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.net.Uri;
 import android.os.Bundle;
 import android.view.Menu;
@@ -39,6 +42,11 @@ public class AuswahlElementActivity extends ListActivity implements OnItemClickL
     public void onCreate(Bundle savedInstanceState)
     {
         super.onCreate(savedInstanceState);
+        if(LoginActivity.loginFlag)
+        {
+            ActionBar bar = getActionBar();
+            bar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#b70101")));
+        }
         // hier werden die Auswahlelement gespeichert
         adapter = new AuswahlElementAdapter(this);
         setListAdapter(adapter);

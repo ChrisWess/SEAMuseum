@@ -1,9 +1,12 @@
 package com.seamuseum.auswahlelement.werke;
 
+import android.app.ActionBar;
 import android.app.Activity;
 import android.app.AlertDialog;
 import android.content.DialogInterface;
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.Menu;
@@ -45,7 +48,11 @@ public class WerkSingleActivity extends Activity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+        super.onCreate(savedInstanceState);if(LoginActivity.loginFlag)
+        {
+            ActionBar bar = getActionBar();
+            bar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#b70101")));
+        }
         setContentView(R.layout.activity_werk_single);
 
         _database = FirebaseDatabase.getInstance().getReference().child(

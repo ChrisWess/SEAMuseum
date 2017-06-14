@@ -1,8 +1,11 @@
 package com.seamuseum.auswahlelement.werke;
 
+import android.app.ActionBar;
 import android.app.Activity;
 import android.app.ProgressDialog;
 import android.content.Intent;
+import android.graphics.Color;
+import android.graphics.drawable.ColorDrawable;
 import android.net.Uri;
 import android.os.Bundle;
 import android.text.TextUtils;
@@ -24,6 +27,7 @@ import com.google.firebase.storage.FirebaseStorage;
 import com.google.firebase.storage.StorageReference;
 import com.google.firebase.storage.UploadTask;
 import com.seamuseum.auswahlelement.AuswahlElementActivity;
+import com.seamuseum.auswahlelement.LoginActivity;
 import com.seamuseum.auswahlelement.R;
 
 
@@ -57,6 +61,11 @@ public class WerkUpdateActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        if(LoginActivity.loginFlag)
+        {
+            ActionBar bar = getActionBar();
+            bar.setBackgroundDrawable(new ColorDrawable(Color.parseColor("#b70101")));
+        }
         setContentView(R.layout.activity_werk);
 
         _werkKey = getIntent().getExtras().getString("werkId");
