@@ -93,9 +93,7 @@
             android:name="com.seamuseum.auswahlelement.LoginActivity"
             android:label="@string/title_activity_login"
             android:theme="@style/AppTheme.NoActionBar" />
-        <activity
-            android:name="com.seamuseum.auswahlelement.werke.WerkUpdateActivity"
-            android:label="@string/title_activity_login" />
+        <activity android:name="com.seamuseum.auswahlelement.werke.WerkUpdateActivity" />
 
         <receiver
             android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
