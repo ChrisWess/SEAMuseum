@@ -46,5 +46,29 @@
                 }
             }
         ]
+    },
+    {
+        "outputFile": "C:\\Users\\Voodoo\\AndroidStudioProjects\\SEAMuseum\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values\\values.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 45,
+                    "endOffset": 96
+                },
+                "from": {
+                    "file": "C:\\Users\\Voodoo\\.android\\build-cache\\c403123b042153ef68bdd0266f1892ae2512fe8e\\output\\res\\values\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 229,
+                        "endColumn": 45,
+                        "endOffset": 270
+                    }
+                }
+            }
+        ]
     }
 ]

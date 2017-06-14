@@ -1,7 +1,15 @@
 [
     {
+        "merged": "C:\\Users\\Voodoo\\AndroidStudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\icon_search.png",
+        "source": "C:\\Users\\Voodoo\\AndroidStudioProjects\\SEAMuseum\\app\\src\\main\\res\\drawable-ldpi\\icon_search.png"
+    },
+    {
         "merged": "C:\\Users\\MP\\AndroidStudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\icon_comment.png",
         "source": "C:\\Users\\MP\\AndroidStudioProjects\\SEAMuseum\\app\\src\\main\\res\\drawable-ldpi\\icon_comment.png"
+    },
+    {
+        "merged": "C:\\Users\\Voodoo\\AndroidStudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\icon.png",
+        "source": "C:\\Users\\Voodoo\\AndroidStudioProjects\\SEAMuseum\\app\\src\\main\\res\\drawable-ldpi\\icon.png"
     },
     {
         "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\icon.png",
@@ -30,5 +38,13 @@
     {
         "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\icon_place.png",
         "source": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\src\\main\\res\\drawable-ldpi\\icon_place.png"
+    },
+    {
+        "merged": "C:\\Users\\Voodoo\\AndroidStudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\icon_comment.png",
+        "source": "C:\\Users\\Voodoo\\AndroidStudioProjects\\SEAMuseum\\app\\src\\main\\res\\drawable-ldpi\\icon_comment.png"
+    },
+    {
+        "merged": "C:\\Users\\Voodoo\\AndroidStudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable-ldpi\\icon_place.png",
+        "source": "C:\\Users\\Voodoo\\AndroidStudioProjects\\SEAMuseum\\app\\src\\main\\res\\drawable-ldpi\\icon_place.png"
     }
 ]

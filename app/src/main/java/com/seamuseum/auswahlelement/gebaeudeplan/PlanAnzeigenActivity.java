@@ -17,6 +17,7 @@ import com.seamuseum.auswahlelement.R;
 public class PlanAnzeigenActivity extends Activity {
     ImageView imageView;
     PhotoViewAttacher mAttacher;
+    private Menu menu;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,6 +34,7 @@ public class PlanAnzeigenActivity extends Activity {
     public boolean onCreateOptionsMenu(Menu menu) {
         MenuInflater inflater = getMenuInflater();
         inflater.inflate(R.menu.menu_plan, menu);
+        this.menu = menu;
         return true;
     }
 
@@ -57,17 +59,28 @@ public class PlanAnzeigenActivity extends Activity {
                 return true;
             case R.id.menu_eg:
                 showpicture("https://firebasestorage.googleapis.com/v0/b/museumsapp-entwicklung.appspot.com/o/EG_Plan.jpg?alt=media&token=dc618d5d-95f8-4464-a909-79448ce069f5");
+                menu.findItem(R.id.menu_eg).setShowAsAction(1);
+                menu.findItem(R.id.menu_ob_eins).setShowAsAction(0);
+                menu.findItem(R.id.menu_ob_zwei).setShowAsAction(0);
                 return true;
             case R.id.menu_ob_eins:
                 showpicture("https://firebasestorage.googleapis.com/v0/b/museumsapp-entwicklung.appspot.com/o/Etage1.jpg?alt=media&token=4441360c-0c5b-4d19-99fd-a61416a0e381");
+                menu.findItem(R.id.menu_eg).setShowAsAction(0);
+                menu.findItem(R.id.menu_ob_eins).setShowAsAction(1);
+                menu.findItem(R.id.menu_ob_zwei).setShowAsAction(0);
                 return true;
             case R.id.menu_ob_zwei:
                 showpicture("https://firebasestorage.googleapis.com/v0/b/museumsapp-entwicklung.appspot.com/o/Etage2.jpg?alt=media&token=9d4129e0-04ff-407f-b9c1-35323cd2364e");
+                menu.findItem(R.id.menu_eg).setShowAsAction(0);
+                menu.findItem(R.id.menu_ob_eins).setShowAsAction(0);
+                menu.findItem(R.id.menu_ob_zwei).setShowAsAction(1);
                 return true;
             default:
                 return super.onOptionsItemSelected(item);
         }
     }
+
+
 
     private void showpicture(String s)
     {
