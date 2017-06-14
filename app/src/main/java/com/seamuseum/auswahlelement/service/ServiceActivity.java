@@ -71,17 +71,6 @@ public class ServiceActivity extends Activity
             }
         });
 
-        _kontakt = (Button) findViewById(R.id.kontakt_button);
-        _kontakt.setOnClickListener(new View.OnClickListener()
-        {
-            @Override
-            public void onClick(View v)
-            {
-                Intent kontakt = new Intent(ServiceActivity.this, KontaktActivity.class);
-                startActivity(kontakt);
-
-            }
-        });
 
     }
 }

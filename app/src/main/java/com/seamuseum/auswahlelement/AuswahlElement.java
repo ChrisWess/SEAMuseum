@@ -47,7 +47,7 @@ public final class AuswahlElement
             case R.string.auswahl5:
                 return R.drawable.icon_guestbook;
             case R.string.auswahl7:
-                return R.drawable.icon_search;
+                return R.drawable.icon_offers;
             default:
                 return R.drawable.icon;
         }

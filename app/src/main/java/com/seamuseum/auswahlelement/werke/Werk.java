@@ -70,7 +70,7 @@ public class Werk {
     @Override
     public String toString()
     {
-        return titel;
+        return titel /**+ " (" + kuenstler + ")"*/; //TODO: Künstlerverwaltung -> Sinnvoll
     }
 
 

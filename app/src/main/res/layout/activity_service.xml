@@ -6,47 +6,13 @@
     android:layout_height="match_parent"
     tools:context="com.seamuseum.auswahlelement.service.ServiceActivity">
 
-    <Button
-        android:id="@+id/kontakt_button"
-        style="@style/Widget.AppCompat.Button.Colored"
-        android:layout_width="165dp"
-        android:layout_height="60dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginLeft="4dp"
-        android:layout_marginRight="4dp"
-        android:layout_marginTop="6dp"
-        android:backgroundTint="@color/colorDefault"
-        android:text="Kontakt"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintHorizontal_bias="0.502"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView5"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <TextView
-        android:id="@+id/textView5"
-        android:layout_width="373dp"
-        android:layout_height="60dp"
-        android:layout_marginLeft="4dp"
-        android:layout_marginRight="4dp"
-        android:layout_marginTop="6dp"
-        android:gravity="center"
-        android:text="@string/service_kontakt"
-        android:textSize="18sp"
-        app:layout_constraintHorizontal_bias="0.666"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/preis_button"
-        tools:text="@string/service_kontakt" />
-
     <TextView
         android:id="@+id/textView4"
         android:layout_width="373dp"
         android:layout_height="60dp"
         android:layout_marginLeft="4dp"
         android:layout_marginRight="4dp"
-        android:layout_marginTop="6dp"
+        android:layout_marginTop="56dp"
         android:gravity="center"
         android:text="@string/service_preis"
         android:textSize="18sp"
@@ -97,7 +63,7 @@
         android:layout_height="60dp"
         android:layout_marginLeft="4dp"
         android:layout_marginRight="4dp"
-        android:layout_marginTop="-26dp"
+        android:layout_marginTop="0dp"
         android:background="@color/colorDefault"
         android:text="Angebote"
         app:layout_constraintHorizontal_bias="0.502"

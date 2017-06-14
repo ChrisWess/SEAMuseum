@@ -3,13 +3,13 @@
     <string name="app_name">Museumsapp</string>
     <string name="auswahl1">Werke</string>
     <string name="auswahl2">Spiele</string>
-    <string name="auswahl3">Kontakt und Leistungen</string>
+    <string name="auswahl3">Kontakt</string>
     <string name="auswahl4">Museumskarte</string>
     <string name="auswahl5">Gästebuch</string>
     <string name="auswahl6">Anfahrt</string>
-    <string name="auswahl7">Suche</string>
+    <string name="auswahl7">Angebote und Preise</string>
     <string name="menu1">Anmelden</string>
-    <string name="menu2">Über uns</string>
+    <string name="menu2">Kontaktdaten</string>
     <string name="menu3">Rechtliches</string>
     <string name="werk1">A</string>
     <string name="werk2">B</string>
@@ -61,7 +61,7 @@
     <string name="service_angebot">Hier finden sie unsere aktuellen Angebote.</string>
     <string name="service_preis">Hier finden sie unsere aktuellen Preise.</string>
     <string name="service_kontakt">Sie haben Fragen oder Anregungen?\nKontaktieren Sie uns. Wir freuen uns auf Sie!</string>
-    <string name="service_head">Kontakt und Leistungen</string>
+    <string name="service_head">Angebote und Preise</string>
     <string name="service_verlinkung">Sagt ihnen eines unserer Angebote zu? \nDann zögern sie nicht uns zu kontaktieren:</string>
     <string name="freuen_service">Wir freuen uns auf ihren Besuch!</string>
 

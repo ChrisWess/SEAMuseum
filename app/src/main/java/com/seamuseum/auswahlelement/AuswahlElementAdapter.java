@@ -26,13 +26,13 @@ public class AuswahlElementAdapter extends BaseAdapter
         inflator = LayoutInflater.from(context);
         // Auswahlelement für alle Monate ermitteln
         zodiak = new ArrayList<AuswahlElement>();
-        zodiak.add(new AuswahlElement(R.string.auswahl7));
         zodiak.add(new AuswahlElement(R.string.auswahl1));
         zodiak.add(new AuswahlElement(R.string.auswahl2));
         zodiak.add(new AuswahlElement(R.string.auswahl5));
         zodiak.add(new AuswahlElement(R.string.auswahl4));
         zodiak.add(new AuswahlElement(R.string.auswahl6));
         zodiak.add(new AuswahlElement(R.string.auswahl3));
+        zodiak.add(new AuswahlElement(R.string.auswahl7));
     }
 
     @Override

@@ -66,7 +66,7 @@ public class AuswahlElementActivity extends ListActivity implements OnItemClickL
                 break;
             case R.string.auswahl3:
                 i = new Intent();
-                i.setClass(getApplicationContext(), ServiceActivity.class);
+                i.setClass(getApplicationContext(), KontaktActivity.class);
                 startActivity(i);
                 break;
             case R.string.auswahl6:
@@ -87,7 +87,7 @@ public class AuswahlElementActivity extends ListActivity implements OnItemClickL
                 break;
             case R.string.auswahl7:
                 i = new Intent();
-                i.setClass(getApplicationContext(), SuchActivity.class);
+                i.setClass(getApplicationContext(), ServiceActivity.class);
                 startActivity(i);
                 break;
             default:
@@ -112,10 +112,10 @@ public class AuswahlElementActivity extends ListActivity implements OnItemClickL
                 Intent inte = new Intent(this, LoginActivity.class);
                 startActivity(inte);
                 return true;
-            case R.id.menu_ueber_uns:
+            /**case R.id.menu_ueber_uns:
                 Intent infoIntent = new Intent(this, KontaktActivity.class);
                 startActivity(infoIntent);
-                return true;
+                return true;*/
             case R.id.menu_rechtliches:
                 return true;
             default:
