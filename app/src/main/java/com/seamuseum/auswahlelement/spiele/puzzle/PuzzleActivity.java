@@ -82,7 +82,7 @@ public class PuzzleActivity extends Activity {
         this.mainView.removeView(boardView);
         this.boardView = new BoardView(this, board);
         this.mainView.addView(boardView);
-        this.moves.setText("Number of movements: 0");
+        this.moves.setText("Bewegungen: 0");
     }
 
     /**
@@ -124,7 +124,7 @@ public class PuzzleActivity extends Activity {
                                     public void onClick(DialogInterface dialog,
                                                         int which) {
                                         board.rearrange();
-                                        moves.setText("Number of movements: 0");
+                                        moves.setText("Bewegungen: 0");
                                         boardView.invalidate();
                                     }
                                 })
@@ -157,14 +157,14 @@ public class PuzzleActivity extends Activity {
     /** The board change listener. */
     private Board.BoardChangeListener boardChangeListener = new Board.BoardChangeListener() {
         public void tileSlid(Place from, Place to, int numOfMoves) {
-            moves.setText("Number of movements: "
+            moves.setText("Bewegungen: "
                     + Integer.toString(numOfMoves));
         }
 
         public void solved(int numOfMoves) {
-            moves.setText("Solved in " + Integer.toString(numOfMoves)
-                    + " moves!");
-            Toast.makeText(getApplicationContext(), "You won!",
+            moves.setText("Gelöst in " + Integer.toString(numOfMoves)
+                    + " Bewegungen!");
+            Toast.makeText(getApplicationContext(), "Gewonnen!",
                     Toast.LENGTH_LONG).show();
         }
     };
