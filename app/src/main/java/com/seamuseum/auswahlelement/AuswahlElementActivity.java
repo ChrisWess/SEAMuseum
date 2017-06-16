@@ -17,6 +17,7 @@ import android.widget.AdapterView.OnItemClickListener;
 import com.seamuseum.auswahlelement.comments.EntriesActivity;
 import com.seamuseum.auswahlelement.comments.KommentarRegelnActivity;
 import com.seamuseum.auswahlelement.gebaeudeplan.PlanAnzeigenActivity;
+import com.seamuseum.auswahlelement.service.ImpressumActivity;
 import com.seamuseum.auswahlelement.service.KontaktActivity;
 import com.seamuseum.auswahlelement.service.ServiceActivity;
 import com.seamuseum.auswahlelement.spiele.UebersichtMenu;
@@ -126,7 +127,7 @@ public class AuswahlElementActivity extends ListActivity implements OnItemClickL
                 startActivity(infoIntent);
                 return true;*/
             case R.id.menu_rechtliches:
-                inte = new Intent(this, KommentarRegelnActivity.class);
+                inte = new Intent(this, ImpressumActivity.class);
                 startActivity(inte);
                 return true;
             default:

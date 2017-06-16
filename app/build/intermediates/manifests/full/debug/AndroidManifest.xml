@@ -88,6 +88,11 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="com.seamuseum.auswahlelement.comments.EntriesActivity" />
         </activity>
+        <activity android:name="com.seamuseum.auswahlelement.service.ImpressumActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.seamuseum.auswahlelement.comments.EntriesActivity" />
+        </activity>
         <activity android:name="com.seamuseum.auswahlelement.werke.SuchActivity" />
         <activity
             android:name="com.seamuseum.auswahlelement.LoginActivity"

@@ -78,6 +78,33 @@
     <!-- SuchActivity -->
     <string name="suchtext">Ihr Suchbegriff</string>
 
+    <!-- ImpressumActivity -->
+    <string name="impressum">"Impressum \n
+Hamburger Museum
+(Hamburger Museum von Meisterwerken der Naturwissenschaft und Technik)
+Museumsinsel 1
+D-80538 Hamburger
+Postfachadresse:
+Hamburger Museum
+D-80306 Hamburger
+Telefon: (089) 3579 1
+
+E-Mail: Hamburger.Museum.de
+
+Das Hamburger Museum ist eine Anstalt öffentlichen Rechts mit Sitz in Hamburger.
+Vertretungsberechtigt ist: Generaldirektor Prof. Dr. Franz Müller
+Gewähr und Haftungshinweis
+Alle Angaben und Inhalte dieser App und solcher, auf die mittels Hyperlink verwiesen wird, wurden sorgfältig geprüft und entsprechen dem jeweils angegebenen Stand. Trotz aller Sorgfalt kann eine Haftung oder Garantie für die Vollständigkeit, Richtigkeit und Aktualität der Angaben nicht übernommen werden.
+Trotz sorgfältiger inhaltlicher Kontrolle übernehmen wir keine Haftung für die Inhalte von Websites, auf die von der Website des Museums verlinkt wird. Für den Inhalt der verlinkten Seiten sind ausschließlich deren Betreiber verantwortlich.
+
+Copyright
+Die Inhalte der App des Deutschen Museums dürfen zu nichtkommerziellen, wissenschaftlichen und schulischen Zwecken verwendet werden, sofern keine Rechte Dritter verletzt werden und sofern keine Veröffentlichung in Publikationen, in Datenbanken oder im Internet erfolgt.
+Alle anderen Verwendungen bedürfen einer schriftlichen Genehmigung des Museums. Ausgenommen von der Genehmigungspflicht sind speziell als "Pressetexte" gekennzeichnete Seiten mit den zugehörigen Aufnahmen, soweit sie unter Einhaltung der dort genannten Bedingungen verwendet werden. (Genehmigungen über die Pressestelle des Deutschen Museums.)
+Für die Verwendung von Materialien des Hamburger Museum, die nicht von dieser Website stammen, gelten eigene Bestimmungen (Hausordnung, Bibliotheksordnung, Archivregelungen u.a.)
+Hinweis:
+Fotografien, z.B. von Objekten, können über die Bildstelle des Hamburger Museum bezogen werden.
+"</string>
+
     <!-- Gästebuch -->
     <string name="textfeld1">Dein Name</string>
     <string name="textfeld2">Deine Nachricht</string>

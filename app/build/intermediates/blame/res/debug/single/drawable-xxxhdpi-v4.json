@@ -1,11 +1,11 @@
 [
     {
-        "merged": "C:\\Users\\Voodoo\\AndroidStudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
-        "source": "C:\\Users\\Voodoo\\.android\\build-cache\\8afb5f2a17ff5f698fa21be0ef3843333cfa6c53\\output\\res\\drawable-xxxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
-    },
-    {
         "merged": "C:\\Users\\Voodoo\\AndroidStudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
         "source": "C:\\Users\\Voodoo\\.android\\build-cache\\8afb5f2a17ff5f698fa21be0ef3843333cfa6c53\\output\\res\\drawable-xxxhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Voodoo\\AndroidStudioProjects\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
+        "source": "C:\\Users\\Voodoo\\.android\\build-cache\\8afb5f2a17ff5f698fa21be0ef3843333cfa6c53\\output\\res\\drawable-xxxhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
     },
     {
         "merged": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\res\\merged\\debug\\drawable-xxxhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",

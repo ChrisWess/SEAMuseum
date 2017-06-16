@@ -1,6 +1,6 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Voodoo\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:2:1-84:12
+ADDED from C:\Users\Voodoo\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:2:1-90:12
 	package
 		ADDED from C:\Users\Voodoo\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:3:5-43
 		INJECTED from C:\Users\Voodoo\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml
@@ -42,7 +42,7 @@ ADDED from C:\Users\Voodoo\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidM
 	android:name
 		ADDED from C:\Users\Voodoo\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:12:22-69
 application
-ADDED from C:\Users\Voodoo\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:14:5-82:19
+ADDED from C:\Users\Voodoo\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:14:5-88:19
 MERGED from [com.google.firebase:firebase-core:10.2.4] C:\Users\Voodoo\.android\build-cache\5f12b54049d707de482b6a4eeb2f8ddf562fb186\output\AndroidManifest.xml:5:5-20
 MERGED from [com.google.firebase:firebase-analytics:10.2.4] C:\Users\Voodoo\.android\build-cache\61fa11bfd219d1931abe79727e3b1431229b89b5\output\AndroidManifest.xml:24:5-33:19
 MERGED from [com.google.firebase:firebase-analytics-impl:10.2.4] C:\Users\Voodoo\.android\build-cache\8c4e1583fd46d457009c29e28f20b3b095d11eef\output\AndroidManifest.xml:24:5-28:19
@@ -192,22 +192,26 @@ ADDED from C:\Users\Voodoo\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidM
 		ADDED from C:\Users\Voodoo\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:73:17-86
 	android:name
 		ADDED from C:\Users\Voodoo\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:72:17-63
+activity#com.seamuseum.auswahlelement.service.ImpressumActivity
+ADDED from C:\Users\Voodoo\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:75:9-80:20
+	android:name
+		ADDED from C:\Users\Voodoo\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:76:13-54
 activity#com.seamuseum.auswahlelement.werke.SuchActivity
-ADDED from C:\Users\Voodoo\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:75:9-76:50
+ADDED from C:\Users\Voodoo\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:81:9-82:50
 	android:name
-		ADDED from C:\Users\Voodoo\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:76:13-47
+		ADDED from C:\Users\Voodoo\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:82:13-47
 activity#com.seamuseum.auswahlelement.LoginActivity
-ADDED from C:\Users\Voodoo\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:77:9-80:59
+ADDED from C:\Users\Voodoo\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:83:9-86:59
 	android:label
-		ADDED from C:\Users\Voodoo\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:79:13-57
+		ADDED from C:\Users\Voodoo\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:85:13-57
 	android:theme
-		ADDED from C:\Users\Voodoo\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:80:13-56
+		ADDED from C:\Users\Voodoo\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:86:13-56
 	android:name
-		ADDED from C:\Users\Voodoo\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:78:13-42
+		ADDED from C:\Users\Voodoo\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:84:13-42
 activity#com.seamuseum.auswahlelement.werke.WerkUpdateActivity
-ADDED from C:\Users\Voodoo\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:81:9-62
+ADDED from C:\Users\Voodoo\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:87:9-62
 	android:name
-		ADDED from C:\Users\Voodoo\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:81:19-59
+		ADDED from C:\Users\Voodoo\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml:87:19-59
 uses-sdk
 INJECTED from C:\Users\Voodoo\AndroidStudioProjects\SEAMuseum\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 MERGED from [com.google.firebase:firebase-core:10.2.4] C:\Users\Voodoo\.android\build-cache\5f12b54049d707de482b6a4eeb2f8ddf562fb186\output\AndroidManifest.xml:4:5-43
