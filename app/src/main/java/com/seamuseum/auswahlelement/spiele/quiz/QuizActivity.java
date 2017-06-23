@@ -63,7 +63,7 @@ public class QuizActivity extends Activity {
         erzeugeXMLReader();
     }
 
-    private synchronized void erzeugeXMLReader()
+    private void erzeugeXMLReader()
     {
         _xmlDaten = new XMLReader();
         leseAusDatenbestand();
@@ -142,7 +142,7 @@ public class QuizActivity extends Activity {
                     e.printStackTrace();
                 }
 
-                erzeugeXMLReader();
+                recreate();
             }
         }).addOnFailureListener(new OnFailureListener() {
             @Override

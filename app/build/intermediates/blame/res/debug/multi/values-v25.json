@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\Elham\\Desktop\\SEAMuseum\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v25\\values-v25.xml",
+        "outputFile": "/Users/christophwessarges/AndroidStudioProjects/SEAMuseum/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v25/values-v25.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 121
                 },
                 "from": {
-                    "file": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\values-v25\\values-v25.xml",
+                    "file": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/values-v25/values-v25.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -30,7 +30,7 @@
                     "endOffset": 204
                 },
                 "from": {
-                    "file": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\values-v25\\values-v25.xml",
+                    "file": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/values-v25/values-v25.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -50,7 +50,7 @@
                     "endOffset": 303
                 },
                 "from": {
-                    "file": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\values-v25\\values-v25.xml",
+                    "file": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/values-v25/values-v25.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -71,177 +71,7 @@
                     "endOffset": 414
                 },
                 "from": {
-                    "file": "C:\\Users\\Elham\\.android\\build-cache\\e722e25262974ac06465605f724f76b2202684fd\\output\\res\\values-v25\\values-v25.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 308,
-                        "endLine": 7,
-                        "endColumn": 12,
-                        "endOffset": 414
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "C:\\Users\\Voodoo\\AndroidStudioProjects\\SEAMuseum\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v25\\values-v25.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 70,
-                    "endOffset": 121
-                },
-                "from": {
-                    "file": "C:\\Users\\Voodoo\\.android\\build-cache\\8afb5f2a17ff5f698fa21be0ef3843333cfa6c53\\output\\res\\values-v25\\values-v25.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 55,
-                        "endColumn": 70,
-                        "endOffset": 121
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3,
-                    "startColumn": 4,
-                    "startOffset": 126,
-                    "endColumn": 82,
-                    "endOffset": 204
-                },
-                "from": {
-                    "file": "C:\\Users\\Voodoo\\.android\\build-cache\\8afb5f2a17ff5f698fa21be0ef3843333cfa6c53\\output\\res\\values-v25\\values-v25.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 126,
-                        "endColumn": 82,
-                        "endOffset": 204
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 4,
-                    "startColumn": 4,
-                    "startOffset": 209,
-                    "endLine": 5,
-                    "endColumn": 12,
-                    "endOffset": 303
-                },
-                "from": {
-                    "file": "C:\\Users\\Voodoo\\.android\\build-cache\\8afb5f2a17ff5f698fa21be0ef3843333cfa6c53\\output\\res\\values-v25\\values-v25.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 209,
-                        "endLine": 5,
-                        "endColumn": 12,
-                        "endOffset": 303
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 6,
-                    "startColumn": 4,
-                    "startOffset": 308,
-                    "endLine": 7,
-                    "endColumn": 12,
-                    "endOffset": 414
-                },
-                "from": {
-                    "file": "C:\\Users\\Voodoo\\.android\\build-cache\\8afb5f2a17ff5f698fa21be0ef3843333cfa6c53\\output\\res\\values-v25\\values-v25.xml",
-                    "position": {
-                        "startLine": 6,
-                        "startColumn": 4,
-                        "startOffset": 308,
-                        "endLine": 7,
-                        "endColumn": 12,
-                        "endOffset": 414
-                    }
-                }
-            }
-        ]
-    },
-    {
-        "outputFile": "C:\\Users\\MP\\AndroidStudioProjects\\SEAMuseum\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v25\\values-v25.xml",
-        "map": [
-            {
-                "to": {
-                    "startLine": 2,
-                    "startColumn": 4,
-                    "startOffset": 55,
-                    "endColumn": 70,
-                    "endOffset": 121
-                },
-                "from": {
-                    "file": "C:\\Users\\MP\\.android\\build-cache\\c46970eba8617fe8cb9df7d538c07cd048aa0903\\output\\res\\values-v25\\values-v25.xml",
-                    "position": {
-                        "startLine": 2,
-                        "startColumn": 4,
-                        "startOffset": 55,
-                        "endColumn": 70,
-                        "endOffset": 121
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 3,
-                    "startColumn": 4,
-                    "startOffset": 126,
-                    "endColumn": 82,
-                    "endOffset": 204
-                },
-                "from": {
-                    "file": "C:\\Users\\MP\\.android\\build-cache\\c46970eba8617fe8cb9df7d538c07cd048aa0903\\output\\res\\values-v25\\values-v25.xml",
-                    "position": {
-                        "startLine": 3,
-                        "startColumn": 4,
-                        "startOffset": 126,
-                        "endColumn": 82,
-                        "endOffset": 204
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 4,
-                    "startColumn": 4,
-                    "startOffset": 209,
-                    "endLine": 5,
-                    "endColumn": 12,
-                    "endOffset": 303
-                },
-                "from": {
-                    "file": "C:\\Users\\MP\\.android\\build-cache\\c46970eba8617fe8cb9df7d538c07cd048aa0903\\output\\res\\values-v25\\values-v25.xml",
-                    "position": {
-                        "startLine": 4,
-                        "startColumn": 4,
-                        "startOffset": 209,
-                        "endLine": 5,
-                        "endColumn": 12,
-                        "endOffset": 303
-                    }
-                }
-            },
-            {
-                "to": {
-                    "startLine": 6,
-                    "startColumn": 4,
-                    "startOffset": 308,
-                    "endLine": 7,
-                    "endColumn": 12,
-                    "endOffset": 414
-                },
-                "from": {
-                    "file": "C:\\Users\\MP\\.android\\build-cache\\c46970eba8617fe8cb9df7d538c07cd048aa0903\\output\\res\\values-v25\\values-v25.xml",
+                    "file": "/Users/christophwessarges/.android/build-cache/4b36446cde0f46783a55981856e56d027757636e/output/res/values-v25/values-v25.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,

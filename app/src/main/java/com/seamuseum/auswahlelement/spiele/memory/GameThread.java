@@ -78,9 +78,9 @@ public class GameThread extends Thread {
         mCanvasWidth = 1;
 
         //TODO: lade Bilder aus Firebase
-        mTilesImages = new int[]{R.drawable.icon_artsweeper, R.drawable.icon_comment, R.drawable.icon_games,
-                R.drawable.icon_guestbook, R.drawable.icon_memory, R.drawable.icon_puzzle, R.drawable.icon_quiz,
-                R.drawable.icon_place, R.drawable.icon_search, R.drawable.icon_service};
+        mTilesImages = new int[]{R.drawable.picmemory1, R.drawable.picmemory2, R.drawable.picmemory3,
+                R.drawable.picmemory4, R.drawable.picmemory5, R.drawable.picmemory6, R.drawable.picmemory7,
+                R.drawable.picmemory8, R.drawable.picmemory9, R.drawable.picmemory10};
 
         mBackgroundPaint = paintFromColorString("#002B36");
         mHiddenTilePaint = paintFromColorString("#073642");
