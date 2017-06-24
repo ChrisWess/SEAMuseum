@@ -16,6 +16,7 @@ import android.text.style.RelativeSizeSpan;
 import android.util.Log;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.LinearLayout;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -45,6 +46,8 @@ public class EntriesActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_guestbook_entries);
         text = (TextView) findViewById(R.id.textView3);
+        LinearLayout layout = (LinearLayout) findViewById(R.id.layoutLinearEntries);
+        layout.setBackgroundColor(Color.WHITE);
         _rootRef = FirebaseDatabase.getInstance().getReference();
         refreshEntries();
     }
