@@ -22,6 +22,7 @@ import org.xml.sax.Attributes;
 import org.xml.sax.SAXException;
 import org.xml.sax.helpers.DefaultHandler;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -110,7 +111,7 @@ public class QuizActivity extends Activity {
             long value = sharedPref.getLong("LastQuizUpdate", 0);
 
             long updateTime = storageMetadata.getUpdatedTimeMillis();
-            if(value != updateTime)
+            if(value != updateTime || !fileExistance("quizdaten.xml"))
             {
                 SharedPreferences.Editor editor = sharedPref.edit();
                 editor.putLong("LastQuizUpdate", updateTime);
@@ -150,6 +151,12 @@ public class QuizActivity extends Activity {
                 // Handle any errors
             }
         });
+    }
+
+    private boolean fileExistance(String fname)
+    {
+        File file = getBaseContext().getFileStreamPath(fname);
+        return file.exists();
     }
 
     /**
